@@ -1,0 +1,10 @@
+[
+  {
+    "ProducerName": "Tea Set",
+    "InputIdentifier": "815", //tea leaves
+    "MinutesUntilReady": 90,
+    "OutputIdentifier": "614",
+    "KeepInputQuality": true,
+    "Sounds": ["sipTea"]
+  }
+]

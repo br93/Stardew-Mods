@@ -1,0 +1,13 @@
+{
+  "Name": "Can I Offer You A Nice Egg In This Trying Time",
+  "Author": "br93",
+  "Version": "1.0.1",
+  "Description": "Eggs now are an Universal Loved Gift on Egg Festival (or forever)",
+  "UniqueID": "br93.Egg",
+  "MinimumApiVersion": "",
+  "UpdateKeys": ["Nexus:10438"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher", 
+    "MinimumVersion": "1.18.0"
+  }
+}

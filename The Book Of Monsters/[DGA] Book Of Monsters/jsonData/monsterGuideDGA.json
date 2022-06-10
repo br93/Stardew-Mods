@@ -1,0 +1,24 @@
+[
+
+  {
+    "$ItemType": "Furniture",
+    "ID": "LostBookcase",
+    "Type": "Decoration",
+    "Configurations": [
+      {
+        "Texture": "assets/lostbookcase.png",
+        "DisplaySize": { "X": 2, "Y": 3},
+        "CollisionHeight": 1,
+        "TileProperties": {
+          "0, 0": {
+            "Buildings": {
+              "Action": "Notes 17"
+            }
+          }
+        }
+      }
+
+      ]
+    }
+
+]

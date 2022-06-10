@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[JA] br's Seed Shop Progression Mode Add-On",
+  "Author": "br93",
+  "Version": "1.1.0",
+  "Description": "SSPM Add-on Json Assets component",
+  "UniqueID": "br93.JsonAssets.SSPM2",
+  "MinimumApiVersion": "3.13.0",
+  "ContentPackFor":
+    {
+        "UniqueID": "spacechase0.JsonAssets"
+    },
+  "UpdateKeys": []
+}

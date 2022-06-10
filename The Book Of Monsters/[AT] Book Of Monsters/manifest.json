@@ -1,0 +1,13 @@
+﻿{
+  "Name": "[AT] The Book of Monsters",
+  "Author": "br93",
+  "Version": "1.0.0",
+  "Description": "Book of Monsters Alternative Textures component",
+  "UniqueID": "br93.AlternativeTextures.BookOfMonsters",
+  "UpdateKeys": [],
+  "Dependencies": [],
+  "ContentPackFor": {
+    "UniqueID": "PeacefulEnd.AlternativeTextures",
+    "MinimumVersion": "4.5.1"
+  }
+}

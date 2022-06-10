@@ -1,0 +1,18 @@
+{
+  "Name": "Automatic Win - Journey of the Prairie King",
+  "Author": "br93",
+  "Version": "1.0.0",
+  "Description": "Just load your farm(or create a new one) and you'll have beaten Journey of the Prairie King automatically, unlocking the 2 related achievements and receiving the arcade machine",
+  "UniqueID": "br93.ContentCode.AutoWinPrairieKing",
+  "MinimumApiVersion": "3.13.0",
+  "UpdateKeys": ["Nexus:10647"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher", 
+    "MinimumVersion": "1.24.0"
+  },
+  "Dependencies": [
+     {
+         "UniqueID": "spacechase0.ContentCode"
+     }
+ ],
+}

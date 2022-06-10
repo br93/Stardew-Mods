@@ -1,0 +1,15 @@
+{
+  "Name": "[PFM] br's Seed Shop Progression Mode Add-On",
+  "Author": "br93",
+  "Version": "1.1.0",
+  "Description": "SSPM Add-on Producer Framework component.",
+  "UniqueID": "br93.ProducerFrameworkMod.SSPM2",
+  "MinimumApiVersion": "3.13.0",
+  "UpdateKeys": [],
+  "Dependencies": [
+	  { "UniqueID": "Digus.ProducerFrameworkMod", "MinimumVersion": "1.7.0" }
+  ],
+  "ContentPackFor": {
+    "UniqueID": "Digus.ProducerFrameworkMod"
+  }
+}

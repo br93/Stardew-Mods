@@ -1,0 +1,182 @@
+[
+
+	{ 
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Pierre's Backyard's Blueberry",
+		"MinutesUntilReady": 40,
+		"OutputIdentifier": "770", //mixed seeds
+		"OutputStack": 1,
+		"OutputMaxStack": 4,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499", //ancient seed
+				"OutputStack": 1
+			},
+            {
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": 771, //fiber
+				"OutputStack": 1,
+                "OutputMaxStack": 3
+			},
+			{
+				"OutputProbability": 0.48755,
+				"OutputIdentifier": "481", //blueberry seeds
+				"OutputStack": 1,
+				"OutputMaxStack": 2
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+	
+    { 
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Pierre's Backyard's Kale",
+		"MinutesUntilReady": 40,
+		"OutputIdentifier": "770", //mixed seeds
+		"OutputStack": 1,
+		"OutputMaxStack": 4,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499", //ancient seed
+				"OutputStack": 1
+			},
+            {
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": 771, //fiber
+				"OutputStack": 1,
+                "OutputMaxStack": 3
+			},
+			{
+				"OutputProbability": 0.48755,
+				"OutputIdentifier": "477", //kale seeds
+				"OutputStack": 1,
+				"OutputMaxStack": 2
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+
+    { 
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Pierre's Backyard's Potato",
+		"MinutesUntilReady": 40,
+		"OutputIdentifier": "770", //mixed seeds
+		"OutputStack": 1,
+		"OutputMaxStack": 4,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499", //ancient seed
+				"OutputStack": 1
+			},
+            {
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": 771, //fiber
+				"OutputStack": 1,
+                "OutputMaxStack": 3
+			},
+			{
+				"OutputProbability": 0.48755,
+				"OutputIdentifier": "475", //potato seeds
+				"OutputStack": 1,
+				"OutputMaxStack": 2
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+
+    { 
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Pierre's Backyard's Pumpkin",
+		"MinutesUntilReady": 40,
+		"OutputIdentifier": "770", //mixed seeds
+		"OutputStack": 1,
+		"OutputMaxStack": 4,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499", //ancient seed
+				"OutputStack": 1
+			},
+            {
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": 771, //fiber
+				"OutputStack": 1,
+                "OutputMaxStack": 3
+			},
+			{
+				"OutputProbability": 0.48755,
+				"OutputIdentifier": "490", //pumpkin seeds
+				"OutputStack": 1,
+				"OutputMaxStack": 2
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+
+    { 
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Pierre's Backyard's Red Cabbage",
+		"MinutesUntilReady": 40,
+		"OutputIdentifier": "770", //mixed seeds
+		"OutputStack": 1,
+		"OutputMaxStack": 4,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499", //ancient seed
+				"OutputStack": 1
+			},
+            {
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": 771, //fiber
+				"OutputStack": 1,
+                "OutputMaxStack": 3
+			},
+			{
+				"OutputProbability": 0.48755,
+				"OutputIdentifier": "485", //red cabbage seeds
+				"OutputStack": 1,
+				"OutputMaxStack": 2
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+
+    { 
+		"ProducerName": "Seed Maker",
+		"InputIdentifier": "Pierre's Backyard's Tomato",
+		"MinutesUntilReady": 40,
+		"OutputIdentifier": "770", //mixed seeds
+		"OutputStack": 1,
+		"OutputMaxStack": 4,
+		"AdditionalOutputs": [
+			{
+				"OutputProbability": 0.005,
+				"OutputIdentifier": "499", //ancient seed
+				"OutputStack": 1
+			},
+            {
+				"OutputProbability": 0.0199,
+				"OutputIdentifier": 771, //fiber
+				"OutputStack": 1,
+                "OutputMaxStack": 3
+			},
+			{
+				"OutputProbability": 0.48755,
+				"OutputIdentifier": "480", //tomato seeds
+				"OutputStack": 1,
+				"OutputMaxStack": 2
+			}
+		],
+		"Sounds": ["Ship"],
+		"DelayedSounds":  [{"dirtyHit": 250}]
+	},
+]

@@ -1,0 +1,22 @@
+{
+  "Format": "1.23.0",
+
+  "Changes": [
+    {
+       "Action": "EditData",
+       "Target": "Strings/StringsFromCSFiles",
+       "Entries": {
+         "SlayMonsterQuest.cs.13752": "{{i18n: quest.content}}",
+       }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Strings/Notes",
+      "Entries": {
+        "17": "{{i18n: book.content}}"
+        
+      }
+    }
+  ]
+}

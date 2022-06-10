@@ -1,0 +1,11 @@
+[
+  {
+    "$ItemType": "ContentIndex",
+    "FilePath": "jsonData/monsterGuideDGA.json"
+  },
+
+  {
+    "$ItemType": "ContentIndex",
+    "FilePath": "jsonData/monsterGuideShopEntries.json"
+  }
+]

@@ -1,0 +1,12 @@
+{
+   "Name": "[STF] br's Seed Shop Progression Mode",
+   "Author": "br93",
+   "Version": "1.1.0",
+   "Description": "SSPM Shop Tile Framework component",
+   "UniqueID": "br93.ShopTileFramework.SSPM",
+   "MinimumApiVersion": "3.13.0",
+   "UpdateKeys": [],
+   "ContentPackFor": {
+	  "UniqueID": "Cherry.ShopTileFramework",
+  }
+}

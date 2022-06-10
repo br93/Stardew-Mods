@@ -1,0 +1,19 @@
+{
+    "Format": "1.24.0",
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.ContentCode/SaveLoaded",
+            "Entries": {
+                "br93.ContentCode.AutoWinPrairieKing": "
+                  if (!Game1.player.mailReceived.Contains(`Beat_PK`))
+                  {
+                    Game1.getSteamAchievement(`Achievement_PrairieKing`);
+                    Game1.getSteamAchievement(`Achievement_FectorsChallenge`);
+                    Game1.player.mailbox.Add(`Beat_PK`);
+                  }   
+                 "
+            }
+        }
+    ]
+}

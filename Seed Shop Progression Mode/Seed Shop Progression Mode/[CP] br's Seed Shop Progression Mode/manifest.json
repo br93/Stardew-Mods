@@ -1,0 +1,12 @@
+{
+   "Name": "br's Seed Shop Progression Mode",
+   "Author": "br93",
+   "Version": "1.1.0",
+   "Description": "Pierre's stock starts with fewer choice and grow larger over the years.",
+   "UniqueID": "br93.SSPM",
+   "MinimumApiVersion": "3.13.0",      
+   "UpdateKeys": ["Nexus:10753"],
+   "ContentPackFor": {
+	  "UniqueID": "Pathoschild.ContentPatcher",
+	  }
+}

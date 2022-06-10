@@ -1,0 +1,8 @@
+[
+  {
+    "ProducerName": "Tea Set",
+    "AlternateFrameProducing": false,
+    "AlternateFrameWhenReady": false,
+    "DisableBouncingAnimationWhileWorking": true
+  }
+]

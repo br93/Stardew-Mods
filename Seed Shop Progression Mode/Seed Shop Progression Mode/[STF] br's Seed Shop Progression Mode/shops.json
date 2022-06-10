@@ -1,0 +1,691 @@
+{
+  "VanillaShops": [
+    {
+      "ShopName": "PierreShop",
+        "ReplaceInsteadOfAdd": "True",
+        "PriceMultiplierWhen": {
+          "0.30": ["y 3/s 190 999/s 24 999/s 192 999/s 260 999/s 264 999/s 262 999/s 270 999/s 272 999/s 276 999"],
+          "0.50": ["y 3/s 190 500/s 24 500/s 192 500",
+            "y 3/s 260 500/s 264 500/s 262 500",
+            "y 3/s 270 500/s 272 500/s 276 500"
+          ],
+          "0.80": ["y 3/s 190 250/s 24 250/s 192 250",
+            "y 3/s 260 250/s 264 250/s 262 250",
+            "y 3/s 270 250/s 272 250/s 276 250"
+          ],
+        },
+        "ItemStocks": [
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Cauliflower Seeds"
+            ],
+            "When": ["!z spring"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Parsnip Seeds"
+            ],
+            "When": ["!z spring"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Potato Seeds"
+            ],
+            "When": ["!z spring"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Jazz Seeds"
+            ],
+            "When": ["!z spring/y 2"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Kale Seeds"
+            ],
+            "When": ["!z spring/y 2"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Tulip Bulb"
+            ],
+            "When": ["!z spring/y 2"]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "40",
+            "ItemNames": [
+              "Rice Shoot"
+            ],
+            "When": ["!z spring/y 3"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Bean Starter"
+            ],
+            "When": ["!z spring/y 2/f Pierre 1000"]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "100",
+            "ItemNames": [
+              "Strawberry Seeds"
+            ],
+            "When": ["!z spring/y 2/f Pierre 1500"]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "120",
+            "ItemNames": [
+              "Coffee Bean"
+            ],
+            "When": [
+                "!z spring/y 2/f Pierre 1500",
+                "!z summer/y 2/f Pierre 1500"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Garlic Seeds"
+            ],
+            "When": ["!z spring/y 3"]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "125",
+            "ItemNames": [
+              "Rhubarb Seeds"
+            ],
+            "When": ["!z spring/y 4"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Corn Seeds"
+            ],
+            "When": [
+                "!z summer",
+                "!z fall"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Pepper Seeds"
+            ],
+            "When": ["!z summer"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Radish Seeds"
+            ],
+            "When": ["!z summer"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Wheat Seeds"
+            ],
+            "When": [
+                "!z summer",
+                "!z fall"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Melon Seeds"
+            ],
+            "When": ["!z summer/y 2"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Poppy Seeds"
+            ],
+            "When": ["!z summer/y 2"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Spangle Seeds"
+            ],
+            "When": ["!z summer/y 2"]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "200",
+            "ItemNames": [
+              "Sunflower Seeds"
+            ],
+            "When": [
+                "!z summer/y 2",
+                "!z fall/y 2"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Blueberry Seeds"
+            ],
+            "When": ["!z summer/y 2/f Pierre 1000"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Hops Starter"
+            ],
+            "When": ["!z summer/y 2/f Pierre 1000"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Tomato Seeds"
+            ],
+            "When": ["!z summer/y 2/f Pierre 1000"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Red Cabbage Seeds"
+            ],
+            "When": ["!z summer/y 3"]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "500",
+            "ItemNames": [
+              "Starfruit Seeds"
+            ],
+            "When": ["!z summer/y 4"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Eggplant Seeds"
+            ],
+            "When": ["!z fall"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Pumpkin Seeds"
+            ],
+            "When": ["!z fall"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Pierre's Backyard's Kale",
+              "Pierre's Backyard's Potato"
+            ],
+            "When": ["!z spring", 
+              "!z fall"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Pierre's Backyard's Blueberry",
+              "Pierre's Backyard's Red Cabbage",
+              "Pierre's Backyard's Tomato"
+            ],
+            "When": ["!z summer", 
+              "!z fall"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Pierre's Backyard's Pumpkin"
+            ],
+            "When": ["!z fall"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Amaranth Seeds"
+            ],
+            "When": ["!z fall/y 2"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Bok Choy Seeds"
+            ],
+            "When": ["!z fall/y 2"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Fairy Seeds"
+            ],
+            "When": ["!z fall/y 2"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Yam Seeds"
+            ],
+            "When": ["!z fall/y 2"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Cranberry Seeds"
+            ],
+            "When": ["!z fall/y 2/f Pierre 1000"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Grape Starter"
+            ],
+            "When": ["!z fall/y 2/f Pierre 1000"]
+          },
+          {
+            "ItemType": "Object",
+            "ItemNames": [
+              "Artichoke Seeds"
+            ],
+            "When": ["!z fall/y 3"]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "60",
+            "ItemNames": [
+              "Beet Seeds"
+            ],
+            "When": ["!z fall/y 4"]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "2000",
+            "Stock": "1",
+            "ItemNames": [
+              "Rare Mixed Seeds"
+            ],
+            "When": [
+              "y 5/z winter/r 0.4"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "1500",
+            "Stock": "5",
+            "ItemNames": [
+              "Rare Mixed Seed"
+            ],
+            "When": [
+              "CommunityCenterComplete/z winter/f Pierre 2500/r 0.2"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "IsRecipe": "True",
+            "StockPrice": "1000",
+            "ItemNames": [
+              "Grass Starter"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "100",
+            "ItemNames": [
+              "Grass Starter",
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "100",
+            "ItemNames": [
+              "Basic Fertilizer",
+              "Basic Retaining Soil"
+            ],
+            "When": [
+              "n fertilizers"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "150",
+            "ItemNames": [
+              "Quality Fertilizer",
+              "Quality Retaining Soil"
+            ],
+            "When": [
+              "n fertilizers2"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "100",
+            "ItemNames": [
+              "Speed-Gro"
+            ],
+            "When": [
+              "n fertilizers2"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "150",
+            "ItemNames": [
+              "Deluxe Speed-Gro"
+            ],
+            "When": [
+              "n fertilizers2"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "25",
+            "ItemNames": [
+              "Tree Fertilizer"
+            ],
+            "When": [
+              "y 2/f Pierre 1500"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "250",
+            "ItemNames": [
+              "Deluxe Fertilizer",
+              "Deluxe Retaining Soil",
+              "Hyper Speed-Gro"
+            ],
+            "When": [
+              "y 3/f Pierre 2500"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "3400",
+            "ItemNames": [
+              "Cherry Sapling"
+            ],
+            "When": [
+              "y 2"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "2000",
+            "ItemNames": [
+              "Apricot Sapling"
+            ],
+            "When": [
+              "y 2"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "4000",
+            "ItemNames": [
+              "Orange Sapling"
+            ],
+            "When": [
+              "y 2"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "6000",
+            "ItemNames": [
+              "Peach Sapling"
+            ],
+            "When": [
+              "y 2"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "6000",
+            "ItemNames": [
+              "Pomegranate Sapling"
+            ],
+            "When": [
+              "y 2"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "4000",
+            "ItemNames": [
+              "Apple Sapling"
+            ],
+            "When": [
+              "y 2"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "100",
+            "ItemNames": [
+              "Sugar",
+              "Wheat Flour"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "200",
+            "ItemNames": [
+              "Rice",
+              "Oil",
+              "Vinegar"
+            ]
+          },
+          {
+            "ItemType": "Furniture",
+            "StockPrice": "30000",
+            "ItemNames": [
+              "Catalogue"
+            ]
+          },
+          {
+            "ItemType": "Object",
+            "StockPrice": "150",
+            "ItemNames": [
+              "Bouquet"
+            ],
+            "When": [
+              "n Bouquet"
+            ]
+          },
+          {
+		    "ItemType": "Wallpaper",
+			"ItemIDs": [
+			    0,
+			    1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+				56,
+				57,
+				58,
+				59,
+				60,
+				61,
+				62,
+				63,
+				64,
+				65,
+				66,
+				67,
+				68,
+				69,
+				70,
+				71,
+				72,
+				73,
+				74,
+				75,
+				76,
+				77,
+				78,
+				79,
+				80,
+				81,
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88,
+				89,
+				90,
+				91,
+				92,
+				93,
+				94,
+				95,
+				96,
+				97,
+				98,
+				99,
+				100,
+				101,
+				102,
+				103,
+				104,
+				105,
+				106,
+				107,
+				108,
+				109,
+				110,
+				111,
+			],
+			"MaxNumItemsSoldInItemStock": 1
+		  },
+          {
+		    "ItemType": "Floors",
+			"ItemIDs": [
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46,
+				47,
+				48,
+				49,
+				50,
+				51,
+				52,
+				53,
+				54,
+				55,
+			],
+			"MaxNumItemsSoldInItemStock": 1
+		  }
+        ]
+    },
+
+  ]
+
+  
+}

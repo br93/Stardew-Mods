@@ -1,0 +1,24 @@
+{
+    "Name": "Goldenberry",
+    "Product": "Goldenberry",
+    "SeedName": "Rare Mixed Seeds",
+    "SeedDescription": "Plant in winter. Takes 14 days to produce a golden variety of a fruit or vegetable",
+    "Type": "Fruit",
+
+    "Seasons": ["winter"],
+    "Phases": [ 2, 6, 6 ],
+    "RegrowthPhase": -1,
+    "HarvestWithScythe": false,
+    "TrellisCrop": false,
+    "Colors": null,
+    "Bonus": {
+        "MinimumPerHarvest": 4,
+        "MaximumPerHarvest": 6,
+        "MaxIncreasePerFarmLevel": 0,
+        "ExtraChance": 0.1,
+    },
+
+    "SeedPurchaseFrom": "handledinSTF",    
+    "SeedPurchasePrice": 2000,
+
+}

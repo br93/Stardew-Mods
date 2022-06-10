@@ -1,0 +1,12 @@
+{
+    "Name": "[CP] The Book of Monsters",
+    "Author": "br93",
+    "Version": "1.1.0",
+    "Description": "The Monster Guide, full of information on monsters, as one of the missing books",
+    "UniqueID": "br93.ContentPatcher.BookOfMonsters",
+    "MinimumApiVersion": "3.13.0",
+    "UpdateKeys": ["Nexus:10489"],
+    "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+ }

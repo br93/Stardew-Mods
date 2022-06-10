@@ -1,0 +1,397 @@
+{
+  "Format": "1.18.0",
+
+  "ConfigSchema": {
+    "LovedGift": {
+      "AllowValues": "allyear, festival",
+      "Default": "festival",
+      "Description": "Makes the items hunted on Spring 13 Festival Universal Loved Gift all year or just around the Festival.",
+      },
+
+      "ReallyUniversalLove": {
+        "AllowValues": "true, false",
+        "Default": "false",
+        "Description": "Changes Vanillas NPC's personal list of gifts, aiming to make truly 'Universal Love'",
+      }
+  },
+
+  "Changes": [
+
+//EGG FESTIVAL - EGGS AND COOKIES ARE UNIVERSAL LOVE GIFTS
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "When": {
+	     "LovedGift": "allyear",
+       "HasMod |contains=gwenynnefydd.festivaldecoredits": false
+     },
+     "Entries": {
+       "Universal_Love": "74 446 797 373 279 107 174 176 180 182 223 289 305 442",
+       "Universal_Dislike": "-4 -8 -12 -15 -16 -19 -22 -24 -25 -28 -74 78 169 246 247 309 310 311 403 419 423 535 536 537 725 726 749 271",
+     }
+   },
+
+   {
+     "Action": "EditData",
+     "Target": "Data/NPCGiftTastes",
+     "When": {
+       "LovedGift": "festival",
+       "Season": "Spring",
+       "Day": "12, 13, 14",
+       "HasMod |contains=gwenynnefydd.festivaldecoredits": false
+     },
+     "Entries": {
+       "Universal_Love": "74 446 797 373 279 107 174 176 180 182 223 289 305 442",
+       "Universal_Dislike": "-4 -8 -12 -15 -16 -19 -22 -24 -25 -28 -74 78 169 246 247 309 310 311 403 419 423 535 536 537 725 726 749 271",
+     }
+   },
+
+   {
+     "Action": "EditData",
+     "Target": "Data/NPCGiftTastes",
+     "When": {
+       "LovedGift": "allyear",
+       "ReallyUniversalLove": "true",
+       "HasMod |contains=gwenynnefydd.festivaldecoredits": false
+     },
+     "Fields": {
+       "Demetrius": {
+         3: "-79 422"
+       },
+       "Sebastian": {
+         7: "2 459 195 201 240 330 -26 873"
+       },
+       "Linus": {
+         3: "-6 -79 -81"
+       },
+       "Pierre": {
+         3: "-6 -7 18 22 402 418 259"
+       },
+       "Abigail": {
+         5: "-75 -79 16 245 246"
+       },
+       "Alex": {
+         3: ""
+       },
+       "George": {
+         3: "18 195 199 200 214 219 231 233"
+       },
+       "Pam": {
+         5: "16 80 330"
+       },
+       "Haley": {
+         3: "18 60 62 64 70 88 222 232 233 234 402 418",
+         5: "-6 -75 -79 -81 80 -27"
+       },
+       "Jas": {
+         3: "18 60 64 70 88 232 233 234 222 340 344 402 418 903",
+         5: "-81 -75 -79 80"
+       },
+       "Vincent": {
+         3: "18 60 64 70 88 232 233 234 222 340 344 402 418",
+         5: "-75 -79 -81 80"
+       },
+       "Jodi": {
+         3: "-6 -79 18 402 418"
+       },
+       "Kent": {
+         3: "-79 18 402 418"
+       },
+       "Sam": {
+         3: "167 210 213 220 224 228 232 233 239"
+       },
+       "Leah": {
+         3: "-6 -79 -81 18 402 169 406 408 418 86",
+         5: "-2 2 152 330 221 229 232 233 241 209 194",
+         7: "211 210 206 216"
+       },
+       "Shane": {
+         3: "-79 303"
+       },
+       "Marnie": {
+         3: "-6 402 418"
+       },
+       "Dwarf": {
+         5: "-6 16 -81 2 4 330"
+       },
+       "Wizard": {
+         5: "-6 -81 2 16 330 766"
+       },
+       "Harvey": {
+         5: "-4 424 426 2 330 233 232 238 234 222 221 220 216 211 210 208 206 205"
+       }
+
+     }
+   },
+
+   {
+     "Action": "EditData",
+     "Target": "Data/NPCGiftTastes",
+     "When": {
+       "LovedGift": "festival",
+       "ReallyUniversalLove": "true",
+       "Season": "Spring",
+       "Day": "12, 13, 14",
+       "HasMod |contains=gwenynnefydd.festivaldecoredits": false
+     },
+     "Fields": {
+       "Demetrius": {
+         3: "-79 422"
+       },
+       "Sebastian": {
+         7: "2 459 195 201 240 330 -26 873"
+       },
+       "Linus": {
+         3: "-6 -79 -81"
+       },
+       "Pierre": {
+         3: "-6 -7 18 22 402 418 259"
+       },
+       "Abigail": {
+         5: "-75 -79 16 245 246"
+       },
+       "Alex": {
+         3: ""
+       },
+       "George": {
+         3: "18 195 199 200 214 219 231 233"
+       },
+       "Pam": {
+         5: "16 80 330"
+       },
+       "Haley": {
+         3: "18 60 62 64 70 88 222 232 233 234 402 418",
+         5: "-6 -75 -79 -81 80 -27"
+       },
+       "Jas": {
+         3: "18 60 64 70 88 232 233 234 222 340 344 402 418 903",
+         5: "-81 -75 -79 80"
+       },
+       "Vincent": {
+         3: "18 60 64 70 88 232 233 234 222 340 344 402 418",
+         5: "-75 -79 -81 80"
+       },
+       "Jodi": {
+         3: "-6 -79 18 402 418"
+       },
+       "Kent": {
+         3: "-79 18 402 418"
+       },
+       "Sam": {
+         3: "167 210 213 220 224 228 232 233 239"
+       },
+       "Leah": {
+         3: "-6 -79 -81 18 402 169 406 408 418 86",
+         5: "-2 2 152 330 221 229 232 233 241 209 194",
+         7: "211 210 206 216"
+       },
+       "Shane": {
+         3: "-79 303"
+       },
+       "Marnie": {
+         3: "-6 402 418"
+       },
+       "Dwarf": {
+         5: "-6 16 -81 2 4 330"
+       },
+       "Wizard": {
+         5: "-6 -81 2 16 330 766"
+       },
+       "Harvey": {
+         5: "-4 424 426 2 330 233 232 238 234 222 221 220 216 211 210 208 206 205"
+       }
+
+     }
+   },
+
+//FAIRY RING FEAST -- MUSHROOMS ARE UNIVERSAL LOVE GIFTS
+
+  {
+    "Action": "EditData",
+    "Target": "Data/NPCGiftTastes",
+    "When": {
+      "LovedGift": "allyear",
+      "HasMod": "gwenynnefydd.festivaldecoredits"
+    },
+    "Entries": {
+      "Universal_Love": "74 446 797 373 279 404 257 422 773 205"
+    }
+  },
+
+ {
+   "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "When": {
+     "LovedGift": "festival",
+     "Season": "Spring",
+     "Day": "12, 13, 14",
+     "HasMod": "gwenynnefydd.festivaldecoredits"
+   },
+   "Entries": {
+    "Universal_Love": "74 446 797 373 279 404 257 422 773 205"
+   }
+ },
+
+ {
+   "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "When": {
+     "LovedGift": "allyear",
+     "ReallyUniversalLove": "true",
+     "HasMod": "gwenynnefydd.festivaldecoredits"
+   },
+   "Fields": {
+     "Demetrius": {
+       3: "-5 -79"
+     },
+     "Maru": {
+       5: "-4 330 414 410 724"
+     },
+     "Sebastian": {
+       5: "30 -80"
+     },
+     "Linus": {
+       3: "-5 -6 -79"
+     },
+     "Pierre": {
+       5: "-2 330"
+     },
+     "Caroline": {
+       5: "330 300 306 307"
+     },
+     "Penny": {
+       5: "-4 80 330 456 457 444 440 420"
+     },
+     "Haley": {
+       5: "-5 -6 -75 -79 80 -27"
+     },
+     "Jas": {
+       5: "-5 -75 -79 80"
+     },
+     "Vincent": {
+       5: "-5 -75 -79 80"
+     },
+     "Jodi": {
+       5: "80 248 330"
+     },
+     "Sam": {
+       5: "80 152 330 -75"
+     },
+     "Leah": {
+       3: "-5 -6 -79 18 402 169 406 408 418 86"
+     },
+     "Shane": {
+       5: "152 330"
+     },
+     "Elliott": {
+       5: "16 206 330 -79 -6"
+     },
+     "Dwarf": {
+       5: "-5 -6 16 -81 2 4 330"
+     },
+     "Wizard": {
+       5: "-5 -6 2 16 330 766"
+     },
+     "Harvey": {
+       3: "-79 -7 402 614 418 422 436 438 442 444",
+       5: "-4 424 426 2 330 233 232 238 234 223 222 221 220 216 211 210 208 206"
+     },
+     "Willy": {
+       5: "-7 2 4 330"
+     },
+     "Krobus": {
+       5: "-7 2 330"
+     },
+     "Leo": {
+       5: "-7 2 330 303 459 342 346 348",
+       7: "253 247 271 283 304 303 346 873 348 459 167"
+     }
+   }
+ },
+
+ {
+   "Action": "EditData",
+   "Target": "Data/NPCGiftTastes",
+   "When": {
+     "LovedGift": "festival",
+     "ReallyUniversalLove": "true",
+     "Season": "Spring",
+     "Day": "12, 13, 14",
+     "HasMod": "gwenynnefydd.festivaldecoredits"
+   },
+   "Fields": {
+     "Demetrius": {
+       3: "-5 -79"
+     },
+     "Maru": {
+       5: "-4 330 414 410 724"
+     },
+     "Sebastian": {
+       5: "30 -80"
+     },
+     "Linus": {
+       3: "-5 -6 -79"
+     },
+     "Pierre": {
+       5: "-2 330"
+     },
+     "Caroline": {
+       5: "330 300 306 307"
+     },
+     "Penny": {
+       5: "-4 80 330 456 457 444 440 420"
+     },
+     "Haley": {
+       5: "-5 -6 -75 -79 80 -27"
+     },
+     "Jas": {
+       5: "-5 -75 -79 80"
+     },
+     "Vincent": {
+       5: "-5 -75 -79 80"
+     },
+     "Jodi": {
+       5: "80 248 330"
+     },
+     "Sam": {
+       5: "80 152 330 -75"
+     },
+     "Leah": {
+       3: "-5 -6 -79 18 402 169 406 408 418 86"
+     },
+     "Shane": {
+       5: "152 330"
+     },
+     "Elliott": {
+       5: "16 206 330 -79 -6"
+     },
+     "Dwarf": {
+       5: "-5 -6 16 -81 2 4 330"
+     },
+     "Wizard": {
+       5: "-5 -6 2 16 330 766"
+     },
+     "Harvey": {
+       3: "-79 -7 402 614 418 422 436 438 442 444",
+       5: "-4 424 426 2 330 233 232 238 234 223 222 221 220 216 211 210 208 206"
+     },
+     "Willy": {
+       5: "-7 2 4 330"
+     },
+     "Krobus": {
+       5: "-7 2 330"
+     },
+     "Leo": {
+       5: "-7 2 330 303 459 342 346 348",
+       7: "253 247 271 283 304 303 346 873 348 459 167"
+     }
+
+   }
+ },
+
+
+
+
+
+ ]
+}

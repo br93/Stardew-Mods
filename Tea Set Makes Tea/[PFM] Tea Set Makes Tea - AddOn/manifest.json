@@ -1,0 +1,17 @@
+{
+  "Name": "[PFM] Tea Set Makes Tea",
+  "Author": "br93",
+  "Version": "1.0.0",
+  "Description": "Tea Set Makes Tea Producer Framework Mod component.",
+  "UniqueID": "br93.teasetPFM",
+  "MinimumApiVersion": "3.13.0",
+  "UpdateKeys": [],
+  "Dependencies": [
+    {
+      "UniqueID": "br93.teasetCP"
+    }
+  ],
+  "ContentPackFor": {
+    "UniqueID": "DIGUS.ProducerFrameworkMod"
+  }
+}

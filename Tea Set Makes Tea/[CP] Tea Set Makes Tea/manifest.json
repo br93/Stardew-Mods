@@ -1,0 +1,12 @@
+{
+    "Name": "[CP] Tea Set Makes Tea",
+    "Author": "br93",
+    "Version": "1.0.1",
+    "Description": "The elusive Tea Set, now functional, producing daily tea.",
+    "UniqueID": "br93.teasetCP",
+    "MinimumApiVersion": "3.13.0",
+    "UpdateKeys": ["Nexus:10466"],
+    "ContentPackFor": {
+       "UniqueID": "Pathoschild.ContentPatcher"
+    }
+ }

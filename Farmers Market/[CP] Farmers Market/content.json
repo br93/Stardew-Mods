@@ -1,0 +1,65 @@
+{
+  "Format": "1.23",
+  "Changes": [
+
+
+//PIERRE
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Fair",
+      "FromFile": "assets/Town-Fair-Pierre.tbin",
+	    "PatchMode": "Replace",
+      "ToArea": { "X": 34, "Y": 59, "Width": 3, "Height": 1 }
+    },
+
+//MARNIE
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Fair",
+      "FromFile": "assets/Town-Fair-Marnie.tbin",
+	    "PatchMode": "Replace",
+      "ToArea": { "X": 40, "Y": 59, "Width": 3, "Height": 1 }
+    },
+
+
+//WILLY
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Fair",
+      "FromFile": "assets/Town-Fair-Willy.tbin",
+	    "PatchMode": "Replace",
+      "ToArea": { "X": 43, "Y": 59, "Width": 3, "Height": 1 }
+    },
+
+//SOPHIA
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Fair",
+      "FromFile": "assets/Town-Fair-Sophia.tbin",
+	    "PatchMode": "Replace",
+      "ToArea": { "X": 46, "Y": 59, "Width": 3, "Height": 1 },
+      "When": { "HasMod": "FlashShifter.StardewValleyExpandedCP" }
+    },
+
+//SUSAN
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Fair",
+      "FromFile": "assets/Town-Fair-Susan.tbin",
+	    "PatchMode": "Replace",
+      "ToArea": { "X": 48, "Y": 64, "Width": 3, "Height": 1 },
+      "When": { "HasMod": "FlashShifter.StardewValleyExpandedCP" }
+    },
+
+//ANDY
+    {
+      "Action": "EditMap",
+      "Target": "Maps/Town-Fair",
+      "FromFile": "assets/Town-Fair-Andy.tbin",
+	    "PatchMode": "Replace",
+      "ToArea": { "X": 48, "Y": 69, "Width": 3, "Height": 1 },
+      "When": { "HasMod": "FlashShifter.StardewValleyExpandedCP" }
+    }
+
+  ]
+}

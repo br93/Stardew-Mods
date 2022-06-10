@@ -1,0 +1,133 @@
+{
+  "Format": "1.24.0",
+  "ConfigSchema": {
+    "ExtraDialogue": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "NPC will give credit to the farmer when they buy good quality products from Seed Shop after Community Center is completed.",
+      },
+
+      "CommunityCenterBonus": {
+        "AllowValues": "true, false",
+        "Default": "true",
+        "Description": "Fruits and vegetables will sell for more after Community Centes is completed",
+      }
+  },
+  "Changes": [
+    {
+      "Action":"EditData",
+			"Target":"Data/ExtraDialogue",
+			"Entries": {
+        "PurchasedItem_5_VegetableOrFruit": "I bought the tastiest {2} from Pierre's shop the other day.#$b#He said that you grew it yourself. I've never seen one so fresh!",
+        "PurchasedItem_5_Cooking": "I bought the tastiest {2} the other day.#$b#Did you sell it to the general store? I think I bought it...#$e#It was pretty high-quality stuff. I'm impressed.",
+        "PurchasedItem_5_Foraged": "I bought the tastiest {2} from Pierre's shop the other day.#$b#You're such a talented forager!",
+      },
+      "When": { "IsCommunityCenterComplete": true,
+        "ExtraDialogue": true
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/mail",
+      "Entries": {
+        "fertilizers2": "Dear @,^I am now selling higher quality fertilizers, as well as new crop selections! Our catalogue of seeds is always expanding to support your farm and the local economy. See you soon. ^   -Pierre[#]Pierre's High Quality Fertilizers",
+        "fertilizers3": "Dear @,^I am now selling new crop selections! Our catalogue of seeds is always expanding to support your farm and the local economy. See you soon. ^   -Pierre[#]Pierre's Year 3 Seeds",
+        "fertilizers4": "Dear @,^I'm happy to announce our partnership with Oasis! Our catalogue of seeds is always expanding to support your farm and the local economy. See you soon. ^   -Pierre[#]Pierre's Year 4 Seeds",
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/Events/Farm",
+      "Entries": {
+        "10753180/y 3/x fertilizers3": "null",
+        "10753181/y 4/x fertilizers4": "null"
+      }
+    },
+
+    {
+      "Action": "EditData",
+      "Target": "Data/ObjectInformation",
+      "Fields": {
+        "16": {1: "{{Round: {{Query: (50 + (50 * 0.5)) }} }}"},
+        "18": {1: "{{Round: {{Query: (30 + (30 * 0.5)) }} }}"},
+        "20": {1: "{{Round: {{Query: (60 + (60 * 0.5)) }} }}"},
+        "22": {1: "{{Round: {{Query: (40 + (40 * 0.5)) }} }}"},
+        "24": {1: "{{Round: {{Query: (35 + (35 * 0.5)) }} }}"},
+        "78": {1: "{{Round: {{Query: (25 + (25 * 0.5)) }} }}"},
+        "88": {1: "{{Round: {{Query: (100 + (100 * 0.5)) }} }}"},
+        "90": {1: "{{Round: {{Query: (75 + (75 * 0.5)) }} }}"},
+        "92": {1: "{{Round: {{Query: (2 + (2 * 0.5)) }} }}"},
+        "188": {1: "{{Round: {{Query: (40 + (40 * 0.5)) }} }}"},
+        "190": {1: "{{Round: {{Query: (175 + (175 * 0.5)) }} }}"},
+        "192": {1: "{{Round: {{Query: (80 + (80 * 0.5)) }} }}"},
+        "248": {1: "{{Round: {{Query: (60 + (60 * 0.5)) }} }}"},
+        "250": {1: "{{Round: {{Query: (110 + (110 * 0.5)) }} }}"},
+        "251": {1: "{{Round: {{Query: (500 + (500 * 0.5)) }} }}"},
+        "252": {1: "{{Round: {{Query: (220 + (220 * 0.5)) }} }}"},
+        "254": {1: "{{Round: {{Query: (250 + (250 * 0.5)) }} }}"},
+        "256": {1: "{{Round: {{Query: (60 + (60 * 0.5)) }} }}"},
+        "257": {1: "{{Round: {{Query: (50 + (50 * 0.5)) }} }}"},
+        "258": {1: "{{Round: {{Query: (50 + (50 * 0.5)) }} }}"},
+        "259": {1: "{{Round: {{Query: (90 + (90 * 0.5)) }} }}"},
+        "260": {1: "{{Round: {{Query: (40 + (40 * 0.5)) }} }}"},
+        "262": {1: "{{Round: {{Query: (25 + (25 * 0.5)) }} }}"},
+        "264": {1: "{{Round: {{Query: (90 + (90 * 0.5)) }} }}"},
+        "266": {1: "{{Round: {{Query: (260 + (260 * 0.5)) }} }}"},
+        "268": {1: "{{Round: {{Query: (750 + (750 * 0.5)) }} }}"},
+        "270": {1: "{{Round: {{Query: (50 + (50 * 0.5)) }} }}"},
+        "271": {1: "{{Round: {{Query: (30 + (30 * 0.5)) }} }}"},
+        "272": {1: "{{Round: {{Query: (60 + (60 * 0.5)) }} }}"},
+        "274": {1: "{{Round: {{Query: (160 + (160 * 0.5)) }} }}"},
+        "276": {1: "{{Round: {{Query: (320 + (320 * 0.5)) }} }}"},
+        "278": {1: "{{Round: {{Query: (80 + (80 * 0.5)) }} }}"},
+        "280": {1: "{{Round: {{Query: (160 + (160 * 0.5)) }} }}"},
+        "281": {1: "{{Round: {{Query: (160 + (160 * 0.5)) }} }}"},
+        "282": {1: "{{Round: {{Query: (75 + (75 * 0.5)) }} }}"},
+        "283": {1: "{{Round: {{Query: (80 + (80 * 0.5)) }} }}"},
+        "284": {1: "{{Round: {{Query: (100 + (100 * 0.5)) }} }}"},
+        "300": {1: "{{Round: {{Query: (150 + (150 * 0.5)) }} }}"},
+        "304": {1: "{{Round: {{Query: (25 + (25 * 0.5)) }} }}"},
+        "309": {1: "{{Round: {{Query: (20 + (20 * 0.5)) }} }}"},
+        "310": {1: "{{Round: {{Query: (5 + (5 * 0.5)) }} }}"},
+        "311": {1: "{{Round: {{Query: (5 + (5 * 0.5)) }} }}"},
+        "376": {1: "{{Round: {{Query: (140 + (140 * 0.5)) }} }}"},
+        "396": {1: "{{Round: {{Query: (80 + (80 * 0.5)) }} }}"},
+        "398": {1: "{{Round: {{Query: (80 + (80 * 0.5)) }} }}"},
+        "399": {1: "{{Round: {{Query: (8 + (8 * 0.5)) }} }}"},
+        "400": {1: "{{Round: {{Query: (120 + (120 * 0.5)) }} }}"},
+        "402": {1: "{{Round: {{Query: (50 + (50 * 0.5)) }} }}"},
+        "404": {1: "{{Round: {{Query: (40 + (40 * 0.5)) }} }}"},
+        "406": {1: "{{Round: {{Query: (80 + (80 * 0.5)) }} }}"},
+        "408": {1: "{{Round: {{Query: (90 + (90 * 0.5)) }} }}"},
+        "412": {1: "{{Round: {{Query: (70 + (70 * 0.5)) }} }}"},
+        "414": {1: "{{Round: {{Query: (150 + (150 * 0.5)) }} }}"},
+        "416": {1: "{{Round: {{Query: (100 + (100 * 0.5)) }} }}"},
+        "418": {1: "{{Round: {{Query: (60 + (60 * 0.5)) }} }}"},
+        "420": {1: "{{Round: {{Query: (75 + (75 * 0.5)) }} }}"},
+        "421": {1: "{{Round: {{Query: (80 + (80 * 0.5)) }} }}"},
+        "422": {1: "{{Round: {{Query: (250 + (250 * 0.5)) }} }}"},
+        "431": {1: "{{Round: {{Query: (20 + (20 * 0.5)) }} }}"},
+        "433": {1: "{{Round: {{Query: (15 + (15 * 0.5)) }} }}"},
+        "454": {1: "{{Round: {{Query: (550 + (550 * 0.5)) }} }}"},
+        "591": {1: "{{Round: {{Query: (30 + (30 * 0.5)) }} }}"},
+        "593": {1: "{{Round: {{Query: (90 + (90 * 0.5)) }} }}"},
+        "595": {1: "{{Round: {{Query: (290 + (290 * 0.5)) }} }}"},
+        "597": {1: "{{Round: {{Query: (50 + (50 * 0.5)) }} }}"},
+        "613": {1: "{{Round: {{Query: (100 + (100 * 0.5)) }} }}"},
+        "634": {1: "{{Round: {{Query: (50 + (50 * 0.5)) }} }}"},
+        "635": {1: "{{Round: {{Query: (100 + (100 * 0.5)) }} }}"},
+        "636": {1: "{{Round: {{Query: (140 + (140 * 0.5)) }} }}"},
+        "637": {1: "{{Round: {{Query: (140 + (140 * 0.5)) }} }}"},
+        "638": {1: "{{Round: {{Query: (60 + (60 * 0.5)) }} }}"},
+        "815": {1: "{{Round: {{Query: (50 + (50 * 0.5)) }} }}"},
+      },
+      "When": {"IsCommunityCenterComplete": true, 
+        "CommunityCenterBonus": true
+      }
+    }
+
+
+  ]
+}

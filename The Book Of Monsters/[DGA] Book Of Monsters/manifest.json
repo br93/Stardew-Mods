@@ -1,0 +1,13 @@
+{
+  "Name": "[DGA] The Book of Monsters",
+  "Author": "br93",
+  "Version": "1.1.0",
+  "Description": "Book of Monsters Dynamic Game Assets component. A bookcase that makes it possible to read the Monster Guide from the confort of your home",
+  "UniqueID": "br93.DynamicGameAssets.BookOfMonsters",
+  "ContentPackFor": {
+    "UniqueID": "spacechase0.DynamicGameAssets"
+  },
+  "UpdateKeys": [],
+  "DGA.FormatVersion": 2,
+  "DGA.ConditionsFormatVersion": "1.23.0"
+}

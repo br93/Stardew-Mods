@@ -1,0 +1,52 @@
+{
+	"Format": "1.23.0",
+
+	"ConfigSchema": {
+		"AlternativeAssets": {
+			"AllowValues": "true, false",
+			"Default": true
+		}
+	},
+
+	"Changes": [
+
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			"Fields": {
+				"341": {
+					3: "Crafting -24"
+				}
+			}
+		},
+
+		{
+			"Action": "EditData",
+			"Target": "custom_object_production_dictionary",
+			"When": {
+				 "HasMod |contains=br93.teasetPFM": false
+			},
+			"Entries": {
+				"341": {
+					"id": "614",
+					"amount": 1,
+					"quality": 0
+				}
+			}
+		},
+
+		{
+			"Action": "EditImage",
+			"Target": "Maps/springobjects",
+			"When": {
+				"AlternativeAssets": "true"
+			},
+			"FromFile": "assets/ts16x16v.png",
+			"ToArea": {
+				"X": 80, "Y": 224, "Width": 16, "Height": 16
+			}
+		},
+
+
+	]
+}

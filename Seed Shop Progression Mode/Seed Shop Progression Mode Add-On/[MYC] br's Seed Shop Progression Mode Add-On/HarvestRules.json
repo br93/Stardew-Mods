@@ -1,0 +1,54 @@
+{
+  "Harvests": [
+
+    {
+      "CropName": "Goldenberry",
+      "HarvestRules": [
+        {
+          "ExtraYieldItemType": "Object",
+          "ItemName": "Golden Cabbage",
+          "minHarvest": -2,
+          "maxHarvest": 1,
+          "maxHarvestIncreasePerFarmingLevel": 0.0,
+        },
+        {
+          "ExtraYieldItemType": "Object",
+          "ItemName": "Golden Kale",
+          "minHarvest": -1,
+          "maxHarvest": 1,
+          "maxHarvestIncreasePerFarmingLevel": 0.0,
+        },
+        {
+          "ExtraYieldItemType": "Object",
+          "ItemName": "Golden Potato",
+          "minHarvest": -1,
+          "maxHarvest": 2,
+          "maxHarvestIncreasePerFarmingLevel": 0.0,
+        },
+        {
+          "ExtraYieldItemType": "Object",
+          "ItemName": "Golden Tomato",
+          "minHarvest": -1,
+          "maxHarvest": 2,
+          "maxHarvestIncreasePerFarmingLevel": 0.0,
+        },
+        {
+          "ExtraYieldItemType": "Object",
+          "ItemName": "Golden Melon",
+          "minHarvest": -2,
+          "maxHarvest": 1,
+          "maxHarvestIncreasePerFarmingLevel": 0.0,
+        },
+        {
+          "ExtraYieldItemType": "Object",
+          "ItemName": "Golden Pumpkin",
+          "minHarvest": -4,
+          "maxHarvest": 1,
+          "maxHarvestIncreasePerFarmingLevel": 0.0,
+        }
+      ]
+    },
+    
+
+  ]
+}

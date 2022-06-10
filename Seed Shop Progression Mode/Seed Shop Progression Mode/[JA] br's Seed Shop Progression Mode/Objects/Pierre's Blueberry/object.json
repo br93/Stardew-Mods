@@ -1,0 +1,15 @@
+{
+  "Name": "Pierre's Backyard's Blueberry",
+  "Description": "Pierre's own cultivated blueberry. It doesn't smell that good",
+  "Category": "Fruit",
+  "CanSell": false,
+  "Edibility": -10,
+  "EdibleIsDrink": false,
+ 
+  "Price": 100,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+	"Dislike": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy"],
+  },
+}

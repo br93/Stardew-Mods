@@ -1,0 +1,17 @@
+{
+   "Name": "Farmers Market STF",
+   "Author": "br93",
+   "Version": "1.0.0",
+   "Description": "STF component of Farmers Market",
+   "UniqueID": "br93.FarmersMarketSTF",
+   "MinimumApiVersion": "3.0.0",
+   "UpdateKeys": [],
+   "ContentPackFor": {
+	  "UniqueID": "Cherry.ShopTileFramework",
+  },
+     "Dependencies": [
+   {   "UniqueID":"br93.FarmersMarketCP", 
+	   "IsRequired": true   }
+   
+  ]
+}

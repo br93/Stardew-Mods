@@ -1,0 +1,18 @@
+{
+  "Name": "A Stillness In The Rain - Harp Mod",
+  "Author": "br93",
+  "Version": "1.0.0",
+  "Description": "",
+  "UniqueID": "br93.ContentCode.HarpWallet",
+  "MinimumApiVersion": "3.13.0",
+  "UpdateKeys": [],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher", 
+    "MinimumVersion": "1.24.0"
+  },
+  "Dependencies": [
+     {
+         "UniqueID": "spacechase0.ContentCode"
+     }
+ ],
+}

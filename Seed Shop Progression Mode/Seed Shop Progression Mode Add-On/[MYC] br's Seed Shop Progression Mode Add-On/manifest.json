@@ -1,0 +1,17 @@
+﻿{
+    "Name": "[MYC] br's Seed Shop Progression Mode Add-On",
+    "Author": "br93",
+    "Version": "1.1.0",
+    "Description": "SSPM Add-on Multi Yield Crops component",
+    "UniqueID": "br93.MultiYieldCrops.SSPM2",
+    "MinimumApiVersion": "3.7.0",
+    "Dependencies": [
+    {
+        "UniqueID": "br93.JsonAssets.SSPM2",
+        "IsRequired": true
+    }],
+    "ContentPackFor":
+    {
+        "UniqueID": "Cherry.MultiYieldCrops"
+    }
+}

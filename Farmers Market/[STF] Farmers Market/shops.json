@@ -1,0 +1,423 @@
+{
+	"Shops": 
+   [ 
+	{ 
+	 
+		"ShopName": "MarnieFair",
+		"CategoriesToSellHere": [ -2, -4, -5, -6, -7, -8, -9, -12, -15, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -74, -75, -79, -80, -81, -95, -96, -98, -99 ],
+        "DefaultSellPriceMultiplier": 0.5,
+		"ItemStocks": [
+			{
+				"ItemType": "Object",
+				"ItemIDs": [ 174,
+                    176,
+                    180,
+                    182,
+                    184,
+                    186,
+                    306,
+                    307
+                ]
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 306,
+                    307
+                ],
+                "Quality": 2
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 424,
+                    426
+                ]
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 424,
+                    426
+                ],
+                "Quality": 2
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 424
+                ],
+                "Quality": 4,
+                "Stock": 1
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 428,
+                    436,
+                    438,
+                    440 
+                ]
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 240, 
+                    221, 
+                    608
+                ],
+                "MaxNumItemsSoldInItemStock": 1,
+                "Stock": 1
+			},
+			
+		],
+	 
+	 },	
+
+     { 
+	 
+		"ShopName": "WillyFair",
+		"CategoriesToSellHere": [ -2, -4, -5, -6, -7, -8, -9, -12, -15, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -74, -75, -79, -80, -81, -95, -96, -98, -99 ],
+        "DefaultSellPriceMultiplier": 0.5,
+		"ItemStocks": [
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 145, 
+                    706,
+                    702,
+                    719,
+                    136,
+                    130,
+                    140 
+                ],
+                "Quality": 2,
+                "MaxNumItemsSoldInItemStock": 3,
+                "Stock": 1
+            },	
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 685 ],
+                "StockPrice": 2
+            },
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 219 ],
+            },			
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 129, 
+                    137, 
+                    143, 
+                    147, 
+                    148, 
+                    131, 
+                    706, 
+                    708,
+                ],
+                "MaxNumItemsSoldInItemStock": 3
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 128, 
+                    130, 
+                    138, 
+                    144, 
+                    146, 
+                    149, 
+                    698, 
+                    704,
+                    145,
+                    267,
+                ],
+                "MaxNumItemsSoldInItemStock": 3
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 139, 
+                    140, 
+                    155,
+                    701,
+                    150,
+                    142,
+                    136
+                ],
+                "MaxNumItemsSoldInItemStock": 3
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 154, 
+                    699, 
+                    705, 
+                    269,
+                    132 
+                ],
+                "MaxNumItemsSoldInItemStock": 2
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 141, 
+                    151, 
+                    707, 
+                ],
+                "MaxNumItemsSoldInItemStock": 1,
+                "When": [ "y 2" ]
+            },
+		],
+	 
+	 },
+
+     { 
+	 
+		"ShopName": "SophiaFair",
+		"CategoriesToSellHere": [ -2, -4, -5, -6, -7, -8, -9, -12, -15, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -74, -75, -79, -80, -81, -95, -96, -98, -99 ],
+        "DefaultSellPriceMultiplier": 0.5,
+		"ItemStocks": [
+			{
+				"ItemType": "Object",
+				"ItemNames": [ "Blue Moon Wine" ]
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemNames": [ "Aged Blue Moon Wine" ],
+                "Quality": 0,
+                "Stock": 8,
+                "When": [ "y 1" ],
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemNames": [ "Aged Blue Moon Wine" ],
+                "Quality": 1,
+                "Stock": 4,
+                "When": [ "y 2" ],
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemNames": [ "Aged Blue Moon Wine" ],
+                "Quality": 2,
+                "Stock": 2,
+                "When": [ "y 3" ],
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemNames": [ "Aged Blue Moon Wine" ],
+                "Quality": 4,
+                "Stock": 1,
+                "When": [ "y 4" ],
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemNames": [ "Dried Blue Moon Grapes" ]
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemNames": [ "Blue Moon Grape Fortified Wine",
+                    "Blue Moon Grape Grappa",
+                    "Blue Moon Grape Sparkling Wine",
+                    "Blue Moon Grape Sweet Wine"
+                ],
+                "MaxNumItemsSoldInItemStock": 1,
+            },
+
+
+            {
+				"ItemType": "Object",
+				"ItemNames": [ "Yeast",
+                    "Fortifying Alchohol"
+                ]
+            },
+
+            
+
+            {
+				"ItemType": "Object",
+				"ItemNames": [ "Grampleton Orange Chicken" ],
+                "Stock": 1,
+                "When": [ "e 8185293" ]
+            },
+
+            
+			
+		],
+	 
+	 },
+
+     { 
+	 
+		"ShopName": "SusanFair",
+        "StoreCurrency": "festivalScore",
+		"ItemStocks": [
+			{
+				"ItemType": "BigCraftable",
+                "IsRecipe": true,
+                "ItemNames": [ "Seed Maker", 
+                    "Keg",
+                    "Preserves Jar"
+                ],
+                "StockPrice": 500,
+            },
+
+            {
+				"ItemType": "Object",
+                "IsRecipe": true,
+                "ItemIDs": [ 369 ],
+                "StockPrice": 500
+            },
+
+            {
+				"ItemType": "BigCraftable",
+                "ItemNames": [ "Workbench" ],
+                "StockPrice": 500,
+            },
+
+            {
+				"ItemType": "Object",
+                "ItemIDs": [ 342, 
+                    344, 
+                    348,
+                    350
+                ],
+                "Quality": 4
+            },
+
+            {
+				"ItemType": "Object",
+                "ItemIDs": [ 211, 
+                    220, 
+                    221,
+                    223,
+                    608,
+                    222,
+                    234,
+                    233,
+                    611,
+                    612,
+                    731,
+                    651,
+                    230
+                ],
+                "MaxNumItemsSoldInItemStock": 1,
+                "Stock": 1
+            }
+
+        ],
+	 
+	 },
+
+     { 
+	 
+		"ShopName": "AndyFair",
+		"CategoriesToSellHere": [ -2, -4, -5, -6, -7, -8, -9, -12, -15, -17, -18, -19, -20, -21, -22, -23, -24, -25, -26, -27, -28, -29, -74, -75, -79, -80, -81, -95, -96, -98, -99 ],
+        "DefaultSellPriceMultiplier": 0.5,
+		"ItemStocks": [
+			{
+				"ItemType": "Object",
+				"ItemIDs": [ 770 ],
+                "Stock": 15,
+                "StockPrice": 2
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 745 ],
+                "MaxNumItemsSoldInItemStock": 1,
+                "Stock": 15,
+                "StockPrice": 75,
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 499 ],
+                "MaxNumItemsSoldInItemStock": 1,
+                "Stock": 1,
+                "StockPrice": 750,
+                "When": [ "r 0.01" ]
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 16,
+                    18,
+                    20,
+                    22,
+                    399,
+                    257,
+                    404
+                ],
+                "MaxNumItemsSoldInItemStock": 4
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 396,
+                    402,
+                    420,
+                    259
+                ],
+                "MaxNumItemsSoldInItemStock": 2
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 406,
+                    408,
+                    281,
+                    422
+                ]
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 296,
+                    410,
+                    340
+                ],
+                "Quality": 4
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 412,
+                    414,
+                    416,
+                    418,
+                    283
+                ],
+                "MaxNumItemsSoldInItemStock": 3,
+                "When": [ "y 2" ]
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemIDs": [ 773 ],
+                "Stock": 1
+            },
+
+            {
+				"ItemType": "Object",
+				"ItemNames": [ "Farmer's Lunch",
+                    "Glazed Butterfish",
+                    "Blackberry Cobbler"
+                ],
+                "MaxNumItemsSoldInItemStock": 1,
+                "Stock": 1
+            }
+
+            
+        ],
+	 
+	 }	
+	
+
+   ]
+
+}

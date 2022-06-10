@@ -1,0 +1,15 @@
+{
+  "Name": "Pierre's Backyard's Potato",
+  "Description": "Pierre's own cultivated potato. Doesn't look healthy",
+  "Category": "Vegetable",
+  "CanSell": false,
+  "Edibility": -10,
+  "EdibleIsDrink": false,
+ 
+  "Price": 100,
+  "IsColored": false,
+  "Recipe": null,
+  "GiftTastes": {
+	"Dislike": ["Abigail", "Alex", "Caroline", "Clint", "Demetrius", "Dwarf", "Elliott", "Emily", "Evelyn", "George", "Gus", "Haley", "Harvey", "Jas", "Jodi", "Kent", "Krobus", "Leah", "Lewis", "Linus", "Marnie", "Maru", "Pam", "Penny", "Pierre", "Robin", "Sam", "Sandy", "Sebastian", "Shane", "Vincent", "Willy"],
+  },
+}

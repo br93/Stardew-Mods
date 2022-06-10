@@ -1,0 +1,10 @@
+[
+  {
+    "$ItemType": "ShopEntry",
+    "Item": {
+      "Value": "br93.DynamicGameAssets.BookOfMonsters/LostBookcase"
+    },
+    "ShopId": "Carpenter",
+    "Cost": 1200
+  }
+]
