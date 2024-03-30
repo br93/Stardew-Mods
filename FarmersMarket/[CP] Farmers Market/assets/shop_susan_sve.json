@@ -1,0 +1,183 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "br93.FarmersMarket_Susan_TownFair": {
+                    "Owners": [
+                        {
+                            "Name": "AnyOrNone",
+                            "Id": "br93.FarmersMarket_Susan_TownFair",
+                            "Portrait": "Susan",
+                            "Dialogues": [
+                                {
+                                    "Id": "br93.FarmersMarket_Susan_Dialog",
+                                    "RandomDialogue": [
+                                        "[LocalizedText Strings\\StringsFromCSFiles:ShopMenu.cs.11524]",
+                                        "[LocalizedText Strings\\StringsFromCSFiles:ShopMenu.cs.11525]"
+                                    ]
+                                }
+                            ],
+                            "RandomizeDialogueOnOpen": true
+                        }
+                    ],
+                    "PriceModifiers": [
+                        {
+                            "Id": "br93.FarmersMarket_Susan_PriceModifier",
+                            "Modification": "Multiply",
+                            "Amount": 0.5,
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Susan 1000"
+                        }
+                    ],
+                    "Currency": 1,
+                    "Items": [
+                        {
+                            "Id": "br93.FarmersMarket_Susan_12",
+                            "ItemId": "(BC)12",
+                            "IsRecipe": true,
+                            "Price": 500
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Susan_15",
+                            "ItemId": "(BC)15",
+                            "IsRecipe": true,
+                            "Price": 500
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Susan_25",
+                            "ItemId": "(BC)25",
+                            "IsRecipe": true,
+                            "Price": 500
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Susan_208",
+                            "ItemId": "(BC)208",
+                            "Price": 500,
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Susan_342",
+                            "ItemId": "(0)342",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Susan_344",
+                            "ItemId": "(0)344",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Susan_348",
+                            "ItemId": "(0)348",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Susan_350",
+                            "ItemId": "(0)350",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Susan_369",
+                            "ItemId": "(O)369",
+                            "IsRecipe": true,
+                            "Price": 500
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Susan_RandomFood",
+                            "RandomItemId": [
+                                "(O)211",
+                                "(O)220",
+                                "(O)222",
+                                "(O)223",
+                                "(O)230",
+                                "(O)233",
+                                "(O)234",
+                                "(O)608",
+                                "(O)611",
+                                "(O)612",
+                                "(O)651",
+                                "(O)731"
+                            ],
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "When": {
+                "DiscountNeedFriendship": "false"
+            },
+            "Target": "Data/Shops",
+            "TargetField": [
+                "br93.FarmersMarket_Susan_TownFair",
+                "PriceModifiers"
+            ],
+            "Entries": {
+                "br93.FarmersMarket_Susan_PriceModifier": {
+                    "Id": "br93.FarmersMarket_Susan_PriceModifier",
+                    "Modification": "Multiply",
+                    "Amount": 0.5
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "When": {
+                "LimitedStock": "false"
+            },
+            "Target": "Data/Shops",
+            "TargetField": [
+                "br93.FarmersMarket_Susan_TownFair",
+                "Items"
+            ],
+            "Entries": {
+                "br93.FarmersMarket_Susan_208": {
+                    "Id": "br93.FarmersMarket_Susan_208",
+                    "ItemId": "(BC)208",
+                    "Price": 500
+                },
+                "br93.FarmersMarket_Susan_342": {
+                    "Id": "br93.FarmersMarket_Susan_342",
+                    "ItemId": "(0)342"
+                },
+                "br93.FarmersMarket_Susan_344": {
+                    "Id": "br93.FarmersMarket_Susan_344",
+                    "ItemId": "(0)344"
+                },
+                "br93.FarmersMarket_Susan_348": {
+                    "Id": "br93.FarmersMarket_Susan_348",
+                    "ItemId": "(0)348"
+                },
+                "br93.FarmersMarket_Susan_350": {
+                    "Id": "br93.FarmersMarket_Susan_350",
+                    "ItemId": "(0)350"
+                },
+                "br93.FarmersMarket_Susan_RandomFood": {
+                    "Id": "br93.FarmersMarket_Susan_RandomFood",
+                    "RandomItemId": [
+                        "(O)211",
+                        "(O)220",
+                        "(O)222",
+                        "(O)223",
+                        "(O)230",
+                        "(O)233",
+                        "(O)234",
+                        "(O)608",
+                        "(O)611",
+                        "(O)612",
+                        "(O)651",
+                        "(O)731"
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -1,0 +1,292 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "br93.FarmersMarket_Marnie_TownFair": {
+                    "Owners": [
+                        {
+                            "Name": "AnyOrNone",
+                            "Id": "br93.FarmersMarket_Marnie_TownFair",
+                            "Portrait": "Marnie",
+                            "Dialogues": [
+                                {
+                                    "Id": "br93.FarmersMarket_Marnie_Dialog",
+                                    "RandomDialogue": [
+                                        "[LocalizedText Strings\\StringsFromCSFiles:ShopMenu.cs.11524]",
+                                        "[LocalizedText Strings\\StringsFromCSFiles:ShopMenu.cs.11525]"
+                                    ]
+                                }
+                            ],
+                            "RandomizeDialogueOnOpen": true
+                        }
+                    ],
+                    "PriceModifiers": [
+                        {
+                            "Id": "br93.FarmersMarket_Marnie_PriceModifier",
+                            "Modification": "Multiply",
+                            "Amount": 0.5,
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Marnie 1000"
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "Id": "br93.FarmersMarket_Marnie_174",
+                            "ItemId": "(O)174",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Marnie_176",
+                            "ItemId": "(O)176",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Marnie_180",
+                            "ItemId": "(O)180",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Marnie_182",
+                            "ItemId": "(O)182",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Marnie_184",
+                            "ItemId": "(O)184",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Marnie_186",
+                            "ItemId": "(O)186",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Marnie_306",
+                            "ItemId": "(O)306",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Marnie_306Gold",
+                            "ItemId": "(O)306",
+                            "Quality": 2,
+                            "AvailableStock": 2,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Marnie_307",
+                            "ItemId": "(O)307",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Marnie_307Gold",
+                            "ItemId": "(O)307",
+                            "Quality": 2,
+                            "AvailableStock": 2,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Marnie_424",
+                            "ItemId": "(O)424",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Marnie_424Gold",
+                            "ItemId": "(O)424",
+                            "Quality": 2,
+                            "AvailableStock": 2,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Marnie_424Iridium",
+                            "ItemId": "(O)424",
+                            "Quality": 4,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Marnie_426",
+                            "ItemId": "(O)426",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        
+                        {
+                            "Id": "br93.FarmersMarket_Marnie_426Gold",
+                            "ItemId": "(O)426",
+                            "Quality": 2,
+                            "AvailableStock": 2,
+                            "AvailableStockLimit": "Player"
+                        },
+                       
+                        {
+                            "Id": "br93.FarmersMarket_Marnie_428",
+                            "ItemId": "(O)428",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Marnie_436",
+                            "ItemId": "(O)436",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Marnie_438",
+                            "ItemId": "(O)438",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Marnie_440",
+                            "ItemId": "(O)440",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Marnie_RandomFood",
+                            "RandomItemId": [
+                                "(O)221",
+                                "(O)240",
+                                "(O)608"
+                            ],
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "When": {
+                "DiscountNeedFriendship": "false"
+            },
+            "Target": "Data/Shops",
+            "TargetField": [
+                "br93.FarmersMarket_Marnie_TownFair",
+                "PriceModifiers"
+            ],
+            "Entries": {
+                "br93.FarmersMarket_Marnie_PriceModifier": {
+                    "Id": "br93.FarmersMarket_Marnie_PriceModifier",
+                    "Modification": "Multiply",
+                    "Amount": 0.5
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "When": {
+                "LimitedStock": "false"
+            },
+            "Target": "Data/Shops",
+            "TargetField": [
+                "br93.FarmersMarket_Marnie_TownFair",
+                "Items"
+            ],
+            "Entries": {
+                "br93.FarmersMarket_Marnie_174": {
+                    "Id": "br93.FarmersMarket_Marnie_174",
+                    "ItemId": "(O)174"
+                },
+                "br93.FarmersMarket_Marnie_176": {
+                    "Id": "br93.FarmersMarket_Marnie_176",
+                    "ItemId": "(O)176"
+                },
+                "br93.FarmersMarket_Marnie_180": {
+                    "Id": "br93.FarmersMarket_Marnie_180",
+                    "ItemId": "(O)180"
+                },
+                "br93.FarmersMarket_Marnie_182": {
+                    "Id": "br93.FarmersMarket_Marnie_182",
+                    "ItemId": "(O)182"
+                },
+                "br93.FarmersMarket_Marnie_184": {
+                    "Id": "br93.FarmersMarket_Marnie_184",
+                    "ItemId": "(O)184"
+                },
+                "br93.FarmersMarket_Marnie_186": {
+                    "Id": "br93.FarmersMarket_Marnie_186",
+                    "ItemId": "(O)186"
+                },
+                "br93.FarmersMarket_Marnie_306": {
+                    "Id": "br93.FarmersMarket_Marnie_306",
+                    "ItemId": "(O)306"
+                },
+                "br93.FarmersMarket_Marnie_306Gold": {
+                    "Id": "br93.FarmersMarket_Marnie_306Gold",
+                    "ItemId": "(O)306",
+                    "Quality": 2
+                },
+                "br93.FarmersMarket_Marnie_307": {
+                    "Id": "br93.FarmersMarket_Marnie_307",
+                    "ItemId": "(O)307"
+                },
+                
+                "br93.FarmersMarket_Marnie_307Gold": {
+                    "Id": "br93.FarmersMarket_Marnie_307Gold",
+                    "ItemId": "(O)307",
+                    "Quality": 2
+                },
+                "br93.FarmersMarket_Marnie_424": {
+                    "Id": "br93.FarmersMarket_Marnie_424",
+                    "ItemId": "(O)424"
+                },
+                "br93.FarmersMarket_Marnie_424Gold": {
+                    "Id": "br93.FarmersMarket_Marnie_424Gold",
+                    "ItemId": "(O)424",
+                    "Quality": 2
+                },
+                "br93.FarmersMarket_Marnie_424Iridium": {
+                    "Id": "br93.FarmersMarket_Marnie_424Iridium",
+                    "ItemId": "(O)424",
+                    "Quality": 4
+                },
+                "br93.FarmersMarket_Marnie_426": {
+                    "Id": "br93.FarmersMarket_Marnie_426",
+                    "ItemId": "(O)426"
+                },
+                
+                "br93.FarmersMarket_Marnie_426Gold": {
+                    "Id": "br93.FarmersMarket_Marnie_426Gold",
+                    "ItemId": "(O)426",
+                    "Quality": 2
+                },
+                "br93.FarmersMarket_Marnie_428": {
+                    "Id": "br93.FarmersMarket_Marnie_428",
+                    "ItemId": "(O)428"
+                },
+                "br93.FarmersMarket_Marnie_436": {
+                    "Id": "br93.FarmersMarket_Marnie_436",
+                    "ItemId": "(O)436"
+                },
+                "br93.FarmersMarket_Marnie_438": {
+                    "Id": "br93.FarmersMarket_Marnie_438",
+                    "ItemId": "(O)438"
+                },
+                "br93.FarmersMarket_Marnie_440": {
+                    "Id": "br93.FarmersMarket_Marnie_440",
+                    "ItemId": "(O)440"
+                },
+                "br93.FarmersMarket_Marnie_RandomFood": {
+                    "Id": "br93.FarmersMarket_Marnie_RandomFood",
+                    "RandomItemId": [
+                        "(O)221",
+                        "(O)240",
+                        "(O)608"
+                    ]
+                }
+            }
+        }
+    ]
+}

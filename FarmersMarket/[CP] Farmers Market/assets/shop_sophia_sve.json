@@ -1,0 +1,145 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "br93.FarmersMarket_Sophia_TownFair": {
+                    "Owners": [
+                        {
+                            "Name": "AnyOrNone",
+                            "Id": "br93.FarmersMarket_Sophia_TownFair",
+                            "Portrait": "Sophia",
+                            "Dialogues": [
+                                {
+                                    "Id": "br93.FarmersMarket_Sophia_Dialog",
+                                    "RandomDialogue": [
+                                        "[LocalizedText Strings\\StringsFromCSFiles:ShopMenu.cs.11485]",
+                                        "[LocalizedText Strings\\StringsFromCSFiles:ShopMenu.cs.11524]",
+                                        "[LocalizedText Strings\\StringsFromCSFiles:ShopMenu.cs.11525]"
+                                    ]
+                                }
+                            ],
+                            "RandomizeDialogueOnOpen": true
+                        }
+                    ],
+                    "PriceModifiers": [
+                        {
+                            "Id": "br93.FarmersMarket_Sophia_PriceModifier",
+                            "Modification": "Multiply",
+                            "Amount": 0.5,
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Sophia 1000"
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "Id": "br93.FarmersMarket_Sophia_BlueMoonWine",
+                            "ItemId": "FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Sophia_AgedBlueMoonWine",
+                            "ItemId": "FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Sophia_AgedBlueMoonWineSilver",
+                            "ItemId": "FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine",
+                            "Quality": 1,
+                            "AvailableStock": 4,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "YEAR 2"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Sophia_AgedBlueMoonWineGold",
+                            "ItemId": "FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine",
+                            "Quality": 2,
+                            "AvailableStock": 2,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "YEAR 3"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Sophia_AgedBlueMoonWineIridium",
+                            "ItemId": "FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine",
+                            "Quality": 4,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "YEAR 4"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Sophia_Food",
+                            "ItemId": "FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken",
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "PLAYER_HAS_SEEN_EVENT Any 8185293"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "When": {
+                "DiscountNeedFriendship": "false"
+            },
+            "Target": "Data/Shops",
+            "TargetField": [
+                "br93.FarmersMarket_Sophia_TownFair",
+                "PriceModifiers"
+            ],
+            "Entries": {
+                "br93.FarmersMarket_Sophia_PriceModifier": {
+                    "Id": "br93.FarmersMarket_Sophia_PriceModifier",
+                    "Modification": "Multiply",
+                    "Amount": 0.5
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "When": {
+                "LimitedStock": "false"
+            },
+            "Target": "Data/Shops",
+            "TargetField": [
+                "br93.FarmersMarket_Sophia_TownFair",
+                "Items"
+            ],
+            "Entries": {
+                "br93.FarmersMarket_Sophia_BlueMoonWine":{
+                    "Id": "br93.FarmersMarket_Sophia_BlueMoonWine",
+                    "ItemId": "FlashShifter.StardewValleyExpandedCP_Blue_Moon_Wine"
+                },
+                "br93.FarmersMarket_Sophia_AgedBlueMoonWine":{
+                    "Id": "br93.FarmersMarket_Sophia_AgedBlueMoonWine",
+                    "ItemId": "FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine"
+                },
+                "br93.FarmersMarket_Sophia_AgedBlueMoonWineSilver":{
+                    "Id": "br93.FarmersMarket_Sophia_AgedBlueMoonWineSilver",
+                    "ItemId": "FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine",
+                    "Quality": 1,
+                    "Condition": "YEAR 2"
+                },
+                "br93.FarmersMarket_Sophia_AgedBlueMoonWineGold":{
+                    "Id": "br93.FarmersMarket_Sophia_AgedBlueMoonWineGold",
+                    "ItemId": "FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine",
+                    "Quality": 2,
+                    "Condition": "YEAR 3"
+                },
+                "br93.FarmersMarket_Sophia_AgedBlueMoonWineIridium":{
+                    "Id": "br93.FarmersMarket_Sophia_AgedBlueMoonWineIridium",
+                    "ItemId": "FlashShifter.StardewValleyExpandedCP_Aged_Blue_Moon_Wine",
+                    "Quality": 4,
+                    "Condition": "YEAR 4"
+                },
+                "br93.FarmersMarket_Sophia_Food":{
+                    "Id": "br93.FarmersMarket_Sophia_Food",
+                    "ItemId": "FlashShifter.StardewValleyExpandedCP_Grampleton_Orange_Chicken",
+                    "Condition": "PLAYER_HAS_SEEN_EVENT Any 8185293"
+                }
+            }
+        }
+    ]
+}

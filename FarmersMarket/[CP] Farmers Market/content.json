@@ -1,65 +1,28 @@
 {
-  "Format": "1.23",
-  "Changes": [
-
-
-//PIERRE
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Town-Fair",
-      "FromFile": "assets/Town-Fair-Pierre.tbin",
-	    "PatchMode": "Replace",
-      "ToArea": { "X": 34, "Y": 59, "Width": 3, "Height": 1 }
+  "Format": "2.0.0",
+  "ConfigSchema": {
+    "DiscountNeedFriendship": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "4 heart friendship with the grange-display owner to get 50% discount"
     },
-
-//MARNIE
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Town-Fair",
-      "FromFile": "assets/Town-Fair-Marnie.tbin",
-	    "PatchMode": "Replace",
-      "ToArea": { "X": 40, "Y": 59, "Width": 3, "Height": 1 }
-    },
-
-
-//WILLY
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Town-Fair",
-      "FromFile": "assets/Town-Fair-Willy.tbin",
-	    "PatchMode": "Replace",
-      "ToArea": { "X": 43, "Y": 59, "Width": 3, "Height": 1 }
-    },
-
-//SOPHIA
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Town-Fair",
-      "FromFile": "assets/Town-Fair-Sophia.tbin",
-	    "PatchMode": "Replace",
-      "ToArea": { "X": 46, "Y": 59, "Width": 3, "Height": 1 },
-      "When": { "HasMod": "FlashShifter.StardewValleyExpandedCP" }
-    },
-
-//SUSAN
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Town-Fair",
-      "FromFile": "assets/Town-Fair-Susan.tbin",
-	    "PatchMode": "Replace",
-      "ToArea": { "X": 48, "Y": 64, "Width": 3, "Height": 1 },
-      "When": { "HasMod": "FlashShifter.StardewValleyExpandedCP" }
-    },
-
-//ANDY
-    {
-      "Action": "EditMap",
-      "Target": "Maps/Town-Fair",
-      "FromFile": "assets/Town-Fair-Andy.tbin",
-	    "PatchMode": "Replace",
-      "ToArea": { "X": 48, "Y": 69, "Width": 3, "Height": 1 },
-      "When": { "HasMod": "FlashShifter.StardewValleyExpandedCP" }
+    "LimitedStock": {
+      "AllowValues": "true, false",
+      "Default": "true",
+      "Description": "Limited stock: 16 seeds, 8 non-quality, 4 silver, 2 gold and 1 iridium"
     }
-
+  },
+  "Changes": [
+    {
+      "Action": "Include",
+      "FromFile": "assets/grange_display_maps.json, assets/shop_marnie.json, assets/shop_willy.json, assets/shop_clint.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "assets/grange_display_maps_sve.json, assets/shop_sophia_sve.json, assets/shop_susan_sve.json, assets/shop_andy_sve.json",
+      "When": {
+        "HasMod": "FlashShifter.StardewValleyExpandedCP"
+      }
+    }
   ]
 }

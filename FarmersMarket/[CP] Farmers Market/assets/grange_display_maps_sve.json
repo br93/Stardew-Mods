@@ -1,0 +1,52 @@
+{
+    "Changes": [
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Town-Fair",
+            "FromFile": "assets/maps/Town-Fair-Sophia.tbin",
+            "PatchMode": "Replace",
+            "ToArea": {
+                "X": 46,
+                "Y": 59,
+                "Width": 3,
+                "Height": 1
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Town-Fair",
+            "FromFile": "assets/maps/Town-Fair-Susan.tbin",
+            "PatchMode": "Replace",
+            "ToArea": {
+                "X": 48,
+                "Y": 64,
+                "Width": 3,
+                "Height": 1
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Town-Fair",
+            "FromFile": "assets/maps/Town-Fair-Andy.tbin",
+            "PatchMode": "Replace",
+            "ToArea": {
+                "X": 48,
+                "Y": 69,
+                "Width": 3,
+                "Height": 1
+            }
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Town-Fair",
+            "FromFile": "assets/maps/Town-Fair-Clint.tbin",
+            "PatchMode": "Replace",
+            "ToArea": {
+              "X": 31,
+              "Y": 80,
+              "Width": 3,
+              "Height": 1
+            }
+          }
+    ]
+}

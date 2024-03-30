@@ -1,0 +1,447 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "br93.FarmersMarket_Andy_TownFair": {
+                    "Owners": [
+                        {
+                            "Name": "AnyOrNone",
+                            "Id": "br93.FarmersMarket_Andy_TownFair",
+                            "Portrait": "Andy",
+                            "Dialogues": [
+                                {
+                                    "Id": "br93.FarmersMarket_Andy_Dialog",
+                                    "RandomDialogue": [
+                                        "[LocalizedText Strings\\StringsFromCSFiles:ShopMenu.cs.11457]",
+                                        "[LocalizedText Strings\\StringsFromCSFiles:ShopMenu.cs.11524]",
+                                        "[LocalizedText Strings\\StringsFromCSFiles:ShopMenu.cs.11525]"
+                                    ]
+                                }
+                            ],
+                            "RandomizeDialogueOnOpen": true
+                        }
+                    ],
+                    "PriceModifiers": [
+                        {
+                            "Id": "br93.FarmersMarket_Andy_PriceModifier",
+                            "Modification": "Multiply",
+                            "Amount": 0.5,
+                            "Condition": "PLAYER_FRIENDSHIP_POINTS Current Andy 1000"
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "Id": "br93.FarmersMarket_Andy_281",
+                            "ItemId": "(O)281",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Andy_296",
+                            "ItemId": "(O)296",
+                            "Quality": 4,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Andy_340",
+                            "ItemId": "(O)340",
+                            "Quality": 4,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Andy_406",
+                            "ItemId": "(O)406",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Andy_408",
+                            "ItemId": "(O)408",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Andy_410",
+                            "ItemId": "(O)410",
+                            "Quality": 4,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Andy_422",
+                            "ItemId": "(O)422",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Andy_499",
+                            "ItemId": "(O)499",
+                            "Price": 750,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "Condition": "RANDOM 0.01"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Andy_745",
+                            "ItemId": "(O)745",
+                            "Price": 75,
+                            "AvailableStock": 16,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Andy_770",
+                            "ItemId": "(O)770",
+                            "Price": 2,
+                            "AvailableStock": 16,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Andy_773",
+                            "ItemId": "(O)773",
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Andy_Random",
+                            "RandomItemId": [
+                                "(O)16",
+                                "(O)18",
+                                "(O)20",
+                                "(O)22",
+                                "(O)257",
+                                "(O)399",
+                                "(O)404"
+                            ],
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player",
+                            "AvoidRepeat": true
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Andy_Random2",
+                            "RandomItemId": [
+                                "(O)16",
+                                "(O)18",
+                                "(O)20",
+                                "(O)22",
+                                "(O)257",
+                                "(O)399",
+                                "(O)404"
+                            ],
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player",
+                            "AvoidRepeat": true
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Andy_Random3",
+                            "RandomItemId": [
+                                "(O)16",
+                                "(O)18",
+                                "(O)20",
+                                "(O)22",
+                                "(O)257",
+                                "(O)399",
+                                "(O)404"
+                            ],
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player",
+                            "AvoidRepeat": true
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Andy_Random4",
+                            "RandomItemId": [
+                                "(O)16",
+                                "(O)18",
+                                "(O)20",
+                                "(O)22",
+                                "(O)257",
+                                "(O)399",
+                                "(O)404"
+                            ],
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player",
+                            "AvoidRepeat": true
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Andy_Random5",
+                            "RandomItemId": [
+                                "(O)259",
+                                "(O)396",
+                                "(O)402",
+                                "(O)420"
+                            ],
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player",
+                            "AvoidRepeat": true
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Andy_Random6",
+                            "RandomItemId": [
+                                "(O)259",
+                                "(O)396",
+                                "(O)402",
+                                "(O)420"
+                            ],
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player",
+                            "AvoidRepeat": true
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Andy_Year2Random",
+                            "RandomItemId": [
+                                "(O)283",
+                                "(O)412",
+                                "(O)414",
+                                "(O)416",
+                                "(O)418"
+                            ],
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player",
+                            "AvoidRepeat": true,
+                            "Condition": "YEAR 2"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Andy_Year2Random2",
+                            "RandomItemId": [
+                                "(O)283",
+                                "(O)412",
+                                "(O)414",
+                                "(O)416",
+                                "(O)418"
+                            ],
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player",
+                            "AvoidRepeat": true,
+                            "Condition": "YEAR 2"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Andy_Year2Random3",
+                            "RandomItemId": [
+                                "(O)283",
+                                "(O)412",
+                                "(O)414",
+                                "(O)416",
+                                "(O)418"
+                            ],
+                            "AvailableStock": 8,
+                            "AvailableStockLimit": "Player",
+                            "AvoidRepeat": true,
+                            "Condition": "YEAR 2"
+                        },
+                        {
+                            "Id": "br93.FarmersMarket_Andy_Food",
+                            "RandomItemId": [
+                                "(O)240",
+                                "(O)611",
+                                "FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish"
+                            ],
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "When": {
+                "DiscountNeedFriendship": "false"
+            },
+            "Target": "Data/Shops",
+            "TargetField": [
+                "br93.FarmersMarket_Andy_TownFair",
+                "PriceModifiers"
+            ],
+            "Entries": {
+                "br93.FarmersMarket_Andy_PriceModifier": {
+                    "Id": "br93.FarmersMarket_Andy_PriceModifier",
+                    "Modification": "Multiply",
+                    "Amount": 0.5
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "When": {
+                "LimitedStock": "false"
+            },
+            "Target": "Data/Shops",
+            "TargetField": [
+                "br93.FarmersMarket_Andy_TownFair",
+                "Items"
+            ],
+            "Entries": {
+                "br93.FarmersMarket_Andy_281": {
+                    "Id": "br93.FarmersMarket_Andy_281",
+                    "ItemId": "(O)281"
+                },
+                "br93.FarmersMarket_Andy_296": {
+                    "Id": "br93.FarmersMarket_Andy_296",
+                    "ItemId": "(O)296",
+                    "Quality": 4
+                },
+                "br93.FarmersMarket_Andy_340": {
+                    "Id": "br93.FarmersMarket_Andy_340",
+                    "ItemId": "(O)340",
+                    "Quality": 4
+                },
+                "br93.FarmersMarket_Andy_406": {
+                    "Id": "br93.FarmersMarket_Andy_406",
+                    "ItemId": "(O)406"
+                },
+                "br93.FarmersMarket_Andy_408": {
+                    "Id": "br93.FarmersMarket_Andy_408",
+                    "ItemId": "(O)408"
+                },
+                "br93.FarmersMarket_Andy_410": {
+                    "Id": "br93.FarmersMarket_Andy_410",
+                    "ItemId": "(O)410",
+                    "Quality": 4
+                },
+                "br93.FarmersMarket_Andy_422": {
+                    "Id": "br93.FarmersMarket_Andy_422",
+                    "ItemId": "(O)422"
+                },
+                "br93.FarmersMarket_Andy_499": {
+                    "Id": "br93.FarmersMarket_Andy_499",
+                    "ItemId": "(O)499",
+                    "Price": 750,
+                    "Condition": "RANDOM 0.01"
+                },
+                "br93.FarmersMarket_Andy_745": {
+                    "Id": "br93.FarmersMarket_Andy_745",
+                    "ItemId": "(O)745",
+                    "Price": 2
+                },
+                "br93.FarmersMarket_Andy_770": {
+                    "Id": "br93.FarmersMarket_Andy_770",
+                    "ItemId": "(O)770",
+                    "Price": 75
+                },
+                "br93.FarmersMarket_Andy_773": {
+                    "Id": "br93.FarmersMarket_Andy_773",
+                    "ItemId": "(O)773"
+                },
+                "br93.FarmersMarket_Andy_Random": {
+                    "Id": "br93.FarmersMarket_Andy_Random",
+                    "RandomItemId": [
+                        "(O)16",
+                        "(O)18",
+                        "(O)20",
+                        "(O)22",
+                        "(O)257",
+                        "(O)399",
+                        "(O)404"
+                    ],
+                    "AvoidRepeat": true
+                },
+                "br93.FarmersMarket_Andy_Random2": {
+                    "Id": "br93.FarmersMarket_Andy_Random2",
+                    "RandomItemId": [
+                        "(O)16",
+                        "(O)18",
+                        "(O)20",
+                        "(O)22",
+                        "(O)257",
+                        "(O)399",
+                        "(O)404"
+                    ],
+                    "AvoidRepeat": true
+                },
+                "br93.FarmersMarket_Andy_Random3": {
+                    "Id": "br93.FarmersMarket_Andy_Random3",
+                    "RandomItemId": [
+                        "(O)16",
+                        "(O)18",
+                        "(O)20",
+                        "(O)22",
+                        "(O)257",
+                        "(O)399",
+                        "(O)404"
+                    ],
+                    "AvoidRepeat": true
+                },
+                "br93.FarmersMarket_Andy_Random4": {
+                    "Id": "br93.FarmersMarket_Andy_Random4",
+                    "RandomItemId": [
+                        "(O)16",
+                        "(O)18",
+                        "(O)20",
+                        "(O)22",
+                        "(O)257",
+                        "(O)399",
+                        "(O)404"
+                    ],
+                    "AvoidRepeat": true
+                },
+                "br93.FarmersMarket_Andy_Random5": {
+                    "Id": "br93.FarmersMarket_Andy_Random5",
+                    "RandomItemId": [
+                        "(O)259",
+                        "(O)396",
+                        "(O)402",
+                        "(O)420"
+                    ],
+                    "AvoidRepeat": true
+                },
+                "br93.FarmersMarket_Andy_Random6": {
+                    "Id": "br93.FarmersMarket_Andy_Random6",
+                    "RandomItemId": [
+                        "(O)259",
+                        "(O)396",
+                        "(O)402",
+                        "(O)420"
+                    ],
+                    "AvoidRepeat": true
+                },
+                "br93.FarmersMarket_Andy_Year2Random": {
+                    "Id": "br93.FarmersMarket_Andy_Year2Random",
+                    "RandomItemId": [
+                        "(O)283",
+                        "(O)412",
+                        "(O)414",
+                        "(O)416",
+                        "(O)418"
+                    ],
+                    "AvoidRepeat": true,
+                    "Condition": "YEAR 2"
+                },
+                "br93.FarmersMarket_Andy_Year2Random2": {
+                    "Id": "br93.FarmersMarket_Andy_Year2Random2",
+                    "RandomItemId": [
+                        "(O)283",
+                        "(O)412",
+                        "(O)414",
+                        "(O)416",
+                        "(O)418"
+                    ],
+                    "AvoidRepeat": true,
+                    "Condition": "YEAR 2"
+                },
+                "br93.FarmersMarket_Andy_Year2Random3": {
+                    "Id": "br93.FarmersMarket_Andy_Year2Random3",
+                    "RandomItemId": [
+                        "(O)283",
+                        "(O)412",
+                        "(O)414",
+                        "(O)416",
+                        "(O)418"
+                    ],
+                    "AvoidRepeat": true,
+                    "Condition": "YEAR 2"
+                },
+                "br93.FarmersMarket_Andy_Food": {
+                    "Id": "br93.FarmersMarket_Andy_Food",
+                    "RandomItemId": [
+                        "(O)240",
+                        "(O)611",
+                        "FlashShifter.StardewValleyExpandedCP_Glazed_Butterfish"
+                    ]
+                }
+            }
+        }
+    ]
+}

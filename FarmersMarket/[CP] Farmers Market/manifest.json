@@ -1,15 +1,20 @@
 {
   "Name": "Farmers Market",
   "Author": "br93",
-  "Version": "1.0.1",
+  "Version": "1.1.0",
   "Description": "Grange Display becomes Farmers Market and NPCs will sell their wares at Stardew Valley Fair",
-  "UniqueID": "br93.FarmersMarketCP",
-   "UpdateKeys": ["Nexus:11617"],
+  "UniqueID": "br93.FarmersMarket",
+  "UpdateKeys": [
+    "Nexus:11617"
+  ],
   "MinimumApiVersion": "3.0",
-  "ContentPackFor": { "UniqueID": "Pathoschild.ContentPatcher"},
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
   "Dependencies": [
-   {   "UniqueID":"FlashShifter.StardewValleyExpandedCP", 
-	   "IsRequired":false   }
+    {
+      "UniqueID": "FlashShifter.StardewValleyExpandedCP",
+      "IsRequired": false
+    }
   ]
-
 }
