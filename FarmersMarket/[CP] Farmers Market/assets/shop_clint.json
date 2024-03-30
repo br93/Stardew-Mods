@@ -207,142 +207,102 @@
                 "br93.FarmersMarket_Clint_Axe": {
                     "Id": "br93.FarmersMarket_Clint_Axe",
                     "ItemId": "(T)Axe",
-                    "Price": 2000,
-                    "AvailableStock": 1,
-                    "AvailableStockLimit": "Player"
+                    "Price": 2000
                 },
                 "br93.FarmersMarket_Clint_CopperAxe": {
                     "Id": "br93.FarmersMarket_Clint_CopperAxe",
                     "ItemId": "(T)CopperAxe",
-                    "Price": 5000,
-                    "AvailableStock": 1,
-                    "AvailableStockLimit": "Player"
+                    "Price": 5000
                 },
                 "br93.FarmersMarket_Clint_SteelAxe": {
                     "Id": "br93.FarmersMarket_Clint_SteelAxe",
                     "ItemId": "(T)SteelAxe",
-                    "Price": 10000,
-                    "AvailableStock": 1,
-                    "AvailableStockLimit": "Player"
+                    "Price": 10000
                 },
                 "br93.FarmersMarket_Clint_GoldAxe": {
                     "Id": "br93.FarmersMarket_Clint_GoldAxe",
                     "ItemId": "(T)GoldAxe",
-                    "Price": 25000,
-                    "AvailableStock": 1,
-                    "AvailableStockLimit": "Player"
+                    "Price": 25000
                 },
                 "br93.FarmersMarket_Clint_IridiumAxe": {
                     "Id": "br93.FarmersMarket_Clint_IridiumAxe",
                     "ItemId": "(T)IridiumAxe",
-                    "Price": 50000,
-                    "AvailableStock": 1,
-                    "AvailableStockLimit": "Player"
+                    "Price": 50000
                 },
                 "br93.FarmersMarket_Clint_Hoe": {
                     "Id": "br93.FarmersMarket_Clint_Hoe",
                     "ItemId": "(T)Hoe",
-                    "Price": 2000,
-                    "AvailableStock": 1,
-                    "AvailableStockLimit": "Player"
+                    "Price": 2000
                 },
                 "br93.FarmersMarket_Clint_CopperHoe": {
                     "Id": "br93.FarmersMarket_Clint_CopperHoe",
                     "ItemId": "(T)CopperHoe",
-                    "Price": 5000,
-                    "AvailableStock": 1,
-                    "AvailableStockLimit": "Player"
+                    "Price": 5000
                 },
                 "br93.FarmersMarket_Clint_SteelHoe": {
                     "Id": "br93.FarmersMarket_Clint_SteelHoe",
                     "ItemId": "(T)SteelHoe",
-                    "Price": 10000,
-                    "AvailableStock": 1,
-                    "AvailableStockLimit": "Player"
+                    "Price": 10000
                 },
                 "br93.FarmersMarket_Clint_GoldHoe": {
                     "Id": "br93.FarmersMarket_Clint_GoldHoe",
                     "ItemId": "(T)GoldHoe",
-                    "Price": 25000,
-                    "AvailableStock": 1,
-                    "AvailableStockLimit": "Player"
+                    "Price": 25000
                 },
                 "br93.FarmersMarket_Clint_IridiumHoe": {
                     "Id": "br93.FarmersMarket_Clint_IridiumHoe",
                     "ItemId": "(T)IridiumHoe",
-                    "Price": 50000,
-                    "AvailableStock": 1,
-                    "AvailableStockLimit": "Player"
+                    "Price": 50000
                 },
                 "br93.FarmersMarket_Clint_Pickaxe": {
                     "Id": "br93.FarmersMarket_Clint_Pickaxe",
                     "ItemId": "(T)Pickaxe",
-                    "Price": 2000,
-                    "AvailableStock": 1,
-                    "AvailableStockLimit": "Player"
+                    "Price": 2000
                 },
                 "br93.FarmersMarket_Clint_CopperPickaxe": {
                     "Id": "br93.FarmersMarket_Clint_CopperPickaxe",
                     "ItemId": "(T)CopperPickaxe",
-                    "Price": 5000,
-                    "AvailableStock": 1,
-                    "AvailableStockLimit": "Player"
+                    "Price": 5000
                 },
                 "br93.FarmersMarket_Clint_SteelPickaxe": {
                     "Id": "br93.FarmersMarket_Clint_SteelPickaxe",
                     "ItemId": "(T)SteelPickaxe",
-                    "Price": 10000,
-                    "AvailableStock": 1,
-                    "AvailableStockLimit": "Player"
+                    "Price": 10000
                 },
                 "br93.FarmersMarket_Clint_GoldPickaxe": {
                     "Id": "br93.FarmersMarket_Clint_GoldPickaxe",
                     "ItemId": "(T)GoldPickaxe",
-                    "Price": 25000,
-                    "AvailableStock": 1,
-                    "AvailableStockLimit": "Player"
+                    "Price": 25000
                 },
                 "br93.FarmersMarket_Clint_IridiumPickaxe": {
                     "Id": "br93.FarmersMarket_Clint_IridiumPickaxe",
                     "ItemId": "(T)IridiumPickaxe",
-                    "Price": 50000,
-                    "AvailableStock": 1,
-                    "AvailableStockLimit": "Player"
+                    "Price": 50000
                 },
                 "br93.FarmersMarket_Clint_WateringCan": {
                     "Id": "br93.FarmersMarket_Clint_WateringCan",
                     "ItemId": "(T)WateringCan",
-                    "Price": 2000,
-                    "AvailableStock": 1,
-                    "AvailableStockLimit": "Player"
+                    "Price": 2000
                 },
                 "br93.FarmersMarket_Clint_CopperWateringCan": {
                     "Id": "br93.FarmersMarket_Clint_CopperWateringCan",
                     "ItemId": "(T)CopperWateringCan",
-                    "Price": 5000,
-                    "AvailableStock": 1,
-                    "AvailableStockLimit": "Player"
+                    "Price": 5000
                 },
                 "br93.FarmersMarket_Clint_SteelWateringCan": {
                     "Id": "br93.FarmersMarket_Clint_SteelWateringCan",
                     "ItemId": "(T)SteelWateringCan",
-                    "Price": 10000,
-                    "AvailableStock": 1,
-                    "AvailableStockLimit": "Player"
+                    "Price": 10000
                 },
                 "br93.FarmersMarket_Clint_GoldWateringCan": {
                     "Id": "br93.FarmersMarket_Clint_GoldWateringCan",
                     "ItemId": "(T)GoldWateringCan",
-                    "Price": 25000,
-                    "AvailableStock": 1,
-                    "AvailableStockLimit": "Player"
+                    "Price": 25000
                 },
                 "br93.FarmersMarket_Clint_IridiumWateringCan": {
                     "Id": "br93.FarmersMarket_Clint_IridiumWateringCan",
                     "ItemId": "(T)IridiumWateringCan",
-                    "Price": 50000,
-                    "AvailableStock": 1,
-                    "AvailableStockLimit": "Player"
+                    "Price": 50000
                 }
             }
         }
