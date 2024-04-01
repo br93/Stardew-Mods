@@ -1,0 +1,58 @@
+{
+    "Changes": [
+        {
+            "Action": "Load",
+            "Target": "br93.StillnessInTheRain\\MiniHarp",
+            "FromFile": "assets/miniharp.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Powers",
+            "Entries": {
+                "br93.StillnessInTheRain_Harp_Wallet": {
+                    "DisplayName": "Harp",
+                    "Description": "Mini-harp",
+                    "TexturePath": "br93.StillnessInTheRain\\MiniHarp"
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "br93.StillnessInTheRain_Harp_Object": {
+                    "Name": "br93.StillnessInTheRain_Harp_Object",
+                    "DisplayName": "Harp",
+                    "Description": "Mini-harp",
+                    "Type": "asdf",
+                    "Category": -20,
+                    "Price": -1,
+                    "Texture": "br93.StillnessInTheRain\\MiniHarp",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "CustomFields": null
+                }
+            }
+        },
+        {
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "Entries": {
+                "br93.StillnessInTheRain_Harp_Object": {
+                    "CategoryTextOverride": "Musical Instrument",
+                    "CanBeTrashed": false,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": null,
+                    "UseForTriggerAction": true
+                }
+            }
+        }
+    ]
+}
