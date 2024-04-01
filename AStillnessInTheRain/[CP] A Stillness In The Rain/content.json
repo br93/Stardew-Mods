@@ -1,22 +1,9 @@
 {
-    "Format": "1.24.0",
-    "Changes": [
-        {
-            "Action": "EditData",
-            "Target": "spacechase0.ContentCode/SaveLoaded",
-            "Entries": {
-                "br93.ContentCode.HarpWallet": "
-                int num = xPositionOnScreen + IClickableMenu.spaceToClearSideBorder + 80;
-                int y2 = yPositionOnScreen + IClickableMenu.spaceToClearTopBorder + (int)((float)height / 2f) + 80;
-                specialItems.Add(new ClickableTextureComponent(``, new Microsoft.Xna.Framework.Rectangle(num, y2, 64, 64), null, Game1.content.LoadString(`Strings\\StringsFromCSFiles:SkillsPage.cs.11587`), Game1.mouseCursors, new Microsoft.Xna.Framework.Rectangle(129, 320, 16, 16), 4f, drawShadow: true)
-                {
-          				myID = 10201,
-          				rightNeighborID = -99998,
-          				leftNeighborID = -99998
-          			});
-                "
-
-            }
-        }
-    ]
+  "Format": "2.0.0",
+  "Changes": [
+    {
+      "Action": "Include",
+      "FromFile": "assets/json/harp.json, assets/json/audio-changes.json, assets/json/audio-triggers.json, assets/json/levelup-triggers.json"
+    }
+  ]
 }
