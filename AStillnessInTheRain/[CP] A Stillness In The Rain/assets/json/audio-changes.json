@@ -1,0 +1,100 @@
+{
+    "Changes": [
+        {
+            "LogName": "AudioChanges - Harp 1",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "br93.StillnessInTheRain_Harp_Harp1": {
+                    "ID": "br93.StillnessInTheRain_Harp_Harp1",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/audio/harp1.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                }
+            }
+        },
+        {
+            "LogName": "AudioChanges - Harp 2",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "br93.StillnessInTheRain_Harp_Harp2": {
+                    "ID": "br93.StillnessInTheRain_Harp_Harp2",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/audio/harp2.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                }
+            }
+        },
+        {
+            "LogName": "AudioChanges - Harp 3",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "br93.StillnessInTheRain_Harp_Harp3": {
+                    "ID": "br93.StillnessInTheRain_Harp_Harp3",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/audio/harp3.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                }
+            }
+        },
+        {
+            "LogName": "AudioChanges - Harp 4",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "br93.StillnessInTheRain_Harp_Harp4": {
+                    "ID": "br93.StillnessInTheRain_Harp_Harp4",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/audio/harp4.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                }
+            }
+        },
+        {
+            "LogName": "AudioChanges - Harp 5",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "br93.StillnessInTheRain_Harp_Harp5": {
+                    "ID": "br93.StillnessInTheRain_Harp_Harp5",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/audio/harp5.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                }
+            }
+        },
+        {
+            "LogName": "AudioChanges - Harp FULL",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "br93.StillnessInTheRain_Harp_HarpFull": {
+                    "ID": "br93.StillnessInTheRain_Harp_HarpFull",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/audio/harp.ogg}}"
+                    ],
+                    "StreamedVorbis": true,
+                    "Looped": false
+                }
+            }
+        }
+    ]
+}
