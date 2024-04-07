@@ -1,0 +1,60 @@
+{
+    "Changes": [
+        {
+            "LogName": "MailChanges",
+            "Action": "EditData",
+            "Target": "Data/mail",
+            "Entries": {
+                "br93.StillnessInTheRain_Mail_Harp": "{{i18n:mail.harp}} %item id (O)br93.StillnessInTheRain_Harp_Broken 1 %%[#]Harp Retrieval",
+                "br93.StillnessInTheRain_Mail_Mom": "{{i18n:mail.mom}}",
+                "br93.StillnessInTheRain_Mail_Dad": "{{i18n:mail.dad}}"
+            }
+        },
+        {
+            "LogName": "MailChanges - Harp Retrieval",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "br93.StillnessInTheRain_Mail_Trigger_Harp": {
+                    "Id": "br93.StillnessInTheRain_Mail_Trigger_Harp",
+                    "Trigger": "DayStarted",
+                    "Action": "AddMail Current br93.StillnessInTheRain_Mail_Harp tomorrow",
+                    "MarkActionApplied": true
+                }
+            }
+        },
+        {
+            "LogName": "MailChanges - Mail Proficiency 2",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "HasFlag: currentPlayer": "br93.StillnessInTheRain_Harp_PROFICIENCY_2"
+            },
+            "Entries": {
+                "br93.StillnessInTheRain_Mail_Trigger_Dad": {
+                    "Id": "br93.StillnessInTheRain_Mail_Trigger_Dad",
+                    "Trigger": "DayStarted",
+                    "Action": "AddMail Current br93.StillnessInTheRain_Mail_Dad",
+                    "MarkActionApplied": true
+                }
+            }
+        },
+        {
+            "LogName": "MailChanges - Mail Proficiency 4",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "When": {
+                "HasFlag: currentPlayer": "br93.StillnessInTheRain_Harp_PROFICIENCY_4"
+            },
+            "Entries": {
+                "br93.StillnessInTheRain_Mail_Trigger_Mom": {
+                    "Id": "br93.StillnessInTheRain_Mail_Trigger_Mom",
+                    "Trigger": "DayStarted",
+                    "Action": "AddMail Current br93.StillnessInTheRain_Mail_Mom",
+                    "MarkActionApplied": true
+                }
+            }
+        }
+    ]
+}
+

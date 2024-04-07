@@ -1,29 +1,60 @@
 {
     "Changes": [
         {
+            "LogName": "Texture - Harp",
             "Action": "Load",
             "Target": "br93.StillnessInTheRain\\MiniHarp",
             "FromFile": "assets/miniharp.png"
         },
         {
+            "LogName": "Texture - Broken Harp",
+            "Action": "Load",
+            "Target": "br93.StillnessInTheRain\\BrokenHarp",
+            "FromFile": "assets/brokenharp.png"
+        },
+        {
+            "LogName": "Powers - Harp",
             "Action": "EditData",
+            "When": {
+                "HasFlag:currentPlayer": "br93.StillnessInTheRain_Harp_MASTERY"
+            },
             "Target": "Data/Powers",
             "Entries": {
                 "br93.StillnessInTheRain_Harp_Wallet": {
-                    "DisplayName": "Harp",
-                    "Description": "Mini-harp",
+                    "DisplayName": "{{i18n:object.harp.name}}",
+                    "Description": "{{i18n:object.harp.description}}",
                     "TexturePath": "br93.StillnessInTheRain\\MiniHarp"
                 }
             }
         },
         {
+            "LogName": "Objects - Harp",
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
+                "br93.StillnessInTheRain_Harp_Broken": {
+                    "Name": "br93.StillnessInTheRain_Harp_Broken",
+                    "DisplayName": "{{i18n:object.broken-harp.name}}",
+                    "Description": "{{i18n:object.broken-harp.description}}",
+                    "Type": "asdf",
+                    "Category": -20,
+                    "Price": -1,
+                    "Texture": "br93.StillnessInTheRain\\BrokenHarp",
+                    "SpriteIndex": 0,
+                    "Edibility": -300,
+                    "IsDrink": false,
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "CustomFields": null
+                },
                 "br93.StillnessInTheRain_Harp_Object": {
                     "Name": "br93.StillnessInTheRain_Harp_Object",
-                    "DisplayName": "Harp",
-                    "Description": "Mini-harp",
+                    "DisplayName": "{{i18n:object.harp.name}}",
+                    "Description": "{{i18n:object.harp.description}}",
                     "Type": "asdf",
                     "Category": -20,
                     "Price": -1,
@@ -42,9 +73,17 @@
             }
         },
         {
+            "LogName": "ObjectExtensions - Harp",
             "Action": "EditData",
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
             "Entries": {
+                "br93.StillnessInTheRain_Harp_Broken": {
+                    "CategoryTextOverride": "Broken Musical Instrument",
+                    "CanBeTrashed": false,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": null,
+                    "UseForTriggerAction": true
+                },
                 "br93.StillnessInTheRain_Harp_Object": {
                     "CategoryTextOverride": "Musical Instrument",
                     "CanBeTrashed": false,
@@ -52,6 +91,14 @@
                     "GiftableToNpcAllowList": null,
                     "UseForTriggerAction": true
                 }
+            }
+        },
+        {
+            "LogName": "CraftingRecipes - Harp",
+            "Action": "EditData",
+            "Target": "Data/CraftingRecipes",
+            "Entries": {
+                "br93.StillnessInTheRain_Harp_Object": "br93.StillnessInTheRain_Harp_Broken 1 709 5 428 2//br93.StillnessInTheRain_Harp_Object/false/none/{{i18n:object.harp.name}}"
             }
         }
     ]
