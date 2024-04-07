@@ -13,6 +13,7 @@
                     "Id": "br93.StillnessInTheRain_Harp_Trigger",
                     "Trigger": "spacechase0.SpaceCore_OnItemUsed",
                     "Actions": [
+                        "AddMail Current br93.StillnessInTheRain_Harp_ACTIVE all",
                         "spacechase0.SpaceCore_PlaySound br93.StillnessInTheRain_Harp_Harp1 true"
                     ],
                     "MarkActionApplied": false,
@@ -33,7 +34,7 @@
                     "Id": "br93.StillnessInTheRain_Harp_Trigger",
                     "Trigger": "spacechase0.SpaceCore_OnItemUsed",
                     "Actions": [
-                        "AddMail Current br93.StillnessInTheRain_Harp_LevelMessage",
+                        "AddMail Current br93.StillnessInTheRain_Harp_ACTIVE all",
                         "spacechase0.SpaceCore_PlaySound br93.StillnessInTheRain_Harp_Harp1 true",
                         "AddMail Current br93.StillnessInTheRain_Harp_LevelUp",
                         "AddMail Current br93.StillnessInTheRain_Harp_PROFICIENCY_1"
@@ -77,7 +78,6 @@
                     "Id": "br93.StillnessInTheRain_Harp_Trigger",
                     "Trigger": "spacechase0.SpaceCore_OnItemUsed",
                     "Actions": [
-                        "AddMail Current br93.StillnessInTheRain_Harp_LevelMessage",
                         "spacechase0.SpaceCore_PlaySound br93.StillnessInTheRain_Harp_Harp1 true",
                         "spacechase0.SpaceCore_PlaySound br93.StillnessInTheRain_Harp_Harp2 true",
                         "RemoveMail Current br93.StillnessInTheRain_Harp_PROFICIENCY_1",
@@ -123,7 +123,6 @@
                     "Id": "br93.StillnessInTheRain_Harp_Trigger",
                     "Trigger": "spacechase0.SpaceCore_OnItemUsed",
                     "Actions": [
-                        "AddMail Current br93.StillnessInTheRain_Harp_LevelMessage",
                         "spacechase0.SpaceCore_PlaySound br93.StillnessInTheRain_Harp_Harp1 true",
                         "spacechase0.SpaceCore_PlaySound br93.StillnessInTheRain_Harp_Harp2 true",
                         "spacechase0.SpaceCore_PlaySound br93.StillnessInTheRain_Harp_Harp3 true",
@@ -171,7 +170,6 @@
                     "Id": "br93.StillnessInTheRain_Harp_Trigger",
                     "Trigger": "spacechase0.SpaceCore_OnItemUsed",
                     "Actions": [
-                        "AddMail Current br93.StillnessInTheRain_Harp_LevelMessage",
                         "spacechase0.SpaceCore_PlaySound br93.StillnessInTheRain_Harp_Harp1 true",
                         "spacechase0.SpaceCore_PlaySound br93.StillnessInTheRain_Harp_Harp2 true",
                         "spacechase0.SpaceCore_PlaySound br93.StillnessInTheRain_Harp_Harp3 true",
@@ -221,7 +219,6 @@
                     "Id": "br93.StillnessInTheRain_Harp_Trigger",
                     "Trigger": "spacechase0.SpaceCore_OnItemUsed",
                     "Actions": [
-                        "AddMail Current br93.StillnessInTheRain_Harp_LevelMessage",
                         "spacechase0.SpaceCore_PlaySound br93.StillnessInTheRain_Harp_Harp1 true",
                         "spacechase0.SpaceCore_PlaySound br93.StillnessInTheRain_Harp_Harp2 true",
                         "spacechase0.SpaceCore_PlaySound br93.StillnessInTheRain_Harp_Harp3 true",
@@ -247,6 +244,7 @@
                     "Id": "br93.StillnessInTheRain_Harp_Trigger",
                     "Trigger": "spacechase0.SpaceCore_OnItemUsed",
                     "Actions": [
+                        "AddMail Current br93.StillnessInTheRain_Harp_MASTERY",
                         "RemoveMail Current br93.StillnessInTheRain_Harp_PROFICIENCY_5",
                         "spacechase0.SpaceCore_PlaySound br93.StillnessInTheRain_Harp_HarpFull true",
                         "AddItem 434 1 0"
