@@ -1,0 +1,9 @@
+{
+    "mail.dad":"Dear @, ^^I've been thinking about you and your love for music. How's your mini-harp been treating you? Any new tunes you've been playing? ^^Take care, Dad",
+    "mail.harp": "To our valued clients of Joja Moving Company: ^^Our team members have retrieved the mini-harp that was misplaced during your recent move. We understand the importance of every item in your possession, and we are committed to ensuring a smooth and reliable moving experience for all our customers. ^^We apologize for any inconvenience this oversight may have caused. Rest assured, we have taken steps to prevent such occurrences in the future, including additional training for our staff members. ^^As always, we appreciate your trust in Joja Moving Company and look forward to serving you again in the future.",
+    "mail.mom":"Dear @, ^^I hope this message finds you well! How's everything going with your mini-harp project? I've been thinking about how creative you are with these things and wondering what new melodies you've been crafting lately. ^^Looking forward to hearing all about it! ^^Love, Mom.",
+    "object.broken-harp.description": "Broken mini-harp, not sure if anyone in Pelican Town knows how to fix it. Maybe someone from abroad?",
+    "object.broken-harp.name": "Broken Mini-harp",
+    "object.harp.description": "A delicate miniature harp. Discover its full potential by playing it during a peaceful rain shower",
+    "object.harp.name": "Mini-harp"
+}
