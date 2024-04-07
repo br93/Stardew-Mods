@@ -1,0 +1,117 @@
+{
+    "Changes": [
+        {
+            "LogName": "Music Sheet - Farming",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "br93.StillnessInTheRain_Music_Farming": {
+                    "Name": "br93.StillnessInTheRain_Music_Farming",
+                    "DisplayName": "{{i18n:object.music-farming.name}}",
+                    "Description": "{{i18n:object.music-farming.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": -1,
+                    "Texture": "br93.StillnessInTheRain\\MiniHarp",
+                    "SpriteIndex": 0,
+                    "Edibility": 10,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": null,
+                            "IconSpriteIndex": 0,
+                            "Duration": 400,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 1.0,
+                                "FishingLevel": 0.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 0.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/EatingAnimation": "br93.StillnessInTheRain_Music_Animation"
+                      }
+                }
+            }
+        },
+        {
+            "LogName": "ObjectExtensions - MusicSheet",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "Entries": {
+                "br93.StillnessInTheRain_Music_Farming": {
+                    "CategoryTextOverride": "Music Sheet",
+                    "CanBeTrashed": true,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": null,
+                    "UseForTriggerAction": false
+                }
+            }
+        },
+        {
+            "LogName": "Music Animations",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/EatingAnimations",
+            "Entries": {
+                "br93.StillnessInTheRain_Music_Animation": {
+                    "Animation": [
+                        {
+                            "Frame": 99,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 1000,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 99,
+                            "Duration": 1000,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 1000,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 1000,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

@@ -5,5 +5,7 @@
     "object.broken-harp.description": "Broken mini-harp, not sure if anyone in Pelican Town knows how to fix it. Maybe someone from abroad?",
     "object.broken-harp.name": "Broken Mini-harp",
     "object.harp.description": "A delicate miniature harp. Discover its full potential by playing it during a peaceful rain shower",
-    "object.harp.name": "Mini-harp"
+    "object.harp.name": "Mini-harp",
+    "object.music-farming.name": "Music Sheet Farming",
+    "object.music-farming.description": "Music Sheet Farming"
 }
