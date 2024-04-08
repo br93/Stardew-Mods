@@ -1,6 +1,12 @@
 {
     "Changes": [
         {
+            "LogName": "Texture - Music Sheet",
+            "Action": "Load",
+            "Target": "br93.StillnessInTheRain\\MusicSheet",
+            "FromFile": "assets/musicsheet.png"
+        },
+        {
             "LogName": "Music Sheet - Farming",
             "Action": "EditData",
             "Target": "Data/Objects",
