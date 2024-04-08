@@ -7,14 +7,201 @@
             "FromFile": "assets/musicsheet.png"
         },
         {
-            "LogName": "Music Sheet - Farming",
+            "LogName": "Music Sheets",
             "Action": "EditData",
             "Target": "Data/Objects",
+            "When": {
+                "HasFlag:currentPlayer": "br93.StillnessInTheRain_Harp_MASTERY"
+            },
             "Entries": {
                 "br93.StillnessInTheRain_Music_Farming": {
                     "Name": "br93.StillnessInTheRain_Music_Farming",
                     "DisplayName": "{{i18n:object.music-farming.name}}",
                     "Description": "{{i18n:object.music-farming.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": -1,
+                    "Texture": "br93.StillnessInTheRain\\MusicSheet",
+                    "SpriteIndex": 0,
+                    "Edibility": 0,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": "br93.StillnessInTheRain\\MusicSheet",
+                            "IconSpriteIndex": 0,
+                            "Duration": 600,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 3.0,
+                                "FishingLevel": 0.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 0.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/EatingAnimation": "br93.StillnessInTheRain_Music_Animation"
+                      }
+                },
+
+                "br93.StillnessInTheRain_Music_Fishing": {
+                    "Name": "br93.StillnessInTheRain_Music_Fishing",
+                    "DisplayName": "{{i18n:object.music-fishing.name}}",
+                    "Description": "{{i18n:object.music-fishing.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": -1,
+                    "Texture": "br93.StillnessInTheRain\\MusicSheet",
+                    "SpriteIndex": 0,
+                    "Edibility": 0,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": "br93.StillnessInTheRain\\MusicSheet",
+                            "IconSpriteIndex": 0,
+                            "Duration": 600,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 3.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 0.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/EatingAnimation": "br93.StillnessInTheRain_Music_Animation"
+                      }
+                },
+
+                "br93.StillnessInTheRain_Music_Mining": {
+                    "Name": "br93.StillnessInTheRain_Music_Mining",
+                    "DisplayName": "{{i18n:object.music-mining.name}}",
+                    "Description": "{{i18n:object.music-mining.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": -1,
+                    "Texture": "br93.StillnessInTheRain\\MusicSheet",
+                    "SpriteIndex": 0,
+                    "Edibility": 0,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": "br93.StillnessInTheRain\\MusicSheet",
+                            "IconSpriteIndex": 0,
+                            "Duration": 600,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 0.0,
+                                "MiningLevel": 3.0,
+                                "LuckLevel": 0.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/EatingAnimation": "br93.StillnessInTheRain_Music_Animation"
+                      }
+                },
+
+                "br93.StillnessInTheRain_Music_Luck": {
+                    "Name": "br93.StillnessInTheRain_Music_Luck",
+                    "DisplayName": "{{i18n:object.music-luck.name}}",
+                    "Description": "{{i18n:object.music-luck.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": -1,
+                    "Texture": "br93.StillnessInTheRain\\MusicSheet",
+                    "SpriteIndex": 0,
+                    "Edibility": 0,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "Id": "Food",
+                            "BuffId": null,
+                            "IconTexture": "br93.StillnessInTheRain\\MusicSheet",
+                            "IconSpriteIndex": 0,
+                            "Duration": 1200,
+                            "IsDebuff": false,
+                            "GlowColor": null,
+                            "CustomAttributes": {
+                                "FarmingLevel": 0.0,
+                                "FishingLevel": 0.0,
+                                "MiningLevel": 0.0,
+                                "LuckLevel": 3.0,
+                                "ForagingLevel": 0.0,
+                                "MaxStamina": 0.0,
+                                "MagneticRadius": 0.0,
+                                "Speed": 0.0,
+                                "Defense": 0.0,
+                                "Attack": 0.0
+                            },
+                            "CustomFields": null
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/EatingAnimation": "br93.StillnessInTheRain_Music_Animation"
+                      }
+                },
+
+                "br93.StillnessInTheRain_Music_Foraging": {
+                    "Name": "br93.StillnessInTheRain_Music_Foraging",
+                    "DisplayName": "{{i18n:object.music-foraging.name}}",
+                    "Description": "{{i18n:object.music-foraging.description}}",
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": -1,
@@ -32,11 +219,11 @@
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
-                                "FarmingLevel": 2.0,
+                                "FarmingLevel": 0.0,
                                 "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
                                 "LuckLevel": 0.0,
-                                "ForagingLevel": 0.0,
+                                "ForagingLevel": 3.0,
                                 "MaxStamina": 0.0,
                                 "MagneticRadius": 0.0,
                                 "Speed": 0.0,

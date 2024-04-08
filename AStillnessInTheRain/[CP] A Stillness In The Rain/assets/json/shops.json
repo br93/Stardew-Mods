@@ -16,6 +16,58 @@
                 }
             }
         },
+
+        {
+            "LogName": "EditShop - Music Sheet - Bookseller",
+            "Action": "EditData",
+            "When": {
+                "HasFlag:currentPlayer": "br93.StillnessInTheRain_Harp_MASTERY"
+            },
+            "Target": "Data/Shops",
+            "TargetField": ["Bookseller", "Items"],
+            "Entries": {
+                "br93.StillnessInTheRain_MusicSheet_Farming_Bookseller": {
+                    "Id": "br93.StillnessInTheRain_MusicSheet_Farming_Bookseller",
+                    "ItemId": "br93.StillnessInTheRain_Music_Farming",
+                    "Price": 1000,   
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "Condition": "SYNCED_RANDOM day bookseller_musicsheet 0.4 @addDailyLuck"
+                },
+                "br93.StillnessInTheRain_MusicSheet_Fishing_Bookseller": {
+                    "Id": "br93.StillnessInTheRain_MusicSheet_Fishing_Bookseller",
+                    "ItemId": "br93.StillnessInTheRain_Music_Fishing",
+                    "Price": 1000,   
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "Condition": "SYNCED_RANDOM day bookseller_musicsheet 0.4 @addDailyLuck"
+                },
+                "br93.StillnessInTheRain_MusicSheet_Mining_Bookseller": {
+                    "Id": "br93.StillnessInTheRain_MusicSheet_Mining_Bookseller",
+                    "ItemId": "br93.StillnessInTheRain_Music_Mining",
+                    "Price": 1000,   
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "Condition": "SYNCED_RANDOM day bookseller_musicsheet 0.4 @addDailyLuck"
+                },
+                "br93.StillnessInTheRain_MusicSheet_Luck_Bookseller": {
+                    "Id": "br93.StillnessInTheRain_MusicSheet_Luck_Bookseller",
+                    "ItemId": "br93.StillnessInTheRain_Music_Fishing",
+                    "Price": 2500,   
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "Condition": "SYNCED_RANDOM day bookseller_musicsheet 0.3 @addDailyLuck"
+                },
+                "br93.StillnessInTheRain_MusicSheet_Foraging_Bookseller": {
+                    "Id": "br93.StillnessInTheRain_MusicSheet_Foraging_Bookseller",
+                    "ItemId": "br93.StillnessInTheRain_Music_Bookseller",
+                    "Price": 1000,   
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "Condition": "SYNCED_RANDOM day bookseller_musicsheet 0.4 @addDailyLuck"
+                }
+            }
+        },
            
         {
             "LogName": "EditShop - Crafting Recipe - Traveler",
@@ -34,6 +86,57 @@
             }
         },
 
+        {
+            "LogName": "EditShop - Music Sheet - Traveler",
+            "Action": "EditData",
+            "When": {
+                "HasFlag:currentPlayer": "br93.StillnessInTheRain_Harp_MASTERY"
+            },
+            "Target": "Data/Shops",
+            "TargetField": ["Traveler", "Items"],
+            "Entries": {
+                "br93.StillnessInTheRain_MusicSheet_Farming_Traveler": {
+                    "Id": "br93.StillnessInTheRain_MusicSheet_Farming_Traveler",
+                    "ItemId": "br93.StillnessInTheRain_Music_Farming",
+                    "Price": 1000,   
+                    "AvailableStock": 5,
+                    "AvailableStockLimit": "Global",
+                    "Condition": "SYNCED_RANDOM day traveler_musicsheet 0.3 @addDailyLuck"
+                },
+                "br93.StillnessInTheRain_MusicSheet_Fishing_Traveler": {
+                    "Id": "br93.StillnessInTheRain_MusicSheet_Fishing_Traveler",
+                    "ItemId": "br93.StillnessInTheRain_Music_Fishing",
+                    "Price": 1000,   
+                    "AvailableStock": 5,
+                    "AvailableStockLimit": "Global",
+                    "Condition": "SYNCED_RANDOM day traveler_musicsheet 0.3 @addDailyLuck"
+                },
+                "br93.StillnessInTheRain_MusicSheet_Mining_Traveler": {
+                    "Id": "br93.StillnessInTheRain_MusicSheet_Mining_Traveler",
+                    "ItemId": "br93.StillnessInTheRain_Music_Mining",
+                    "Price": 1000,   
+                    "AvailableStock": 5,
+                    "AvailableStockLimit": "Global",
+                    "Condition": "SYNCED_RANDOM day traveler_musicsheet 0.3 @addDailyLuck"
+                },
+                "br93.StillnessInTheRain_MusicSheet_Luck_Traveler": {
+                    "Id": "br93.StillnessInTheRain_MusicSheet_Luck_Traveler",
+                    "ItemId": "br93.StillnessInTheRain_Music_Fishing",
+                    "Price": 2500,   
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Global",
+                    "Condition": "SYNCED_RANDOM day traveler_musicsheet 0.2 @addDailyLuck"
+                },
+                "br93.StillnessInTheRain_MusicSheet_Foraging_Traveler": {
+                    "Id": "br93.StillnessInTheRain_MusicSheet_Foraging_Traveler",
+                    "ItemId": "br93.StillnessInTheRain_Music_Foraging",
+                    "Price": 1000,   
+                    "AvailableStock": 5,
+                    "AvailableStockLimit": "Global",
+                    "Condition": "SYNCED_RANDOM day traveler_musicsheet 0.3 @addDailyLuck"
+                }
+            }
+        },
         {
             "LogName": "EditShop - Crafting Recipe - MagicBoat",
             "Action": "EditData",
