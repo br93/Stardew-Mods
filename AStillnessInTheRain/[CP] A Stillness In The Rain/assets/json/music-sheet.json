@@ -20,7 +20,7 @@
                     "Price": -1,
                     "Texture": "br93.StillnessInTheRain\\MiniHarp",
                     "SpriteIndex": 0,
-                    "Edibility": 10,
+                    "Edibility": 0,
                     "IsDrink": false,
                     "Buffs": [
                         {
@@ -28,11 +28,11 @@
                             "BuffId": null,
                             "IconTexture": null,
                             "IconSpriteIndex": 0,
-                            "Duration": 400,
+                            "Duration": 600,
                             "IsDebuff": false,
                             "GlowColor": null,
                             "CustomAttributes": {
-                                "FarmingLevel": 1.0,
+                                "FarmingLevel": 2.0,
                                 "FishingLevel": 0.0,
                                 "MiningLevel": 0.0,
                                 "LuckLevel": 0.0,
