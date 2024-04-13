@@ -7,12 +7,66 @@
             "FromFile": "assets/musicsheet.png"
         },
         {
+            "LogName": "Powers - Music Sheet",
+            "Action": "EditData",
+            "Target": "Data/Powers",
+            "Entries": {
+                "br93.StillnessInTheRain_Music_Farming_Wallet": {
+                    "DisplayName": "{{i18n:object.music-farming.name}}",
+                    "Description": "{{i18n:object.music-farming.description}}",
+                    "TexturePath": "br93.StillnessInTheRain\\MusicSheet",
+                    "TexturePosition": {
+                        "X": 0,
+                        "Y": 0
+                    },
+                    "UnlockedCondition": "PLAYER_HAS_MAIL Current br93.StillnessInTheRain_Music_FARMING"
+                },
+                "br93.StillnessInTheRain_Music_Fishing_Wallet": {
+                    "DisplayName": "{{i18n:object.music-fishing.name}}",
+                    "Description": "{{i18n:object.music-fishing.description}}",
+                    "TexturePath": "br93.StillnessInTheRain\\MusicSheet",
+                    "TexturePosition": {
+                        "X": 0,
+                        "Y": 16
+                    },
+                    "UnlockedCondition": "PLAYER_HAS_MAIL Current br93.StillnessInTheRain_Music_FISHING"
+                },
+                "br93.StillnessInTheRain_Music_Mining_Wallet": {
+                    "DisplayName": "{{i18n:object.music-mining.name}}",
+                    "Description": "{{i18n:object.music-mining.description}}",
+                    "TexturePath": "br93.StillnessInTheRain\\MusicSheet",
+                    "TexturePosition": {
+                        "X": 0,
+                        "Y": 32
+                    },
+                    "UnlockedCondition": "PLAYER_HAS_MAIL Current br93.StillnessInTheRain_Music_MINING"
+                },
+                "br93.StillnessInTheRain_Music_Luck_Wallet": {
+                    "DisplayName": "{{i18n:object.music-luck.name}}",
+                    "Description": "{{i18n:object.music-luck.description}}",
+                    "TexturePath": "br93.StillnessInTheRain\\MusicSheet",
+                    "TexturePosition": {
+                        "X": 0,
+                        "Y": 48
+                    },
+                    "UnlockedCondition": "PLAYER_HAS_MAIL Current br93.StillnessInTheRain_Music_LUCK"
+                },
+                "br93.StillnessInTheRain_Music_Foraging_Wallet": {
+                    "DisplayName": "{{i18n:object.music-foraging.name}}",
+                    "Description": "{{i18n:object.music-foraging.description}}",
+                    "TexturePath": "br93.StillnessInTheRain\\MusicSheet",
+                    "TexturePosition": {
+                        "X": 0,
+                        "Y": 64
+                    },
+                    "UnlockedCondition": "PLAYER_HAS_MAIL Current br93.StillnessInTheRain_Music_FORAGING"
+                }
+            }
+        },
+        {
             "LogName": "Music Sheets",
             "Action": "EditData",
             "Target": "Data/Objects",
-            "When": {
-                "HasFlag:currentPlayer": "br93.StillnessInTheRain_Harp_MASTERY"
-            },
             "Entries": {
                 "br93.StillnessInTheRain_Music_Farming": {
                     "Name": "br93.StillnessInTheRain_Music_Farming",
@@ -57,9 +111,8 @@
                     "ExcludeFromRandomSale": true,
                     "CustomFields": {
                         "mistyspring.ItemExtensions/EatingAnimation": "br93.StillnessInTheRain_Music_Animation"
-                      }
+                    }
                 },
-
                 "br93.StillnessInTheRain_Music_Fishing": {
                     "Name": "br93.StillnessInTheRain_Music_Fishing",
                     "DisplayName": "{{i18n:object.music-fishing.name}}",
@@ -68,7 +121,7 @@
                     "Category": -7,
                     "Price": -1,
                     "Texture": "br93.StillnessInTheRain\\MusicSheet",
-                    "SpriteIndex": 0,
+                    "SpriteIndex": 1,
                     "Edibility": 0,
                     "IsDrink": false,
                     "Buffs": [
@@ -76,7 +129,7 @@
                             "Id": "Food",
                             "BuffId": null,
                             "IconTexture": "br93.StillnessInTheRain\\MusicSheet",
-                            "IconSpriteIndex": 0,
+                            "IconSpriteIndex": 1,
                             "Duration": 600,
                             "IsDebuff": false,
                             "GlowColor": null,
@@ -103,9 +156,8 @@
                     "ExcludeFromRandomSale": true,
                     "CustomFields": {
                         "mistyspring.ItemExtensions/EatingAnimation": "br93.StillnessInTheRain_Music_Animation"
-                      }
+                    }
                 },
-
                 "br93.StillnessInTheRain_Music_Mining": {
                     "Name": "br93.StillnessInTheRain_Music_Mining",
                     "DisplayName": "{{i18n:object.music-mining.name}}",
@@ -114,7 +166,7 @@
                     "Category": -7,
                     "Price": -1,
                     "Texture": "br93.StillnessInTheRain\\MusicSheet",
-                    "SpriteIndex": 0,
+                    "SpriteIndex": 2,
                     "Edibility": 0,
                     "IsDrink": false,
                     "Buffs": [
@@ -122,7 +174,7 @@
                             "Id": "Food",
                             "BuffId": null,
                             "IconTexture": "br93.StillnessInTheRain\\MusicSheet",
-                            "IconSpriteIndex": 0,
+                            "IconSpriteIndex": 2,
                             "Duration": 600,
                             "IsDebuff": false,
                             "GlowColor": null,
@@ -149,9 +201,8 @@
                     "ExcludeFromRandomSale": true,
                     "CustomFields": {
                         "mistyspring.ItemExtensions/EatingAnimation": "br93.StillnessInTheRain_Music_Animation"
-                      }
+                    }
                 },
-
                 "br93.StillnessInTheRain_Music_Luck": {
                     "Name": "br93.StillnessInTheRain_Music_Luck",
                     "DisplayName": "{{i18n:object.music-luck.name}}",
@@ -160,7 +211,7 @@
                     "Category": -7,
                     "Price": -1,
                     "Texture": "br93.StillnessInTheRain\\MusicSheet",
-                    "SpriteIndex": 0,
+                    "SpriteIndex": 3,
                     "Edibility": 0,
                     "IsDrink": false,
                     "Buffs": [
@@ -168,7 +219,7 @@
                             "Id": "Food",
                             "BuffId": null,
                             "IconTexture": "br93.StillnessInTheRain\\MusicSheet",
-                            "IconSpriteIndex": 0,
+                            "IconSpriteIndex": 3,
                             "Duration": 1200,
                             "IsDebuff": false,
                             "GlowColor": null,
@@ -195,9 +246,8 @@
                     "ExcludeFromRandomSale": true,
                     "CustomFields": {
                         "mistyspring.ItemExtensions/EatingAnimation": "br93.StillnessInTheRain_Music_Animation"
-                      }
+                    }
                 },
-
                 "br93.StillnessInTheRain_Music_Foraging": {
                     "Name": "br93.StillnessInTheRain_Music_Foraging",
                     "DisplayName": "{{i18n:object.music-foraging.name}}",
@@ -206,15 +256,15 @@
                     "Category": -7,
                     "Price": -1,
                     "Texture": "br93.StillnessInTheRain\\MusicSheet",
-                    "SpriteIndex": 0,
+                    "SpriteIndex": 4,
                     "Edibility": 0,
                     "IsDrink": false,
                     "Buffs": [
                         {
                             "Id": "Food",
                             "BuffId": null,
-                            "IconTexture": null,
-                            "IconSpriteIndex": 0,
+                            "IconTexture": "br93.StillnessInTheRain\\MusicSheet",
+                            "IconSpriteIndex": 4,
                             "Duration": 600,
                             "IsDebuff": false,
                             "GlowColor": null,
@@ -241,7 +291,7 @@
                     "ExcludeFromRandomSale": true,
                     "CustomFields": {
                         "mistyspring.ItemExtensions/EatingAnimation": "br93.StillnessInTheRain_Music_Animation"
-                      }
+                    }
                 }
             }
         },
@@ -251,6 +301,34 @@
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
             "Entries": {
                 "br93.StillnessInTheRain_Music_Farming": {
+                    "CategoryTextOverride": "Music Sheet",
+                    "CanBeTrashed": true,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": null,
+                    "UseForTriggerAction": false
+                },
+                "br93.StillnessInTheRain_Music_Fishing": {
+                    "CategoryTextOverride": "Music Sheet",
+                    "CanBeTrashed": true,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": null,
+                    "UseForTriggerAction": false
+                },
+                "br93.StillnessInTheRain_Music_Foraging": {
+                    "CategoryTextOverride": "Music Sheet",
+                    "CanBeTrashed": true,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": null,
+                    "UseForTriggerAction": false
+                },
+                "br93.StillnessInTheRain_Music_Luck": {
+                    "CategoryTextOverride": "Music Sheet",
+                    "CanBeTrashed": true,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": null,
+                    "UseForTriggerAction": false
+                },
+                "br93.StillnessInTheRain_Music_Mining": {
                     "CategoryTextOverride": "Music Sheet",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,

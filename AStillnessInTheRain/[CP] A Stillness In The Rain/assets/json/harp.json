@@ -7,24 +7,58 @@
             "FromFile": "assets/miniharp.png"
         },
         {
-            "LogName": "Texture - Broken Harp",
-            "Action": "Load",
-            "Target": "br93.StillnessInTheRain\\BrokenHarp",
-            "FromFile": "assets/brokenharp.png"
+            "LogName": "Powers - BrokenHarp",
+            "Action": "EditData",
+            "Target": "Data/Powers",
+            "When": {
+                "HasFlag:currentPlayer |contains=br93.StillnessInTheRain_Harp_MASTERY": false
+              },
+            "Entries": {
+                "br93.StillnessInTheRain_Harp_Wallet": {
+                    "DisplayName": "{{i18n:object.harp.name}}",
+                    "Description": "{{i18n:object.harp.description}}",
+                    "TexturePath": "br93.StillnessInTheRain\\MiniHarp",
+                    "TexturePosition": {
+                        "X": 0,
+                        "Y": 0
+                      }
+                }   
+            }
         },
         {
             "LogName": "Powers - Harp",
             "Action": "EditData",
+            "Target": "Data/Powers",
             "When": {
                 "HasFlag:currentPlayer": "br93.StillnessInTheRain_Harp_MASTERY"
             },
+            "Entries": {
+                "br93.StillnessInTheRain_Harp_Wallet": {
+                    "DisplayName": "{{i18n:object.harp.name}}",
+                    "Description": "{{i18n:object.harp.description}}",
+                    "TexturePath": "br93.StillnessInTheRain\\MiniHarp",
+                    "TexturePosition": {
+                        "X": 0,
+                        "Y": 16
+                      }
+                }   
+            }
+        },
+        {
+            "LogName": "Powers - Harp",
+            "Action": "EditData",
             "Target": "Data/Powers",
             "Entries": {
                 "br93.StillnessInTheRain_Harp_Wallet": {
                     "DisplayName": "{{i18n:object.harp.name}}",
                     "Description": "{{i18n:object.harp.description}}",
-                    "TexturePath": "br93.StillnessInTheRain\\MiniHarp"
-                }
+                    "TexturePath": "br93.StillnessInTheRain\\MiniHarp",
+                    "TexturePosition": {
+                        "X": 0,
+                        "Y": 16
+                      },
+                    "UnlockedCondition": "PLAYER_HAS_MAIL Current br93.StillnessInTheRain_Harp_MASTERY"
+                }   
             }
         },
         {
@@ -39,7 +73,7 @@
                     "Type": "asdf",
                     "Category": -20,
                     "Price": -1,
-                    "Texture": "br93.StillnessInTheRain\\BrokenHarp",
+                    "Texture": "br93.StillnessInTheRain\\MiniHarp",
                     "SpriteIndex": 0,
                     "Edibility": -300,
                     "IsDrink": false,
@@ -59,7 +93,7 @@
                     "Category": -20,
                     "Price": -1,
                     "Texture": "br93.StillnessInTheRain\\MiniHarp",
-                    "SpriteIndex": 0,
+                    "SpriteIndex": 1,
                     "Edibility": -300,
                     "IsDrink": false,
                     "GeodeDropsDefaultItems": false,
