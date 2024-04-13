@@ -9,41 +9,48 @@
                     "Animation": [
                         {
                             "Frame": 99,
-                            "Duration": 500,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 250,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 98,
                             "Duration": 500,
-                            "SecondaryArm": false,
-                            "Flip": false
-                        },
-                        {
-                            "Frame": 98,
-                            "Duration": 1000,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 99,
-                            "Duration": 1000,
+                            "Duration": 500,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 1000,
+                            "Duration": 500,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 1000,
+                            "Duration": 500,
                             "SecondaryArm": false,
                             "Flip": false
                         }
-                    ]
+                    ],
+                    "Food": {
+                        "Duration": 500,
+                        "StartSound": "{{ModId}}_Harp_HarpFull",
+                        "EndSound": "{{ModId}}_Harp_HarpFull",
+                        "Crunch": false
+                    },
+                    "Emote": 56
                 }
             }
         }
