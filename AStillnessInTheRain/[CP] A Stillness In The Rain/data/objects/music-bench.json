@@ -1,0 +1,90 @@
+{
+    "Changes": [
+        {
+            "LogName": "Texture - Music Bench",
+            "Action": "Load",
+            "Target": "{{ModId}}\\MusicBench",
+            "FromFile": "assets/music-workbench.png"
+        },
+        {
+            "LogName": "BigCraftables - Music Bench",
+            "Action": "EditData",
+            "Target": "Data/BigCraftables",
+            "Entries": {
+                "{{ModId}}_MusicBench": {
+                    "Name": "{{ModId}}_MusicBench",
+                    "DisplayName": "{{i18n:station.music-bench.name}}",
+                    "Description": "{{i18n:station.music-bench.description}}",
+                    "Price": 3000,
+                    "Fragility": 0,
+                    "CanBePlacedOutdoors": true,
+                    "CanBePlacedIndoors": true,
+                    "IsLamp": false,
+                    "Texture": "{{ModId}}\\MusicBench",
+                    "SpriteIndex": 0,
+                    "ContextTags": null,
+                    "CustomFields": null
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - CraftingStations - Benches",
+            "Action": "EditData",
+            "Target": "Mods/leclair.bettercrafting/CraftingStations",
+            "Entries": {
+                "{{ModId}}_HarpBench": {
+                    "Id": "{{ModId}}_HarpBench",
+                    "DisplayName": "{{i18n:station.harp-bench.name}}",
+                    "AreRecipesExclusive": true,
+                    "IsCooking": false,
+                    "Recipes": [
+                        "{{ModId}}_Harp_Recipe"
+                    ]
+                },
+                "{{ModId}}_MusicSheetBench": {
+                    "Id": "{{ModId}}_MusicSheetBench",
+                    "DisplayName": "{{i18n:station.music-bench.name}}",
+                    "AreRecipesExclusive": true,
+                    "IsCooking": true,
+                    "Recipes": [
+                        "{{ModId}}_Music_Farming_Recipe",
+                        "{{ModId}}_Music_Fishing_Recipe",
+                        "{{ModId}}_Music_Mining_Recipe",
+                        "{{ModId}}_Music_Foraging_Recipe",
+                        "{{ModId}}_Music_Luck_Recipe"
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - PerformAction - HarpBench",
+            "Action": "EditData",
+            "When": {
+                "HasFlag:currentPlayer |contains={{ModId}}_Harp_MASTERY": "false"
+            },
+            "Target": "Data/BigCraftables",
+            "TargetField": [
+                "{{ModId}}_MusicBench",
+                "CustomFields"
+            ],
+            "Entries": {
+                "leclair.bettercrafting_PerformAction": "leclair.bettercrafting_OpenMenu FALSE TRUE {{ModId}}_HarpBench"
+            }
+        },
+        {
+            "LogName": "BetterCrafting - PerformAction - MusicSheetBench",
+            "Action": "EditData",
+            "When": {
+                "HasFlag:currentPlayer": "{{ModId}}_Harp_MASTERY"
+            },
+            "Target": "Data/BigCraftables",
+            "TargetField": [
+                "{{ModId}}_MusicBench",
+                "CustomFields"
+            ],
+            "Entries": {
+                "leclair.bettercrafting_PerformAction": "leclair.bettercrafting_OpenMenu FALSE TRUE {{ModId}}_MusicSheetBench"
+            }
+        }
+    ]
+}

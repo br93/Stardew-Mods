@@ -1,0 +1,150 @@
+{
+    "Changes": [
+        {
+            "LogName": "EditShop - Music Bench - Bookseller",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Bookseller", "Items"],
+            "Entries": {
+                "{{ModId}}_MusicBench_Bookseller": {
+                    "Id": "{{ModId}}_MusicBench_Bookseller",
+                    "ItemId": "{{ModId}}_MusicBench",
+                    "Price": 3000,
+                    "AvailableStockLimit": "Player",
+                    "Condition": "SYNCED_RANDOM day bookseller_recipe 0.5 @addDailyLuck"
+                }
+            }
+        },
+        {
+            "LogName": "EditShop - Music Sheet - Bookseller",
+            "Action": "EditData",
+            "When": {
+                "HasFlag:currentPlayer": "{{ModId}}_Harp_MASTERY"
+            },
+            "Target": "Data/Shops",
+            "TargetField": ["Bookseller", "Items"],
+            "Entries": {
+                "{{ModId}}_MusicSheet_Farming_Bookseller": {
+                    "Id": "{{ModId}}_MusicSheet_Farming_Bookseller",
+                    "ItemId": "{{ModId}}_Music_Farming",
+                    "Price": 4000,   
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "Condition": "SYNCED_RANDOM day bookseller_musicsheet 0.4 @addDailyLuck"
+                },
+                "{{ModId}}_MusicSheet_Fishing_Bookseller": {
+                    "Id": "{{ModId}}_MusicSheet_Fishing_Bookseller",
+                    "ItemId": "{{ModId}}_Music_Fishing",
+                    "Price": 4000,   
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "Condition": "SYNCED_RANDOM day bookseller_musicsheet 0.4 @addDailyLuck"
+                },
+                "{{ModId}}_MusicSheet_Mining_Bookseller": {
+                    "Id": "{{ModId}}_MusicSheet_Mining_Bookseller",
+                    "ItemId": "{{ModId}}_Music_Mining",
+                    "Price": 4000,   
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "Condition": "SYNCED_RANDOM day bookseller_musicsheet 0.4 @addDailyLuck"
+                },
+                "{{ModId}}_MusicSheet_Luck_Bookseller": {
+                    "Id": "{{ModId}}_MusicSheet_Luck_Bookseller",
+                    "ItemId": "{{ModId}}_Music_Luck",
+                    "Price": 12000,   
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "Condition": "SYNCED_RANDOM day bookseller_musicsheet 0.3 @addDailyLuck"
+                },
+                "{{ModId}}_MusicSheet_Foraging_Bookseller": {
+                    "Id": "{{ModId}}_MusicSheet_Foraging_Bookseller",
+                    "ItemId": "{{ModId}}_Music_Foraging",
+                    "Price": 4000,   
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "Condition": "SYNCED_RANDOM day bookseller_musicsheet 0.4 @addDailyLuck"
+                }
+            }
+        },    
+        {
+            "LogName": "EditShop - Music Bench - Traveler",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Traveler", "Items"],
+            "Entries": {
+                "{{ModId}}_Harp_Object_Traveler": {
+                    "Id": "{{ModId}}_MusicBench_Traveler",
+                    "ItemId": "{{ModId}}_MusicBench",
+                    "Price": 3000,
+                    "AvailableStockLimit": "Player",
+                    "Condition": "SYNCED_RANDOM day traveler_recipe 0.4 @addDailyLuck"
+                }
+            }
+        },
+        {
+            "LogName": "EditShop - Music Sheet - Traveler",
+            "Action": "EditData",
+            "When": {
+                "HasFlag:currentPlayer": "{{ModId}}_Harp_MASTERY"
+            },
+            "Target": "Data/Shops",
+            "TargetField": ["Traveler", "Items"],
+            "Entries": {
+                "{{ModId}}_MusicSheet_Farming_Traveler": {
+                    "Id": "{{ModId}}_MusicSheet_Farming_Traveler",
+                    "ItemId": "{{ModId}}_Music_Farming",
+                    "Price": 4000,   
+                    "AvailableStock": 5,
+                    "AvailableStockLimit": "Global",
+                    "Condition": "SYNCED_RANDOM day traveler_musicsheet 0.3 @addDailyLuck"
+                },
+                "{{ModId}}_MusicSheet_Fishing_Traveler": {
+                    "Id": "{{ModId}}_MusicSheet_Fishing_Traveler",
+                    "ItemId": "{{ModId}}_Music_Fishing",
+                    "Price": 4000,   
+                    "AvailableStock": 5,
+                    "AvailableStockLimit": "Global",
+                    "Condition": "SYNCED_RANDOM day traveler_musicsheet 0.3 @addDailyLuck"
+                },
+                "{{ModId}}_MusicSheet_Mining_Traveler": {
+                    "Id": "{{ModId}}_MusicSheet_Mining_Traveler",
+                    "ItemId": "{{ModId}}_Music_Mining",
+                    "Price": 4000,   
+                    "AvailableStock": 5,
+                    "AvailableStockLimit": "Global",
+                    "Condition": "SYNCED_RANDOM day traveler_musicsheet 0.3 @addDailyLuck"
+                },
+                "{{ModId}}_MusicSheet_Luck_Traveler": {
+                    "Id": "{{ModId}}_MusicSheet_Luck_Traveler",
+                    "ItemId": "{{ModId}}_Music_Luck",
+                    "Price": 12000,   
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Global",
+                    "Condition": "SYNCED_RANDOM day traveler_musicsheet 0.2 @addDailyLuck"
+                },
+                "{{ModId}}_MusicSheet_Foraging_Traveler": {
+                    "Id": "{{ModId}}_MusicSheet_Foraging_Traveler",
+                    "ItemId": "{{ModId}}_Music_Foraging",
+                    "Price": 4000,   
+                    "AvailableStock": 5,
+                    "AvailableStockLimit": "Global",
+                    "Condition": "SYNCED_RANDOM day traveler_musicsheet 0.3 @addDailyLuck"
+                }
+            }
+        },
+        {
+            "LogName": "EditShop - MusicBench - MagicBoat",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": ["Festival_NightMarket_MagicBoat_Day1", "Items"],
+            "Entries": {
+                "{{ModId}}_MusicBench_MagicBoat": {
+                    "Id": "{{ModId}}_MusicBench_MagicBoat",
+                    "ItemId": "{{ModId}}_MusicBench",
+                    "Price": 2000,
+                    "AvailableStockLimit": "Player"
+                }
+            }
+        }
+    ]
+}

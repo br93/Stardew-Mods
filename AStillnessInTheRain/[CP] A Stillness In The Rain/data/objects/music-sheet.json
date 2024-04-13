@@ -3,7 +3,7 @@
         {
             "LogName": "Texture - Music Sheet",
             "Action": "Load",
-            "Target": "br93.StillnessInTheRain\\MusicSheet",
+            "Target": "{{ModId}}\\MusicSheet",
             "FromFile": "assets/musicsheet.png"
         },
         {
@@ -11,55 +11,55 @@
             "Action": "EditData",
             "Target": "Data/Powers",
             "Entries": {
-                "br93.StillnessInTheRain_Music_Farming_Wallet": {
+                "{{ModId}}_Music_Farming_Wallet": {
                     "DisplayName": "{{i18n:object.music-farming.name}}",
                     "Description": "{{i18n:object.music-farming.description}}",
-                    "TexturePath": "br93.StillnessInTheRain\\MusicSheet",
+                    "TexturePath": "{{ModId}}\\MusicSheet",
                     "TexturePosition": {
                         "X": 0,
                         "Y": 0
                     },
-                    "UnlockedCondition": "PLAYER_HAS_MAIL Current br93.StillnessInTheRain_Music_FARMING"
+                    "UnlockedCondition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_FARMING"
                 },
-                "br93.StillnessInTheRain_Music_Fishing_Wallet": {
+                "{{ModId}}_Music_Fishing_Wallet": {
                     "DisplayName": "{{i18n:object.music-fishing.name}}",
                     "Description": "{{i18n:object.music-fishing.description}}",
-                    "TexturePath": "br93.StillnessInTheRain\\MusicSheet",
+                    "TexturePath": "{{ModId}}\\MusicSheet",
                     "TexturePosition": {
                         "X": 0,
                         "Y": 16
                     },
-                    "UnlockedCondition": "PLAYER_HAS_MAIL Current br93.StillnessInTheRain_Music_FISHING"
+                    "UnlockedCondition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_FISHING"
                 },
-                "br93.StillnessInTheRain_Music_Mining_Wallet": {
+                "{{ModId}}_Music_Mining_Wallet": {
                     "DisplayName": "{{i18n:object.music-mining.name}}",
                     "Description": "{{i18n:object.music-mining.description}}",
-                    "TexturePath": "br93.StillnessInTheRain\\MusicSheet",
+                    "TexturePath": "{{ModId}}\\MusicSheet",
                     "TexturePosition": {
                         "X": 0,
                         "Y": 32
                     },
-                    "UnlockedCondition": "PLAYER_HAS_MAIL Current br93.StillnessInTheRain_Music_MINING"
+                    "UnlockedCondition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_MINING"
                 },
-                "br93.StillnessInTheRain_Music_Luck_Wallet": {
-                    "DisplayName": "{{i18n:object.music-luck.name}}",
-                    "Description": "{{i18n:object.music-luck.description}}",
-                    "TexturePath": "br93.StillnessInTheRain\\MusicSheet",
-                    "TexturePosition": {
-                        "X": 0,
-                        "Y": 48
-                    },
-                    "UnlockedCondition": "PLAYER_HAS_MAIL Current br93.StillnessInTheRain_Music_LUCK"
-                },
-                "br93.StillnessInTheRain_Music_Foraging_Wallet": {
+                "{{ModId}}_Music_Foraging_Wallet": {
                     "DisplayName": "{{i18n:object.music-foraging.name}}",
                     "Description": "{{i18n:object.music-foraging.description}}",
-                    "TexturePath": "br93.StillnessInTheRain\\MusicSheet",
+                    "TexturePath": "{{ModId}}\\MusicSheet",
                     "TexturePosition": {
                         "X": 0,
                         "Y": 64
                     },
-                    "UnlockedCondition": "PLAYER_HAS_MAIL Current br93.StillnessInTheRain_Music_FORAGING"
+                    "UnlockedCondition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_FORAGING"
+                },
+                "{{ModId}}_Music_Luck_Wallet": {
+                    "DisplayName": "{{i18n:object.music-luck.name}}",
+                    "Description": "{{i18n:object.music-luck.description}}",
+                    "TexturePath": "{{ModId}}\\MusicSheet",
+                    "TexturePosition": {
+                        "X": 0,
+                        "Y": 48
+                    },
+                    "UnlockedCondition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_LUCK"
                 }
             }
         },
@@ -68,14 +68,14 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "br93.StillnessInTheRain_Music_Farming": {
-                    "Name": "br93.StillnessInTheRain_Music_Farming",
+                "{{ModId}}_Music_Farming": {
+                    "Name": "{{ModId}}_Music_Farming",
                     "DisplayName": "{{i18n:object.music-farming.name}}",
                     "Description": "{{i18n:object.music-farming.description}}",
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": -1,
-                    "Texture": "br93.StillnessInTheRain\\MusicSheet",
+                    "Texture": "{{ModId}}\\MusicSheet",
                     "SpriteIndex": 0,
                     "Edibility": 0,
                     "IsDrink": false,
@@ -83,7 +83,7 @@
                         {
                             "Id": "Food",
                             "BuffId": null,
-                            "IconTexture": "br93.StillnessInTheRain\\MusicSheet",
+                            "IconTexture": "{{ModId}}\\MusicSheet",
                             "IconSpriteIndex": 0,
                             "Duration": 600,
                             "IsDebuff": false,
@@ -110,17 +110,17 @@
                     "ExcludeFromShippingCollection": true,
                     "ExcludeFromRandomSale": true,
                     "CustomFields": {
-                        "mistyspring.ItemExtensions/EatingAnimation": "br93.StillnessInTheRain_Music_Animation"
+                        "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_Music_Animation"
                     }
                 },
-                "br93.StillnessInTheRain_Music_Fishing": {
-                    "Name": "br93.StillnessInTheRain_Music_Fishing",
+                "{{ModId}}_Music_Fishing": {
+                    "Name": "{{ModId}}_Music_Fishing",
                     "DisplayName": "{{i18n:object.music-fishing.name}}",
                     "Description": "{{i18n:object.music-fishing.description}}",
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": -1,
-                    "Texture": "br93.StillnessInTheRain\\MusicSheet",
+                    "Texture": "{{ModId}}\\MusicSheet",
                     "SpriteIndex": 1,
                     "Edibility": 0,
                     "IsDrink": false,
@@ -128,7 +128,7 @@
                         {
                             "Id": "Food",
                             "BuffId": null,
-                            "IconTexture": "br93.StillnessInTheRain\\MusicSheet",
+                            "IconTexture": "{{ModId}}\\MusicSheet",
                             "IconSpriteIndex": 1,
                             "Duration": 600,
                             "IsDebuff": false,
@@ -155,17 +155,17 @@
                     "ExcludeFromShippingCollection": true,
                     "ExcludeFromRandomSale": true,
                     "CustomFields": {
-                        "mistyspring.ItemExtensions/EatingAnimation": "br93.StillnessInTheRain_Music_Animation"
+                        "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_Music_Animation"
                     }
                 },
-                "br93.StillnessInTheRain_Music_Mining": {
-                    "Name": "br93.StillnessInTheRain_Music_Mining",
+                "{{ModId}}_Music_Mining": {
+                    "Name": "{{ModId}}_Music_Mining",
                     "DisplayName": "{{i18n:object.music-mining.name}}",
                     "Description": "{{i18n:object.music-mining.description}}",
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": -1,
-                    "Texture": "br93.StillnessInTheRain\\MusicSheet",
+                    "Texture": "{{ModId}}\\MusicSheet",
                     "SpriteIndex": 2,
                     "Edibility": 0,
                     "IsDrink": false,
@@ -173,7 +173,7 @@
                         {
                             "Id": "Food",
                             "BuffId": null,
-                            "IconTexture": "br93.StillnessInTheRain\\MusicSheet",
+                            "IconTexture": "{{ModId}}\\MusicSheet",
                             "IconSpriteIndex": 2,
                             "Duration": 600,
                             "IsDebuff": false,
@@ -200,17 +200,17 @@
                     "ExcludeFromShippingCollection": true,
                     "ExcludeFromRandomSale": true,
                     "CustomFields": {
-                        "mistyspring.ItemExtensions/EatingAnimation": "br93.StillnessInTheRain_Music_Animation"
+                        "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_Music_Animation"
                     }
                 },
-                "br93.StillnessInTheRain_Music_Luck": {
-                    "Name": "br93.StillnessInTheRain_Music_Luck",
+                "{{ModId}}_Music_Luck": {
+                    "Name": "{{ModId}}_Music_Luck",
                     "DisplayName": "{{i18n:object.music-luck.name}}",
                     "Description": "{{i18n:object.music-luck.description}}",
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": -1,
-                    "Texture": "br93.StillnessInTheRain\\MusicSheet",
+                    "Texture": "{{ModId}}\\MusicSheet",
                     "SpriteIndex": 3,
                     "Edibility": 0,
                     "IsDrink": false,
@@ -218,7 +218,7 @@
                         {
                             "Id": "Food",
                             "BuffId": null,
-                            "IconTexture": "br93.StillnessInTheRain\\MusicSheet",
+                            "IconTexture": "{{ModId}}\\MusicSheet",
                             "IconSpriteIndex": 3,
                             "Duration": 1200,
                             "IsDebuff": false,
@@ -245,17 +245,17 @@
                     "ExcludeFromShippingCollection": true,
                     "ExcludeFromRandomSale": true,
                     "CustomFields": {
-                        "mistyspring.ItemExtensions/EatingAnimation": "br93.StillnessInTheRain_Music_Animation"
+                        "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_Music_Animation"
                     }
                 },
-                "br93.StillnessInTheRain_Music_Foraging": {
-                    "Name": "br93.StillnessInTheRain_Music_Foraging",
+                "{{ModId}}_Music_Foraging": {
+                    "Name": "{{ModId}}_Music_Foraging",
                     "DisplayName": "{{i18n:object.music-foraging.name}}",
                     "Description": "{{i18n:object.music-foraging.description}}",
                     "Type": "Cooking",
                     "Category": -7,
                     "Price": -1,
-                    "Texture": "br93.StillnessInTheRain\\MusicSheet",
+                    "Texture": "{{ModId}}\\MusicSheet",
                     "SpriteIndex": 4,
                     "Edibility": 0,
                     "IsDrink": false,
@@ -263,7 +263,7 @@
                         {
                             "Id": "Food",
                             "BuffId": null,
-                            "IconTexture": "br93.StillnessInTheRain\\MusicSheet",
+                            "IconTexture": "{{ModId}}\\MusicSheet",
                             "IconSpriteIndex": 4,
                             "Duration": 600,
                             "IsDebuff": false,
@@ -290,7 +290,7 @@
                     "ExcludeFromShippingCollection": true,
                     "ExcludeFromRandomSale": true,
                     "CustomFields": {
-                        "mistyspring.ItemExtensions/EatingAnimation": "br93.StillnessInTheRain_Music_Animation"
+                        "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_Music_Animation"
                     }
                 }
             }
@@ -300,35 +300,35 @@
             "Action": "EditData",
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
             "Entries": {
-                "br93.StillnessInTheRain_Music_Farming": {
+                "{{ModId}}_Music_Farming": {
                     "CategoryTextOverride": "Music Sheet",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
                     "GiftableToNpcAllowList": null,
                     "UseForTriggerAction": false
                 },
-                "br93.StillnessInTheRain_Music_Fishing": {
+                "{{ModId}}_Music_Fishing": {
                     "CategoryTextOverride": "Music Sheet",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
                     "GiftableToNpcAllowList": null,
                     "UseForTriggerAction": false
                 },
-                "br93.StillnessInTheRain_Music_Foraging": {
+                "{{ModId}}_Music_Foraging": {
                     "CategoryTextOverride": "Music Sheet",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
                     "GiftableToNpcAllowList": null,
                     "UseForTriggerAction": false
                 },
-                "br93.StillnessInTheRain_Music_Luck": {
+                "{{ModId}}_Music_Luck": {
                     "CategoryTextOverride": "Music Sheet",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
                     "GiftableToNpcAllowList": null,
                     "UseForTriggerAction": false
                 },
-                "br93.StillnessInTheRain_Music_Mining": {
+                "{{ModId}}_Music_Mining": {
                     "CategoryTextOverride": "Music Sheet",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
@@ -338,50 +338,151 @@
             }
         },
         {
-            "LogName": "Music Animations",
+            "LogName": "BetterCrafting - Recipes - MusicSheet",
             "Action": "EditData",
-            "Target": "Mods/mistyspring.ItemExtensions/EatingAnimations",
+            "Target": "Mods/leclair.bettercrafting/Recipes",
             "Entries": {
-                "br93.StillnessInTheRain_Music_Animation": {
-                    "Animation": [
+                "{{ModId}}_Music_Farming_Recipe": {
+                    "Default": true,
+                    "IsCooking": true,
+                    "AllowRecycling": false,
+                    "DisplayName": "{{i18n:object.music-farming.name}}",
+                    "Description": "{{i18n:object.music-farming.description}}",
+                    "Ingredients": [
                         {
-                            "Frame": 99,
-                            "Duration": 500,
-                            "SecondaryArm": false,
-                            "Flip": false
+                            "Id": "{{ModId}}_Music_Farming_Recipe_Input1",
+                            "ItemID": "(O)428",
+                            "Quantity": 1
                         },
                         {
-                            "Frame": 98,
-                            "Duration": 500,
-                            "SecondaryArm": false,
-                            "Flip": false
+                            "Id": "{{ModId}}_Music_Farming_Recipe_Input2",
+                            "ItemID": "(O)74",
+                            "Quantity": 2
+                        }
+                    ],
+                    "ActionsOnCraft": [
+                        "AddMail Current {{ModId}}_Music_FARMING all"
+                    ],
+                    "Output": [
+                        {
+                            "Id": "{{ModId}}_Music_Farming_Output",
+                            "ItemId": "(O){{ModId}}_Music_Farming"
+                        }
+                    ]
+                },
+                "{{ModId}}_Music_Fishing_Recipe": {
+                    "Default": true,
+                    "IsCooking": true,
+                    "AllowRecycling": false,
+                    "DisplayName": "{{i18n:object.music-fishing.name}}",
+                    "Description": "{{i18n:object.music-fishing.description}}",
+                    "Ingredients": [
+                        {
+                            "Id": "{{ModId}}_Music_Fishing_Recipe_Input1",
+                            "ItemID": "(O)428",
+                            "Quantity": 1
                         },
                         {
-                            "Frame": 98,
-                            "Duration": 1000,
-                            "SecondaryArm": false,
-                            "Flip": false
+                            "Id": "{{ModId}}_Music_Fishing_Recipe_Input2",
+                            "ItemID": "(O)74",
+                            "Quantity": 2
+                        }
+                    ],
+                    "ActionsOnCraft": [
+                        "AddMail Current {{ModId}}_Music_FISHING all"
+                    ],
+                    "Output": [
+                        {
+                            "Id": "{{ModId}}_Music_Fishing_Output",
+                            "ItemId": "(O){{ModId}}_Music_Fishing"
+                        }
+                    ]
+                },
+                "{{ModId}}_Music_Foraging_Recipe": {
+                    "Default": true,
+                    "IsCooking": true,
+                    "AllowRecycling": false,
+                    "DisplayName": "{{i18n:object.music-foraging.name}}",
+                    "Description": "{{i18n:object.music-foraging.description}}",
+                    "Ingredients": [
+                        {
+                            "Id": "{{ModId}}_Music_Foraging_Recipe_Input1",
+                            "ItemID": "(O)428",
+                            "Quantity": 1
                         },
                         {
-                            "Frame": 99,
-                            "Duration": 1000,
-                            "SecondaryArm": false,
-                            "Flip": false
+                            "Id": "{{ModId}}_Music_Foraging_Recipe_Input2",
+                            "ItemID": "(O)74",
+                            "Quantity": 2
+                        }
+                    ],
+                    "ActionsOnCraft": [
+                        "AddMail Current {{ModId}}_Music_FORAGING all"
+                    ],
+                    "Output": [
+                        {
+                            "Id": "{{ModId}}_Music_Foraging_Output",
+                            "ItemId": "(O){{ModId}}_Music_Foraging"
+                        }
+                    ]
+                },
+                "{{ModId}}_Music_Mining_Recipe": {
+                    "Default": true,
+                    "IsCooking": true,
+                    "AllowRecycling": false,
+                    "DisplayName": "{{i18n:object.music-mining.name}}",
+                    "Description": "{{i18n:object.music-mining.description}}",
+                    "Ingredients": [
+                        {
+                            "Id": "{{ModId}}_Music_Mining_Recipe_Input1",
+                            "ItemID": "(O)428",
+                            "Quantity": 1
                         },
                         {
-                            "Frame": 100,
-                            "Duration": 1000,
-                            "SecondaryArm": false,
-                            "Flip": false
+                            "Id": "{{ModId}}_Music_Mining_Recipe_Input2",
+                            "ItemID": "(O)74",
+                            "Quantity": 2
+                        }
+                    ],
+                    "ActionsOnCraft": [
+                        "AddMail Current {{ModId}}_Music_MINING all"
+                    ],
+                    "Output": [
+                        {
+                            "Id": "{{ModId}}_Music_Mining_Output",
+                            "ItemId": "(O){{ModId}}_Music_Mining"
+                        }
+                    ]
+                },
+                "{{ModId}}_Music_Luck_Recipe": {
+                    "Default": true,
+                    "IsCooking": true,
+                    "AllowRecycling": false,
+                    "DisplayName": "{{i18n:object.music-luck.name}}",
+                    "Description": "{{i18n:object.music-luck.description}}",
+                    "Ingredients": [
+                        {
+                            "Id": "{{ModId}}_Music_Luck_Recipe_Input1",
+                            "ItemID": "(O)428",
+                            "Quantity": 1
                         },
                         {
-                            "Frame": 100,
-                            "Duration": 1000,
-                            "SecondaryArm": false,
-                            "Flip": false
+                            "Id": "{{ModId}}_Music_Luck_Recipe_Input2",
+                            "ItemID": "(O)74",
+                            "Quantity": 3
+                        }
+                    ],
+                    "ActionsOnCraft": [
+                        "AddMail Current {{ModId}}_Music_LUCK all"
+                    ],
+                    "Output": [
+                        {
+                            "Id": "{{ModId}}_Music_Luck_Output",
+                            "ItemId": "(O){{ModId}}_Music_Luck"
                         }
                     ]
                 }
+                
             }
         }
     ]

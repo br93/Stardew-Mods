@@ -17,5 +17,9 @@
     "object.music-luck.name": "Music Sheet Luck",
     "object.music-luck.description": "Music Sheet Luck",
     "object.music-mining.name": "Music Sheet Mining",
-    "object.music-mining.description": "Music Sheet Mining"
+    "object.music-mining.description": "Music Sheet Mining",
+
+    "station.harp-bench.name": "Harp Bench",
+    "station.music-bench.name": "Music Bench",
+    "station.music-bench.description": "Music Bench"
 }

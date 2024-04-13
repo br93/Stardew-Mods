@@ -3,7 +3,7 @@
         {
             "LogName": "Texture - Harp",
             "Action": "Load",
-            "Target": "br93.StillnessInTheRain\\MiniHarp",
+            "Target": "{{ModId}}\\MiniHarp",
             "FromFile": "assets/miniharp.png"
         },
         {
@@ -11,15 +11,15 @@
             "Action": "EditData",
             "Target": "Data/Powers",
             "Entries": {
-                "br93.StillnessInTheRain_Harp_Wallet": {
+                "{{ModId}}_Harp_Wallet": {
                     "DisplayName": "{{i18n:object.harp.name}}",
                     "Description": "{{i18n:object.harp.description}}",
-                    "TexturePath": "br93.StillnessInTheRain\\MiniHarp",
+                    "TexturePath": "{{ModId}}\\MiniHarp",
                     "TexturePosition": {
-                        "X": 0,
-                        "Y": 16
+                        "X": 16,
+                        "Y": 0
                       },
-                    "UnlockedCondition": "PLAYER_HAS_MAIL Current br93.StillnessInTheRain_Harp_MASTERY"
+                    "UnlockedCondition": "PLAYER_HAS_MAIL Current {{ModId}}_Harp_MASTERY"
                 }   
             }
         },
@@ -28,14 +28,14 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "br93.StillnessInTheRain_Harp_Broken": {
-                    "Name": "br93.StillnessInTheRain_Harp_Broken",
+                "{{ModId}}_Harp_Broken": {
+                    "Name": "{{ModId}}_Harp_Broken",
                     "DisplayName": "{{i18n:object.broken-harp.name}}",
                     "Description": "{{i18n:object.broken-harp.description}}",
                     "Type": "asdf",
                     "Category": -20,
                     "Price": -1,
-                    "Texture": "br93.StillnessInTheRain\\MiniHarp",
+                    "Texture": "{{ModId}}\\MiniHarp",
                     "SpriteIndex": 0,
                     "Edibility": -300,
                     "IsDrink": false,
@@ -47,14 +47,14 @@
                     "ExcludeFromRandomSale": true,
                     "CustomFields": null
                 },
-                "br93.StillnessInTheRain_Harp_Object": {
-                    "Name": "br93.StillnessInTheRain_Harp_Object",
+                "{{ModId}}_Harp_Object": {
+                    "Name": "{{ModId}}_Harp_Object",
                     "DisplayName": "{{i18n:object.harp.name}}",
                     "Description": "{{i18n:object.harp.description}}",
                     "Type": "asdf",
                     "Category": -20,
                     "Price": -1,
-                    "Texture": "br93.StillnessInTheRain\\MiniHarp",
+                    "Texture": "{{ModId}}\\MiniHarp",
                     "SpriteIndex": 1,
                     "Edibility": -300,
                     "IsDrink": false,
@@ -69,18 +69,18 @@
             }
         },
         {
-            "LogName": "ObjectExtensions - Harp",
+            "LogName": "SpaceCore - ObjectExtensions - Harp",
             "Action": "EditData",
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
             "Entries": {
-                "br93.StillnessInTheRain_Harp_Broken": {
+                "{{ModId}}_Harp_Broken": {
                     "CategoryTextOverride": "Broken Musical Instrument",
                     "CanBeTrashed": false,
                     "CanBeShipped": false,
                     "GiftableToNpcAllowList": null,
                     "UseForTriggerAction": true
                 },
-                "br93.StillnessInTheRain_Harp_Object": {
+                "{{ModId}}_Harp_Object": {
                     "CategoryTextOverride": "Musical Instrument",
                     "CanBeTrashed": false,
                     "CanBeShipped": false,
@@ -90,11 +90,43 @@
             }
         },
         {
-            "LogName": "CraftingRecipes - Harp",
+            "LogName": "BetterCrafting - Recipes - MiniHarp",
             "Action": "EditData",
-            "Target": "Data/CraftingRecipes",
+            "Target": "Mods/leclair.bettercrafting/Recipes",
             "Entries": {
-                "br93.StillnessInTheRain_Harp_Object": "br93.StillnessInTheRain_Harp_Broken 1 709 5 428 2//br93.StillnessInTheRain_Harp_Object/false/none/{{i18n:object.harp.name}}"
+                "{{ModId}}_Harp_Recipe": {
+                    "Default": true,
+                    "IsCooking": false,
+                    "AllowRecycling": false,
+                    "DisplayName": "{{i18n:object.harp.name}}",
+                    "Description": "{{i18n:object.harp.description}}",
+                    "Ingredients": [
+                        {
+                            "Id": "{{ModId}}_Harp_Recipe_Input1",
+                            "ItemID": "(O){{ModId}}_Harp_Broken",
+                            "Quantity": 1
+                        },
+                        {
+                            "Id": "{{ModId}}_Harp_Recipe_Input2",
+                            "ItemID": "(O)709",
+                            "Quantity": 5
+                        },
+                        {
+                            "Id": "{{ModId}}_Harp_Recipe_Input3",
+                            "ItemID": "(O)428",
+                            "Quantity": 2
+                        }
+                    ],
+                    "ActionsOnCraft": [
+                        "AddMail Current {{ModId}}_Harp_ACTIVE all"
+                    ],
+                    "Output": [
+                        {
+                            "Id": "{{ModId}}_Harp_Output",
+                            "ItemId": "(O){{ModId}}_Harp_Object"
+                        }
+                    ]
+                }
             }
         }
     ]

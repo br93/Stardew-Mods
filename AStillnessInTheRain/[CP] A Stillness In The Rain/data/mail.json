@@ -5,9 +5,9 @@
             "Action": "EditData",
             "Target": "Data/mail",
             "Entries": {
-                "br93.StillnessInTheRain_Mail_Harp": "{{i18n:mail.harp}} %item id (O)br93.StillnessInTheRain_Harp_Broken 1 %%[#]Harp Retrieval",
-                "br93.StillnessInTheRain_Mail_Mom": "{{i18n:mail.mom}}",
-                "br93.StillnessInTheRain_Mail_Dad": "{{i18n:mail.dad}}"
+                "{{ModId}}_Mail_Harp": "{{i18n:mail.harp}} %item id (O){{ModId}}_Harp_Broken 1 %%[#]Harp Retrieval",
+                "{{ModId}}_Mail_Mom": "{{i18n:mail.mom}}",
+                "{{ModId}}_Mail_Dad": "{{i18n:mail.dad}}"
             }
         },
         {
@@ -15,10 +15,10 @@
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
-                "br93.StillnessInTheRain_Mail_Trigger_Harp": {
-                    "Id": "br93.StillnessInTheRain_Mail_Trigger_Harp",
+                "{{ModId}}_Mail_Trigger_Harp": {
+                    "Id": "{{ModId}}_Mail_Trigger_Harp",
                     "Trigger": "DayStarted",
-                    "Action": "AddMail Current br93.StillnessInTheRain_Mail_Harp tomorrow",
+                    "Action": "AddMail Current {{ModId}}_Mail_Harp tomorrow",
                     "MarkActionApplied": true
                 }
             }
@@ -28,13 +28,13 @@
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "When": {
-                "HasFlag: currentPlayer": "br93.StillnessInTheRain_Harp_PROFICIENCY_2"
+                "HasFlag: currentPlayer": "{{ModId}}_Harp_PROFICIENCY_2"
             },
             "Entries": {
-                "br93.StillnessInTheRain_Mail_Trigger_Dad": {
-                    "Id": "br93.StillnessInTheRain_Mail_Trigger_Dad",
+                "{{ModId}}_Mail_Trigger_Dad": {
+                    "Id": "{{ModId}}_Mail_Trigger_Dad",
                     "Trigger": "DayStarted",
-                    "Action": "AddMail Current br93.StillnessInTheRain_Mail_Dad",
+                    "Action": "AddMail Current {{ModId}}_Mail_Dad",
                     "MarkActionApplied": true
                 }
             }
@@ -44,13 +44,13 @@
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "When": {
-                "HasFlag: currentPlayer": "br93.StillnessInTheRain_Harp_PROFICIENCY_4"
+                "HasFlag: currentPlayer": "{{ModId}}_Harp_PROFICIENCY_4"
             },
             "Entries": {
-                "br93.StillnessInTheRain_Mail_Trigger_Mom": {
-                    "Id": "br93.StillnessInTheRain_Mail_Trigger_Mom",
+                "{{ModId}}_Mail_Trigger_Mom": {
+                    "Id": "{{ModId}}_Mail_Trigger_Mom",
                     "Trigger": "DayStarted",
-                    "Action": "AddMail Current br93.StillnessInTheRain_Mail_Mom",
+                    "Action": "AddMail Current {{ModId}}_Mail_Mom",
                     "MarkActionApplied": true
                 }
             }

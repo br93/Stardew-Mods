@@ -3,7 +3,7 @@
   "Changes": [
     {
       "Action": "Include",
-      "FromFile": "assets/json/harp.json, assets/json/mail.json, assets/json/shops.json, assets/json/events.json, assets/json/audio-changes.json, assets/json/audio-triggers.json, assets/json/music-sheet.json"
+      "FromFile": "data/animations.json, data/audio.json, data/events.json, data/mail.json, data/shops.json, data/objects/harp.json, data/objects/music-bench.json, data/objects/music-sheet.json"
     }
   ]
 }

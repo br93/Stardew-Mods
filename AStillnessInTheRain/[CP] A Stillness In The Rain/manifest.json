@@ -3,7 +3,7 @@
   "Author": "br93",
   "Version": "2.0.0",
   "Description": "Adds a functional mini-harp to the game with a minigame, new events and buffs",
-  "UniqueID": "br93.StillnessInTheRain",
+  "UniqueID": "br93.HarpMod",
   "MinimumApiVersion": "3.13.0",
   "UpdateKeys": [],
   "ContentPackFor": {
@@ -13,6 +13,10 @@
   "Dependencies": [
     {
       "UniqueID": "mistyspring.ItemExtensions",
+      "IsRequired": false
+    },
+    {
+      "UniqueID": "leclair.bettercrafting",
       "IsRequired": false
     }
   ]

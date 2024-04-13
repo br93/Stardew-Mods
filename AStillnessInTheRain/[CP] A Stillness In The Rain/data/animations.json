@@ -1,0 +1,51 @@
+{
+    "Changes": [
+        {
+            "LogName": "Music Animations",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/EatingAnimations",
+            "Entries": {
+                "{{ModId}}_Music_Animation": {
+                    "Animation": [
+                        {
+                            "Frame": 99,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 1000,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 99,
+                            "Duration": 1000,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 1000,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 1000,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}
