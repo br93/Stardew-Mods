@@ -26,8 +26,8 @@
                     "Description": "{{i18n:object.music-fishing.description}}",
                     "TexturePath": "{{ModId}}\\MusicSheet",
                     "TexturePosition": {
-                        "X": 0,
-                        "Y": 16
+                        "X": 16,
+                        "Y": 0
                     },
                     "UnlockedCondition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_FISHING"
                 },
@@ -36,8 +36,8 @@
                     "Description": "{{i18n:object.music-mining.description}}",
                     "TexturePath": "{{ModId}}\\MusicSheet",
                     "TexturePosition": {
-                        "X": 0,
-                        "Y": 32
+                        "X": 32,
+                        "Y": 0
                     },
                     "UnlockedCondition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_MINING"
                 },
@@ -46,8 +46,8 @@
                     "Description": "{{i18n:object.music-foraging.description}}",
                     "TexturePath": "{{ModId}}\\MusicSheet",
                     "TexturePosition": {
-                        "X": 0,
-                        "Y": 64
+                        "X": 64,
+                        "Y": 0
                     },
                     "UnlockedCondition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_FORAGING"
                 },
@@ -56,8 +56,8 @@
                     "Description": "{{i18n:object.music-luck.description}}",
                     "TexturePath": "{{ModId}}\\MusicSheet",
                     "TexturePosition": {
-                        "X": 0,
-                        "Y": 48
+                        "X": 48,
+                        "Y": 0
                     },
                     "UnlockedCondition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_LUCK"
                 }
