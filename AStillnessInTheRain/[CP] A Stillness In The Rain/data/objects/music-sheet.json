@@ -60,6 +60,16 @@
                         "Y": 0
                     },
                     "UnlockedCondition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_LUCK"
+                },
+                "{{ModId}}_Music_Fishing2_Wallet": {
+                    "DisplayName": "{{i18n:object.music-fishing.name}} 2",
+                    "Description": "{{i18n:object.music-fishing.description}}",
+                    "TexturePath": "{{ModId}}\\MusicSheet",
+                    "TexturePosition": {
+                        "X": 16,
+                        "Y": 0
+                    },
+                    "UnlockedCondition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_FISHING2"
                 }
             }
         },
@@ -81,26 +91,7 @@
                     "IsDrink": false,
                     "Buffs": [
                         {
-                            "Id": "Food",
-                            "BuffId": null,
-                            "IconTexture": "{{ModId}}\\MusicSheet",
-                            "IconSpriteIndex": 0,
-                            "Duration": 600,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 3.0,
-                                "FishingLevel": 0.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 0.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 0.0,
-                                "Defense": 0.0,
-                                "Attack": 0.0
-                            },
-                            "CustomFields": null
+                            "BuffId": "{{ModId}}_Buff_Farming"
                         }
                     ],
                     "GeodeDropsDefaultItems": false,
@@ -126,26 +117,33 @@
                     "IsDrink": false,
                     "Buffs": [
                         {
-                            "Id": "Food",
-                            "BuffId": null,
-                            "IconTexture": "{{ModId}}\\MusicSheet",
-                            "IconSpriteIndex": 1,
-                            "Duration": 600,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0.0,
-                                "FishingLevel": 3.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 0.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 0.0,
-                                "Defense": 0.0,
-                                "Attack": 0.0
-                            },
-                            "CustomFields": null
+                            "BuffId": "{{ModId}}_Buff_Fishing"
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_Music_Animation"
+                    }
+                },
+                "{{ModId}}_Music_Fishing2": {
+                    "Name": "{{ModId}}_Music_Fishing2",
+                    "DisplayName": "{{i18n:object.music-fishing.name}} 2",
+                    "Description": "{{i18n:object.music-fishing.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": -1,
+                    "Texture": "{{ModId}}\\MusicSheet",
+                    "SpriteIndex": 1,
+                    "Edibility": 0,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "BuffId": "{{ModId}}_SuperBuff_Fishing"
                         }
                     ],
                     "GeodeDropsDefaultItems": false,
@@ -171,26 +169,7 @@
                     "IsDrink": false,
                     "Buffs": [
                         {
-                            "Id": "Food",
-                            "BuffId": null,
-                            "IconTexture": "{{ModId}}\\MusicSheet",
-                            "IconSpriteIndex": 2,
-                            "Duration": 600,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0.0,
-                                "FishingLevel": 0.0,
-                                "MiningLevel": 3.0,
-                                "LuckLevel": 0.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 0.0,
-                                "Defense": 0.0,
-                                "Attack": 0.0
-                            },
-                            "CustomFields": null
+                            "BuffId": "{{ModId}}_Buff_Mining"
                         }
                     ],
                     "GeodeDropsDefaultItems": false,
@@ -216,26 +195,7 @@
                     "IsDrink": false,
                     "Buffs": [
                         {
-                            "Id": "Food",
-                            "BuffId": null,
-                            "IconTexture": "{{ModId}}\\MusicSheet",
-                            "IconSpriteIndex": 3,
-                            "Duration": 1200,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0.0,
-                                "FishingLevel": 0.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 3.0,
-                                "ForagingLevel": 0.0,
-                                "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 0.0,
-                                "Defense": 0.0,
-                                "Attack": 0.0
-                            },
-                            "CustomFields": null
+                            "BuffId": "{{ModId}}_Buff_Luck"
                         }
                     ],
                     "GeodeDropsDefaultItems": false,
@@ -261,26 +221,7 @@
                     "IsDrink": false,
                     "Buffs": [
                         {
-                            "Id": "Food",
-                            "BuffId": null,
-                            "IconTexture": "{{ModId}}\\MusicSheet",
-                            "IconSpriteIndex": 4,
-                            "Duration": 600,
-                            "IsDebuff": false,
-                            "GlowColor": null,
-                            "CustomAttributes": {
-                                "FarmingLevel": 0.0,
-                                "FishingLevel": 0.0,
-                                "MiningLevel": 0.0,
-                                "LuckLevel": 0.0,
-                                "ForagingLevel": 3.0,
-                                "MaxStamina": 0.0,
-                                "MagneticRadius": 0.0,
-                                "Speed": 0.0,
-                                "Defense": 0.0,
-                                "Attack": 0.0
-                            },
-                            "CustomFields": null
+                            "BuffId": "{{ModId}}_Buff_Foraging"
                         }
                     ],
                     "GeodeDropsDefaultItems": false,
@@ -301,35 +242,42 @@
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
             "Entries": {
                 "{{ModId}}_Music_Farming": {
-                    "CategoryTextOverride": "Music Sheet",
+                    "CategoryTextOverride": "{{i18n:category.music-sheet.name}}",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
                     "GiftableToNpcAllowList": null,
                     "UseForTriggerAction": false
                 },
                 "{{ModId}}_Music_Fishing": {
-                    "CategoryTextOverride": "Music Sheet",
+                    "CategoryTextOverride": "{{i18n:category.music-sheet.name}}",
+                    "CanBeTrashed": true,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": null,
+                    "UseForTriggerAction": false
+                },
+                "{{ModId}}_Music_Fishing2": {
+                    "CategoryTextOverride": "{{i18n:category.music-sheet.name}}",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
                     "GiftableToNpcAllowList": null,
                     "UseForTriggerAction": false
                 },
                 "{{ModId}}_Music_Foraging": {
-                    "CategoryTextOverride": "Music Sheet",
+                    "CategoryTextOverride": "{{i18n:category.music-sheet.name}}",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
                     "GiftableToNpcAllowList": null,
                     "UseForTriggerAction": false
                 },
                 "{{ModId}}_Music_Luck": {
-                    "CategoryTextOverride": "Music Sheet",
+                    "CategoryTextOverride": "{{i18n:category.music-sheet.name}}",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
                     "GiftableToNpcAllowList": null,
                     "UseForTriggerAction": false
                 },
                 "{{ModId}}_Music_Mining": {
-                    "CategoryTextOverride": "Music Sheet",
+                    "CategoryTextOverride": "{{i18n:category.music-sheet.name}}",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
                     "GiftableToNpcAllowList": null,
@@ -395,6 +343,34 @@
                         {
                             "Id": "{{ModId}}_Music_Fishing_Output",
                             "ItemId": "(O){{ModId}}_Music_Fishing"
+                        }
+                    ]
+                },
+                "{{ModId}}_Music_Fishing2_Recipe": {
+                    "Default": true,
+                    "IsCooking": true,
+                    "AllowRecycling": false,
+                    "DisplayName": "{{i18n:object.music-fishing.name}} 2",
+                    "Description": "{{i18n:object.music-fishing.description}}",
+                    "Ingredients": [
+                        {
+                            "Id": "{{ModId}}_Music_Fishing2_Recipe_Input1",
+                            "ItemID": "(O)428",
+                            "Quantity": 1
+                        },
+                        {
+                            "Id": "{{ModId}}_Music_Fishing2_Recipe_Input2",
+                            "ItemID": "(O)74",
+                            "Quantity": 2
+                        }
+                    ],
+                    "ActionsOnCraft": [
+                        "AddMail Current {{ModId}}_Music_FISHING2 all"
+                    ],
+                    "Output": [
+                        {
+                            "Id": "{{ModId}}_Music_Fishing2_Output",
+                            "ItemId": "(O){{ModId}}_Music_Fishing2"
                         }
                     ]
                 },
@@ -482,7 +458,6 @@
                         }
                     ]
                 }
-                
             }
         }
     ]

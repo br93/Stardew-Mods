@@ -1,25 +1,57 @@
 {
+    "category.music-sheet.name": "Music Sheet",
+    
     "mail.dad":"Dear @, ^^I've been thinking about you and your love for music. How's your mini-harp been treating you? Any new tunes you've been playing? ^^Take care, Dad",
     "mail.harp": "To our valued clients of Joja Moving Company: ^^Our team members have retrieved the mini-harp that was misplaced during your recent move. We understand the importance of every item in your possession, and we are committed to ensuring a smooth and reliable moving experience for all our customers. ^^We apologize for any inconvenience this oversight may have caused. Rest assured, we have taken steps to prevent such occurrences in the future, including additional training for our staff members. ^^As always, we appreciate your trust in Joja Moving Company and look forward to serving you again in the future.",
     "mail.mom":"Dear @, ^^I hope this message finds you well! How's everything going with your mini-harp project? I've been thinking about how creative you are with these things and wondering what new melodies you've been crafting lately. ^^Looking forward to hearing all about it! ^^Love, Mom.",
     
     "object.broken-harp.description": "Broken mini-harp, not sure if anyone in Pelican Town knows how to fix it. Maybe someone from abroad?",
     "object.broken-harp.name": "Broken Mini-harp",
+    
     "object.harp.description": "A delicate miniature harp. Discover its full potential by playing it during a peaceful rain shower",
     "object.harp.name": "Mini-harp",
    
-    "object.music-farming.name": "Music Sheet Farming",
+    "object.music-farming.buff": "Buff Farming I",
     "object.music-farming.description": "Music Sheet Farming",
-    "object.music-fishing.name": "Music Sheet Fishing",
-    "object.music-fishing.description": "Music Sheet Fishing",
-    "object.music-foraging.name": "Music Sheet Farming",
-    "object.music-foraging.description": "Music Sheet Farming",
-    "object.music-luck.name": "Music Sheet Luck",
-    "object.music-luck.description": "Music Sheet Luck",
-    "object.music-mining.name": "Music Sheet Mining",
-    "object.music-mining.description": "Music Sheet Mining",
+    "object.music-farming.name": "Music Sheet Farming",
 
+    "object.music-farming2.buff": "Buff Farming II",
+    "object.music.farming2.description": "Music Sheet Farming2",
+    "object.music-farming2.name": "Music Sheet Farming2",
+    
+    "object.music-fishing.buff": "Buff Fishing I",
+    "object.music-fishing.description": "Music Sheet Fishing",
+    "object.music-fishing.name": "Music Sheet Fishing",
+
+    "object.music-fishing2.buff": "Buff Fishing II",
+    "object.music.fishing2.description": "Music Sheet Fishing2",
+    "object.music-fishing2.name": "Music Sheet Fishing2",
+    
+    "object.music-foraging.buff": "Buff Foraging I",
+    "object.music-foraging.description": "Music Sheet Foraging",
+    "object.music-foraging.name": "Music Sheet Foraging",
+
+    "object.music-foraging2.buff": "Buff Foraging II",
+    "object.music-foraging2.description": "Music Sheet Foraging2",
+    "object.music-foraging2.name": "Music Sheet Foraging2",
+   
+    "object-music-luck.buff": "Buff Luck I",
+    "object.music-luck.description": "Music Sheet Luck",
+    "object.music-luck.name": "Music Sheet Luck",
+
+    "object-music-luck2.buff": "Buff Luck II",
+    "object.music-luck2.description": "Music Sheet Luck2",
+    "object.music-luck2.name": "Music Sheet Luck2",
+    
+    "object-music-mining.buff": "Buff Mining I",
+    "object.music-mining.description": "Music Sheet Mining",
+    "object.music-mining.name": "Music Sheet Mining",
+
+    "object-music-mining2.buff": "Buff Mining II",
+    "object.music-mining2.description": "Music Sheet Mining2",
+    "object.music-mining2.name": "Music Sheet Mining2",
+    
     "station.harp-bench.name": "Harp Bench",
-    "station.music-bench.name": "Music Bench",
-    "station.music-bench.description": "Music Bench"
+    "station.music-bench.description": "Music Bench",
+    "station.music-bench.name": "Music Bench"
 }

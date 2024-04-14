@@ -1,0 +1,130 @@
+{
+    "Changes": [
+        {
+            "LogName": "Buff - Farming",
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries": {
+                "{{ModId}}_Buff_Farming": {
+                    "DisplayName": "{{i18n:object.music-farming.buff}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 420000,
+                    "MaxDuration": -1,
+                    "IconTexture": "{{ModId}}\\MusicSheet",
+                    "IconSpriteIndex": 0,
+                    "Effects": {
+                        "FarmingLevel": 3.0
+                    },
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                }
+            }
+        },
+        {
+            "LogName": "Buff - Fishing",
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries": {
+                "{{ModId}}_Buff_Fishing": {
+                    "DisplayName": "{{i18n:object.music-fishing.buff}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 420000,
+                    "MaxDuration": -1,
+                    "IconTexture": "{{ModId}}\\MusicSheet",
+                    "IconSpriteIndex": 1,
+                    "Effects": {
+                        "FishingLevel": 3.0
+                    },
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                }
+            }
+        },
+        {
+            "LogName": "Buff - Foraging",
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries": {
+                "{{ModId}}_Buff_Foraging": {
+                    "DisplayName": "{{i18n:object.music-foraging.buff}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 420000,
+                    "MaxDuration": -1,
+                    "IconTexture": "{{ModId}}\\MusicSheet",
+                    "IconSpriteIndex": 4,
+                    "Effects": {
+                        "ForagingLevel": 3.0
+                    },
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                }
+            }
+        },
+        {
+            "LogName": "Buff - Luck",
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries": {
+                "{{ModId}}_Buff_Luck": {
+                    "DisplayName": "{{i18n:object.music-luck.buff}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 840000,
+                    "MaxDuration": -1,
+                    "IconTexture": "{{ModId}}\\MusicSheet",
+                    "IconSpriteIndex": 3,
+                    "Effects": {
+                        "LuckLevel": 3.0
+                    },
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                }
+            }
+        },
+        {
+            "LogName": "Buff - Mining",
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries": {
+                "{{ModId}}_Buff_Mining": {
+                    "DisplayName": "{{i18n:object.music-mining.buff}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 420000,
+                    "MaxDuration": -1,
+                    "IconTexture": "{{ModId}}\\MusicSheet",
+                    "IconSpriteIndex": 2,
+                    "Effects": {
+                        "MiningLevel": 3.0
+                    },
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                }
+            }
+        },
+        {
+            "LogName": "Super Buff - Fishing",
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries": {
+                "{{ModId}}_SuperBuff_Fishing": {
+                    "DisplayName": "{{i18n:object.music-fishing2.buff}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 1200000,
+                    "MaxDuration": -1,
+                    "IconTexture": "TileSheets\\BuffsIcons",
+                    "IconSpriteIndex": 1,
+                    "Effects": {
+                        "FishingLevel": 40.0
+                    },
+                    "ActionsOnApply": null,
+                    "CustomFields": null
+                }
+            }
+        }
+    ]
+}
