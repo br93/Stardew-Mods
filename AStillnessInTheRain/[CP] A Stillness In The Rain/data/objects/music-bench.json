@@ -83,7 +83,7 @@
                 "CustomFields"
             ],
             "Entries": {
-                "leclair.bettercrafting_PerformAction": "leclair.bettercrafting_OpenMenu FALSE TRUE {{ModId}}_MusicSheetBench"
+                "leclair.bettercrafting_PerformAction": "leclair.bettercrafting_OpenMenu TRUE TRUE {{ModId}}_MusicSheetBench"
             }
         }
     ]
