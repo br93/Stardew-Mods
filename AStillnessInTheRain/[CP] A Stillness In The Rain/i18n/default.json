@@ -35,19 +35,20 @@
     "object.music-foraging2.description": "Music Sheet Foraging2",
     "object.music-foraging2.name": "Music Sheet Foraging2",
    
-    "object-music-luck.buff": "Buff Luck I",
+    "object.music-luck.buff": "Buff Luck I",
     "object.music-luck.description": "Music Sheet Luck",
     "object.music-luck.name": "Music Sheet Luck",
 
-    "object-music-luck2.buff": "Buff Luck II",
+    "object.music-luck2.buff": "Buff Luck II",
+    "object.music-luck2.buff.description": "Increases friendship (1 <3)",
     "object.music-luck2.description": "Music Sheet Luck2",
     "object.music-luck2.name": "Music Sheet Luck2",
     
-    "object-music-mining.buff": "Buff Mining I",
+    "object.music-mining.buff": "Buff Mining I",
     "object.music-mining.description": "Music Sheet Mining",
     "object.music-mining.name": "Music Sheet Mining",
 
-    "object-music-mining2.buff": "Buff Mining II",
+    "object.music-mining2.buff": "Buff Mining II",
     "object.music-mining2.description": "Music Sheet Mining2",
     "object.music-mining2.name": "Music Sheet Mining2",
     

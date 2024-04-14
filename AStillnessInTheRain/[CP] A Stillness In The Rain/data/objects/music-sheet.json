@@ -62,14 +62,24 @@
                     "UnlockedCondition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_LUCK"
                 },
                 "{{ModId}}_Music_Fishing2_Wallet": {
-                    "DisplayName": "{{i18n:object.music-fishing.name}} 2",
-                    "Description": "{{i18n:object.music-fishing.description}}",
+                    "DisplayName": "{{i18n:object.music-fishing2.name}}",
+                    "Description": "{{i18n:object.music-fishing2.description}}",
                     "TexturePath": "{{ModId}}\\MusicSheet",
                     "TexturePosition": {
                         "X": 16,
                         "Y": 1
                     },
                     "UnlockedCondition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_FISHING2"
+                },
+                "{{ModId}}_Music_Luck2_Wallet": {
+                    "DisplayName": "{{i18n:object.music-luck2.name}}",
+                    "Description": "{{i18n:object.music-luck2.description}}",
+                    "TexturePath": "{{ModId}}\\MusicSheet",
+                    "TexturePosition": {
+                        "X": 48,
+                        "Y": 1
+                    },
+                    "UnlockedCondition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_LUCK2"
                 }
             }
         },
@@ -170,6 +180,35 @@
                     "Buffs": [
                         {
                             "BuffId": "{{ModId}}_Buff_Mining"
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_Music_Animation"
+                    }
+                },
+                "{{ModId}}_Music_Luck2": {
+                    "Name": "{{ModId}}_Music_Luck2",
+                    "DisplayName": "{{i18n:object.music-luck2.name}}",
+                    "Description": "{{i18n:object.music-luck2.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": -1,
+                    "Texture": "{{ModId}}\\MusicSheet",
+                    "SpriteIndex": 8,
+                    "Edibility": 0,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "BuffId": "{{ModId}}_Buff_Luck"
+                        },
+                        {
+                            "BuffId": "{{ModId}}_SuperBuff_Friendship"
                         }
                     ],
                     "GeodeDropsDefaultItems": false,
@@ -355,7 +394,7 @@
                     "Ingredients": [
                         {
                             "Id": "{{ModId}}_Music_Fishing2_Recipe_Input1",
-                            "ItemID": "(O)428",
+                            "ItemID": "(O){{ModId}}_Music_Fishing",
                             "Quantity": 1
                         },
                         {
@@ -455,6 +494,34 @@
                         {
                             "Id": "{{ModId}}_Music_Luck_Output",
                             "ItemId": "(O){{ModId}}_Music_Luck"
+                        }
+                    ]
+                },
+                "{{ModId}}_Music_Luck2_Recipe": {
+                    "Default": true,
+                    "IsCooking": true,
+                    "AllowRecycling": false,
+                    "DisplayName": "{{i18n:object.music-luck2.name}}",
+                    "Description": "{{i18n:object.music-luck2.description}}",
+                    "Ingredients": [
+                        {
+                            "Id": "{{ModId}}_Music_Luck_Recipe_Input1",
+                            "ItemID": "(O){{ModId}}_Music_Luck",
+                            "Quantity": 1
+                        },
+                        {
+                            "Id": "{{ModId}}_Music_Luck_Recipe_Input2",
+                            "ItemID": "(O)74",
+                            "Quantity": 1
+                        }
+                    ],
+                    "ActionsOnCraft": [
+                        "AddMail Current {{ModId}}_Music_LUCK all"
+                    ],
+                    "Output": [
+                        {
+                            "Id": "{{ModId}}_Music_Luck_Output",
+                            "ItemId": "(O){{ModId}}_Music_Luck2"
                         }
                     ]
                 }

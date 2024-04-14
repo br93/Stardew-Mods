@@ -125,6 +125,61 @@
                     "CustomFields": null
                 }
             }
+        },
+        {
+            "LogName": "Super Buff - Friendship",
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries": {
+                "{{ModId}}_SuperBuff_Friendship": {
+                    "DisplayName": "{{i18n:object.music-luck2.buff}}",
+                    "Description": "{{i18n:object.music-luck2.buff.description}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 6000,
+                    "MaxDuration": -1,
+                    "IconTexture": "{{ModId}}\\MusicSheet",
+                    "IconSpriteIndex": 6,
+                    "Effects": null,
+                    "ActionsOnApply": [
+                        "AddFriendshipPoints Abigail 250",
+                        "AddFriendshipPoints Alex 250",
+                        "AddFriendshipPoints Caroline 250",
+                        "AddFriendshipPoints Clint 250",
+                        "AddFriendshipPoints Demetrius 250",
+                        "If PLAYER_HAS_MET Current Dwarf ## AddFriendshipPoints Dwarf 250",
+                        "AddFriendshipPoints Elliott 250",
+                        "AddFriendshipPoints Emily 250",
+                        "AddFriendshipPoints Evelyn 250",
+                        "AddFriendshipPoints George 250",
+                        "AddFriendshipPoints Gus 250",
+                        "AddFriendshipPoints Haley 250",
+                        "AddFriendshipPoints Harvey 250",
+                        "AddFriendshipPoints Jas 250",
+                        "AddFriendshipPoints Jodi 250",
+                        "If PLAYER_HAS_MET Current Kent ## AddFriendshipPoints Kent 250",
+                        "If PLAYER_HAS_MET Current Krobus ## AddFriendshipPoints Krobus 250",
+                        "AddFriendshipPoints Leah 250",
+                        "If PLAYER_HAS_MET Current Leo ## AddFriendshipPoints Leo 250",
+                        "AddFriendshipPoints Lewis 250",
+                        "AddFriendshipPoints Linus 250",
+                        "AddFriendshipPoints Marnie 250",
+                        "AddFriendshipPoints Maru 250",
+                        "AddFriendshipPoints Pam 250",
+                        "AddFriendshipPoints Penny 250",
+                        "AddFriendshipPoints Pierre 250",
+                        "AddFriendshipPoints Robin 250",
+                        "AddFriendshipPoints Sam 250",
+                        "If PLAYER_HAS_MET Current Sandy ## AddFriendshipPoints Sandy 250",
+                        "AddFriendshipPoints Sebastian 250",
+                        "AddFriendshipPoints Shane 250",
+                        "AddFriendshipPoints Vincent 250",
+                        "If PLAYER_HAS_MET Current Willy ## AddFriendshipPoints Willy 250",
+                        "If PLAYER_HAS_MET Current Wizard ## AddFriendshipPoints Wizard 250"
+                    ],
+                    "CustomFields": null
+                }
+            }
         }
     ]
 }

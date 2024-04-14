@@ -52,7 +52,8 @@
                         "{{ModId}}_Music_Mining_Recipe",
                         "{{ModId}}_Music_Foraging_Recipe",
                         "{{ModId}}_Music_Luck_Recipe",
-                        "{{ModId}}_Music_Fishing2_Recipe"
+                        "{{ModId}}_Music_Fishing2_Recipe",
+                        "{{ModId}}_Music_Luck2_Recipe"
                     ]
                 }
             }
