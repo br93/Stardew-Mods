@@ -1,0 +1,85 @@
+{
+    "Changes": [
+        {
+            "LogName": "ArtifactSpots - Forest",
+            "Action": "EditData",
+            "When": {
+                "Weather": "GreenRain",
+                "HasFlag:currentPlayer": "{{ModId}}_Harp_MASTERY"
+            },
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Forest",
+                "ArtifactSpots"
+            ],
+            "Entries": {
+                "{{ModId}}_Spots_Forest": {
+                    "Chance": 0.5,
+                    "ApplyGenerousEnchantment": true,
+                    "OneDebrisPerDrop": true,
+                    "Precedence": -100,
+                    "ContinueOnDrop": true,
+                    "Id": "{{ModId}}_Spots_Forest",
+                    "ItemId": "RANDOM_ITEMS (O)",
+                    "PerItemCondition": "ITEM_ID_PREFIX Target {{ModId}}_Music_",
+                    "MinStack": 1,
+                    "MaxStack": 1
+                }
+            }
+        },
+        {
+            "LogName": "ArtifactSpots - Mountain",
+            "Action": "EditData",
+            "When": {
+                "Weather": "GreenRain",
+                "HasFlag:currentPlayer": "{{ModId}}_Harp_MASTERY"
+            },
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Mountain",
+                "ArtifactSpots"
+            ],
+            "Entries": {
+                "{{ModId}}_Spots_Mountain": {
+                    "Chance": 0.5,
+                    "ApplyGenerousEnchantment": true,
+                    "OneDebrisPerDrop": true,
+                    "Precedence": -100,
+                    "ContinueOnDrop": true,
+                    "Id": "{{ModId}}_Spots_Mountain",
+                    "ItemId": "RANDOM_ITEMS (O)",
+                    "PerItemCondition": "ITEM_ID_PREFIX Target {{ModId}}_Music_",
+                    "MinStack": 1,
+                    "MaxStack": 1
+                }
+            }
+        },
+        {
+            "LogName": "ArtifactSpots - Default",
+            "Action": "EditData",
+            "When": {
+                "Weather": "GreenRain",
+                "HasFlag:currentPlayer": "{{ModId}}_Harp_MASTERY"
+            },
+            "Target": "Data/Locations",
+            "TargetField": [
+                "Default",
+                "ArtifactSpots"
+            ],
+            "Entries": {
+                "{{ModId}}_Spots_Default": {
+                    "Chance": 0.5,
+                    "ApplyGenerousEnchantment": true,
+                    "OneDebrisPerDrop": true,
+                    "Precedence": -100,
+                    "ContinueOnDrop": true,
+                    "Id": "{{ModId}}_Spots",
+                    "ItemId": "RANDOM_ITEMS (O)",
+                    "PerItemCondition": "ITEM_ID_PREFIX Target {{ModId}}_Music_, !LOCATION_CONTEXT Target Desert Island",
+                    "MinStack": 1,
+                    "MaxStack": 1
+                }
+            }
+        }
+    ]
+}
