@@ -1,0 +1,459 @@
+{
+    "Changes": [
+        {
+            "LogName": "Crops Music - Silver Quality",
+            "Action": "EditData",
+            "When": {
+                "HasFlag: currentPlayer": "{{ModId}}_Flag_SuperBuff_Farming_Silver",
+                "HasFlag |contains= {{ModId}}_Flag_SuperBuff_Farming_Gold": false
+            },
+            "Target": "Data/Crops",
+            "Fields": {
+                "472": {
+                   "HarvestMinQuality": 1
+                },
+                "473": {
+                   "HarvestMinQuality": 1
+                },
+                "474": {
+                   "HarvestMinQuality": 1
+                },
+                "475": {
+                   "HarvestMinQuality": 1
+                },
+                "476": {
+                   "HarvestMinQuality": 1
+                },
+                "273": {
+                   "HarvestMinQuality": 1
+                },
+                "831": {
+                   "HarvestMinQuality": 1
+                },
+                "477": {
+                   "HarvestMinQuality": 1
+                },
+                "478": {
+                   "HarvestMinQuality": 1
+                },
+                "745": {
+                   "HarvestMinQuality": 1
+                },
+                "479": {
+                   "HarvestMinQuality": 1
+                },
+                "480": {
+                   "HarvestMinQuality": 1
+                },
+                "481": {
+                   "HarvestMinQuality": 1
+                },
+                "482": {
+                   "HarvestMinQuality": 1
+                },
+                "483": {
+                   "HarvestMinQuality": 1
+                },
+                "484": {
+                   "HarvestMinQuality": 1
+                },
+                "485": {
+                   "HarvestMinQuality": 1
+                },
+                "486": {
+                   "HarvestMinQuality": 1
+                },
+                "833": {
+                   "HarvestMinQuality": 1
+                },
+                "433": {
+                   "HarvestMinQuality": 1
+                },
+                "802": {
+                   "HarvestMinQuality": 1
+                },
+                "487": {
+                   "HarvestMinQuality": 1
+                },
+                "302": {
+                   "HarvestMinQuality": 1
+                },
+                "301": {
+                   "HarvestMinQuality": 1
+                },
+                "299": {
+                   "HarvestMinQuality": 1
+                },
+                "488": {
+                   "HarvestMinQuality": 1
+                },
+                "489": {
+                   "HarvestMinQuality": 1
+                },
+                "490": {
+                   "HarvestMinQuality": 1
+                },
+                "491": {
+                   "HarvestMinQuality": 1
+                },
+                "492": {
+                   "HarvestMinQuality": 1
+                },
+                "493": {
+                   "HarvestMinQuality": 1
+                },
+                "494": {
+                   "HarvestMinQuality": 1
+                },
+                "499": {
+                   "HarvestMinQuality": 1
+                },
+                "427": {
+                   "HarvestMinQuality": 1
+                },
+                "429": {
+                   "HarvestMinQuality": 1
+                },
+                "453": {
+                   "HarvestMinQuality": 1
+                },
+                "455": {
+                   "HarvestMinQuality": 1
+                },
+                "431": {
+                   "HarvestMinQuality": 1
+                },
+                "425": {
+                   "HarvestMinQuality": 1
+                },
+                "347": {
+                   "HarvestMinQuality": 1
+                },
+                "495": {
+                   "HarvestMinQuality": 1
+                },
+                "496": {
+                   "HarvestMinQuality": 1
+                },
+                "497": {
+                   "HarvestMinQuality": 1
+                },
+                "498": {
+                   "HarvestMinQuality": 1
+                },
+                "SummerSquashSeeds": {
+                   "HarvestMinQuality": 1
+                },
+                "BroccoliSeeds": {
+                   "HarvestMinQuality": 1
+                },
+                "PowdermelonSeeds": {
+                   "HarvestMinQuality": 1
+                }
+            }
+        },
+        {
+            "LogName": "Crops Music - Gold Quality",
+            "Action": "EditData",
+            "When": {
+                "HasFlag: currentPlayer": "{{ModId}}_Flag_SuperBuff_Farming_Gold",
+                "HasFlag |contains= {{ModId}}_Flag_SuperBuff_Farming_Iridium": false
+            },
+            "Target": "Data/Crops",
+            "Fields": {
+                "472": {
+                   "HarvestMinQuality": 2
+                },
+                "473": {
+                   "HarvestMinQuality": 2
+                },
+                "474": {
+                   "HarvestMinQuality": 2
+                },
+                "475": {
+                   "HarvestMinQuality": 2
+                },
+                "476": {
+                   "HarvestMinQuality": 2
+                },
+                "273": {
+                   "HarvestMinQuality": 2
+                },
+                "831": {
+                   "HarvestMinQuality": 2
+                },
+                "477": {
+                   "HarvestMinQuality": 2
+                },
+                "478": {
+                   "HarvestMinQuality": 2
+                },
+                "745": {
+                   "HarvestMinQuality": 2
+                },
+                "479": {
+                   "HarvestMinQuality": 2
+                },
+                "480": {
+                   "HarvestMinQuality": 2
+                },
+                "481": {
+                   "HarvestMinQuality": 2
+                },
+                "482": {
+                   "HarvestMinQuality": 2
+                },
+                "483": {
+                   "HarvestMinQuality": 2
+                },
+                "484": {
+                   "HarvestMinQuality": 2
+                },
+                "485": {
+                   "HarvestMinQuality": 2
+                },
+                "486": {
+                   "HarvestMinQuality": 2
+                },
+                "833": {
+                   "HarvestMinQuality": 2
+                },
+                "433": {
+                   "HarvestMinQuality": 2
+                },
+                "802": {
+                   "HarvestMinQuality": 2
+                },
+                "487": {
+                   "HarvestMinQuality": 2
+                },
+                "302": {
+                   "HarvestMinQuality": 2
+                },
+                "301": {
+                   "HarvestMinQuality": 2
+                },
+                "299": {
+                   "HarvestMinQuality": 2
+                },
+                "488": {
+                   "HarvestMinQuality": 2
+                },
+                "489": {
+                   "HarvestMinQuality": 2
+                },
+                "490": {
+                   "HarvestMinQuality": 2
+                },
+                "491": {
+                   "HarvestMinQuality": 2
+                },
+                "492": {
+                   "HarvestMinQuality": 2
+                },
+                "493": {
+                   "HarvestMinQuality": 2
+                },
+                "494": {
+                   "HarvestMinQuality": 2
+                },
+                "499": {
+                   "HarvestMinQuality": 2
+                },
+                "427": {
+                   "HarvestMinQuality": 2
+                },
+                "429": {
+                   "HarvestMinQuality": 2
+                },
+                "453": {
+                   "HarvestMinQuality": 2
+                },
+                "455": {
+                   "HarvestMinQuality": 2
+                },
+                "431": {
+                   "HarvestMinQuality": 2
+                },
+                "425": {
+                   "HarvestMinQuality": 2
+                },
+                "347": {
+                   "HarvestMinQuality": 2
+                },
+                "495": {
+                   "HarvestMinQuality": 2
+                },
+                "496": {
+                   "HarvestMinQuality": 2
+                },
+                "497": {
+                   "HarvestMinQuality": 2
+                },
+                "498": {
+                   "HarvestMinQuality": 2
+                },
+                "SummerSquashSeeds": {
+                   "HarvestMinQuality": 2
+                },
+                "BroccoliSeeds": {
+                   "HarvestMinQuality": 2
+                },
+                "PowdermelonSeeds": {
+                   "HarvestMinQuality": 2
+                }
+            }
+        },
+        {
+            "LogName": "Crops Music - Iridium Quality",
+            "Action": "EditData",
+            "When": {
+                "HasFlag: currentPlayer": "{{ModId}}_Flag_SuperBuff_Farming_Iridium"
+            },
+            "Target": "Data/Crops",
+            "Fields": {
+                "472": {
+                   "HarvestMinQuality": 4
+                },
+                "473": {
+                   "HarvestMinQuality": 4
+                },
+                "474": {
+                   "HarvestMinQuality": 4
+                },
+                "475": {
+                   "HarvestMinQuality": 4
+                },
+                "476": {
+                   "HarvestMinQuality": 4
+                },
+                "273": {
+                   "HarvestMinQuality": 4
+                },
+                "831": {
+                   "HarvestMinQuality": 4
+                },
+                "477": {
+                   "HarvestMinQuality": 4
+                },
+                "478": {
+                   "HarvestMinQuality": 4
+                },
+                "745": {
+                   "HarvestMinQuality": 4
+                },
+                "479": {
+                   "HarvestMinQuality": 4
+                },
+                "480": {
+                   "HarvestMinQuality": 4
+                },
+                "481": {
+                   "HarvestMinQuality": 4
+                },
+                "482": {
+                   "HarvestMinQuality": 4
+                },
+                "483": {
+                   "HarvestMinQuality": 4
+                },
+                "484": {
+                   "HarvestMinQuality": 4
+                },
+                "485": {
+                   "HarvestMinQuality": 4
+                },
+                "486": {
+                   "HarvestMinQuality": 4
+                },
+                "833": {
+                   "HarvestMinQuality": 4
+                },
+                "433": {
+                   "HarvestMinQuality": 4
+                },
+                "802": {
+                   "HarvestMinQuality": 4
+                },
+                "487": {
+                   "HarvestMinQuality": 4
+                },
+                "302": {
+                   "HarvestMinQuality": 4
+                },
+                "301": {
+                   "HarvestMinQuality": 4
+                },
+                "299": {
+                   "HarvestMinQuality": 4
+                },
+                "488": {
+                   "HarvestMinQuality": 4
+                },
+                "489": {
+                   "HarvestMinQuality": 4
+                },
+                "490": {
+                   "HarvestMinQuality": 4
+                },
+                "491": {
+                   "HarvestMinQuality": 4
+                },
+                "492": {
+                   "HarvestMinQuality": 4
+                },
+                "493": {
+                   "HarvestMinQuality": 4
+                },
+                "494": {
+                   "HarvestMinQuality": 4
+                },
+                "499": {
+                   "HarvestMinQuality": 4
+                },
+                "427": {
+                   "HarvestMinQuality": 4
+                },
+                "429": {
+                   "HarvestMinQuality": 4
+                },
+                "453": {
+                   "HarvestMinQuality": 4
+                },
+                "455": {
+                   "HarvestMinQuality": 4
+                },
+                "431": {
+                   "HarvestMinQuality": 4
+                },
+                "425": {
+                   "HarvestMinQuality": 4
+                },
+                "347": {
+                   "HarvestMinQuality": 4
+                },
+                "495": {
+                   "HarvestMinQuality": 4
+                },
+                "496": {
+                   "HarvestMinQuality": 4
+                },
+                "497": {
+                   "HarvestMinQuality": 4
+                },
+                "498": {
+                   "HarvestMinQuality": 4
+                },
+                "SummerSquashSeeds": {
+                   "HarvestMinQuality": 4
+                },
+                "BroccoliSeeds": {
+                   "HarvestMinQuality": 4
+                },
+                "PowdermelonSeeds": {
+                   "HarvestMinQuality": 4
+                }
+            }
+        }
+    ]
+}

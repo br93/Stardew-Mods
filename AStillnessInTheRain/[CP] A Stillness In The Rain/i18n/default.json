@@ -16,7 +16,8 @@
     "object.music-farming.name": "Music Sheet Farming",
 
     "object.music-farming2.buff": "Buff Farming II",
-    "object.music.farming2.description": "Music Sheet Farming2",
+    "object.music-farming2.buff.description": "Everytime you play, your crops grow in quality",
+    "object.music-farming2.description": "Music Sheet Farming2",
     "object.music-farming2.name": "Music Sheet Farming2",
     
     "object.music-fishing.buff": "Buff Fishing I",
@@ -24,7 +25,8 @@
     "object.music-fishing.name": "Music Sheet Fishing",
 
     "object.music-fishing2.buff": "Buff Fishing II",
-    "object.music.fishing2.description": "Music Sheet Fishing2",
+    "object.music-fishing2.buff.description": "Increases the fishing bar size for a day",
+    "object.music-fishing2.description": "Music Sheet Fishing2",
     "object.music-fishing2.name": "Music Sheet Fishing2",
     
     "object.music-foraging.buff": "Buff Foraging I",
@@ -40,7 +42,7 @@
     "object.music-luck.name": "Music Sheet Luck",
 
     "object.music-luck2.buff": "Buff Luck II",
-    "object.music-luck2.buff.description": "Increases friendship (1 <3)",
+    "object.music-luck2.buff.description": "Increases friendship by one heart",
     "object.music-luck2.description": "Music Sheet Luck2",
     "object.music-luck2.name": "Music Sheet Luck2",
     

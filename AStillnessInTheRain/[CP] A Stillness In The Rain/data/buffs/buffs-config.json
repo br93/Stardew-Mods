@@ -43,20 +43,20 @@
             }
         },
         {
-            "LogName": "Buff - Foraging",
+            "LogName": "Buff - Mining",
             "Action": "EditData",
             "Target": "Data/Buffs",
             "Entries": {
-                "{{ModId}}_Buff_Foraging": {
-                    "DisplayName": "{{i18n:object.music-foraging.buff}}",
+                "{{ModId}}_Buff_Mining": {
+                    "DisplayName": "{{i18n:object.music-mining.buff}}",
                     "IsDebuff": false,
                     "GlowColor": null,
                     "Duration": 420000,
                     "MaxDuration": -1,
                     "IconTexture": "{{ModId}}\\MusicSheet",
-                    "IconSpriteIndex": 4,
+                    "IconSpriteIndex": 2,
                     "Effects": {
-                        "ForagingLevel": 3.0
+                        "MiningLevel": 3.0
                     },
                     "ActionsOnApply": null,
                     "CustomFields": null
@@ -85,22 +85,99 @@
             }
         },
         {
-            "LogName": "Buff - Mining",
+            "LogName": "Buff - Foraging",
             "Action": "EditData",
             "Target": "Data/Buffs",
             "Entries": {
-                "{{ModId}}_Buff_Mining": {
-                    "DisplayName": "{{i18n:object.music-mining.buff}}",
+                "{{ModId}}_Buff_Foraging": {
+                    "DisplayName": "{{i18n:object.music-foraging.buff}}",
                     "IsDebuff": false,
                     "GlowColor": null,
                     "Duration": 420000,
                     "MaxDuration": -1,
                     "IconTexture": "{{ModId}}\\MusicSheet",
-                    "IconSpriteIndex": 2,
+                    "IconSpriteIndex": 4,
                     "Effects": {
-                        "MiningLevel": 3.0
+                        "ForagingLevel": 3.0
                     },
                     "ActionsOnApply": null,
+                    "CustomFields": null
+                }
+            }
+        },        
+        {
+            "LogName": "Super Buff - Crops - Silver",
+            "Action": "EditData",
+            "When": {
+                "HasFlag |contains= {{ModId}}_Flag_SuperBuff_Farming_Silver": false
+            },
+            "Target": "Data/Buffs",
+            "Entries": {
+                "{{ModId}}_SuperBuff_Crops": {
+                    "DisplayName": "{{i18n:object.music-farming2.buff}}",
+                    "Description": "{{i18n:object.music-farming2.buff.description}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 6000,
+                    "MaxDuration": -1,
+                    "IconTexture": "{{ModId}}\\MusicSheet",
+                    "IconSpriteIndex": 5,
+                    "Effects": null,
+                    "ActionsOnApply": [
+                        "AddMail Current {{ModId}}_Flag_SuperBuff_Farming_Silver"
+                    ],
+                    "CustomFields": null
+                }
+            }
+        },
+        {
+            "LogName": "Super Buff - Crops - Gold",
+            "Action": "EditData",
+            "When": {
+                "HasFlag: currentPlayer": "{{ModId}}_Flag_SuperBuff_Farming_Silver",
+                "HasFlag |contains= {{ModId}}_Flag_SuperBuff_Farming_Gold": false
+            },
+            "Target": "Data/Buffs",
+            "Entries": {
+                "{{ModId}}_SuperBuff_Crops": {
+                    "DisplayName": "{{i18n:object.music-farming2.buff}}",
+                    "Description": "{{i18n:object.music-farming2.buff.description}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 6000,
+                    "MaxDuration": -1,
+                    "IconTexture": "{{ModId}}\\MusicSheet",
+                    "IconSpriteIndex": 5,
+                    "Effects": null,
+                    "ActionsOnApply": [
+                        "AddMail Current {{ModId}}_Flag_SuperBuff_Farming_Gold"
+                    ],
+                    "CustomFields": null
+                }
+            }
+        },
+        {
+            "LogName": "Super Buff - Crops - Iridium",
+            "Action": "EditData",
+            "When": {
+                "HasFlag: currentPlayer": "{{ModId}}_Flag_SuperBuff_Farming_Gold",
+                "HasFlag |contains= {{ModId}}_Flag_SuperBuff_Farming_Iridium": false
+            },
+            "Target": "Data/Buffs",
+            "Entries": {
+                "{{ModId}}_SuperBuff_Crops": {
+                    "DisplayName": "{{i18n:object.music-farming2.buff}}",
+                    "Description": "{{i18n:object.music-farming2.buff.description}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 6000,
+                    "MaxDuration": -1,
+                    "IconTexture": "{{ModId}}\\MusicSheet",
+                    "IconSpriteIndex": 5,
+                    "Effects": null,
+                    "ActionsOnApply": [
+                        "AddMail Current {{ModId}}_Flag_SuperBuff_Farming_Iridium"
+                    ],
                     "CustomFields": null
                 }
             }
@@ -139,7 +216,7 @@
                     "Duration": 6000,
                     "MaxDuration": -1,
                     "IconTexture": "{{ModId}}\\MusicSheet",
-                    "IconSpriteIndex": 6,
+                    "IconSpriteIndex": 8,
                     "Effects": null,
                     "ActionsOnApply": [
                         "AddFriendshipPoints Abigail 250",

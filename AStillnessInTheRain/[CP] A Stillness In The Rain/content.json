@@ -13,7 +13,11 @@
     },
     {
       "Action": "Include",
-      "FromFile": "data/animations.json, data/buffs.json, data/drops.json, data/events.json, data/mail.json, data/shops.json, data/objects/harp.json, data/objects/music-bench.json, data/objects/music-sheet.json"
+      "FromFile": "data/animations.json, data/drops.json, data/events.json, data/mail.json, data/shops.json, data/objects/harp.json, data/objects/music-bench.json, data/objects/music-sheet.json"
+    },
+    {
+      "Action": "Include",
+      "FromFile": "data/buffs/buffs-config.json, data/buffs/crops.json"
     }
   ]
 }
