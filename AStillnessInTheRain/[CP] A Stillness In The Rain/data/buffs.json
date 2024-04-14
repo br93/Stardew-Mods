@@ -116,8 +116,8 @@
                     "GlowColor": null,
                     "Duration": 1200000,
                     "MaxDuration": -1,
-                    "IconTexture": "TileSheets\\BuffsIcons",
-                    "IconSpriteIndex": 1,
+                    "IconTexture": "{{ModId}}\\MusicSheet",
+                    "IconSpriteIndex": 6,
                     "Effects": {
                         "FishingLevel": 40.0
                     },

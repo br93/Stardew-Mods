@@ -67,7 +67,7 @@
                     "TexturePath": "{{ModId}}\\MusicSheet",
                     "TexturePosition": {
                         "X": 16,
-                        "Y": 0
+                        "Y": 1
                     },
                     "UnlockedCondition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_FISHING2"
                 }
@@ -138,7 +138,7 @@
                     "Category": -7,
                     "Price": -1,
                     "Texture": "{{ModId}}\\MusicSheet",
-                    "SpriteIndex": 1,
+                    "SpriteIndex": 6,
                     "Edibility": 0,
                     "IsDrink": false,
                     "Buffs": [
