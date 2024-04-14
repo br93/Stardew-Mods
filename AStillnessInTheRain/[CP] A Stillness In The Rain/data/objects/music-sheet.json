@@ -305,7 +305,7 @@
                         {
                             "Id": "{{ModId}}_Music_Farming_Recipe_Input2",
                             "ItemID": "(O)74",
-                            "Quantity": 2
+                            "Quantity": 1
                         }
                     ],
                     "ActionsOnCraft": [
@@ -333,7 +333,7 @@
                         {
                             "Id": "{{ModId}}_Music_Fishing_Recipe_Input2",
                             "ItemID": "(O)74",
-                            "Quantity": 2
+                            "Quantity": 1
                         }
                     ],
                     "ActionsOnCraft": [
@@ -361,7 +361,7 @@
                         {
                             "Id": "{{ModId}}_Music_Fishing2_Recipe_Input2",
                             "ItemID": "(O)74",
-                            "Quantity": 2
+                            "Quantity": 1
                         }
                     ],
                     "ActionsOnCraft": [
@@ -389,7 +389,7 @@
                         {
                             "Id": "{{ModId}}_Music_Foraging_Recipe_Input2",
                             "ItemID": "(O)74",
-                            "Quantity": 2
+                            "Quantity": 1
                         }
                     ],
                     "ActionsOnCraft": [
@@ -417,7 +417,7 @@
                         {
                             "Id": "{{ModId}}_Music_Mining_Recipe_Input2",
                             "ItemID": "(O)74",
-                            "Quantity": 2
+                            "Quantity": 1
                         }
                     ],
                     "ActionsOnCraft": [
@@ -445,7 +445,7 @@
                         {
                             "Id": "{{ModId}}_Music_Luck_Recipe_Input2",
                             "ItemID": "(O)74",
-                            "Quantity": 3
+                            "Quantity": 2
                         }
                     ],
                     "ActionsOnCraft": [

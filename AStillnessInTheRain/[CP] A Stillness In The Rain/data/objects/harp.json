@@ -110,11 +110,6 @@
                             "Id": "{{ModId}}_Harp_Recipe_Input2",
                             "ItemID": "(O)709",
                             "Quantity": 5
-                        },
-                        {
-                            "Id": "{{ModId}}_Harp_Recipe_Input3",
-                            "ItemID": "(O)428",
-                            "Quantity": 2
                         }
                     ],
                     "ActionsOnCraft": [
