@@ -396,8 +396,8 @@
                         },
                         {
                             "Id": "{{ModId}}_Music_Farming_Recipe_Input2",
-                            "ItemID": "(O)74",
-                            "Quantity": 1
+                            "ItemID": "(O)66",
+                            "Quantity": 5
                         }
                     ],
                     "ActionsOnCraft": [
@@ -412,6 +412,7 @@
                 },
                 "{{ModId}}_Music_Farming2_Recipe": {
                     "Default": true,
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_FARMING",
                     "IsCooking": true,
                     "AllowRecycling": false,
                     "DisplayName": "{{i18n:object.music-farming.name}}",
@@ -452,8 +453,8 @@
                         },
                         {
                             "Id": "{{ModId}}_Music_Fishing_Recipe_Input2",
-                            "ItemID": "(O)74",
-                            "Quantity": 1
+                            "ItemID": "(O)66",
+                            "Quantity": 5
                         }
                     ],
                     "ActionsOnCraft": [
@@ -468,6 +469,7 @@
                 },
                 "{{ModId}}_Music_Fishing2_Recipe": {
                     "Default": true,
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_FISHING",
                     "IsCooking": true,
                     "AllowRecycling": false,
                     "DisplayName": "{{i18n:object.music-fishing.name}} 2",
@@ -508,8 +510,8 @@
                         },
                         {
                             "Id": "{{ModId}}_Music_Foraging_Recipe_Input2",
-                            "ItemID": "(O)74",
-                            "Quantity": 1
+                            "ItemID": "(O)66",
+                            "Quantity": 5
                         }
                     ],
                     "ActionsOnCraft": [
@@ -536,8 +538,8 @@
                         },
                         {
                             "Id": "{{ModId}}_Music_Mining_Recipe_Input2",
-                            "ItemID": "(O)74",
-                            "Quantity": 1
+                            "ItemID": "(O)66",
+                            "Quantity": 5
                         }
                     ],
                     "ActionsOnCraft": [
@@ -564,8 +566,8 @@
                         },
                         {
                             "Id": "{{ModId}}_Music_Luck_Recipe_Input2",
-                            "ItemID": "(O)74",
-                            "Quantity": 2
+                            "ItemID": "(O)66",
+                            "Quantity": 5
                         }
                     ],
                     "ActionsOnCraft": [
@@ -580,6 +582,7 @@
                 },
                 "{{ModId}}_Music_Luck2_Recipe": {
                     "Default": true,
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_LUCK",
                     "IsCooking": true,
                     "AllowRecycling": false,
                     "DisplayName": "{{i18n:object.music-luck2.name}}",
