@@ -1,11 +1,47 @@
 {
     "Changes": [
         {
+            "LogName": "Trigger Actions - GreenRain",
+            "Action": "EditData",
+            "When": {
+                "Weather": "GreenRain"
+            },
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Trigger_GreenRain_Flag": {
+                    "Id": "{{ModId}}_Trigger_GreenRain_Flag",
+                    "Trigger": "DayStarted",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_GreenRain_Flag"
+                    ],
+                    "MarkActionApplied": false
+                }
+            }
+        },
+        {
+            "LogName": "Trigger Actions - GreenRain",
+            "Action": "EditData",
+            "When": {
+                "HasFlag": "{{ModId}}_GreenRain_Flag"
+            },
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Trigger_GreenRain_RemoveFlag": {
+                    "Id": "{{ModId}}_Trigger_GreenRain_RemoveFlag",
+                    "Trigger": "DayStarted",
+                    "Actions": [
+                        "RemoveMail Current {{ModId}}_GreenRain_Flag tomorrow"
+                    ],
+                    "MarkActionApplied": false
+                }
+            }
+        },
+        {
             "LogName": "ArtifactSpots - Forest",
             "Action": "EditData",
             "When": {
-                "Weather": "GreenRain",
-                "HasFlag:currentPlayer": "{{ModId}}_Harp_MASTERY"
+                "HasFlag |contains={{ModId}}_Harp_MASTERY": "true",
+                "HasFlag |contains={{ModId}}_GreenRain_Flag": "true"
             },
             "Target": "Data/Locations",
             "TargetField": [
@@ -31,8 +67,8 @@
             "LogName": "ArtifactSpots - Mountain",
             "Action": "EditData",
             "When": {
-                "Weather": "GreenRain",
-                "HasFlag:currentPlayer": "{{ModId}}_Harp_MASTERY"
+                "HasFlag |contains={{ModId}}_Harp_MASTERY": "true",
+                "HasFlag |contains={{ModId}}_GreenRain_Flag": "true"
             },
             "Target": "Data/Locations",
             "TargetField": [
@@ -58,8 +94,8 @@
             "LogName": "ArtifactSpots - Default",
             "Action": "EditData",
             "When": {
-                "Weather": "GreenRain",
-                "HasFlag:currentPlayer": "{{ModId}}_Harp_MASTERY"
+                "HasFlag |contains={{ModId}}_Harp_MASTERY": "true",
+                "HasFlag |contains={{ModId}}_GreenRain_Flag": "true"
             },
             "Target": "Data/Locations",
             "TargetField": [
