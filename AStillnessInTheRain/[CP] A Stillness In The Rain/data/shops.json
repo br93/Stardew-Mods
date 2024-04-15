@@ -26,7 +26,7 @@
             "Entries": {
                 "{{ModId}}_MusicSheet_Farming_Bookseller": {
                     "Id": "{{ModId}}_MusicSheet_Farming_Bookseller",
-                    "ItemId": "{{ModId}}_Music_Farming",
+                    "ItemId": "{{ModId}}_Music_Common_Farming",
                     "Price": 4000,   
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
@@ -34,7 +34,7 @@
                 },
                 "{{ModId}}_MusicSheet_Fishing_Bookseller": {
                     "Id": "{{ModId}}_MusicSheet_Fishing_Bookseller",
-                    "ItemId": "{{ModId}}_Music_Fishing",
+                    "ItemId": "{{ModId}}_Music_Common_Fishing",
                     "Price": 4000,   
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
@@ -42,7 +42,7 @@
                 },
                 "{{ModId}}_MusicSheet_Mining_Bookseller": {
                     "Id": "{{ModId}}_MusicSheet_Mining_Bookseller",
-                    "ItemId": "{{ModId}}_Music_Mining",
+                    "ItemId": "{{ModId}}_Music_Common_Mining",
                     "Price": 4000,   
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
@@ -50,7 +50,7 @@
                 },
                 "{{ModId}}_MusicSheet_Luck_Bookseller": {
                     "Id": "{{ModId}}_MusicSheet_Luck_Bookseller",
-                    "ItemId": "{{ModId}}_Music_Luck",
+                    "ItemId": "{{ModId}}_Music_Common_Luck",
                     "Price": 12000,   
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
@@ -58,7 +58,7 @@
                 },
                 "{{ModId}}_MusicSheet_Foraging_Bookseller": {
                     "Id": "{{ModId}}_MusicSheet_Foraging_Bookseller",
-                    "ItemId": "{{ModId}}_Music_Foraging",
+                    "ItemId": "{{ModId}}_Music_Common_Foraging",
                     "Price": 4000,   
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
@@ -92,7 +92,7 @@
             "Entries": {
                 "{{ModId}}_MusicSheet_Farming_Traveler": {
                     "Id": "{{ModId}}_MusicSheet_Farming_Traveler",
-                    "ItemId": "{{ModId}}_Music_Farming",
+                    "ItemId": "{{ModId}}_Music_Common_Farming",
                     "Price": 4000,   
                     "AvailableStock": 5,
                     "AvailableStockLimit": "Global",
@@ -100,7 +100,7 @@
                 },
                 "{{ModId}}_MusicSheet_Fishing_Traveler": {
                     "Id": "{{ModId}}_MusicSheet_Fishing_Traveler",
-                    "ItemId": "{{ModId}}_Music_Fishing",
+                    "ItemId": "{{ModId}}_Music_Common_Fishing",
                     "Price": 4000,   
                     "AvailableStock": 5,
                     "AvailableStockLimit": "Global",
@@ -108,7 +108,7 @@
                 },
                 "{{ModId}}_MusicSheet_Mining_Traveler": {
                     "Id": "{{ModId}}_MusicSheet_Mining_Traveler",
-                    "ItemId": "{{ModId}}_Music_Mining",
+                    "ItemId": "{{ModId}}_Music_Common_Mining",
                     "Price": 4000,   
                     "AvailableStock": 5,
                     "AvailableStockLimit": "Global",
@@ -116,7 +116,7 @@
                 },
                 "{{ModId}}_MusicSheet_Luck_Traveler": {
                     "Id": "{{ModId}}_MusicSheet_Luck_Traveler",
-                    "ItemId": "{{ModId}}_Music_Luck",
+                    "ItemId": "{{ModId}}_Music_Common_Luck",
                     "Price": 12000,   
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Global",
@@ -124,7 +124,7 @@
                 },
                 "{{ModId}}_MusicSheet_Foraging_Traveler": {
                     "Id": "{{ModId}}_MusicSheet_Foraging_Traveler",
-                    "ItemId": "{{ModId}}_Music_Foraging",
+                    "ItemId": "{{ModId}}_Music_Common_Foraging",
                     "Price": 4000,   
                     "AvailableStock": 5,
                     "AvailableStockLimit": "Global",

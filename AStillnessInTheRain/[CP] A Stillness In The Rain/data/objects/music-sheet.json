@@ -98,8 +98,8 @@
             "Action": "EditData",
             "Target": "Data/Objects",
             "Entries": {
-                "{{ModId}}_Music_Farming": {
-                    "Name": "{{ModId}}_Music_Farming",
+                "{{ModId}}_Music_Common_Farming": {
+                    "Name": "{{ModId}}_Music_Common_Farming",
                     "DisplayName": "{{i18n:object.music-farming.name}}",
                     "Description": "{{i18n:object.music-farming.description}}",
                     "Type": "Cooking",
@@ -153,8 +153,8 @@
                         "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_Music_Animation"
                     }
                 },
-                "{{ModId}}_Music_Fishing": {
-                    "Name": "{{ModId}}_Music_Fishing",
+                "{{ModId}}_Music_Common_Fishing": {
+                    "Name": "{{ModId}}_Music_Common_Fishing",
                     "DisplayName": "{{i18n:object.music-fishing.name}}",
                     "Description": "{{i18n:object.music-fishing.description}}",
                     "Type": "Cooking",
@@ -205,8 +205,8 @@
                         "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_Music_Animation"
                     }
                 },
-                "{{ModId}}_Music_Mining": {
-                    "Name": "{{ModId}}_Music_Mining",
+                "{{ModId}}_Music_Common_Mining": {
+                    "Name": "{{ModId}}_Music_Common_Mining",
                     "DisplayName": "{{i18n:object.music-mining.name}}",
                     "Description": "{{i18n:object.music-mining.description}}",
                     "Type": "Cooking",
@@ -231,8 +231,8 @@
                         "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_Music_Animation"
                     }
                 },
-                "{{ModId}}_Music_Luck": {
-                    "Name": "{{ModId}}_Music_Luck",
+                "{{ModId}}_Music_Common_Luck": {
+                    "Name": "{{ModId}}_Music_Common_Luck",
                     "DisplayName": "{{i18n:object.music-luck.name}}",
                     "Description": "{{i18n:object.music-luck.description}}",
                     "Type": "Cooking",
@@ -286,8 +286,8 @@
                         "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_Music_Animation"
                     }
                 },
-                "{{ModId}}_Music_Foraging": {
-                    "Name": "{{ModId}}_Music_Foraging",
+                "{{ModId}}_Music_Common_Foraging": {
+                    "Name": "{{ModId}}_Music_Common_Foraging",
                     "DisplayName": "{{i18n:object.music-foraging.name}}",
                     "Description": "{{i18n:object.music-foraging.description}}",
                     "Type": "Cooking",
@@ -319,7 +319,7 @@
             "Action": "EditData",
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
             "Entries": {
-                "{{ModId}}_Music_Farming": {
+                "{{ModId}}_Music_Common_Farming": {
                     "CategoryTextOverride": "{{i18n:category.music-sheet.name}}",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
@@ -333,7 +333,7 @@
                     "GiftableToNpcAllowList": null,
                     "UseForTriggerAction": false
                 },
-                "{{ModId}}_Music_Fishing": {
+                "{{ModId}}_Music_Common_Fishing": {
                     "CategoryTextOverride": "{{i18n:category.music-sheet.name}}",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
@@ -354,7 +354,7 @@
                     "GiftableToNpcAllowList": null,
                     "UseForTriggerAction": false
                 },
-                "{{ModId}}_Music_Luck": {
+                "{{ModId}}_Music_Common_Luck": {
                     "CategoryTextOverride": "{{i18n:category.music-sheet.name}}",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
@@ -368,7 +368,7 @@
                     "GiftableToNpcAllowList": null,
                     "UseForTriggerAction": false
                 },
-                "{{ModId}}_Music_Mining": {
+                "{{ModId}}_Music_Common_Mining": {
                     "CategoryTextOverride": "{{i18n:category.music-sheet.name}}",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
@@ -406,7 +406,7 @@
                     "Output": [
                         {
                             "Id": "{{ModId}}_Music_Farming_Output",
-                            "ItemId": "(O){{ModId}}_Music_Farming"
+                            "ItemId": "(O){{ModId}}_Music_Common_Farming"
                         }
                     ]
                 },
@@ -420,7 +420,7 @@
                     "Ingredients": [
                         {
                             "Id": "{{ModId}}_Music_Farming_Recipe_Input1",
-                            "ItemID": "(O){{ModId}}_Music_Farming",
+                            "ItemID": "(O){{ModId}}_Music_Common_Farming",
                             "Quantity": 1
                         },
                         {
@@ -463,7 +463,7 @@
                     "Output": [
                         {
                             "Id": "{{ModId}}_Music_Fishing_Output",
-                            "ItemId": "(O){{ModId}}_Music_Fishing"
+                            "ItemId": "(O){{ModId}}_Music_Common_Fishing"
                         }
                     ]
                 },
@@ -477,7 +477,7 @@
                     "Ingredients": [
                         {
                             "Id": "{{ModId}}_Music_Fishing2_Recipe_Input1",
-                            "ItemID": "(O){{ModId}}_Music_Fishing",
+                            "ItemID": "(O){{ModId}}_Music_Common_Fishing",
                             "Quantity": 1
                         },
                         {
@@ -520,7 +520,7 @@
                     "Output": [
                         {
                             "Id": "{{ModId}}_Music_Foraging_Output",
-                            "ItemId": "(O){{ModId}}_Music_Foraging"
+                            "ItemId": "(O){{ModId}}_Music_Common_Foraging"
                         }
                     ]
                 },
@@ -548,7 +548,7 @@
                     "Output": [
                         {
                             "Id": "{{ModId}}_Music_Mining_Output",
-                            "ItemId": "(O){{ModId}}_Music_Mining"
+                            "ItemId": "(O){{ModId}}_Music_Common_Mining"
                         }
                     ]
                 },
@@ -576,7 +576,7 @@
                     "Output": [
                         {
                             "Id": "{{ModId}}_Music_Luck_Output",
-                            "ItemId": "(O){{ModId}}_Music_Luck"
+                            "ItemId": "(O){{ModId}}_Music_Common_Luck"
                         }
                     ]
                 },
@@ -590,7 +590,7 @@
                     "Ingredients": [
                         {
                             "Id": "{{ModId}}_Music_Luck_Recipe_Input1",
-                            "ItemID": "(O){{ModId}}_Music_Luck",
+                            "ItemID": "(O){{ModId}}_Music_Common_Luck",
                             "Quantity": 1
                         },
                         {
