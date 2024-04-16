@@ -1,0 +1,20 @@
+{
+    "Changes": [
+      {
+        "Action": "EditMap",
+        "Target": "Maps/Forest",
+        "When": {
+          "HasFlag": "{{ModId}}_Harp_MASTERY",
+          "DayOfWeek": "Friday, Sunday"
+        },
+        "FromFile": "assets/MusicTravelingCart.tmx",
+        "PatchMode": "Replace",
+        "ToArea": {
+          "X": 31,
+          "Y": 11,
+          "Width": 1,
+          "Height": 2
+        }
+      }
+    ]
+}
