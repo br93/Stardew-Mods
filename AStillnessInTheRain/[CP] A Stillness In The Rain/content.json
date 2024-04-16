@@ -8,14 +8,22 @@
  ],
   "Changes": [
     {
+      "LogName": "Include audio changes",
       "Action": "Include",
-      "FromFile": "data/audio.json, data/audio-triggers.json"
+      "FromFile": "data/audio/audio.json, data/audio/audio-triggers.json"
     },
     {
+      "LogName": "Include data changes",
       "Action": "Include",
-      "FromFile": "data/animations.json, data/drops.json, data/events.json, data/mail.json, data/shops.json, data/objects/harp.json, data/objects/music-bench.json, data/objects/music-sheet.json"
+      "FromFile": "data/animations.json, data/drops.json, data/events.json, data/mail.json, data/maps.json, data/shops.json"
     },
     {
+      "LogName": "Include object changes",
+      "Action": "Include",
+      "FromFile": "data/objects/harp.json, data/objects/music-bench.json, data/objects/music-sheet.json"
+    },
+    {
+      "LogName": "Include buff changes",
       "Action": "Include",
       "FromFile": "data/buffs/buffs-config.json, data/buffs/crops.json"
     }
