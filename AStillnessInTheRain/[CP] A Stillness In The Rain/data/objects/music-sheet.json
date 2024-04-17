@@ -398,6 +398,11 @@
                             "Id": "{{ModId}}_Music_Farming_Recipe_Input2",
                             "ItemID": "(O)66",
                             "Quantity": 5
+                        },
+                        {
+                            "Id": "{{ModId}}_Music_Farming_Recipe_Input3",
+                            "ItemID": "(O)768",
+                            "Quantity": 1
                         }
                     ],
                     "ActionsOnCraft": [
@@ -419,12 +424,12 @@
                     "Description": "{{i18n:object.music-farming.description}}",
                     "Ingredients": [
                         {
-                            "Id": "{{ModId}}_Music_Farming_Recipe_Input1",
+                            "Id": "{{ModId}}_Music_Farming2_Recipe_Input1",
                             "ItemID": "(O){{ModId}}_Music_Common_Farming",
                             "Quantity": 1
                         },
                         {
-                            "Id": "{{ModId}}_Music_Farming_Recipe_Input2",
+                            "Id": "{{ModId}}_Music_Farming2_Recipe_Input2",
                             "ItemID": "(O)74",
                             "Quantity": 1
                         }
@@ -434,7 +439,7 @@
                     ],
                     "Output": [
                         {
-                            "Id": "{{ModId}}_Music_Farming_Output",
+                            "Id": "{{ModId}}_Music_Farming2_Output",
                             "ItemId": "(O){{ModId}}_Music_Farming2"
                         }
                     ]
@@ -455,6 +460,11 @@
                             "Id": "{{ModId}}_Music_Fishing_Recipe_Input2",
                             "ItemID": "(O)66",
                             "Quantity": 5
+                        },
+                        {
+                            "Id": "{{ModId}}_Music_Fishing_Recipe_Input3",
+                            "ItemID": "(O)768",
+                            "Quantity": 1
                         }
                     ],
                     "ActionsOnCraft": [
@@ -512,6 +522,11 @@
                             "Id": "{{ModId}}_Music_Foraging_Recipe_Input2",
                             "ItemID": "(O)66",
                             "Quantity": 5
+                        },
+                        {
+                            "Id": "{{ModId}}_Music_Foraging_Recipe_Input3",
+                            "ItemID": "(O)768",
+                            "Quantity": 1
                         }
                     ],
                     "ActionsOnCraft": [
@@ -540,6 +555,11 @@
                             "Id": "{{ModId}}_Music_Mining_Recipe_Input2",
                             "ItemID": "(O)66",
                             "Quantity": 5
+                        },
+                        {
+                            "Id": "{{ModId}}_Music_Mining_Recipe_Input3",
+                            "ItemID": "(O)768",
+                            "Quantity": 1
                         }
                     ],
                     "ActionsOnCraft": [
@@ -568,6 +588,11 @@
                             "Id": "{{ModId}}_Music_Luck_Recipe_Input2",
                             "ItemID": "(O)66",
                             "Quantity": 5
+                        },
+                        {
+                            "Id": "{{ModId}}_Music_Luck_Recipe_Input3",
+                            "ItemID": "(O)768",
+                            "Quantity": 1
                         }
                     ],
                     "ActionsOnCraft": [
@@ -589,12 +614,12 @@
                     "Description": "{{i18n:object.music-luck2.description}}",
                     "Ingredients": [
                         {
-                            "Id": "{{ModId}}_Music_Luck_Recipe_Input1",
+                            "Id": "{{ModId}}_Music_Luck2_Recipe_Input1",
                             "ItemID": "(O){{ModId}}_Music_Common_Luck",
                             "Quantity": 1
                         },
                         {
-                            "Id": "{{ModId}}_Music_Luck_Recipe_Input2",
+                            "Id": "{{ModId}}_Music_Luck2_Recipe_Input2",
                             "ItemID": "(O)74",
                             "Quantity": 1
                         }
