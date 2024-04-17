@@ -1,6 +1,10 @@
 {
   "Format": "2.0.0",
   "ConfigSchema": {
+    "DisableVanillaEventWithoutMiniHarp": {
+      "AllowValues": "true, false",
+      "Default": true
+    },
     "ChangeProjectile": {
       "AllowValues": "true, false",
       "Default": true

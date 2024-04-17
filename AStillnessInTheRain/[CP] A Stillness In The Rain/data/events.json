@@ -1,25 +1,15 @@
 {
     "Changes": [
         {
-            "LogName": "New Harp Event - After fixing harp",
+            "LogName": "Disable Abigail Mini Harp event without mini harp",
             "Action": "EditData",
             "Target": "Data/Events/Mountain",
             "When": {
-                "HasFlag: currentPlayer": "{{ModId}}_Harp_ACTIVE"
+                "DisableVanillaEventWithoutMiniHarp": true,
+                "HasFlag |contains={{ModId}}_Harp_ACTIVE": "false"
             },
             "Entries": {
-                "10744161/w sunny/t 0700 2300/z winter": "none/-1000 -1000/farmer 34 32 1/skippable/viewport 46 31/move farmer 13 0 0/pause 500/faceDirection farmer 1/pause 500/move farmer -1 0 0/move farmer 0 -1 2/faceDirection farmer 1/pause 500/faceDirection farmer 2/pause 600/playSound dwop/showFrame 98/pause 300/showFrame 98/pause 1000/playMusic grandpas_theme/pause 1250/animate farmer false true 308 99 98 98 99 100 100/pause 22500/globalFade/viewport -1000 -1000/end position 46 33"
-            }
-        },
-        {
-            "LogName": "New Harp Event - Haley 5 Hearts and Harp Mastery",
-            "Action": "EditData",
-            "Target": "Data/Events/Beach",
-            "When": {
-                "HasFlag: currentPlayer": "{{ModId}}_Harp_MASTERY"
-            },
-            "Entries": {
-                "10774162/f Haley 1250/p Haley": "none/-1000 -1000/farmer 38 1 2 Haley 300 300 2/skippable/viewport 34 7/move farmer 0 10 0/pause 500/faceDirection farmer 3/pause 500/move farmer -6 0 2/move farmer 0 7 2/pause 1000/warp Haley 38 1/warp farmer 12 39/faceDirection Haley 2/move Haley 0 6 3/move Haley -10 0 3/pause 1000/playMusic {{ModId}}_Harp_HarpFull/pause 1500/faceDirection Haley 2/emote Haley 8/pause 11000/fade/viewport 12 35/warp Haley 12 32/animate farmer false true 308 99 98 98 99 100 100/pause 1000/emote Haley 20/pause 5200/globalFade/viewport -1000 -1000/end dialogue Haley \"Wow! There's something about the sun, the music, that just makes me feel good! $h\""
+                "2/f Abigail 1000/w rainy/t 1200 1900/z winter": null
             }
         }
     ]
