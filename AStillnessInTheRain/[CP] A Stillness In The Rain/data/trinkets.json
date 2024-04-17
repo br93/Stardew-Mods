@@ -1,0 +1,38 @@
+{
+    "Changes": [
+        {
+            "LogName": "Edit Projectile Animation",
+            "Action": "EditImage",
+            "When": {
+                "ChangeProjectile": true
+            },
+            "Target": "TileSheets/Projectiles",
+            "FromFile": "assets/note.png",
+            "ToArea": {
+                "X": 0,
+                "Y": 32,
+                "Width": 16,
+                "Height": 16
+            }
+        },
+        {
+            "LogName": "New Trinket",
+            "Action": "EditData",
+            "Target": "Data/Trinkets",
+            "Entries": {
+                //(TR){{ModId}}_Harp_Trinket
+                "{{ModId}}_Harp_Trinket": {
+                    "Id": "{{ModId}}_Harp_Trinket",
+                    "DisplayName": "{{i18n:object.harp.name}}",
+                    "Description": "{{i18n:trinket.harp.description}}",
+                    "Texture": "{{ModId}}\\MiniHarp",
+                    "SheetIndex": 1,
+                    "TrinketEffectClass": "StardewValley.Objects.MagicQuiverTrinketEffect",
+                    "DropsNaturally": false,
+                    "CanBeReforged": false,
+                    "TrinketMetadata": null
+                }
+            }
+        }
+    ]
+}

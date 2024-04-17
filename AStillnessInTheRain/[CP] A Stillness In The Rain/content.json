@@ -1,11 +1,11 @@
 {
   "Format": "2.0.0",
-  "DynamicTokens": [
-    {
-       "Name": "Active",
-       "Value": "{{i18n:music.active}}"
+  "ConfigSchema": {
+    "ChangeProjectile": {
+      "AllowValues": "true, false",
+      "Default": true
     }
- ],
+  },
   "Changes": [
     {
       "LogName": "Include audio changes",
@@ -15,7 +15,7 @@
     {
       "LogName": "Include data changes",
       "Action": "Include",
-      "FromFile": "data/animations.json, data/drops.json, data/events.json, data/mail.json, data/maps.json, data/shops.json"
+      "FromFile": "data/animations.json, data/drops.json, data/events.json, data/mail.json, data/maps.json, data/shops.json, data/trinkets.json"
     },
     {
       "LogName": "Include object changes",
