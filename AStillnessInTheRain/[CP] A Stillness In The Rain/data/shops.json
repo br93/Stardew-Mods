@@ -19,6 +19,7 @@
             "LogName": "EditShop - Music Sheet - Bookseller",
             "Action": "EditData",
             "When": {
+                "BooksellerSellsMusicSheet": true,
                 "HasFlag:currentPlayer": "{{ModId}}_Harp_MASTERY"
             },
             "Target": "Data/Shops",
@@ -85,6 +86,7 @@
             "LogName": "EditShop - Music Sheet - Traveler",
             "Action": "EditData",
             "When": {
+                "TravellingCartSellsMusicSheet": true,
                 "HasFlag:currentPlayer": "{{ModId}}_Harp_MASTERY"
             },
             "Target": "Data/Shops",
