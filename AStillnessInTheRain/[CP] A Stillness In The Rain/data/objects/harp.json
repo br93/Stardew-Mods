@@ -74,14 +74,14 @@
             "Target": "spacechase0.SpaceCore/ObjectExtensionData",
             "Entries": {
                 "{{ModId}}_Harp_Broken": {
-                    "CategoryTextOverride": "Broken Musical Instrument",
+                    "CategoryTextOverride": "{{i18n:category.broken-musical-instrument.name}}",
                     "CanBeTrashed": false,
                     "CanBeShipped": false,
                     "GiftableToNpcAllowList": null,
                     "UseForTriggerAction": true
                 },
                 "{{ModId}}_Harp_Object": {
-                    "CategoryTextOverride": "Musical Instrument",
+                    "CategoryTextOverride": "{{i18n:category.musical-instrument.name}}",
                     "CanBeTrashed": false,
                     "CanBeShipped": false,
                     "GiftableToNpcAllowList": null,
