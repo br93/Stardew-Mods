@@ -20,7 +20,6 @@
             "Action": "EditData",
             "Target": "Data/Trinkets",
             "Entries": {
-                //(TR){{ModId}}_Harp_Trinket
                 "{{ModId}}_Harp_Trinket": {
                     "Id": "{{ModId}}_Harp_Trinket",
                     "DisplayName": "{{i18n:object.harp.name}}",
