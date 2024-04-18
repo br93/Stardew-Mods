@@ -25,7 +25,7 @@
             "Action": "EditData",
             "When": {
                 "HasFlag |contains={{ModId}}_Harp_LevelUp": "false",
-                "Weather": "rain, storm"
+                "Weather": "rain, storm, GreenRain"
             },
             "Target": "Data/TriggerActions",
             "Entries": {
@@ -68,7 +68,7 @@
             "Action": "EditData",
             "When": {
                 "HasFlag": "{{ModId}}_Harp_PROFICIENCY_1",
-                "Weather": "rain, storm"
+                "Weather": "rain, storm, GreenRain"
             },
             "Target": "Data/TriggerActions",
             "Entries": {
@@ -113,7 +113,7 @@
             "Action": "EditData",
             "When": {
                 "HasFlag": "{{ModId}}_Harp_PROFICIENCY_2",
-                "Weather": "rain, storm"
+                "Weather": "rain, storm, GreenRain"
             },
             "Target": "Data/TriggerActions",
             "Entries": {
@@ -160,7 +160,7 @@
             "Action": "EditData",
             "When": {
                 "HasFlag": "{{ModId}}_Harp_PROFICIENCY_3",
-                "Weather": "rain, storm"
+                "Weather": "rain, storm, GreenRain"
             },
             "Target": "Data/TriggerActions",
             "Entries": {
@@ -209,7 +209,7 @@
             "Action": "EditData",
             "When": {
                 "HasFlag": "{{ModId}}_Harp_PROFICIENCY_4",
-                "Weather": "rain, storm"
+                "Weather": "rain, storm, GreenRain"
             },
             "Target": "Data/TriggerActions",
             "Entries": {
