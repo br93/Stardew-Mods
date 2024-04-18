@@ -208,7 +208,7 @@
                         "If !PLAYER_FRIENDSHIP_POINTS Current Harvey 2000 ## AddFriendshipPoints Harvey 250",
                         "AddFriendshipPoints Jas 250",
                         "AddFriendshipPoints Jodi 250",
-                        "If PLAYER_HAS_MET Current Willy ## AddFriendshipPoints Kent 250",
+                        "If PLAYER_HAS_MET Current Kent ## AddFriendshipPoints Kent 250",
                         "If !PLAYER_FRIENDSHIP_POINTS Current Krobus 2000 ## AddFriendshipPoints Krobus 250",
                         "If !PLAYER_FRIENDSHIP_POINTS Current Leah 2000 ## AddFriendshipPoints Leah 250",
                         "If PLAYER_HAS_MET Current Leo ## AddFriendshipPoints Leo 250",
