@@ -4,6 +4,7 @@
         "Action": "EditMap",
         "Target": "Maps/Forest",
         "When": {
+          "SpawnMusicBenchAfterMastery": true,
           "HasFlag": "{{ModId}}_Harp_MASTERY",
           "DayOfWeek": "Friday, Sunday"
         },

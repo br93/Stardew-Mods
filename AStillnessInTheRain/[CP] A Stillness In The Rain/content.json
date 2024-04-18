@@ -5,10 +5,6 @@
       "AllowValues": "true, false",
       "Default": true
     },
-    "ChangeProjectile": {
-      "AllowValues": "true, false",
-      "Default": true
-    },
     "BooksellerSellsMusicSheet": {
       "AllowValues": "true, false",
       "Default": false
@@ -16,6 +12,14 @@
     "TravellingCartSellsMusicSheet": {
       "AllowValues": "true, false",
       "Default": false
+    },
+    "SpawnMusicBenchAfterMastery": {
+      "AllowValues": "true, false",
+      "Default": true
+    },
+    "ChangeProjectile": {
+      "AllowValues": "true, false",
+      "Default": true
     }
   },
   "Changes": [
