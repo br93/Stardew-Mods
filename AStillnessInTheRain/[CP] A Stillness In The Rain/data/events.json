@@ -11,6 +11,14 @@
             "Entries": {
                 "2/f Abigail 1000/w rainy/t 1200 1900/z winter": null
             }
+        },
+        {
+            "LogName": "Wizard Event - Trinket",
+            "Action": "EditData",
+            "Target": "Data/Events/WizardHouse",
+            "Entries": {
+                "br93.HarpMod_Event_Trinket/n br93.HarpMod_Mail_Trinket/i br93.HarpMod_Harp_Object":  "WizardSong/-1000 -1000/farmer 8 24 0 Wizard 10 15 2/skippable/showFrame Wizard 21/viewport 8 18 true/move farmer 0 -3 0/pause 2000/speak Wizard \"{{i18n:event.wizard.dialogue1}}\"/pause 1000/move Wizard -2 0 3 false/move Wizard 0 2 2/pause 1500/speak Wizard \"{{i18n:event.wizard.dialogue2}}\"/pause 1000/move Wizard 0 1 2/speak Wizard \"{{i18n:event.wizard.dialogue3}}\"/pause 1500/speak Wizard \"{{i18n:event.wizard.dialogue4}}\"/pause 500/playMusic none/animate Wizard false false 100 20 16 20 0/playMusic clubloop/pause 500/playSound wand/screenFlash .8/pause 1500/action RemoveItem br93.HarpMod_Harp_Object/action AddItem (TR)br93.HarpMod_Harp_Trinket/playSound reward/itemAboveHead (TR)br93.HarpMod_Harp_Trinket/pause 300/message \"{{i18n:event.wizard.dialogue5}}\"/end warpOut"
+            }
         }
     ]
 }
