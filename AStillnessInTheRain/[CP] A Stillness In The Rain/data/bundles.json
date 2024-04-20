@@ -1,0 +1,203 @@
+{
+    "Changes": [
+        {
+            "LogName": "Scroll Bundles",
+            "Action": "EditData",
+            "Target": "UnlockableBundles/Bundles",
+            "Entries": {
+                "{{ModId}}_Bundle_Abigail": {
+                    "Location": "{{ModId}}_HarpMasteryCave",
+                    "BundleName": "{{i18n:object.scroll-abigail.name}}",
+                    "ShopPosition": "4, 4",
+                    "ShopType": "CCBundle",
+                    "ShopTexture": "None",
+                    "DrawQuestionMark": true,
+                    "Price": {
+                        "66": 1,
+                        "128": 1,
+                        "276": 1
+                    },
+                    "BundleReward": {
+                        "{{ModId}}_Scroll_Abigail": 1
+                    }
+                },
+                "{{ModId}}_Bundle_Alex": {
+                    "Location": "{{ModId}}_HarpMasteryCave",
+                    "BundleName": "{{i18n:object.scroll-alex.name}}",
+                    "ShopPosition": "6, 4",
+                    "ShopType": "CCBundle",
+                    "ShopTexture": "None",
+                    "DrawQuestionMark": true,
+                    "Price": {
+                        "201": 1,
+                        "212": 1,
+                        "403": 1
+                    },
+                    "BundleReward": {
+                        "{{ModId}}_Scroll_Alex": 1
+                    }
+                },
+                "{{ModId}}_Bundle_Elliott": {
+                    "Location": "{{ModId}}_HarpMasteryCave",
+                    "BundleName": "{{i18n:object.scroll-elliott.name}}",
+                    "ShopPosition": "8, 4",
+                    "ShopType": "CCBundle",
+                    "ShopTexture": "None",
+                    "DrawQuestionMark": true,
+                    "Price": {
+                        "444": 1,
+                        "637": 1,
+                        "715": 1
+                    },
+                    "BundleReward": {
+                        "{{ModId}}_Scroll_Elliott": 1
+                    }
+                },
+                "{{ModId}}_Bundle_Emily": {
+                    "Location": "{{ModId}}_HarpMasteryCave",
+                    "BundleName": "{{i18n:object.scroll-emily.name}}",
+                    "ShopPosition": "10, 4",
+                    "ShopType": "CCBundle",
+                    "ShopTexture": "None",
+                    "DrawQuestionMark": true,
+                    "Price": {
+                        "62": 1,
+                        "70": 1,
+                        "440": 1
+                    },
+                    "BundleReward": {
+                        "{{ModId}}_Scroll_Emily": 1
+                    }
+                },
+                "{{ModId}}_Bundle_Haley": {
+                    "Location": "{{ModId}}_HarpMasteryCave",
+                    "BundleName": "{{i18n:object.scroll-haley.name}}",
+                    "ShopPosition": "2, 6",
+                    "ShopType": "CCBundle",
+                    "ShopTexture": "None",
+                    "DrawQuestionMark": true,
+                    "Price": {
+                        "88": 1,
+                        "221": 1,
+                        "421": 1
+                    },
+                    "BundleReward": {
+                        "{{ModId}}_Scroll_Haley": 1
+                    }
+                },
+                "{{ModId}}_Bundle_Harvey": {
+                    "Location": "{{ModId}}_HarpMasteryCave",
+                    "BundleName": "{{i18n:object.scroll-harvey.name}}",
+                    "ShopPosition": "4, 6",
+                    "ShopType": "CCBundle",
+                    "ShopTexture": "None",
+                    "DrawQuestionMark": true,
+                    "Price": {
+                        "395": 1,
+                        "342": 1,
+                        "348": 1
+                    },
+                    "BundleReward": {
+                        "{{ModId}}_Scroll_Harvey": 1
+                    }
+                },
+                "{{ModId}}_Bundle_Leah": {
+                    "Location": "{{ModId}}_HarpMasteryCave",
+                    "BundleName": "{{i18n:object.scroll-leah.name}}",
+                    "ShopPosition": "6, 6",
+                    "ShopType": "CCBundle",
+                    "ShopTexture": "None",
+                    "DrawQuestionMark": true,
+                    "Price": {
+                        "430": 1,
+                        "426": 1,
+                        "348": 1
+                    },
+                    "BundleReward": {
+                        "{{ModId}}_Scroll_Leah": 1
+                    }
+                },
+                "{{ModId}}_Bundle_Maru": {
+                    "Location": "{{ModId}}_HarpMasteryCave",
+                    "BundleName": "{{i18n:object.scroll-maru.name}}",
+                    "ShopPosition": "8, 6",
+                    "ShopType": "CCBundle",
+                    "ShopTexture": "None",
+                    "DrawQuestionMark": true,
+                    "Price": {
+                        "190": 1,
+                        "400": 1,
+                        "336": 1
+                    },
+                    "BundleReward": {
+                        "{{ModId}}_Scroll_Maru": 1
+                    }
+                },
+                "{{ModId}}_Bundle_Penny": {
+                    "Location": "{{ModId}}_HarpMasteryCave",
+                    "BundleName": "{{i18n:object.scroll-penny.name}}",
+                    "ShopPosition": "10, 6",
+                    "ShopType": "CCBundle",
+                    "ShopTexture": "None",
+                    "DrawQuestionMark": true,
+                    "Price": {
+                        "60": 1,
+                        "254": 1,
+                        "376": 1
+                    },
+                    "BundleReward": {
+                        "{{ModId}}_Scroll_Penny": 1
+                    }
+                },
+                "{{ModId}}_Bundle_Sam": {
+                    "Location": "{{ModId}}_HarpMasteryCave",
+                    "BundleName": "{{i18n:object.scroll-sam.name}}",
+                    "ShopPosition": "12, 6",
+                    "ShopType": "CCBundle",
+                    "ShopTexture": "None",
+                    "DrawQuestionMark": true,
+                    "Price": {
+                        "90": 1,
+                        "206": 1,
+                        "731": 1
+                    },
+                    "BundleReward": {
+                        "{{ModId}}_Scroll_Sam": 1
+                    }
+                },
+                "{{ModId}}_Bundle_Sebastian": {
+                    "Location": "{{ModId}}_HarpMasteryCave",
+                    "BundleName": "{{i18n:object.scroll-sebastian.name}}",
+                    "ShopPosition": "6, 8",
+                    "ShopType": "CCBundle",
+                    "ShopTexture": "None",
+                    "DrawQuestionMark": true,
+                    "Price": {
+                        "84": 1,
+                        "236": 1,
+                        "227": 1
+                    },
+                    "BundleReward": {
+                        "{{ModId}}_Scroll_Sebastian": 1
+                    }
+                },
+                "{{ModId}}_Bundle_Shane": {
+                    "Location": "{{ModId}}_HarpMasteryCave",
+                    "BundleName": "{{i18n:object.scroll-shane.name}}",
+                    "ShopPosition": "8, 8",
+                    "ShopType": "CCBundle",
+                    "ShopTexture": "None",
+                    "DrawQuestionMark": true,
+                    "Price": {
+                        "346": 1,
+                        "260": 1,
+                        "215": 1
+                    },
+                    "BundleReward": {
+                        "{{ModId}}_Scroll_Shane": 1
+                    }
+                }
+            }
+        }
+    ]
+}

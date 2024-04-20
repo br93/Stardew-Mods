@@ -4,7 +4,10 @@
             "LogName": "EditShop - Music Bench - Bookseller",
             "Action": "EditData",
             "Target": "Data/Shops",
-            "TargetField": ["Bookseller", "Items"],
+            "TargetField": [
+                "Bookseller",
+                "Items"
+            ],
             "Entries": {
                 "{{ModId}}_MusicBench_Bookseller": {
                     "Id": "{{ModId}}_MusicBench_Bookseller",
@@ -23,12 +26,15 @@
                 "HasFlag:currentPlayer": "{{ModId}}_Harp_MASTERY"
             },
             "Target": "Data/Shops",
-            "TargetField": ["Bookseller", "Items"],
+            "TargetField": [
+                "Bookseller",
+                "Items"
+            ],
             "Entries": {
                 "{{ModId}}_MusicSheet_Farming_Bookseller": {
                     "Id": "{{ModId}}_MusicSheet_Farming_Bookseller",
                     "ItemId": "{{ModId}}_Music_Common_Farming",
-                    "Price": 4000,   
+                    "Price": 4000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "Condition": "SYNCED_RANDOM day bookseller_musicsheet 0.4 @addDailyLuck"
@@ -36,7 +42,7 @@
                 "{{ModId}}_MusicSheet_Fishing_Bookseller": {
                     "Id": "{{ModId}}_MusicSheet_Fishing_Bookseller",
                     "ItemId": "{{ModId}}_Music_Common_Fishing",
-                    "Price": 4000,   
+                    "Price": 4000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "Condition": "SYNCED_RANDOM day bookseller_musicsheet 0.4 @addDailyLuck"
@@ -44,7 +50,7 @@
                 "{{ModId}}_MusicSheet_Mining_Bookseller": {
                     "Id": "{{ModId}}_MusicSheet_Mining_Bookseller",
                     "ItemId": "{{ModId}}_Music_Common_Mining",
-                    "Price": 4000,   
+                    "Price": 4000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "Condition": "SYNCED_RANDOM day bookseller_musicsheet 0.4 @addDailyLuck"
@@ -52,7 +58,7 @@
                 "{{ModId}}_MusicSheet_Luck_Bookseller": {
                     "Id": "{{ModId}}_MusicSheet_Luck_Bookseller",
                     "ItemId": "{{ModId}}_Music_Common_Luck",
-                    "Price": 12000,   
+                    "Price": 12000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "Condition": "SYNCED_RANDOM day bookseller_musicsheet 0.3 @addDailyLuck"
@@ -60,18 +66,21 @@
                 "{{ModId}}_MusicSheet_Foraging_Bookseller": {
                     "Id": "{{ModId}}_MusicSheet_Foraging_Bookseller",
                     "ItemId": "{{ModId}}_Music_Common_Foraging",
-                    "Price": 4000,   
+                    "Price": 4000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "Condition": "SYNCED_RANDOM day bookseller_musicsheet 0.4 @addDailyLuck"
                 }
             }
-        },    
+        },
         {
             "LogName": "EditShop - Music Bench - Traveler",
             "Action": "EditData",
             "Target": "Data/Shops",
-            "TargetField": ["Traveler", "Items"],
+            "TargetField": [
+                "Traveler",
+                "Items"
+            ],
             "Entries": {
                 "{{ModId}}_Harp_Object_Traveler": {
                     "Id": "{{ModId}}_MusicBench_Traveler",
@@ -90,12 +99,15 @@
                 "HasFlag:currentPlayer": "{{ModId}}_Harp_MASTERY"
             },
             "Target": "Data/Shops",
-            "TargetField": ["Traveler", "Items"],
+            "TargetField": [
+                "Traveler",
+                "Items"
+            ],
             "Entries": {
                 "{{ModId}}_MusicSheet_Farming_Traveler": {
                     "Id": "{{ModId}}_MusicSheet_Farming_Traveler",
                     "ItemId": "{{ModId}}_Music_Common_Farming",
-                    "Price": 4000,   
+                    "Price": 4000,
                     "AvailableStock": 5,
                     "AvailableStockLimit": "Global",
                     "Condition": "SYNCED_RANDOM day traveler_musicsheet 0.3 @addDailyLuck"
@@ -103,7 +115,7 @@
                 "{{ModId}}_MusicSheet_Fishing_Traveler": {
                     "Id": "{{ModId}}_MusicSheet_Fishing_Traveler",
                     "ItemId": "{{ModId}}_Music_Common_Fishing",
-                    "Price": 4000,   
+                    "Price": 4000,
                     "AvailableStock": 5,
                     "AvailableStockLimit": "Global",
                     "Condition": "SYNCED_RANDOM day traveler_musicsheet 0.3 @addDailyLuck"
@@ -111,7 +123,7 @@
                 "{{ModId}}_MusicSheet_Mining_Traveler": {
                     "Id": "{{ModId}}_MusicSheet_Mining_Traveler",
                     "ItemId": "{{ModId}}_Music_Common_Mining",
-                    "Price": 4000,   
+                    "Price": 4000,
                     "AvailableStock": 5,
                     "AvailableStockLimit": "Global",
                     "Condition": "SYNCED_RANDOM day traveler_musicsheet 0.3 @addDailyLuck"
@@ -119,7 +131,7 @@
                 "{{ModId}}_MusicSheet_Luck_Traveler": {
                     "Id": "{{ModId}}_MusicSheet_Luck_Traveler",
                     "ItemId": "{{ModId}}_Music_Common_Luck",
-                    "Price": 12000,   
+                    "Price": 12000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Global",
                     "Condition": "SYNCED_RANDOM day traveler_musicsheet 0.2 @addDailyLuck"
@@ -127,7 +139,7 @@
                 "{{ModId}}_MusicSheet_Foraging_Traveler": {
                     "Id": "{{ModId}}_MusicSheet_Foraging_Traveler",
                     "ItemId": "{{ModId}}_Music_Common_Foraging",
-                    "Price": 4000,   
+                    "Price": 4000,
                     "AvailableStock": 5,
                     "AvailableStockLimit": "Global",
                     "Condition": "SYNCED_RANDOM day traveler_musicsheet 0.3 @addDailyLuck"
@@ -138,13 +150,862 @@
             "LogName": "EditShop - MusicBench - MagicBoat",
             "Action": "EditData",
             "Target": "Data/Shops",
-            "TargetField": ["Festival_NightMarket_MagicBoat_Day1", "Items"],
+            "TargetField": [
+                "Festival_NightMarket_MagicBoat_Day1",
+                "Items"
+            ],
             "Entries": {
                 "{{ModId}}_MusicBench_MagicBoat": {
                     "Id": "{{ModId}}_MusicBench_MagicBoat",
                     "ItemId": "{{ModId}}_MusicBench",
                     "Price": 2000,
                     "AvailableStockLimit": "Player"
+                }
+            }
+        },
+        {
+            "LogName": "EditShop - Scrolls - Festival_DanceOfTheMoonlightJellies",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Festival_DanceOfTheMoonlightJellies_Pierre",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_Scrolls_JelliesFestival": {
+                    "Id": "{{ModId}}_Scrolls_JelliesFestival",
+                    "RandomItemId": [
+                        "{{ModId}}_Scroll_Abigail",
+                        "{{ModId}}_Scroll_Penny",
+                        "{{ModId}}_Scroll_Maru",
+                        "{{ModId}}_Scroll_Leah",
+                        "{{ModId}}_Scroll_Haley",
+                        "{{ModId}}_Scroll_Emily",
+                        "{{ModId}}_Scroll_Alex",
+                        "{{ModId}}_Scroll_Shane",
+                        "{{ModId}}_Scroll_Sebastian",
+                        "{{ModId}}_Scroll_Sam",
+                        "{{ModId}}_Scroll_Harvey",
+                        "{{ModId}}_Scroll_Elliott"
+                    ],
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Harp_MASTERY Received"
+                },
+                "{{ModId}}_ScrollAbigail_JelliesFestival": {
+                    "Id": "{{ModId}}_ScrollAbigail_JelliesFestival",
+                    "ItemId": "{{ModId}}_Scroll_Abigail",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Abigail Dating"
+                },
+                "{{ModId}}_ScrollPenny_JelliesFestival": {
+                    "Id": "{{ModId}}_ScrollPenny_JelliesFestival",
+                    "ItemId": "{{ModId}}_Scroll_Penny",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Penny Dating"
+                },
+                "{{ModId}}_ScrollMaru_JelliesFestival": {
+                    "Id": "{{ModId}}_ScrollMaru_JelliesFestival",
+                    "ItemId": "{{ModId}}_Scroll_Maru",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Maru Dating"
+                },
+                "{{ModId}}_ScrollLeah_JelliesFestival": {
+                    "Id": "{{ModId}}_ScrollLeah_JelliesFestival",
+                    "ItemId": "{{ModId}}_Scroll_Leah",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Leah Dating"
+                },
+                "{{ModId}}_ScrollHaley_JelliesFestival": {
+                    "Id": "{{ModId}}_ScrollHaley_JelliesFestival",
+                    "ItemId": "{{ModId}}_Scroll_Haley",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Haley Dating"
+                },
+                "{{ModId}}_ScrollEmily_JelliesFestival": {
+                    "Id": "{{ModId}}_ScrollEmily_JelliesFestival",
+                    "ItemId": "{{ModId}}_Scroll_Emily",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Emily Dating"
+                },
+                "{{ModId}}_ScrollAlex_JelliesFestival": {
+                    "Id": "{{ModId}}_ScrollAlex_JelliesFestival",
+                    "ItemId": "{{ModId}}_Scroll_Alex",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Alex Dating"
+                },
+                "{{ModId}}_ScrollShane_JelliesFestival": {
+                    "Id": "{{ModId}}_ScrollShane_JelliesFestival",
+                    "ItemId": "{{ModId}}_Scroll_Shane",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Shane Dating"
+                },
+                "{{ModId}}_ScrollSebastian_JelliesFestival": {
+                    "Id": "{{ModId}}_ScrollSebastian_JelliesFestival",
+                    "ItemId": "{{ModId}}_Scroll_Sebastian",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Sebastian Dating"
+                },
+                "{{ModId}}_ScrollSam_JelliesFestival": {
+                    "Id": "{{ModId}}_ScrollSam_JelliesFestival",
+                    "ItemId": "{{ModId}}_Scroll_Sam",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Sam Dating"
+                },
+                "{{ModId}}_ScrollHarvey_JelliesFestival": {
+                    "Id": "{{ModId}}_ScrollHarvey_JelliesFestival",
+                    "ItemId": "{{ModId}}_Scroll_Harvey",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Harvey Dating"
+                },
+                "{{ModId}}_ScrollElliott_JelliesFestival": {
+                    "Id": "{{ModId}}_ScrollElliott_JelliesFestival",
+                    "ItemId": "{{ModId}}_Scroll_Elliott",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Elliott Dating"
+                }
+            }
+        },
+        {
+            "LogName": "EditShop - Scrolls - Festival_EggFestival_Pierre",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Festival_EggFestival_Pierre",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_Scrolls_EggFestival": {
+                    "Id": "{{ModId}}_Scrolls_EggFestival",
+                    "RandomItemId": [
+                        "{{ModId}}_Scroll_Abigail",
+                        "{{ModId}}_Scroll_Penny",
+                        "{{ModId}}_Scroll_Maru",
+                        "{{ModId}}_Scroll_Leah",
+                        "{{ModId}}_Scroll_Haley",
+                        "{{ModId}}_Scroll_Emily",
+                        "{{ModId}}_Scroll_Alex",
+                        "{{ModId}}_Scroll_Shane",
+                        "{{ModId}}_Scroll_Sebastian",
+                        "{{ModId}}_Scroll_Sam",
+                        "{{ModId}}_Scroll_Harvey",
+                        "{{ModId}}_Scroll_Elliott"
+                    ],
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Harp_MASTERY Received"
+                },
+                "{{ModId}}_ScrollAbigail_EggFestival": {
+                    "Id": "{{ModId}}_ScrollAbigail_EggFestival",
+                    "ItemId": "{{ModId}}_Scroll_Abigail",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Abigail Dating"
+                },
+                "{{ModId}}_ScrollPenny_EggFestival": {
+                    "Id": "{{ModId}}_ScrollPenny_EggFestival",
+                    "ItemId": "{{ModId}}_Scroll_Penny",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Penny Dating"
+                },
+                "{{ModId}}_ScrollMaru_EggFestival": {
+                    "Id": "{{ModId}}_ScrollMaru_EggFestival",
+                    "ItemId": "{{ModId}}_Scroll_Maru",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Maru Dating"
+                },
+                "{{ModId}}_ScrollLeah_EggFestival": {
+                    "Id": "{{ModId}}_ScrollLeah_EggFestival",
+                    "ItemId": "{{ModId}}_Scroll_Leah",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Leah Dating"
+                },
+                "{{ModId}}_ScrollHaley_EggFestival": {
+                    "Id": "{{ModId}}_ScrollHaley_EggFestival",
+                    "ItemId": "{{ModId}}_Scroll_Haley",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Haley Dating"
+                },
+                "{{ModId}}_ScrollEmily_EggFestival": {
+                    "Id": "{{ModId}}_ScrollEmily_EggFestival",
+                    "ItemId": "{{ModId}}_Scroll_Emily",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Emily Dating"
+                },
+                "{{ModId}}_ScrollAlex_EggFestival": {
+                    "Id": "{{ModId}}_ScrollAlex_EggFestival",
+                    "ItemId": "{{ModId}}_Scroll_Alex",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Alex Dating"
+                },
+                "{{ModId}}_ScrollShane_EggFestival": {
+                    "Id": "{{ModId}}_ScrollShane_EggFestival",
+                    "ItemId": "{{ModId}}_Scroll_Shane",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Shane Dating"
+                },
+                "{{ModId}}_ScrollSebastian_EggFestival": {
+                    "Id": "{{ModId}}_ScrollSebastian_EggFestival",
+                    "ItemId": "{{ModId}}_Scroll_Sebastian",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Sebastian Dating"
+                },
+                "{{ModId}}_ScrollSam_EggFestival": {
+                    "Id": "{{ModId}}_ScrollSam_EggFestival",
+                    "ItemId": "{{ModId}}_Scroll_Sam",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Sam Dating"
+                },
+                "{{ModId}}_ScrollHarvey_EggFestival": {
+                    "Id": "{{ModId}}_ScrollHarvey_EggFestival",
+                    "ItemId": "{{ModId}}_Scroll_Harvey",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Harvey Dating"
+                },
+                "{{ModId}}_ScrollElliott_EggFestival": {
+                    "Id": "{{ModId}}_ScrollElliott_EggFestival",
+                    "ItemId": "{{ModId}}_Scroll_Elliott",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Elliott Dating"
+                }
+            }
+        },
+        {
+            "LogName": "EditShop - Scrolls - Festival_FeastOfTheWinterStar_Pierre",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Festival_FeastOfTheWinterStar_Pierre",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_Scrolls_WinterFestival": {
+                    "Id": "{{ModId}}_Scrolls_WinterFestival",
+                    "RandomItemId": [
+                        "{{ModId}}_Scroll_Abigail",
+                        "{{ModId}}_Scroll_Penny",
+                        "{{ModId}}_Scroll_Maru",
+                        "{{ModId}}_Scroll_Leah",
+                        "{{ModId}}_Scroll_Haley",
+                        "{{ModId}}_Scroll_Emily",
+                        "{{ModId}}_Scroll_Alex",
+                        "{{ModId}}_Scroll_Shane",
+                        "{{ModId}}_Scroll_Sebastian",
+                        "{{ModId}}_Scroll_Sam",
+                        "{{ModId}}_Scroll_Harvey",
+                        "{{ModId}}_Scroll_Elliott"
+                    ],
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Harp_MASTERY Received"
+                },
+                "{{ModId}}_ScrollAbigail_WinterFestival": {
+                    "Id": "{{ModId}}_ScrollAbigail_WinterFestival",
+                    "ItemId": "{{ModId}}_Scroll_Abigail",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Abigail Dating"
+                },
+                "{{ModId}}_ScrollPenny_WinterFestival": {
+                    "Id": "{{ModId}}_ScrollPenny_WinterFestival",
+                    "ItemId": "{{ModId}}_Scroll_Penny",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Penny Dating"
+                },
+                "{{ModId}}_ScrollMaru_WinterFestival": {
+                    "Id": "{{ModId}}_ScrollMaru_WinterFestival",
+                    "ItemId": "{{ModId}}_Scroll_Maru",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Maru Dating"
+                },
+                "{{ModId}}_ScrollLeah_WinterFestival": {
+                    "Id": "{{ModId}}_ScrollLeah_WinterFestival",
+                    "ItemId": "{{ModId}}_Scroll_Leah",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Leah Dating"
+                },
+                "{{ModId}}_ScrollHaley_WinterFestival": {
+                    "Id": "{{ModId}}_ScrollHaley_WinterFestival",
+                    "ItemId": "{{ModId}}_Scroll_Haley",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Haley Dating"
+                },
+                "{{ModId}}_ScrollEmily_WinterFestival": {
+                    "Id": "{{ModId}}_ScrollEmily_WinterFestival",
+                    "ItemId": "{{ModId}}_Scroll_Emily",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Emily Dating"
+                },
+                "{{ModId}}_ScrollAlex_WinterFestival": {
+                    "Id": "{{ModId}}_ScrollAlex_WinterFestival",
+                    "ItemId": "{{ModId}}_Scroll_Alex",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Alex Dating"
+                },
+                "{{ModId}}_ScrollShane_WinterFestival": {
+                    "Id": "{{ModId}}_ScrollShane_WinterFestival",
+                    "ItemId": "{{ModId}}_Scroll_Shane",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Shane Dating"
+                },
+                "{{ModId}}_ScrollSebastian_WinterFestival": {
+                    "Id": "{{ModId}}_ScrollSebastian_WinterFestival",
+                    "ItemId": "{{ModId}}_Scroll_Sebastian",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Sebastian Dating"
+                },
+                "{{ModId}}_ScrollSam_WinterFestival": {
+                    "Id": "{{ModId}}_ScrollSam_WinterFestival",
+                    "ItemId": "{{ModId}}_Scroll_Sam",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Sam Dating"
+                },
+                "{{ModId}}_ScrollHarvey_WinterFestival": {
+                    "Id": "{{ModId}}_ScrollHarvey_WinterFestival",
+                    "ItemId": "{{ModId}}_Scroll_Harvey",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Harvey Dating"
+                },
+                "{{ModId}}_ScrollElliott_WinterFestival": {
+                    "Id": "{{ModId}}_ScrollElliott_WinterFestival",
+                    "ItemId": "{{ModId}}_Scroll_Elliott",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Elliott Dating"
+                }
+            }
+        },
+        {
+            "LogName": "EditShop - Scrolls - Festival_FlowerDance_Pierre",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Festival_FlowerDance_Pierre",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_Scrolls_FlowerFestival": {
+                    "Id": "{{ModId}}_Scrolls_FlowerFestival",
+                    "RandomItemId": [
+                        "{{ModId}}_Scroll_Abigail",
+                        "{{ModId}}_Scroll_Penny",
+                        "{{ModId}}_Scroll_Maru",
+                        "{{ModId}}_Scroll_Leah",
+                        "{{ModId}}_Scroll_Haley",
+                        "{{ModId}}_Scroll_Emily",
+                        "{{ModId}}_Scroll_Alex",
+                        "{{ModId}}_Scroll_Shane",
+                        "{{ModId}}_Scroll_Sebastian",
+                        "{{ModId}}_Scroll_Sam",
+                        "{{ModId}}_Scroll_Harvey",
+                        "{{ModId}}_Scroll_Elliott"
+                    ],
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Harp_MASTERY Received"
+                },
+                "{{ModId}}_ScrollAbigail_FlowerFestival": {
+                    "Id": "{{ModId}}_ScrollAbigail_FlowerFestival",
+                    "ItemId": "{{ModId}}_Scroll_Abigail",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Abigail Dating"
+                },
+                "{{ModId}}_ScrollPenny_FlowerFestival": {
+                    "Id": "{{ModId}}_ScrollPenny_FlowerFestival",
+                    "ItemId": "{{ModId}}_Scroll_Penny",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Penny Dating"
+                },
+                "{{ModId}}_ScrollMaru_FlowerFestival": {
+                    "Id": "{{ModId}}_ScrollMaru_FlowerFestival",
+                    "ItemId": "{{ModId}}_Scroll_Maru",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Maru Dating"
+                },
+                "{{ModId}}_ScrollLeah_FlowerFestival": {
+                    "Id": "{{ModId}}_ScrollLeah_FlowerFestival",
+                    "ItemId": "{{ModId}}_Scroll_Leah",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Leah Dating"
+                },
+                "{{ModId}}_ScrollHaley_FlowerFestival": {
+                    "Id": "{{ModId}}_ScrollHaley_FlowerFestival",
+                    "ItemId": "{{ModId}}_Scroll_Haley",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Haley Dating"
+                },
+                "{{ModId}}_ScrollEmily_FlowerFestival": {
+                    "Id": "{{ModId}}_ScrollEmily_FlowerFestival",
+                    "ItemId": "{{ModId}}_Scroll_Emily",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Emily Dating"
+                },
+                "{{ModId}}_ScrollAlex_FlowerFestival": {
+                    "Id": "{{ModId}}_ScrollAlex_FlowerFestival",
+                    "ItemId": "{{ModId}}_Scroll_Alex",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Alex Dating"
+                },
+                "{{ModId}}_ScrollShane_FlowerFestival": {
+                    "Id": "{{ModId}}_ScrollShane_FlowerFestival",
+                    "ItemId": "{{ModId}}_Scroll_Shane",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Shane Dating"
+                },
+                "{{ModId}}_ScrollSebastian_FlowerFestival": {
+                    "Id": "{{ModId}}_ScrollSebastian_FlowerFestival",
+                    "ItemId": "{{ModId}}_Scroll_Sebastian",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Sebastian Dating"
+                },
+                "{{ModId}}_ScrollSam_FlowerFestival": {
+                    "Id": "{{ModId}}_ScrollSam_FlowerFestival",
+                    "ItemId": "{{ModId}}_Scroll_Sam",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Sam Dating"
+                },
+                "{{ModId}}_ScrollHarvey_FlowerFestival": {
+                    "Id": "{{ModId}}_ScrollHarvey_FlowerFestival",
+                    "ItemId": "{{ModId}}_Scroll_Harvey",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Harvey Dating"
+                },
+                "{{ModId}}_ScrollElliott_FlowerFestival": {
+                    "Id": "{{ModId}}_ScrollElliott_FlowerFestival",
+                    "ItemId": "{{ModId}}_Scroll_Elliott",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Elliott Dating"
+                }
+            }
+        },
+        {
+            "LogName": "EditShop - Scrolls - Festival_Luau_Pierre",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Festival_Luau_Pierre",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_Scrolls_LuauFestival": {
+                    "Id": "{{ModId}}_Scrolls_LuauFestival",
+                    "RandomItemId": [
+                        "{{ModId}}_Scroll_Abigail",
+                        "{{ModId}}_Scroll_Penny",
+                        "{{ModId}}_Scroll_Maru",
+                        "{{ModId}}_Scroll_Leah",
+                        "{{ModId}}_Scroll_Haley",
+                        "{{ModId}}_Scroll_Emily",
+                        "{{ModId}}_Scroll_Alex",
+                        "{{ModId}}_Scroll_Shane",
+                        "{{ModId}}_Scroll_Sebastian",
+                        "{{ModId}}_Scroll_Sam",
+                        "{{ModId}}_Scroll_Harvey",
+                        "{{ModId}}_Scroll_Elliott"
+                    ],
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Harp_MASTERY Received"
+                },
+                "{{ModId}}_ScrollAbigail_LuauFestival": {
+                    "Id": "{{ModId}}_ScrollAbigail_LuauFestival",
+                    "ItemId": "{{ModId}}_Scroll_Abigail",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Abigail Dating"
+                },
+                "{{ModId}}_ScrollPenny_LuauFestival": {
+                    "Id": "{{ModId}}_ScrollPenny_LuauFestival",
+                    "ItemId": "{{ModId}}_Scroll_Penny",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Penny Dating"
+                },
+                "{{ModId}}_ScrollMaru_LuauFestival": {
+                    "Id": "{{ModId}}_ScrollMaru_LuauFestival",
+                    "ItemId": "{{ModId}}_Scroll_Maru",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Maru Dating"
+                },
+                "{{ModId}}_ScrollLeah_LuauFestival": {
+                    "Id": "{{ModId}}_ScrollLeah_LuauFestival",
+                    "ItemId": "{{ModId}}_Scroll_Leah",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Leah Dating"
+                },
+                "{{ModId}}_ScrollHaley_LuauFestival": {
+                    "Id": "{{ModId}}_ScrollHaley_LuauFestival",
+                    "ItemId": "{{ModId}}_Scroll_Haley",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Haley Dating"
+                },
+                "{{ModId}}_ScrollEmily_LuauFestival": {
+                    "Id": "{{ModId}}_ScrollEmily_LuauFestival",
+                    "ItemId": "{{ModId}}_Scroll_Emily",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Emily Dating"
+                },
+                "{{ModId}}_ScrollAlex_LuauFestival": {
+                    "Id": "{{ModId}}_ScrollAlex_LuauFestival",
+                    "ItemId": "{{ModId}}_Scroll_Alex",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Alex Dating"
+                },
+                "{{ModId}}_ScrollShane_LuauFestival": {
+                    "Id": "{{ModId}}_ScrollShane_LuauFestival",
+                    "ItemId": "{{ModId}}_Scroll_Shane",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Shane Dating"
+                },
+                "{{ModId}}_ScrollSebastian_LuauFestival": {
+                    "Id": "{{ModId}}_ScrollSebastian_LuauFestival",
+                    "ItemId": "{{ModId}}_Scroll_Sebastian",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Sebastian Dating"
+                },
+                "{{ModId}}_ScrollSam_LuauFestival": {
+                    "Id": "{{ModId}}_ScrollSam_LuauFestival",
+                    "ItemId": "{{ModId}}_Scroll_Sam",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Sam Dating"
+                },
+                "{{ModId}}_ScrollHarvey_LuauFestival": {
+                    "Id": "{{ModId}}_ScrollHarvey_LuauFestival",
+                    "ItemId": "{{ModId}}_Scroll_Harvey",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Harvey Dating"
+                },
+                "{{ModId}}_ScrollElliott_LuauFestival": {
+                    "Id": "{{ModId}}_ScrollElliott_LuauFestival",
+                    "ItemId": "{{ModId}}_Scroll_Elliott",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Elliott Dating"
+                }
+            }
+        },
+        {
+            "LogName": "EditShop - Scrolls - Festival_SpiritsEve_Pierre",
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "TargetField": [
+                "Festival_SpiritsEve_Pierre",
+                "Items"
+            ],
+            "Entries": {
+                "{{ModId}}_Scrolls_SpiritsFestival": {
+                    "Id": "{{ModId}}_Scrolls_SpiritsFestival",
+                    "RandomItemId": [
+                        "{{ModId}}_Scroll_Abigail",
+                        "{{ModId}}_Scroll_Penny",
+                        "{{ModId}}_Scroll_Maru",
+                        "{{ModId}}_Scroll_Leah",
+                        "{{ModId}}_Scroll_Haley",
+                        "{{ModId}}_Scroll_Emily",
+                        "{{ModId}}_Scroll_Alex",
+                        "{{ModId}}_Scroll_Shane",
+                        "{{ModId}}_Scroll_Sebastian",
+                        "{{ModId}}_Scroll_Sam",
+                        "{{ModId}}_Scroll_Harvey",
+                        "{{ModId}}_Scroll_Elliott"
+                    ],
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Harp_MASTERY Received"
+                },
+                "{{ModId}}_ScrollAbigail_SpiritsFestival": {
+                    "Id": "{{ModId}}_ScrollAbigail_SpiritsFestival",
+                    "ItemId": "{{ModId}}_Scroll_Abigail",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Abigail Dating"
+                },
+                "{{ModId}}_ScrollPenny_SpiritsFestival": {
+                    "Id": "{{ModId}}_ScrollPenny_SpiritsFestival",
+                    "ItemId": "{{ModId}}_Scroll_Penny",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Penny Dating"
+                },
+                "{{ModId}}_ScrollMaru_SpiritsFestival": {
+                    "Id": "{{ModId}}_ScrollMaru_SpiritsFestival",
+                    "ItemId": "{{ModId}}_Scroll_Maru",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Maru Dating"
+                },
+                "{{ModId}}_ScrollLeah_SpiritsFestival": {
+                    "Id": "{{ModId}}_ScrollLeah_SpiritsFestival",
+                    "ItemId": "{{ModId}}_Scroll_Leah",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Leah Dating"
+                },
+                "{{ModId}}_ScrollHaley_SpiritsFestival": {
+                    "Id": "{{ModId}}_ScrollHaley_SpiritsFestival",
+                    "ItemId": "{{ModId}}_Scroll_Haley",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Haley Dating"
+                },
+                "{{ModId}}_ScrollEmily_SpiritsFestival": {
+                    "Id": "{{ModId}}_ScrollEmily_SpiritsFestival",
+                    "ItemId": "{{ModId}}_Scroll_Emily",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Emily Dating"
+                },
+                "{{ModId}}_ScrollAlex_SpiritsFestival": {
+                    "Id": "{{ModId}}_ScrollAlex_SpiritsFestival",
+                    "ItemId": "{{ModId}}_Scroll_Alex",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Alex Dating"
+                },
+                "{{ModId}}_ScrollShane_SpiritsFestival": {
+                    "Id": "{{ModId}}_ScrollShane_SpiritsFestival",
+                    "ItemId": "{{ModId}}_Scroll_Shane",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Shane Dating"
+                },
+                "{{ModId}}_ScrollSebastian_SpiritsFestival": {
+                    "Id": "{{ModId}}_ScrollSebastian_SpiritsFestival",
+                    "ItemId": "{{ModId}}_Scroll_Sebastian",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Sebastian Dating"
+                },
+                "{{ModId}}_ScrollSam_SpiritsFestival": {
+                    "Id": "{{ModId}}_ScrollSam_SpiritsFestival",
+                    "ItemId": "{{ModId}}_Scroll_Sam",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Sam Dating"
+                },
+                "{{ModId}}_ScrollHarvey_SpiritsFestival": {
+                    "Id": "{{ModId}}_ScrollHarvey_SpiritsFestival",
+                    "ItemId": "{{ModId}}_Scroll_Harvey",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Harvey Dating"
+                },
+                "{{ModId}}_ScrollElliott_SpiritsFestival": {
+                    "Id": "{{ModId}}_ScrollElliott_SpiritsFestival",
+                    "ItemId": "{{ModId}}_Scroll_Elliott",
+                    "Price": 1,
+                    "AvailableStock": 1,
+                    "AvailableStockLimit": "Player",
+                    "AvoidRepeat": true,
+                    "Condition": "PLAYER_NPC_RELATIONSHIP Current Elliott Dating"
                 }
             }
         }

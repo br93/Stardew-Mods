@@ -231,6 +231,193 @@
                     "CustomFields": null
                 }
             }
+        },
+        {
+            "LogName": "Buffs - Friendship",
+            "Action": "EditData",
+            "Target": "Data/Buffs",
+            "Entries": {
+                "{{ModId}}_Buff_Abigail": {
+                    "DisplayName": "{{i18n:object.scroll-abigail.name}}",
+                    "Description": "{{i18n:object.scroll-abigail.description}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 6000,
+                    "MaxDuration": -1,
+                    "IconTexture": "{{ModId}}\\MusicScroll",
+                    "IconSpriteIndex": 0,
+                    "Effects": null,
+                    "ActionsOnApply": [
+                        "AddFriendshipPoints Abigail 100"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_Buff_Penny": {
+                    "DisplayName": "{{i18n:object.scroll-penny.name}}",
+                    "Description": "{{i18n:object.scroll-penny.description}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 6000,
+                    "MaxDuration": -1,
+                    "IconTexture": "{{ModId}}\\MusicScroll",
+                    "IconSpriteIndex": 1,
+                    "Effects": null,
+                    "ActionsOnApply": [
+                        "AddFriendshipPoints Penny 100"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_Buff_Maru": {
+                    "DisplayName": "{{i18n:object.scroll-maru.name}}",
+                    "Description": "{{i18n:object.scroll-maru.description}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 6000,
+                    "MaxDuration": -1,
+                    "IconTexture": "{{ModId}}\\MusicScroll",
+                    "IconSpriteIndex": 2,
+                    "Effects": null,
+                    "ActionsOnApply": [
+                        "AddFriendshipPoints Maru 100"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_Buff_Leah": {
+                    "DisplayName": "{{i18n:object.scroll-leah.name}}",
+                    "Description": "{{i18n:object.scroll-leah.description}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 6000,
+                    "MaxDuration": -1,
+                    "IconTexture": "{{ModId}}\\MusicScroll",
+                    "IconSpriteIndex": 3,
+                    "Effects": null,
+                    "ActionsOnApply": [
+                        "AddFriendshipPoints Leah 100"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_Buff_Haley": {
+                    "DisplayName": "{{i18n:object.scroll-haley.name}}",
+                    "Description": "{{i18n:object.scroll-haley.description}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 6000,
+                    "MaxDuration": -1,
+                    "IconTexture": "{{ModId}}\\MusicScroll",
+                    "IconSpriteIndex": 4,
+                    "Effects": null,
+                    "ActionsOnApply": [
+                        "AddFriendshipPoints Haley 100"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_Buff_Emily": {
+                    "DisplayName": "{{i18n:object.scroll-emily.name}}",
+                    "Description": "{{i18n:object.scroll-emily.description}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 6000,
+                    "MaxDuration": -1,
+                    "IconTexture": "{{ModId}}\\MusicScroll",
+                    "IconSpriteIndex": 5,
+                    "Effects": null,
+                    "ActionsOnApply": [
+                        "AddFriendshipPoints Emily 100"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_Buff_Alex": {
+                    "DisplayName": "{{i18n:object.scroll-alex.name}}",
+                    "Description": "{{i18n:object.scroll-alex.description}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 6000,
+                    "MaxDuration": -1,
+                    "IconTexture": "{{ModId}}\\MusicScroll",
+                    "IconSpriteIndex": 6,
+                    "Effects": null,
+                    "ActionsOnApply": [
+                        "AddFriendshipPoints Alex 100"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_Buff_Shane": {
+                    "DisplayName": "{{i18n:object.scroll-shane.name}}",
+                    "Description": "{{i18n:object.scroll-shane.description}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 6000,
+                    "MaxDuration": -1,
+                    "IconTexture": "{{ModId}}\\MusicScroll",
+                    "IconSpriteIndex": 7,
+                    "Effects": null,
+                    "ActionsOnApply": [
+                        "AddFriendshipPoints Shane 100"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_Buff_Sebastian": {
+                    "DisplayName": "{{i18n:object.scroll-sebastian.name}}",
+                    "Description": "{{i18n:object.scroll-sebastian.description}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 6000,
+                    "MaxDuration": -1,
+                    "IconTexture": "{{ModId}}\\MusicScroll",
+                    "IconSpriteIndex": 8,
+                    "Effects": null,
+                    "ActionsOnApply": [
+                        "AddFriendshipPoints Sebastian 100"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_Buff_Sam": {
+                    "DisplayName": "{{i18n:object.scroll-sam.name}}",
+                    "Description": "{{i18n:object.scroll-sam.description}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 6000,
+                    "MaxDuration": -1,
+                    "IconTexture": "{{ModId}}\\MusicScroll",
+                    "IconSpriteIndex": 9,
+                    "Effects": null,
+                    "ActionsOnApply": [
+                        "AddFriendshipPoints Sam 100"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_Buff_Harvey": {
+                    "DisplayName": "{{i18n:object.scroll-harvey.name}}",
+                    "Description": "{{i18n:object.scroll-harvey.description}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 6000,
+                    "MaxDuration": -1,
+                    "IconTexture": "{{ModId}}\\MusicScroll",
+                    "IconSpriteIndex": 10,
+                    "Effects": null,
+                    "ActionsOnApply": [
+                        "AddFriendshipPoints Harvey 100"
+                    ],
+                    "CustomFields": null
+                },
+                "{{ModId}}_Buff_Elliott": {
+                    "DisplayName": "{{i18n:object.scroll-elliott.name}}",
+                    "Description": "{{i18n:object.scroll-elliott.description}}",
+                    "IsDebuff": false,
+                    "GlowColor": null,
+                    "Duration": 6000,
+                    "MaxDuration": -1,
+                    "IconTexture": "{{ModId}}\\MusicScroll",
+                    "IconSpriteIndex": 11,
+                    "Effects": null,
+                    "ActionsOnApply": [
+                        "AddFriendshipPoints Elliott 100"
+                    ],
+                    "CustomFields": null
+                }
+            }
         }
     ]
 }

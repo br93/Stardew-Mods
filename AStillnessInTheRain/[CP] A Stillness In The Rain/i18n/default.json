@@ -1,5 +1,6 @@
 {
     "category.broken-musical-instrument.name": "Broken Musical Instrument",
+    "category.music-scroll.name": "Music Scroll",
     "category.music-sheet.name": "Music Sheet",
     "category.musical-instrument.name": "Musical Instrument",
 
@@ -8,6 +9,8 @@
     "event.wizard.dialogue3": "Your melodies carry a certain magic, a resonance that speaks to the very essence of this land.",
     "event.wizard.dialogue4": "Here, I'd like to offer you something special, a token of appreciation for the harmony you bring to our world.",
     "event.wizard.dialogue5": "You now wield a trinket of unparalleled magic. Use it to weave spells of wonder and awe, and let your music transcend the ordinary.",
+
+    "location.cave.name": "Harp Mastery Cave",
 
     "mail.dad":"Dear @, ^^I've been thinking about you and your love for music. How's your mini-harp been treating you? Any new tunes you've been playing? ^^Take care, Dad",
     "mail.harp": "To our valued clients of Joja Moving Company: ^^Our team members have retrieved the mini-harp that was misplaced during your recent move. We understand the importance of every item in your possession, and we are committed to ensuring a smooth and reliable moving experience for all our customers. ^^We apologize for any inconvenience this oversight may have caused. Rest assured, we have taken steps to prevent such occurrences in the future, including additional training for our staff members. ^^As always, we appreciate your trust in Joja Moving Company and look forward to serving you again in the future.",
@@ -24,25 +27,25 @@
     "object.harp.name": "Mini-harp",
    
     "object.music-farming.buff": "Harvesting Hymn",
-    "object.music-farming.description": "Music Sheet Farming",
+    "object.music-farming.description": "Temporarily increases farming skill by 3 levels",
     "object.music-farming.name": "Harvesting Hymn",
 
     "object.music-farming2.buff": "Crop Enchantment Overture",
-    "object.music-farming2.buff.description": "Everytime you play, your crops grow in quality",
-    "object.music-farming2.description": "Music Sheet Farming Level 2",
+    "object.music-farming2.buff.description": "Everytime you play, your vanilla planted crops grow in quality (up to Gold)",
+    "object.music-farming2.description": "Everytime you play, your vanilla planted crops grow in quality (up to Gold)",
     "object.music-farming2.name": "Crop Enchantment Overture",
     
     "object.music-fishing.buff": "Aquatic Ballad",
-    "object.music-fishing.description": "Music Sheet Fishing",
+    "object.music-fishing.description": "Temporarily increases fishing skill by 3 levels",
     "object.music-fishing.name": "Aquatic Ballad",
 
     "object.music-fishing2.buff": "Nautical Serenade",
     "object.music-fishing2.buff.description": "Increases the fishing bar size for a day",
-    "object.music-fishing2.description": "Music Sheet Fishing Level 2",
+    "object.music-fishing2.description": "Increases the fishing bar size for a day",
     "object.music-fishing2.name": "Music Sheet Fishing2",
     
     "object.music-foraging.buff": "Nature's Blessing",
-    "object.music-foraging.description": "Music Sheet Foraging",
+    "object.music-foraging.description": "Temporarily increases foraging skill by 3 levels",
     "object.music-foraging.name": "Music Sheet Foraging",
 
     "object.music-foraging2.buff": "Buff Foraging II",
@@ -50,21 +53,46 @@
     "object.music-foraging2.name": "Music Sheet Foraging2",
    
     "object.music-luck.buff": "Fortune's Chant",
-    "object.music-luck.description": "Music Sheet Luck",
+    "object.music-luck.description": "Temporarily increases luck by 3 levels",
     "object.music-luck.name": "Fortune's Chant",
 
     "object.music-luck2.buff": "Harmony of Fortune's Favor",
     "object.music-luck2.buff.description": "Increases friendship by one heart",
-    "object.music-luck2.description": "Music Sheet Luck Level 2",
+    "object.music-luck2.description": "Increases friendship by one heart",
     "object.music-luck2.name": "Harmony of Fortune's Favor",
     
     "object.music-mining.buff": "Miner's Melody",
-    "object.music-mining.description": "Music Sheet Mining",
+    "object.music-mining.description": "Temporarily increases mining skill by 3 levels",
     "object.music-mining.name": "Music Sheet Mining",
 
     "object.music-mining2.buff": "Buff Mining II",
     "object.music-mining2.description": "Music Sheet Mining Level 2",
     "object.music-mining2.name": "Music Sheet Mining2",
+
+    "object.scroll-abigail.description": "+ 100 friendship points with Abigail",
+    "object.scroll-abigail.name": "A Stillness in the Rain",
+    "object.scroll-alex.description": "+ 100 friendship points with Alex",
+    "object.scroll-alex.name": "A Sad Song",
+    "object.scroll-elliott.description": "+ 100 friendship points with Elliott",
+    "object.scroll-elliott.name": "Piano Solo",
+    "object.scroll-emily.description": "+ 100 friendship points with Emily",
+    "object.scroll-emily.name": "Song of Feathers",
+    "object.scroll-haley.description": "+ 100 friendship points with Haley",
+    "object.scroll-haley.name": "Pickle Jar Rag",
+    "object.scroll-harvey.description": "+ 100 friendship points with Harvey",
+    "object.scroll-harvey.name": "Grapefruit Sky",
+    "object.scroll-leah.description": "+ 100 friendship points with Leah",
+    "object.scroll-leah.name": "Land of Green and Gold",
+    "object.scroll-maru.description": "+ 100 friendship points with Maru",
+    "object.scroll-maru.name": "Starwatcher",
+    "object.scroll-penny.description": "+ 100 friendship points with Penny",
+    "object.scroll-penny.name": "Pleasant Memory",
+    "object.scroll-sam.description": "+ 100 friendship points with Sam",
+    "object.scroll-sam.name": "Sam's Band (Electronic Version)",
+    "object.scroll-sebastian.description": "+ 100 friendship points with Sebastian",
+    "object.scroll-sebastian.name": "Echos",
+    "object.scroll-shane.description": "+ 100 friendship points with Shane",
+    "object.scroll-shane.name": "Frozen Pizza and Eggs",
     
     "station.harp-bench.name": "Harp Bench",
     "station.music-bench.description": "Music Bench",

@@ -1,0 +1,378 @@
+{
+    "Changes": [
+        {
+            "LogName": "Texture - Music Scroll",
+            "Action": "Load",
+            "Target": "{{ModId}}\\MusicScroll",
+            "FromFile": "assets/music-scroll.png"
+        },
+        {
+            "LogName": "Music Scrolls",
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "Entries": {
+                "{{ModId}}_Scroll_Abigail": {
+                    "Name": "{{ModId}}_Scroll_Abigail",
+                    "DisplayName": "{{i18n:object.scroll-abigail.name}}",
+                    "Description": "{{i18n:object.scroll-abigail.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": -1,
+                    "Texture": "{{ModId}}\\MusicScroll",
+                    "SpriteIndex": 0,
+                    "Edibility": 0,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "BuffId": "{{ModId}}_Buff_Abigail"
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_AbigailSnippet_Animation"
+                    }
+                },
+                "{{ModId}}_Scroll_Alex": {
+                    "Name": "{{ModId}}_Scroll_Alex",
+                    "DisplayName": "{{i18n:object.scroll-alex.name}}",
+                    "Description": "{{i18n:object.scroll-alex.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": -1,
+                    "Texture": "{{ModId}}\\MusicScroll",
+                    "SpriteIndex": 6,
+                    "Edibility": 0,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "BuffId": "{{ModId}}_Buff_Alex"
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_AlexSnippet_Animation"
+                    }
+                },
+                "{{ModId}}_Scroll_Elliott": {
+                    "Name": "{{ModId}}_Scroll_Elliott",
+                    "DisplayName": "{{i18n:object.scroll-elliott.name}}",
+                    "Description": "{{i18n:object.scroll-elliott.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": -1,
+                    "Texture": "{{ModId}}\\MusicScroll",
+                    "SpriteIndex": 11,
+                    "Edibility": 0,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "BuffId": "{{ModId}}_Buff_Elliott"
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_ElliottSnippet_Animation"
+                    }
+                },
+                "{{ModId}}_Scroll_Emily": {
+                    "Name": "{{ModId}}_Scroll_Emily",
+                    "DisplayName": "{{i18n:object.scroll-emily.name}}",
+                    "Description": "{{i18n:object.scroll-emily.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": -1,
+                    "Texture": "{{ModId}}\\MusicScroll",
+                    "SpriteIndex": 5,
+                    "Edibility": 0,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "BuffId": "{{ModId}}_Buff_Emily"
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_EmilySnippet_Animation"
+                    }
+                },
+                "{{ModId}}_Scroll_Haley": {
+                    "Name": "{{ModId}}_Scroll_Haley",
+                    "DisplayName": "{{i18n:object.scroll-haley.name}}",
+                    "Description": "{{i18n:object.scroll-haley.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": -1,
+                    "Texture": "{{ModId}}\\MusicScroll",
+                    "SpriteIndex": 4,
+                    "Edibility": 0,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "BuffId": "{{ModId}}_Buff_Haley"
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_HaleySnippet_Animation"
+                    }
+                },
+                "{{ModId}}_Scroll_Harvey": {
+                    "Name": "{{ModId}}_Scroll_Harvey",
+                    "DisplayName": "{{i18n:object.scroll-harvey.name}}",
+                    "Description": "{{i18n:object.scroll-harvey.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": -1,
+                    "Texture": "{{ModId}}\\MusicScroll",
+                    "SpriteIndex": 10,
+                    "Edibility": 0,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "BuffId": "{{ModId}}_Buff_Harvey"
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_HarveySnippet_Animation"
+                    }
+                },
+                "{{ModId}}_Scroll_Leah": {
+                    "Name": "{{ModId}}_Scroll_Leah",
+                    "DisplayName": "{{i18n:object.scroll-leah.name}}",
+                    "Description": "{{i18n:object.scroll-leah.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": -1,
+                    "Texture": "{{ModId}}\\MusicScroll",
+                    "SpriteIndex": 3,
+                    "Edibility": 0,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "BuffId": "{{ModId}}_Buff_Leah"
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_LeahSnippet_Animation"
+                    }
+                },
+                "{{ModId}}_Scroll_Maru": {
+                    "Name": "{{ModId}}_Scroll_Maru",
+                    "DisplayName": "{{i18n:object.scroll-maru.name}}",
+                    "Description": "{{i18n:object.scroll-maru.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": -1,
+                    "Texture": "{{ModId}}\\MusicScroll",
+                    "SpriteIndex": 2,
+                    "Edibility": 0,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "BuffId": "{{ModId}}_Buff_Maru"
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_MaruSnippet_Animation"
+                    }
+                },
+                "{{ModId}}_Scroll_Penny": {
+                    "Name": "{{ModId}}_Scroll_Penny",
+                    "DisplayName": "{{i18n:object.scroll-penny.name}}",
+                    "Description": "{{i18n:object.scroll-penny.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": -1,
+                    "Texture": "{{ModId}}\\MusicScroll",
+                    "SpriteIndex": 1,
+                    "Edibility": 0,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "BuffId": "{{ModId}}_Buff_Penny"
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_PennySnippet_Animation"
+                    }
+                },
+                "{{ModId}}_Scroll_Sam": {
+                    "Name": "{{ModId}}_Scroll_Sam",
+                    "DisplayName": "{{i18n:object.scroll-sam.name}}",
+                    "Description": "{{i18n:object.scroll-sam.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": -1,
+                    "Texture": "{{ModId}}\\MusicScroll",
+                    "SpriteIndex": 9,
+                    "Edibility": 0,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "BuffId": "{{ModId}}_Buff_Sam"
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_SamSnippet_Animation"
+                    }
+                },
+                "{{ModId}}_Scroll_Sebastian": {
+                    "Name": "{{ModId}}_Scroll_Sebastian",
+                    "DisplayName": "{{i18n:object.scroll-sebastian.name}}",
+                    "Description": "{{i18n:object.scroll-sebastian.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": -1,
+                    "Texture": "{{ModId}}\\MusicScroll",
+                    "SpriteIndex": 8,
+                    "Edibility": 0,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "BuffId": "{{ModId}}_Buff_Sebastian"
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_SebastianSnippet_Animation"
+                    }
+                },
+                "{{ModId}}_Scroll_Shane": {
+                    "Name": "{{ModId}}_Scroll_Shane",
+                    "DisplayName": "{{i18n:object.scroll-shane.name}}",
+                    "Description": "{{i18n:object.scroll-shane.description}}",
+                    "Type": "Cooking",
+                    "Category": -7,
+                    "Price": -1,
+                    "Texture": "{{ModId}}\\MusicScroll",
+                    "SpriteIndex": 7,
+                    "Edibility": 0,
+                    "IsDrink": false,
+                    "Buffs": [
+                        {
+                            "BuffId": "{{ModId}}_Buff_Shane"
+                        }
+                    ],
+                    "GeodeDropsDefaultItems": false,
+                    "GeodeDrops": null,
+                    "ArtifactSpotChances": null,
+                    "ExcludeFromFishingCollection": true,
+                    "ExcludeFromShippingCollection": true,
+                    "ExcludeFromRandomSale": true,
+                    "CustomFields": {
+                        "mistyspring.ItemExtensions/EatingAnimation": "{{ModId}}_ShaneSnippet_Animation"
+                    }
+                }
+            }
+        },
+        {
+            "LogName": "ObjectExtensions - MusicScroll",
+            "Action": "EditData",
+            "Target": "spacechase0.SpaceCore/ObjectExtensionData",
+            "Entries": {
+                "{{ModId}}_Scroll_Abigail": {
+                    "CategoryTextOverride": "{{i18n:category.music-scroll.name}}",
+                    "CanBeTrashed": true,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": null,
+                    "UseForTriggerAction": false
+                },
+                "{{ModId}}_Scroll_Penny": {
+                    "CategoryTextOverride": "{{i18n:category.music-scroll.name}}",
+                    "CanBeTrashed": true,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": null,
+                    "UseForTriggerAction": false
+                },
+                "{{ModId}}_Scroll_Maru": {
+                    "CategoryTextOverride": "{{i18n:category.music-scroll.name}}",
+                    "CanBeTrashed": true,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": null,
+                    "UseForTriggerAction": false
+                },
+                "{{ModId}}_Scroll_Leah": {
+                    "CategoryTextOverride": "{{i18n:category.music-scroll.name}}",
+                    "CanBeTrashed": true,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": null,
+                    "UseForTriggerAction": false
+                },
+                "{{ModId}}_Scroll_Alex": {
+                    "CategoryTextOverride": "{{i18n:category.music-scroll.name}}",
+                    "CanBeTrashed": true,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": null,
+                    "UseForTriggerAction": false
+                },
+                "{{ModId}}_Scroll_Elliott": {
+                    "CategoryTextOverride": "{{i18n:category.music-scroll.name}}",
+                    "CanBeTrashed": true,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": null,
+                    "UseForTriggerAction": false
+                }
+            }
+        }
+    ]
+}

@@ -1,6 +1,29 @@
 {
     "Changes": [
-        
+        {
+            "LogName": "Load Map - Harp Mastery Cave",
+            "Action": "Load",
+            "Target": "Maps/HarpMasteryCave",
+            "FromFile": "assets/MasteryCave-Harp.tmx"
+        },
+        {
+            "LogName": "New Location - Harp Mastery Cave",
+            "Action": "EditData",
+            "Target": "Data/Locations",
+            "Entries": {
+                "{{ModId}}_HarpMasteryCave": {
+                    "DisplayName": "{{i18n:location.cave.name}}",
+                    "DefaultArrivalTile": {
+                        "X": 9,
+                        "Y": 9
+                    },
+                    "CreateOnLoad": {
+                        "MapPath": "Maps\\HarpMasteryCave"
+                    },
+                    "CanPlantHere": false
+                }
+            }
+        },
         {
             "LogName": "ArtifactSpots - Forest",
             "Action": "EditData",

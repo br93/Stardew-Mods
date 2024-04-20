@@ -53,6 +53,577 @@
                     "Emote": 56
                 }
             }
+        },
+        {
+            "LogName": "Scroll Animations",
+            "Action": "EditData",
+            "Target": "Mods/mistyspring.ItemExtensions/EatingAnimations",
+            "Entries": {
+                "{{ModId}}_AbigailSnippet_Animation": {
+                    "Animation": [
+                        {
+                            "Frame": 99,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 99,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        }
+                    ],
+                    "Food": {
+                        "Duration": 500,
+                        "StartSound": "{{ModId}}_Audio_Abigail",
+                        "EndSound": "{{ModId}}_Audio_Abigail",
+                        "Crunch": false
+                    },
+                    "Emote": 56
+                },
+                "{{ModId}}_AlexSnippet_Animation": {
+                    "Animation": [
+                        {
+                            "Frame": 99,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 99,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        }
+                    ],
+                    "Food": {
+                        "Duration": 500,
+                        "StartSound": "{{ModId}}_Audio_Alex",
+                        "EndSound": "{{ModId}}_Audio_Alex",
+                        "Crunch": false
+                    },
+                    "Emote": 56
+                },
+                "{{ModId}}_ElliottSnippet_Animation": {
+                    "Animation": [
+                        {
+                            "Frame": 99,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 99,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        }
+                    ],
+                    "Food": {
+                        "Duration": 500,
+                        "StartSound": "{{ModId}}_Audio_Elliott",
+                        "EndSound": "{{ModId}}_Audio_Elliott",
+                        "Crunch": false
+                    },
+                    "Emote": 56
+                },
+                "{{ModId}}_EmilySnippet_Animation": {
+                    "Animation": [
+                        {
+                            "Frame": 99,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 99,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        }
+                    ],
+                    "Food": {
+                        "Duration": 500,
+                        "StartSound": "{{ModId}}_Audio_Emily",
+                        "EndSound": "{{ModId}}_Audio_Emily",
+                        "Crunch": false
+                    },
+                    "Emote": 56
+                },
+                "{{ModId}}_HaleySnippet_Animation": {
+                    "Animation": [
+                        {
+                            "Frame": 99,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 99,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        }
+                    ],
+                    "Food": {
+                        "Duration": 500,
+                        "StartSound": "{{ModId}}_Audio_Haley",
+                        "EndSound": "{{ModId}}_Audio_Haley",
+                        "Crunch": false
+                    },
+                    "Emote": 56
+                },
+                "{{ModId}}_HarveySnippet_Animation": {
+                    "Animation": [
+                        {
+                            "Frame": 99,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 99,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        }
+                    ],
+                    "Food": {
+                        "Duration": 500,
+                        "StartSound": "{{ModId}}_Audio_Harvey",
+                        "EndSound": "{{ModId}}_Audio_Harvey",
+                        "Crunch": false
+                    },
+                    "Emote": 56
+                },
+                "{{ModId}}_LeahSnippet_Animation": {
+                    "Animation": [
+                        {
+                            "Frame": 99,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 99,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        }
+                    ],
+                    "Food": {
+                        "Duration": 500,
+                        "StartSound": "{{ModId}}_Audio_Leah",
+                        "EndSound": "{{ModId}}_Audio_Leah",
+                        "Crunch": false
+                    },
+                    "Emote": 56
+                },
+                "{{ModId}}_MaruSnippet_Animation": {
+                    "Animation": [
+                        {
+                            "Frame": 99,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 99,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        }
+                    ],
+                    "Food": {
+                        "Duration": 500,
+                        "StartSound": "{{ModId}}_Audio_Maru",
+                        "EndSound": "{{ModId}}_Audio_Maru",
+                        "Crunch": false
+                    },
+                    "Emote": 56
+                },
+                "{{ModId}}_PennySnippet_Animation": {
+                    "Animation": [
+                        {
+                            "Frame": 99,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 99,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        }
+                    ],
+                    "Food": {
+                        "Duration": 500,
+                        "StartSound": "{{ModId}}_Audio_Penny",
+                        "EndSound": "{{ModId}}_Audio_Penny",
+                        "Crunch": false
+                    },
+                    "Emote": 56
+                },
+                "{{ModId}}_SamSnippet_Animation": {
+                    "Animation": [
+                        {
+                            "Frame": 99,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 99,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        }
+                    ],
+                    "Food": {
+                        "Duration": 500,
+                        "StartSound": "{{ModId}}_Audio_Sam",
+                        "EndSound": "{{ModId}}_Audio_Sam",
+                        "Crunch": false
+                    },
+                    "Emote": 56
+                },
+                "{{ModId}}_SebastianSnippet_Animation": {
+                    "Animation": [
+                        {
+                            "Frame": 99,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 99,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        }
+                    ],
+                    "Food": {
+                        "Duration": 500,
+                        "StartSound": "{{ModId}}_Audio_Sebastian",
+                        "EndSound": "{{ModId}}_Audio_Sebastian",
+                        "Crunch": false
+                    },
+                    "Emote": 56
+                },
+                "{{ModId}}_ShaneSnippet_Animation": {
+                    "Animation": [
+                        {
+                            "Frame": 99,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 250,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 98,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 99,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        },
+                        {
+                            "Frame": 100,
+                            "Duration": 500,
+                            "SecondaryArm": false,
+                            "Flip": false
+                        }
+                    ],
+                    "Food": {
+                        "Duration": 500,
+                        "StartSound": "{{ModId}}_Audio_Shane",
+                        "EndSound": "{{ModId}}_Audio_Shane",
+                        "Crunch": false
+                    },
+                    "Emote": 56
+                }
+            }
         }
     ]
 }

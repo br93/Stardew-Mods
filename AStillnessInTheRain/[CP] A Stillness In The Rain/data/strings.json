@@ -1,0 +1,15 @@
+{
+    "Changes": [
+        {
+            "LogName": "Food/Music String",
+            "Action": "EditData",
+            "When": {
+                "ChangeStringForEatingAction": true
+            },
+            "Target": "Strings/StringsFromCSFiles",
+            "Fields": {
+                "Game1.cs.3160": "Confirm action?"
+            }
+        }
+    ]
+}

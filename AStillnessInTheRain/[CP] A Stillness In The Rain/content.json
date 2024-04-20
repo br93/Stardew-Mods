@@ -31,12 +31,12 @@
     {
       "LogName": "Include data changes",
       "Action": "Include",
-      "FromFile": "data/animations.json, data/drops.json, data/events.json, data/mail.json, data/maps.json, data/shops.json, data/trinkets.json"
+      "FromFile": "data/animations.json, data/bundles.json, data/events.json, data/locations.json, data/mail.json, data/maps.json, data/shops.json, data/trinkets.json"
     },
     {
       "LogName": "Include object changes",
       "Action": "Include",
-      "FromFile": "data/objects/harp.json, data/objects/music-bench.json, data/objects/music-sheet.json"
+      "FromFile": "data/objects/harp.json, data/objects/music-bench.json, data/objects/music-sheet.json, data/objects/music-scroll.json"
     },
     {
       "LogName": "Include buff changes",

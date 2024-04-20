@@ -60,6 +60,121 @@
                     "Looped": false
                 }
             }
+        },
+        {
+            "LogName": "AudioChanges - Scrolls",
+            "Action": "EditData",
+            "Target": "Data/AudioChanges",
+            "Entries": {
+                "{{ModId}}_Audio_Abigail": {
+                    "ID": "{{ModId}}_Audio_Abigail",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/audio/abigail_compressed.ogg}}"
+                    ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+                "{{ModId}}_Audio_Alex": {
+                    "ID": "{{ModId}}_Audio_Alex",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/audio/alex_compressed.ogg}}"
+                    ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+                "{{ModId}}_Audio_Elliott": {
+                    "ID": "{{ModId}}_Audio_Elliott",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/audio/elliott_compressed.ogg}}"
+                    ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+                "{{ModId}}_Audio_Emily": {
+                    "ID": "{{ModId}}_Audio_Emily",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/audio/emily_compressed.ogg}}"
+                    ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+                "{{ModId}}_Audio_Haley": {
+                    "ID": "{{ModId}}_Audio_Haley",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/audio/haley_compressed.ogg}}"
+                    ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+                "{{ModId}}_Audio_Harvey": {
+                    "ID": "{{ModId}}_Audio_Harvey",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/audio/harvey_compressed.ogg}}"
+                    ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+                "{{ModId}}_Audio_Leah": {
+                    "ID": "{{ModId}}_Audio_Leah",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/audio/leah_compressed.ogg}}"
+                    ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+                "{{ModId}}_Audio_Maru": {
+                    "ID": "{{ModId}}_Audio_Maru",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/audio/maru_compressed.ogg}}"
+                    ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+                "{{ModId}}_Audio_Penny": {
+                    "ID": "{{ModId}}_Audio_Penny",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/audio/penny_compressed.ogg}}"
+                    ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+                "{{ModId}}_Audio_Sam": {
+                    "ID": "{{ModId}}_Audio_Sam",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/audio/sam_compressed.ogg}}"
+                    ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+                "{{ModId}}_Audio_Sebastian": {
+                    "ID": "{{ModId}}_Audio_Sebastian",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/audio/sebastian_compressed.ogg}}"
+                    ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                },
+                "{{ModId}}_Audio_Shane": {
+                    "ID": "{{ModId}}_Audio_Shane",
+                    "Category": "Sound",
+                    "FilePaths": [
+                        "{{AbsoluteFilePath: assets/audio/shane_compressed.ogg}}"
+                    ],
+                    "StreamedVorbis": false,
+                    "Looped": false
+                }
+            }
         }
     ]
 }
