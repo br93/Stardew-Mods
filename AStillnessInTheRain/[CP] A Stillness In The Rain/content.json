@@ -35,7 +35,7 @@
     {
       "LogName": "Include data changes",
       "Action": "Include",
-      "FromFile": "data/animations.json, data/bundles.json, data/events.json, data/locations.json, data/mail.json, data/maps.json, data/shops.json, data/trinkets.json"
+      "FromFile": "data/animations.json, data/bundles.json, data/events.json, data/locations.json, data/mail.json, data/maps.json, data/shops.json, data/strings.json, data/trinkets.json"
     },
     {
       "LogName": "Include object changes",
