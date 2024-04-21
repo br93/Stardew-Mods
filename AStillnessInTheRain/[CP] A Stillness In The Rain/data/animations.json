@@ -69,7 +69,7 @@
                         },
                         {
                             "Frame": 98,
-                            "Duration": 250,
+                            "Duration": 500,
                             "SecondaryArm": false,
                             "Flip": false
                         },
@@ -81,19 +81,19 @@
                         },
                         {
                             "Frame": 99,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         }
@@ -116,7 +116,7 @@
                         },
                         {
                             "Frame": 98,
-                            "Duration": 250,
+                            "Duration": 500,
                             "SecondaryArm": false,
                             "Flip": false
                         },
@@ -128,19 +128,19 @@
                         },
                         {
                             "Frame": 99,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         }
@@ -163,7 +163,7 @@
                         },
                         {
                             "Frame": 98,
-                            "Duration": 250,
+                            "Duration": 500,
                             "SecondaryArm": false,
                             "Flip": false
                         },
@@ -175,19 +175,19 @@
                         },
                         {
                             "Frame": 99,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         }
@@ -210,7 +210,7 @@
                         },
                         {
                             "Frame": 98,
-                            "Duration": 250,
+                            "Duration": 500,
                             "SecondaryArm": false,
                             "Flip": false
                         },
@@ -222,19 +222,19 @@
                         },
                         {
                             "Frame": 99,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         }
@@ -257,7 +257,7 @@
                         },
                         {
                             "Frame": 98,
-                            "Duration": 250,
+                            "Duration": 500,
                             "SecondaryArm": false,
                             "Flip": false
                         },
@@ -269,19 +269,19 @@
                         },
                         {
                             "Frame": 99,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         }
@@ -304,7 +304,7 @@
                         },
                         {
                             "Frame": 98,
-                            "Duration": 250,
+                            "Duration": 500,
                             "SecondaryArm": false,
                             "Flip": false
                         },
@@ -316,19 +316,19 @@
                         },
                         {
                             "Frame": 99,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         }
@@ -351,7 +351,7 @@
                         },
                         {
                             "Frame": 98,
-                            "Duration": 250,
+                            "Duration": 500,
                             "SecondaryArm": false,
                             "Flip": false
                         },
@@ -363,19 +363,19 @@
                         },
                         {
                             "Frame": 99,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         }
@@ -398,7 +398,7 @@
                         },
                         {
                             "Frame": 98,
-                            "Duration": 250,
+                            "Duration": 500,
                             "SecondaryArm": false,
                             "Flip": false
                         },
@@ -410,19 +410,19 @@
                         },
                         {
                             "Frame": 99,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         }
@@ -445,7 +445,7 @@
                         },
                         {
                             "Frame": 98,
-                            "Duration": 250,
+                            "Duration": 500,
                             "SecondaryArm": false,
                             "Flip": false
                         },
@@ -457,19 +457,19 @@
                         },
                         {
                             "Frame": 99,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         }
@@ -492,7 +492,7 @@
                         },
                         {
                             "Frame": 98,
-                            "Duration": 250,
+                            "Duration": 500,
                             "SecondaryArm": false,
                             "Flip": false
                         },
@@ -504,19 +504,19 @@
                         },
                         {
                             "Frame": 99,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         }
@@ -539,7 +539,7 @@
                         },
                         {
                             "Frame": 98,
-                            "Duration": 250,
+                            "Duration": 500,
                             "SecondaryArm": false,
                             "Flip": false
                         },
@@ -551,19 +551,19 @@
                         },
                         {
                             "Frame": 99,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         }
@@ -586,7 +586,7 @@
                         },
                         {
                             "Frame": 98,
-                            "Duration": 250,
+                            "Duration": 500,
                             "SecondaryArm": false,
                             "Flip": false
                         },
@@ -598,19 +598,19 @@
                         },
                         {
                             "Frame": 99,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         },
                         {
                             "Frame": 100,
-                            "Duration": 500,
+                            "Duration": 750,
                             "SecondaryArm": false,
                             "Flip": false
                         }
