@@ -1,0 +1,8 @@
+{
+  "DisableVanillaEventWithoutMiniHarp": "true",
+  "BooksellerSellsMusicSheet": "true",
+  "TravellingCartSellsMusicSheet": "true",
+  "SpawnMusicBenchAfterMastery": "true",
+  "ChangeProjectile": "true",
+  "ChangeStringForEatingAction": "true"
+}

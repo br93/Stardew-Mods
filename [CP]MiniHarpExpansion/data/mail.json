@@ -62,7 +62,7 @@
             "Action": "EditData",
             "Target": "Data/TriggerActions",
             "Entries": {
-                "{{ModId}}_Mail_Trigger_Harp": {
+                "{{ModId}}_Mail_Trigger_Wizard": {
                     "Id": "{{ModId}}_Mail_Trigger_Wizard",
                     "Trigger": "DayEnding",
                     "Condition": "PLAYER_HAS_SEEN_EVENT Current 112, PLAYER_HAS_MAIL Current {{ModId}}_Harp_ACTIVE Received, !PLAYER_HAS_MAIL Current {{ModId}}_Harp_LevelUp Received, WEATHER Here Rain",

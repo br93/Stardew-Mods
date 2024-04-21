@@ -14,7 +14,7 @@
                     "ItemId": "{{ModId}}_MusicBench",
                     "Price": 3000,
                     "AvailableStockLimit": "Player",
-                    "Condition": "SYNCED_RANDOM day bookseller_recipe 0.5 @addDailyLuck"
+                    "Condition": "SYNCED_RANDOM day bookseller_recipe 0.7 @addDailyLuck"
                 }
             }
         },
@@ -87,7 +87,7 @@
                     "ItemId": "{{ModId}}_MusicBench",
                     "Price": 3000,
                     "AvailableStockLimit": "Player",
-                    "Condition": "SYNCED_RANDOM day traveler_recipe 0.4 @addDailyLuck"
+                    "Condition": "SYNCED_RANDOM day traveler_recipe 0.6 @addDailyLuck"
                 }
             }
         },
@@ -188,7 +188,7 @@
                         "{{ModId}}_Scroll_Harvey",
                         "{{ModId}}_Scroll_Elliott"
                     ],
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -197,7 +197,7 @@
                 "{{ModId}}_ScrollAbigail_JelliesFestival": {
                     "Id": "{{ModId}}_ScrollAbigail_JelliesFestival",
                     "ItemId": "{{ModId}}_Scroll_Abigail",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -206,7 +206,7 @@
                 "{{ModId}}_ScrollPenny_JelliesFestival": {
                     "Id": "{{ModId}}_ScrollPenny_JelliesFestival",
                     "ItemId": "{{ModId}}_Scroll_Penny",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -215,7 +215,7 @@
                 "{{ModId}}_ScrollMaru_JelliesFestival": {
                     "Id": "{{ModId}}_ScrollMaru_JelliesFestival",
                     "ItemId": "{{ModId}}_Scroll_Maru",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -224,7 +224,7 @@
                 "{{ModId}}_ScrollLeah_JelliesFestival": {
                     "Id": "{{ModId}}_ScrollLeah_JelliesFestival",
                     "ItemId": "{{ModId}}_Scroll_Leah",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -233,7 +233,7 @@
                 "{{ModId}}_ScrollHaley_JelliesFestival": {
                     "Id": "{{ModId}}_ScrollHaley_JelliesFestival",
                     "ItemId": "{{ModId}}_Scroll_Haley",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -242,7 +242,7 @@
                 "{{ModId}}_ScrollEmily_JelliesFestival": {
                     "Id": "{{ModId}}_ScrollEmily_JelliesFestival",
                     "ItemId": "{{ModId}}_Scroll_Emily",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -251,7 +251,7 @@
                 "{{ModId}}_ScrollAlex_JelliesFestival": {
                     "Id": "{{ModId}}_ScrollAlex_JelliesFestival",
                     "ItemId": "{{ModId}}_Scroll_Alex",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -260,7 +260,7 @@
                 "{{ModId}}_ScrollShane_JelliesFestival": {
                     "Id": "{{ModId}}_ScrollShane_JelliesFestival",
                     "ItemId": "{{ModId}}_Scroll_Shane",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -269,7 +269,7 @@
                 "{{ModId}}_ScrollSebastian_JelliesFestival": {
                     "Id": "{{ModId}}_ScrollSebastian_JelliesFestival",
                     "ItemId": "{{ModId}}_Scroll_Sebastian",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -278,7 +278,7 @@
                 "{{ModId}}_ScrollSam_JelliesFestival": {
                     "Id": "{{ModId}}_ScrollSam_JelliesFestival",
                     "ItemId": "{{ModId}}_Scroll_Sam",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -287,7 +287,7 @@
                 "{{ModId}}_ScrollHarvey_JelliesFestival": {
                     "Id": "{{ModId}}_ScrollHarvey_JelliesFestival",
                     "ItemId": "{{ModId}}_Scroll_Harvey",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -296,7 +296,7 @@
                 "{{ModId}}_ScrollElliott_JelliesFestival": {
                     "Id": "{{ModId}}_ScrollElliott_JelliesFestival",
                     "ItemId": "{{ModId}}_Scroll_Elliott",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -329,7 +329,7 @@
                         "{{ModId}}_Scroll_Harvey",
                         "{{ModId}}_Scroll_Elliott"
                     ],
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -338,7 +338,7 @@
                 "{{ModId}}_ScrollAbigail_EggFestival": {
                     "Id": "{{ModId}}_ScrollAbigail_EggFestival",
                     "ItemId": "{{ModId}}_Scroll_Abigail",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -347,7 +347,7 @@
                 "{{ModId}}_ScrollPenny_EggFestival": {
                     "Id": "{{ModId}}_ScrollPenny_EggFestival",
                     "ItemId": "{{ModId}}_Scroll_Penny",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -356,7 +356,7 @@
                 "{{ModId}}_ScrollMaru_EggFestival": {
                     "Id": "{{ModId}}_ScrollMaru_EggFestival",
                     "ItemId": "{{ModId}}_Scroll_Maru",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -365,7 +365,7 @@
                 "{{ModId}}_ScrollLeah_EggFestival": {
                     "Id": "{{ModId}}_ScrollLeah_EggFestival",
                     "ItemId": "{{ModId}}_Scroll_Leah",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -374,7 +374,7 @@
                 "{{ModId}}_ScrollHaley_EggFestival": {
                     "Id": "{{ModId}}_ScrollHaley_EggFestival",
                     "ItemId": "{{ModId}}_Scroll_Haley",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -383,7 +383,7 @@
                 "{{ModId}}_ScrollEmily_EggFestival": {
                     "Id": "{{ModId}}_ScrollEmily_EggFestival",
                     "ItemId": "{{ModId}}_Scroll_Emily",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -392,7 +392,7 @@
                 "{{ModId}}_ScrollAlex_EggFestival": {
                     "Id": "{{ModId}}_ScrollAlex_EggFestival",
                     "ItemId": "{{ModId}}_Scroll_Alex",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -401,7 +401,7 @@
                 "{{ModId}}_ScrollShane_EggFestival": {
                     "Id": "{{ModId}}_ScrollShane_EggFestival",
                     "ItemId": "{{ModId}}_Scroll_Shane",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -410,7 +410,7 @@
                 "{{ModId}}_ScrollSebastian_EggFestival": {
                     "Id": "{{ModId}}_ScrollSebastian_EggFestival",
                     "ItemId": "{{ModId}}_Scroll_Sebastian",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -419,7 +419,7 @@
                 "{{ModId}}_ScrollSam_EggFestival": {
                     "Id": "{{ModId}}_ScrollSam_EggFestival",
                     "ItemId": "{{ModId}}_Scroll_Sam",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -428,7 +428,7 @@
                 "{{ModId}}_ScrollHarvey_EggFestival": {
                     "Id": "{{ModId}}_ScrollHarvey_EggFestival",
                     "ItemId": "{{ModId}}_Scroll_Harvey",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -437,7 +437,7 @@
                 "{{ModId}}_ScrollElliott_EggFestival": {
                     "Id": "{{ModId}}_ScrollElliott_EggFestival",
                     "ItemId": "{{ModId}}_Scroll_Elliott",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -470,7 +470,7 @@
                         "{{ModId}}_Scroll_Harvey",
                         "{{ModId}}_Scroll_Elliott"
                     ],
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -479,7 +479,7 @@
                 "{{ModId}}_ScrollAbigail_WinterFestival": {
                     "Id": "{{ModId}}_ScrollAbigail_WinterFestival",
                     "ItemId": "{{ModId}}_Scroll_Abigail",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -488,7 +488,7 @@
                 "{{ModId}}_ScrollPenny_WinterFestival": {
                     "Id": "{{ModId}}_ScrollPenny_WinterFestival",
                     "ItemId": "{{ModId}}_Scroll_Penny",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -497,7 +497,7 @@
                 "{{ModId}}_ScrollMaru_WinterFestival": {
                     "Id": "{{ModId}}_ScrollMaru_WinterFestival",
                     "ItemId": "{{ModId}}_Scroll_Maru",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -506,7 +506,7 @@
                 "{{ModId}}_ScrollLeah_WinterFestival": {
                     "Id": "{{ModId}}_ScrollLeah_WinterFestival",
                     "ItemId": "{{ModId}}_Scroll_Leah",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -515,7 +515,7 @@
                 "{{ModId}}_ScrollHaley_WinterFestival": {
                     "Id": "{{ModId}}_ScrollHaley_WinterFestival",
                     "ItemId": "{{ModId}}_Scroll_Haley",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -524,7 +524,7 @@
                 "{{ModId}}_ScrollEmily_WinterFestival": {
                     "Id": "{{ModId}}_ScrollEmily_WinterFestival",
                     "ItemId": "{{ModId}}_Scroll_Emily",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -533,7 +533,7 @@
                 "{{ModId}}_ScrollAlex_WinterFestival": {
                     "Id": "{{ModId}}_ScrollAlex_WinterFestival",
                     "ItemId": "{{ModId}}_Scroll_Alex",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -542,7 +542,7 @@
                 "{{ModId}}_ScrollShane_WinterFestival": {
                     "Id": "{{ModId}}_ScrollShane_WinterFestival",
                     "ItemId": "{{ModId}}_Scroll_Shane",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -551,7 +551,7 @@
                 "{{ModId}}_ScrollSebastian_WinterFestival": {
                     "Id": "{{ModId}}_ScrollSebastian_WinterFestival",
                     "ItemId": "{{ModId}}_Scroll_Sebastian",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -560,7 +560,7 @@
                 "{{ModId}}_ScrollSam_WinterFestival": {
                     "Id": "{{ModId}}_ScrollSam_WinterFestival",
                     "ItemId": "{{ModId}}_Scroll_Sam",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -569,7 +569,7 @@
                 "{{ModId}}_ScrollHarvey_WinterFestival": {
                     "Id": "{{ModId}}_ScrollHarvey_WinterFestival",
                     "ItemId": "{{ModId}}_Scroll_Harvey",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -578,7 +578,7 @@
                 "{{ModId}}_ScrollElliott_WinterFestival": {
                     "Id": "{{ModId}}_ScrollElliott_WinterFestival",
                     "ItemId": "{{ModId}}_Scroll_Elliott",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -611,7 +611,7 @@
                         "{{ModId}}_Scroll_Harvey",
                         "{{ModId}}_Scroll_Elliott"
                     ],
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -620,7 +620,7 @@
                 "{{ModId}}_ScrollAbigail_FlowerFestival": {
                     "Id": "{{ModId}}_ScrollAbigail_FlowerFestival",
                     "ItemId": "{{ModId}}_Scroll_Abigail",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -629,7 +629,7 @@
                 "{{ModId}}_ScrollPenny_FlowerFestival": {
                     "Id": "{{ModId}}_ScrollPenny_FlowerFestival",
                     "ItemId": "{{ModId}}_Scroll_Penny",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -638,7 +638,7 @@
                 "{{ModId}}_ScrollMaru_FlowerFestival": {
                     "Id": "{{ModId}}_ScrollMaru_FlowerFestival",
                     "ItemId": "{{ModId}}_Scroll_Maru",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -647,7 +647,7 @@
                 "{{ModId}}_ScrollLeah_FlowerFestival": {
                     "Id": "{{ModId}}_ScrollLeah_FlowerFestival",
                     "ItemId": "{{ModId}}_Scroll_Leah",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -656,7 +656,7 @@
                 "{{ModId}}_ScrollHaley_FlowerFestival": {
                     "Id": "{{ModId}}_ScrollHaley_FlowerFestival",
                     "ItemId": "{{ModId}}_Scroll_Haley",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -665,7 +665,7 @@
                 "{{ModId}}_ScrollEmily_FlowerFestival": {
                     "Id": "{{ModId}}_ScrollEmily_FlowerFestival",
                     "ItemId": "{{ModId}}_Scroll_Emily",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -674,7 +674,7 @@
                 "{{ModId}}_ScrollAlex_FlowerFestival": {
                     "Id": "{{ModId}}_ScrollAlex_FlowerFestival",
                     "ItemId": "{{ModId}}_Scroll_Alex",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -683,7 +683,7 @@
                 "{{ModId}}_ScrollShane_FlowerFestival": {
                     "Id": "{{ModId}}_ScrollShane_FlowerFestival",
                     "ItemId": "{{ModId}}_Scroll_Shane",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -692,7 +692,7 @@
                 "{{ModId}}_ScrollSebastian_FlowerFestival": {
                     "Id": "{{ModId}}_ScrollSebastian_FlowerFestival",
                     "ItemId": "{{ModId}}_Scroll_Sebastian",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -701,7 +701,7 @@
                 "{{ModId}}_ScrollSam_FlowerFestival": {
                     "Id": "{{ModId}}_ScrollSam_FlowerFestival",
                     "ItemId": "{{ModId}}_Scroll_Sam",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -710,7 +710,7 @@
                 "{{ModId}}_ScrollHarvey_FlowerFestival": {
                     "Id": "{{ModId}}_ScrollHarvey_FlowerFestival",
                     "ItemId": "{{ModId}}_Scroll_Harvey",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -719,7 +719,7 @@
                 "{{ModId}}_ScrollElliott_FlowerFestival": {
                     "Id": "{{ModId}}_ScrollElliott_FlowerFestival",
                     "ItemId": "{{ModId}}_Scroll_Elliott",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -752,7 +752,7 @@
                         "{{ModId}}_Scroll_Harvey",
                         "{{ModId}}_Scroll_Elliott"
                     ],
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -761,7 +761,7 @@
                 "{{ModId}}_ScrollAbigail_LuauFestival": {
                     "Id": "{{ModId}}_ScrollAbigail_LuauFestival",
                     "ItemId": "{{ModId}}_Scroll_Abigail",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -770,7 +770,7 @@
                 "{{ModId}}_ScrollPenny_LuauFestival": {
                     "Id": "{{ModId}}_ScrollPenny_LuauFestival",
                     "ItemId": "{{ModId}}_Scroll_Penny",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -779,7 +779,7 @@
                 "{{ModId}}_ScrollMaru_LuauFestival": {
                     "Id": "{{ModId}}_ScrollMaru_LuauFestival",
                     "ItemId": "{{ModId}}_Scroll_Maru",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -788,7 +788,7 @@
                 "{{ModId}}_ScrollLeah_LuauFestival": {
                     "Id": "{{ModId}}_ScrollLeah_LuauFestival",
                     "ItemId": "{{ModId}}_Scroll_Leah",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -797,7 +797,7 @@
                 "{{ModId}}_ScrollHaley_LuauFestival": {
                     "Id": "{{ModId}}_ScrollHaley_LuauFestival",
                     "ItemId": "{{ModId}}_Scroll_Haley",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -806,7 +806,7 @@
                 "{{ModId}}_ScrollEmily_LuauFestival": {
                     "Id": "{{ModId}}_ScrollEmily_LuauFestival",
                     "ItemId": "{{ModId}}_Scroll_Emily",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -815,7 +815,7 @@
                 "{{ModId}}_ScrollAlex_LuauFestival": {
                     "Id": "{{ModId}}_ScrollAlex_LuauFestival",
                     "ItemId": "{{ModId}}_Scroll_Alex",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -824,7 +824,7 @@
                 "{{ModId}}_ScrollShane_LuauFestival": {
                     "Id": "{{ModId}}_ScrollShane_LuauFestival",
                     "ItemId": "{{ModId}}_Scroll_Shane",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -833,7 +833,7 @@
                 "{{ModId}}_ScrollSebastian_LuauFestival": {
                     "Id": "{{ModId}}_ScrollSebastian_LuauFestival",
                     "ItemId": "{{ModId}}_Scroll_Sebastian",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -842,7 +842,7 @@
                 "{{ModId}}_ScrollSam_LuauFestival": {
                     "Id": "{{ModId}}_ScrollSam_LuauFestival",
                     "ItemId": "{{ModId}}_Scroll_Sam",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -851,7 +851,7 @@
                 "{{ModId}}_ScrollHarvey_LuauFestival": {
                     "Id": "{{ModId}}_ScrollHarvey_LuauFestival",
                     "ItemId": "{{ModId}}_Scroll_Harvey",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -860,7 +860,7 @@
                 "{{ModId}}_ScrollElliott_LuauFestival": {
                     "Id": "{{ModId}}_ScrollElliott_LuauFestival",
                     "ItemId": "{{ModId}}_Scroll_Elliott",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -893,7 +893,7 @@
                         "{{ModId}}_Scroll_Harvey",
                         "{{ModId}}_Scroll_Elliott"
                     ],
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -902,7 +902,7 @@
                 "{{ModId}}_ScrollAbigail_SpiritsFestival": {
                     "Id": "{{ModId}}_ScrollAbigail_SpiritsFestival",
                     "ItemId": "{{ModId}}_Scroll_Abigail",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -911,7 +911,7 @@
                 "{{ModId}}_ScrollPenny_SpiritsFestival": {
                     "Id": "{{ModId}}_ScrollPenny_SpiritsFestival",
                     "ItemId": "{{ModId}}_Scroll_Penny",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -920,7 +920,7 @@
                 "{{ModId}}_ScrollMaru_SpiritsFestival": {
                     "Id": "{{ModId}}_ScrollMaru_SpiritsFestival",
                     "ItemId": "{{ModId}}_Scroll_Maru",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -929,7 +929,7 @@
                 "{{ModId}}_ScrollLeah_SpiritsFestival": {
                     "Id": "{{ModId}}_ScrollLeah_SpiritsFestival",
                     "ItemId": "{{ModId}}_Scroll_Leah",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -938,7 +938,7 @@
                 "{{ModId}}_ScrollHaley_SpiritsFestival": {
                     "Id": "{{ModId}}_ScrollHaley_SpiritsFestival",
                     "ItemId": "{{ModId}}_Scroll_Haley",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -947,7 +947,7 @@
                 "{{ModId}}_ScrollEmily_SpiritsFestival": {
                     "Id": "{{ModId}}_ScrollEmily_SpiritsFestival",
                     "ItemId": "{{ModId}}_Scroll_Emily",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -956,7 +956,7 @@
                 "{{ModId}}_ScrollAlex_SpiritsFestival": {
                     "Id": "{{ModId}}_ScrollAlex_SpiritsFestival",
                     "ItemId": "{{ModId}}_Scroll_Alex",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -965,7 +965,7 @@
                 "{{ModId}}_ScrollShane_SpiritsFestival": {
                     "Id": "{{ModId}}_ScrollShane_SpiritsFestival",
                     "ItemId": "{{ModId}}_Scroll_Shane",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -974,7 +974,7 @@
                 "{{ModId}}_ScrollSebastian_SpiritsFestival": {
                     "Id": "{{ModId}}_ScrollSebastian_SpiritsFestival",
                     "ItemId": "{{ModId}}_Scroll_Sebastian",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -983,7 +983,7 @@
                 "{{ModId}}_ScrollSam_SpiritsFestival": {
                     "Id": "{{ModId}}_ScrollSam_SpiritsFestival",
                     "ItemId": "{{ModId}}_Scroll_Sam",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -992,7 +992,7 @@
                 "{{ModId}}_ScrollHarvey_SpiritsFestival": {
                     "Id": "{{ModId}}_ScrollHarvey_SpiritsFestival",
                     "ItemId": "{{ModId}}_Scroll_Harvey",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,
@@ -1001,7 +1001,7 @@
                 "{{ModId}}_ScrollElliott_SpiritsFestival": {
                     "Id": "{{ModId}}_ScrollElliott_SpiritsFestival",
                     "ItemId": "{{ModId}}_Scroll_Elliott",
-                    "Price": 1,
+                    "Price": 1000,
                     "AvailableStock": 1,
                     "AvailableStockLimit": "Player",
                     "AvoidRepeat": true,

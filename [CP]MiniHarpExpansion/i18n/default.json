@@ -44,11 +44,11 @@
     "object.music-fishing2.buff": "Nautical Serenade",
     "object.music-fishing2.buff.description": "Increases the fishing bar size for a day",
     "object.music-fishing2.description": "Increases the fishing bar size for a day",
-    "object.music-fishing2.name": "Music Sheet Fishing2",
+    "object.music-fishing2.name": "Nautical Serenade",
     
     "object.music-foraging.buff": "Nature's Blessing",
     "object.music-foraging.description": "Temporarily increases foraging skill by 3 levels",
-    "object.music-foraging.name": "Music Sheet Foraging",
+    "object.music-foraging.name": "Nature's Blessing",
 
     "object.music-foraging2.buff": "Buff Foraging II",
     "object.music-foraging2.description": "Music Sheet Level 2",
@@ -65,7 +65,7 @@
     
     "object.music-mining.buff": "Miner's Melody",
     "object.music-mining.description": "Temporarily increases mining skill by 3 levels",
-    "object.music-mining.name": "Music Sheet Mining",
+    "object.music-mining.name": "Miner's Melody",
 
     "object.music-mining2.buff": "Buff Mining II",
     "object.music-mining2.description": "Music Sheet Mining Level 2",

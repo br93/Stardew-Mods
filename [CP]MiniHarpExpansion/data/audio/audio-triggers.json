@@ -251,6 +251,24 @@
                     "Condition": "ITEM_ID Input (O){{ModId}}_Harp_Object"
                 }
             }
+        },
+        {
+            "LogName": "Trigger Actions - Harp - Playing",
+            "Action": "EditData",
+            "When": {
+                "HasFlag": "{{ModId}}_Harp_MASTERY"
+            },
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Harp_Playing": {
+                    "Id": "{{ModId}}_Harp_Playing",
+                    "Trigger": "spacechase0.SpaceCore_OnItemUsed",
+                    "Action": "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_HarpFull true",
+                    "MarkActionApplied": false,
+                    "Condition": "ITEM_ID Input (O){{ModId}}_Harp_Object"
+                }
+            }
         }
+
     ]
 }

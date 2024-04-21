@@ -1,23 +1,33 @@
 {
-  "Name": "A Stillness In The Rain - Harp Mod",
+  "Name": "Mini Harp Expansion",
   "Author": "br93",
-  "Version": "2.0.0",
+  "Version": "1.0.0",
   "Description": "Adds a functional mini-harp to the game with a minigame, new events and buffs",
   "UniqueID": "br93.HarpMod",
   "MinimumApiVersion": "3.13.0",
-  "UpdateKeys": [],
+  "UpdateKeys": [
+    "Nexus:22986"
+  ],
   "ContentPackFor": {
     "UniqueID": "Pathoschild.ContentPatcher",
     "MinimumVersion": "2.0.0"
   },
   "Dependencies": [
     {
+      "UniqueID": "spacechase0.SpaceCore",
+      "IsRequired": true
+    },
+    {
       "UniqueID": "mistyspring.ItemExtensions",
-      "IsRequired": false
+      "IsRequired": true
     },
     {
       "UniqueID": "leclair.bettercrafting",
-      "IsRequired": false
+      "IsRequired": true
+    },
+    {
+      "UniqueID": "DLX.Bundles",
+      "IsRequired": true
     }
   ]
 }
