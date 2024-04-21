@@ -8,7 +8,7 @@
             },
             "Target": "Strings/StringsFromCSFiles",
             "Fields": {
-                "Game1.cs.3160": "Confirm action?"
+                "Game1.cs.3160": "{{i18n:action.string}}"
             }
         }
     ]

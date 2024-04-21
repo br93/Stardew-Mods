@@ -7,17 +7,21 @@
     },
     "BooksellerSellsMusicSheet": {
       "AllowValues": "true, false",
-      "Default": false
+      "Default": true
     },
     "TravellingCartSellsMusicSheet": {
       "AllowValues": "true, false",
-      "Default": false
+      "Default": true
     },
     "SpawnMusicBenchAfterMastery": {
       "AllowValues": "true, false",
       "Default": true
     },
     "ChangeProjectile": {
+      "AllowValues": "true, false",
+      "Default": true
+    },
+    "ChangeStringForEatingAction": {
       "AllowValues": "true, false",
       "Default": true
     }

@@ -108,7 +108,7 @@
                     "Id": "{{ModId}}_MusicSheet_Farming_Traveler",
                     "ItemId": "{{ModId}}_Music_Common_Farming",
                     "Price": 4000,
-                    "AvailableStock": 5,
+                    "AvailableStock": 1,
                     "AvailableStockLimit": "Global",
                     "Condition": "SYNCED_RANDOM day traveler_musicsheet 0.3 @addDailyLuck"
                 },
@@ -116,7 +116,7 @@
                     "Id": "{{ModId}}_MusicSheet_Fishing_Traveler",
                     "ItemId": "{{ModId}}_Music_Common_Fishing",
                     "Price": 4000,
-                    "AvailableStock": 5,
+                    "AvailableStock": 1,
                     "AvailableStockLimit": "Global",
                     "Condition": "SYNCED_RANDOM day traveler_musicsheet 0.3 @addDailyLuck"
                 },
@@ -124,7 +124,7 @@
                     "Id": "{{ModId}}_MusicSheet_Mining_Traveler",
                     "ItemId": "{{ModId}}_Music_Common_Mining",
                     "Price": 4000,
-                    "AvailableStock": 5,
+                    "AvailableStock": 1,
                     "AvailableStockLimit": "Global",
                     "Condition": "SYNCED_RANDOM day traveler_musicsheet 0.3 @addDailyLuck"
                 },
@@ -140,7 +140,7 @@
                     "Id": "{{ModId}}_MusicSheet_Foraging_Traveler",
                     "ItemId": "{{ModId}}_Music_Common_Foraging",
                     "Price": 4000,
-                    "AvailableStock": 5,
+                    "AvailableStock": 1,
                     "AvailableStockLimit": "Global",
                     "Condition": "SYNCED_RANDOM day traveler_musicsheet 0.3 @addDailyLuck"
                 }

@@ -1,4 +1,6 @@
 {
+    "action.string": "Confirm action?",
+    
     "category.broken-musical-instrument.name": "Broken Musical Instrument",
     "category.music-scroll.name": "Music Scroll",
     "category.music-sheet.name": "Music Sheet",
@@ -71,26 +73,37 @@
 
     "object.scroll-abigail.description": "+ 100 friendship points with Abigail",
     "object.scroll-abigail.name": "A Stillness in the Rain",
+    
     "object.scroll-alex.description": "+ 100 friendship points with Alex",
     "object.scroll-alex.name": "A Sad Song",
+    
     "object.scroll-elliott.description": "+ 100 friendship points with Elliott",
     "object.scroll-elliott.name": "Piano Solo",
+    
     "object.scroll-emily.description": "+ 100 friendship points with Emily",
     "object.scroll-emily.name": "Song of Feathers",
+    
     "object.scroll-haley.description": "+ 100 friendship points with Haley",
     "object.scroll-haley.name": "Pickle Jar Rag",
+    
     "object.scroll-harvey.description": "+ 100 friendship points with Harvey",
     "object.scroll-harvey.name": "Grapefruit Sky",
+    
     "object.scroll-leah.description": "+ 100 friendship points with Leah",
     "object.scroll-leah.name": "Land of Green and Gold",
+   
     "object.scroll-maru.description": "+ 100 friendship points with Maru",
     "object.scroll-maru.name": "Starwatcher",
+    
     "object.scroll-penny.description": "+ 100 friendship points with Penny",
     "object.scroll-penny.name": "Pleasant Memory",
+    
     "object.scroll-sam.description": "+ 100 friendship points with Sam",
     "object.scroll-sam.name": "Sam's Band (Electronic Version)",
+    
     "object.scroll-sebastian.description": "+ 100 friendship points with Sebastian",
     "object.scroll-sebastian.name": "Echos",
+    
     "object.scroll-shane.description": "+ 100 friendship points with Shane",
     "object.scroll-shane.name": "Frozen Pizza and Eggs",
     
