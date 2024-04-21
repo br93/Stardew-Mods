@@ -23,7 +23,8 @@
       "Action": "EditMap",
       "Target": "Maps/Beach",
       "When": {
-        "HasFlag": "{{ModId}}_Harp_MASTERY"
+        "HasFlag": "{{ModId}}_Harp_MASTERY",
+        "Weather": "rain, storm, GreenRain"
       },
       "FromFile": "assets/Beach-Harp.tmx",
       "PatchMode": "Replace",
