@@ -7,7 +7,7 @@
                 "ChangeStringForEatingAction": true
             },
             "Target": "Strings/StringsFromCSFiles",
-            "Fields": {
+            "Entries": {
                 "Game1.cs.3160": "{{i18n:action.string}}"
             }
         }
