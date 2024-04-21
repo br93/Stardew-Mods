@@ -1,6 +1,12 @@
 {
     "Changes": [
         {
+			"LogName": "Bundle Assets",
+			"Action": "Load",
+			"Target": "{{ModId}}_Bundle/Abigail, {{ModId}}_Bundle/Alex, {{ModId}}_Bundle/Elliott, {{ModId}}_Bundle/Emily, {{ModId}}_Bundle/Haley, {{ModId}}_Bundle/Harvey, {{ModId}}_Bundle/Leah, {{ModId}}_Bundle/Maru, {{ModId}}_Bundle/Penny, {{ModId}}_Bundle/Sam, {{ModId}}_Bundle/Sebastian, {{ModId}}_Bundle/Shane",
+			"FromFile": "assets/bundles/{{TargetWithoutPath}}.png"
+		},
+        {
             "LogName": "Scroll Bundles",
             "Action": "EditData",
             "Target": "UnlockableBundles/Bundles",
@@ -8,6 +14,7 @@
                 "{{ModId}}_Bundle_Abigail": {
                     "Location": "{{ModId}}_HarpMasteryCave",
                     "BundleName": "{{i18n:object.scroll-abigail.name}}",
+                    "BundleIconAsset": "{{ModId}}_Bundle/Abigail",
                     "ShopPosition": "4, 4",
                     "ShopType": "CCBundle",
                     "ShopTexture": "None",
@@ -24,6 +31,7 @@
                 "{{ModId}}_Bundle_Alex": {
                     "Location": "{{ModId}}_HarpMasteryCave",
                     "BundleName": "{{i18n:object.scroll-alex.name}}",
+                    "BundleIconAsset": "{{ModId}}_Bundle/Alex",
                     "ShopPosition": "6, 4",
                     "ShopType": "CCBundle",
                     "ShopTexture": "None",
@@ -40,6 +48,7 @@
                 "{{ModId}}_Bundle_Elliott": {
                     "Location": "{{ModId}}_HarpMasteryCave",
                     "BundleName": "{{i18n:object.scroll-elliott.name}}",
+                    "BundleIconAsset": "{{ModId}}_Bundle/Elliott",
                     "ShopPosition": "8, 4",
                     "ShopType": "CCBundle",
                     "ShopTexture": "None",
@@ -56,6 +65,7 @@
                 "{{ModId}}_Bundle_Emily": {
                     "Location": "{{ModId}}_HarpMasteryCave",
                     "BundleName": "{{i18n:object.scroll-emily.name}}",
+                    "BundleIconAsset": "{{ModId}}_Bundle/Emily",
                     "ShopPosition": "10, 4",
                     "ShopType": "CCBundle",
                     "ShopTexture": "None",
@@ -72,6 +82,7 @@
                 "{{ModId}}_Bundle_Haley": {
                     "Location": "{{ModId}}_HarpMasteryCave",
                     "BundleName": "{{i18n:object.scroll-haley.name}}",
+                    "BundleIconAsset": "{{ModId}}_Bundle/Haley",
                     "ShopPosition": "2, 6",
                     "ShopType": "CCBundle",
                     "ShopTexture": "None",
@@ -88,6 +99,7 @@
                 "{{ModId}}_Bundle_Harvey": {
                     "Location": "{{ModId}}_HarpMasteryCave",
                     "BundleName": "{{i18n:object.scroll-harvey.name}}",
+                    "BundleIconAsset": "{{ModId}}_Bundle/Harvey",
                     "ShopPosition": "4, 6",
                     "ShopType": "CCBundle",
                     "ShopTexture": "None",
@@ -104,6 +116,7 @@
                 "{{ModId}}_Bundle_Leah": {
                     "Location": "{{ModId}}_HarpMasteryCave",
                     "BundleName": "{{i18n:object.scroll-leah.name}}",
+                    "BundleIconAsset": "{{ModId}}_Bundle/Leah",
                     "ShopPosition": "6, 6",
                     "ShopType": "CCBundle",
                     "ShopTexture": "None",
@@ -120,6 +133,7 @@
                 "{{ModId}}_Bundle_Maru": {
                     "Location": "{{ModId}}_HarpMasteryCave",
                     "BundleName": "{{i18n:object.scroll-maru.name}}",
+                    "BundleIconAsset": "{{ModId}}_Bundle/Maru",
                     "ShopPosition": "8, 6",
                     "ShopType": "CCBundle",
                     "ShopTexture": "None",
@@ -136,6 +150,7 @@
                 "{{ModId}}_Bundle_Penny": {
                     "Location": "{{ModId}}_HarpMasteryCave",
                     "BundleName": "{{i18n:object.scroll-penny.name}}",
+                    "BundleIconAsset": "{{ModId}}_Bundle/Penny",
                     "ShopPosition": "10, 6",
                     "ShopType": "CCBundle",
                     "ShopTexture": "None",
@@ -152,6 +167,7 @@
                 "{{ModId}}_Bundle_Sam": {
                     "Location": "{{ModId}}_HarpMasteryCave",
                     "BundleName": "{{i18n:object.scroll-sam.name}}",
+                    "BundleIconAsset": "{{ModId}}_Bundle/Sam",
                     "ShopPosition": "12, 6",
                     "ShopType": "CCBundle",
                     "ShopTexture": "None",
@@ -168,6 +184,7 @@
                 "{{ModId}}_Bundle_Sebastian": {
                     "Location": "{{ModId}}_HarpMasteryCave",
                     "BundleName": "{{i18n:object.scroll-sebastian.name}}",
+                    "BundleIconAsset": "{{ModId}}_Bundle/Sebastian",
                     "ShopPosition": "6, 8",
                     "ShopType": "CCBundle",
                     "ShopTexture": "None",
@@ -184,6 +201,7 @@
                 "{{ModId}}_Bundle_Shane": {
                     "Location": "{{ModId}}_HarpMasteryCave",
                     "BundleName": "{{i18n:object.scroll-shane.name}}",
+                    "BundleIconAsset": "{{ModId}}_Bundle/Shane",
                     "ShopPosition": "8, 8",
                     "ShopType": "CCBundle",
                     "ShopTexture": "None",
