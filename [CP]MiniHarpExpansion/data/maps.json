@@ -38,11 +38,14 @@
       "LogName": "Trigger - Warp Flag",
       "Action": "EditData",
       "Target": "Data/TriggerActions",
+      "When": {
+        "HasFlag": "{{ModId}}_Harp_MASTERY",
+        "Weather": "rain, storm, GreenRain"
+      },
       "Entries": {
         "{{ModId}}_Warp_Flag_Trigger": {
           "Id": "{{ModId}}_Warp_Flag_Trigger",
           "Trigger": "DayStarted",
-          "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Harp_MASTERY Received, WEATHER Beach Rain Storm",
           "Action": "AddMail Current {{ModId}}_Warp_Flag",
           "MarkActionApplied": true
         }
