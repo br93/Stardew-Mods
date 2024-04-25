@@ -77,14 +77,20 @@
                     "CategoryTextOverride": "{{i18n:category.broken-musical-instrument.name}}",
                     "CanBeTrashed": false,
                     "CanBeShipped": false,
-                    "GiftableToNpcAllowList": null,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
                     "UseForTriggerAction": true
                 },
                 "{{ModId}}_Harp_Object": {
                     "CategoryTextOverride": "{{i18n:category.musical-instrument.name}}",
                     "CanBeTrashed": false,
                     "CanBeShipped": false,
-                    "GiftableToNpcAllowList": null,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
                     "UseForTriggerAction": true
                 }
             }

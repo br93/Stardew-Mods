@@ -103,7 +103,7 @@
                     "DisplayName": "{{i18n:object.music-farming.name}}",
                     "Description": "{{i18n:object.music-farming.description}}",
                     "Type": "Cooking",
-                    "Category": -7,
+                    "Category": -20,
                     "Price": -1,
                     "Texture": "{{ModId}}\\MusicSheet",
                     "SpriteIndex": 0,
@@ -129,7 +129,7 @@
                     "DisplayName": "{{i18n:object.music-farming2.name}}",
                     "Description": "{{i18n:object.music-farming2.description}}",
                     "Type": "Cooking",
-                    "Category": -7,
+                    "Category": -20,
                     "Price": -1,
                     "Texture": "{{ModId}}\\MusicSheet",
                     "SpriteIndex": 5,
@@ -158,7 +158,7 @@
                     "DisplayName": "{{i18n:object.music-fishing.name}}",
                     "Description": "{{i18n:object.music-fishing.description}}",
                     "Type": "Cooking",
-                    "Category": -7,
+                    "Category": -20,
                     "Price": -1,
                     "Texture": "{{ModId}}\\MusicSheet",
                     "SpriteIndex": 1,
@@ -184,7 +184,7 @@
                     "DisplayName": "{{i18n:object.music-fishing.name}} 2",
                     "Description": "{{i18n:object.music-fishing.description}}",
                     "Type": "Cooking",
-                    "Category": -7,
+                    "Category": -20,
                     "Price": -1,
                     "Texture": "{{ModId}}\\MusicSheet",
                     "SpriteIndex": 6,
@@ -210,7 +210,7 @@
                     "DisplayName": "{{i18n:object.music-mining.name}}",
                     "Description": "{{i18n:object.music-mining.description}}",
                     "Type": "Cooking",
-                    "Category": -7,
+                    "Category": -20,
                     "Price": -1,
                     "Texture": "{{ModId}}\\MusicSheet",
                     "SpriteIndex": 2,
@@ -236,7 +236,7 @@
                     "DisplayName": "{{i18n:object.music-luck.name}}",
                     "Description": "{{i18n:object.music-luck.description}}",
                     "Type": "Cooking",
-                    "Category": -7,
+                    "Category": -20,
                     "Price": -1,
                     "Texture": "{{ModId}}\\MusicSheet",
                     "SpriteIndex": 3,
@@ -262,7 +262,7 @@
                     "DisplayName": "{{i18n:object.music-luck2.name}}",
                     "Description": "{{i18n:object.music-luck2.description}}",
                     "Type": "Cooking",
-                    "Category": -7,
+                    "Category": -20,
                     "Price": -1,
                     "Texture": "{{ModId}}\\MusicSheet",
                     "SpriteIndex": 8,
@@ -291,7 +291,7 @@
                     "DisplayName": "{{i18n:object.music-foraging.name}}",
                     "Description": "{{i18n:object.music-foraging.description}}",
                     "Type": "Cooking",
-                    "Category": -7,
+                    "Category": -20,
                     "Price": -1,
                     "Texture": "{{ModId}}\\MusicSheet",
                     "SpriteIndex": 4,
@@ -323,56 +323,80 @@
                     "CategoryTextOverride": "{{i18n:category.music-sheet.name}}",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
-                    "GiftableToNpcAllowList": null,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
                     "UseForTriggerAction": false
                 },
                 "{{ModId}}_Music_Farming2": {
                     "CategoryTextOverride": "{{i18n:category.music-sheet.name}}",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
-                    "GiftableToNpcAllowList": null,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
                     "UseForTriggerAction": false
                 },
                 "{{ModId}}_Music_Common_Fishing": {
                     "CategoryTextOverride": "{{i18n:category.music-sheet.name}}",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
-                    "GiftableToNpcAllowList": null,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
                     "UseForTriggerAction": false
                 },
                 "{{ModId}}_Music_Fishing2": {
                     "CategoryTextOverride": "{{i18n:category.music-sheet.name}}",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
-                    "GiftableToNpcAllowList": null,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
                     "UseForTriggerAction": false
                 },
-                "{{ModId}}_Music_Foraging": {
+                "{{ModId}}_Music_Common_Foraging": {
                     "CategoryTextOverride": "{{i18n:category.music-sheet.name}}",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
-                    "GiftableToNpcAllowList": null,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
                     "UseForTriggerAction": false
                 },
                 "{{ModId}}_Music_Common_Luck": {
                     "CategoryTextOverride": "{{i18n:category.music-sheet.name}}",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
-                    "GiftableToNpcAllowList": null,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
                     "UseForTriggerAction": false
                 },
                 "{{ModId}}_Music_Luck2": {
                     "CategoryTextOverride": "{{i18n:category.music-sheet.name}}",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
-                    "GiftableToNpcAllowList": null,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
                     "UseForTriggerAction": false
                 },
                 "{{ModId}}_Music_Common_Mining": {
                     "CategoryTextOverride": "{{i18n:category.music-sheet.name}}",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
-                    "GiftableToNpcAllowList": null,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
                     "UseForTriggerAction": false
                 }
             }

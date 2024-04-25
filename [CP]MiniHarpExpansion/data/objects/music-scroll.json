@@ -16,7 +16,7 @@
                     "DisplayName": "{{i18n:object.scroll-abigail.name}}",
                     "Description": "{{i18n:object.scroll-abigail.description}}",
                     "Type": "Cooking",
-                    "Category": -7,
+                    "Category": -20,
                     "Price": -1,
                     "Texture": "{{ModId}}\\MusicScroll",
                     "SpriteIndex": 0,
@@ -42,7 +42,7 @@
                     "DisplayName": "{{i18n:object.scroll-alex.name}}",
                     "Description": "{{i18n:object.scroll-alex.description}}",
                     "Type": "Cooking",
-                    "Category": -7,
+                    "Category": -20,
                     "Price": -1,
                     "Texture": "{{ModId}}\\MusicScroll",
                     "SpriteIndex": 6,
@@ -68,7 +68,7 @@
                     "DisplayName": "{{i18n:object.scroll-elliott.name}}",
                     "Description": "{{i18n:object.scroll-elliott.description}}",
                     "Type": "Cooking",
-                    "Category": -7,
+                    "Category": -20,
                     "Price": -1,
                     "Texture": "{{ModId}}\\MusicScroll",
                     "SpriteIndex": 11,
@@ -94,7 +94,7 @@
                     "DisplayName": "{{i18n:object.scroll-emily.name}}",
                     "Description": "{{i18n:object.scroll-emily.description}}",
                     "Type": "Cooking",
-                    "Category": -7,
+                    "Category": -20,
                     "Price": -1,
                     "Texture": "{{ModId}}\\MusicScroll",
                     "SpriteIndex": 5,
@@ -120,7 +120,7 @@
                     "DisplayName": "{{i18n:object.scroll-haley.name}}",
                     "Description": "{{i18n:object.scroll-haley.description}}",
                     "Type": "Cooking",
-                    "Category": -7,
+                    "Category": -20,
                     "Price": -1,
                     "Texture": "{{ModId}}\\MusicScroll",
                     "SpriteIndex": 4,
@@ -146,7 +146,7 @@
                     "DisplayName": "{{i18n:object.scroll-harvey.name}}",
                     "Description": "{{i18n:object.scroll-harvey.description}}",
                     "Type": "Cooking",
-                    "Category": -7,
+                    "Category": -20,
                     "Price": -1,
                     "Texture": "{{ModId}}\\MusicScroll",
                     "SpriteIndex": 10,
@@ -172,7 +172,7 @@
                     "DisplayName": "{{i18n:object.scroll-leah.name}}",
                     "Description": "{{i18n:object.scroll-leah.description}}",
                     "Type": "Cooking",
-                    "Category": -7,
+                    "Category": -20,
                     "Price": -1,
                     "Texture": "{{ModId}}\\MusicScroll",
                     "SpriteIndex": 3,
@@ -198,7 +198,7 @@
                     "DisplayName": "{{i18n:object.scroll-maru.name}}",
                     "Description": "{{i18n:object.scroll-maru.description}}",
                     "Type": "Cooking",
-                    "Category": -7,
+                    "Category": -20,
                     "Price": -1,
                     "Texture": "{{ModId}}\\MusicScroll",
                     "SpriteIndex": 2,
@@ -224,7 +224,7 @@
                     "DisplayName": "{{i18n:object.scroll-penny.name}}",
                     "Description": "{{i18n:object.scroll-penny.description}}",
                     "Type": "Cooking",
-                    "Category": -7,
+                    "Category": -20,
                     "Price": -1,
                     "Texture": "{{ModId}}\\MusicScroll",
                     "SpriteIndex": 1,
@@ -250,7 +250,7 @@
                     "DisplayName": "{{i18n:object.scroll-sam.name}}",
                     "Description": "{{i18n:object.scroll-sam.description}}",
                     "Type": "Cooking",
-                    "Category": -7,
+                    "Category": -20,
                     "Price": -1,
                     "Texture": "{{ModId}}\\MusicScroll",
                     "SpriteIndex": 9,
@@ -276,7 +276,7 @@
                     "DisplayName": "{{i18n:object.scroll-sebastian.name}}",
                     "Description": "{{i18n:object.scroll-sebastian.description}}",
                     "Type": "Cooking",
-                    "Category": -7,
+                    "Category": -20,
                     "Price": -1,
                     "Texture": "{{ModId}}\\MusicScroll",
                     "SpriteIndex": 8,
@@ -302,7 +302,7 @@
                     "DisplayName": "{{i18n:object.scroll-shane.name}}",
                     "Description": "{{i18n:object.scroll-shane.description}}",
                     "Type": "Cooking",
-                    "Category": -7,
+                    "Category": -20,
                     "Price": -1,
                     "Texture": "{{ModId}}\\MusicScroll",
                     "SpriteIndex": 7,
@@ -334,42 +334,120 @@
                     "CategoryTextOverride": "{{i18n:category.music-scroll.name}}",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
-                    "GiftableToNpcAllowList": null,
-                    "UseForTriggerAction": false
-                },
-                "{{ModId}}_Scroll_Penny": {
-                    "CategoryTextOverride": "{{i18n:category.music-scroll.name}}",
-                    "CanBeTrashed": true,
-                    "CanBeShipped": false,
-                    "GiftableToNpcAllowList": null,
-                    "UseForTriggerAction": false
-                },
-                "{{ModId}}_Scroll_Maru": {
-                    "CategoryTextOverride": "{{i18n:category.music-scroll.name}}",
-                    "CanBeTrashed": true,
-                    "CanBeShipped": false,
-                    "GiftableToNpcAllowList": null,
-                    "UseForTriggerAction": false
-                },
-                "{{ModId}}_Scroll_Leah": {
-                    "CategoryTextOverride": "{{i18n:category.music-scroll.name}}",
-                    "CanBeTrashed": true,
-                    "CanBeShipped": false,
-                    "GiftableToNpcAllowList": null,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
                     "UseForTriggerAction": false
                 },
                 "{{ModId}}_Scroll_Alex": {
                     "CategoryTextOverride": "{{i18n:category.music-scroll.name}}",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
-                    "GiftableToNpcAllowList": null,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
                     "UseForTriggerAction": false
                 },
                 "{{ModId}}_Scroll_Elliott": {
                     "CategoryTextOverride": "{{i18n:category.music-scroll.name}}",
                     "CanBeTrashed": true,
                     "CanBeShipped": false,
-                    "GiftableToNpcAllowList": null,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
+                    "UseForTriggerAction": false
+                },
+                "{{ModId}}_Scroll_Emily": {
+                    "CategoryTextOverride": "{{i18n:category.music-scroll.name}}",
+                    "CanBeTrashed": true,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
+                    "UseForTriggerAction": false
+                },
+                "{{ModId}}_Scroll_Haley": {
+                    "CategoryTextOverride": "{{i18n:category.music-scroll.name}}",
+                    "CanBeTrashed": true,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
+                    "UseForTriggerAction": false
+                },
+                "{{ModId}}_Scroll_Harvey": {
+                    "CategoryTextOverride": "{{i18n:category.music-scroll.name}}",
+                    "CanBeTrashed": true,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
+                    "UseForTriggerAction": false
+                },
+                "{{ModId}}_Scroll_Leah": {
+                    "CategoryTextOverride": "{{i18n:category.music-scroll.name}}",
+                    "CanBeTrashed": true,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
+                    "UseForTriggerAction": false
+                },
+                "{{ModId}}_Scroll_Maru": {
+                    "CategoryTextOverride": "{{i18n:category.music-scroll.name}}",
+                    "CanBeTrashed": true,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
+                    "UseForTriggerAction": false
+                },
+                "{{ModId}}_Scroll_Penny": {
+                    "CategoryTextOverride": "{{i18n:category.music-scroll.name}}",
+                    "CanBeTrashed": true,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
+                    "UseForTriggerAction": false
+                },
+                "{{ModId}}_Scroll_Sam": {
+                    "CategoryTextOverride": "{{i18n:category.music-scroll.name}}",
+                    "CanBeTrashed": true,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
+                    "UseForTriggerAction": false
+                },
+                "{{ModId}}_Scroll_Sebastian": {
+                    "CategoryTextOverride": "{{i18n:category.music-scroll.name}}",
+                    "CanBeTrashed": true,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
+                    "UseForTriggerAction": false
+                },
+                "{{ModId}}_Scroll_Shane": {
+                    "CategoryTextOverride": "{{i18n:category.music-scroll.name}}",
+                    "CanBeTrashed": true,
+                    "CanBeShipped": false,
+                    "GiftableToNpcAllowList": {
+                        "{{ModId}}_GiftDisallowed": true
+                    },
+                    "GiftedToNotOnAllowListMessage": "{{i18n:gift.message}}",
                     "UseForTriggerAction": false
                 }
             }
