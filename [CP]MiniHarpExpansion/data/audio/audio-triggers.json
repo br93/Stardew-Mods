@@ -13,7 +13,8 @@
                     "Id": "{{ModId}}_Harp_Trigger",
                     "Trigger": "spacechase0.SpaceCore_OnItemUsed",
                     "Actions": [
-                        "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp1 true"
+                        "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp1 true",
+                        "spacechase0.SpaceCore_ShowHudMessage \"\" (O){{ModId}}_Harp_Object"
                     ],
                     "MarkActionApplied": false,
                     "Condition": "ITEM_ID Input (O){{ModId}}_Harp_Object"
@@ -34,6 +35,7 @@
                     "Trigger": "spacechase0.SpaceCore_OnItemUsed",
                     "Actions": [
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp1 true",
+                        "spacechase0.SpaceCore_ShowHudMessage \"\" (O){{ModId}}_Harp_Object",
                         "AddMail Current {{ModId}}_Harp_LevelUp",
                         "AddMail Current {{ModId}}_Harp_PROFICIENCY_1"
                     ],
@@ -56,7 +58,8 @@
                     "Trigger": "spacechase0.SpaceCore_OnItemUsed",
                     "Actions": [
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp1 true",
-                        "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp2 true"
+                        "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp2 true",
+                        "spacechase0.SpaceCore_ShowHudMessage \"\" (O){{ModId}}_Harp_Object"
                     ],
                     "MarkActionApplied": false,
                     "Condition": "ITEM_ID Input (O){{ModId}}_Harp_Object"
@@ -78,6 +81,7 @@
                     "Actions": [
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp1 true",
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp2 true",
+                        "spacechase0.SpaceCore_ShowHudMessage \"\" (O){{ModId}}_Harp_Object",
                         "RemoveMail Current {{ModId}}_Harp_PROFICIENCY_1",
                         "AddMail Current {{ModId}}_Harp_PROFICIENCY_2"
                     ],
@@ -101,7 +105,8 @@
                     "Actions": [
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp1 true",
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp2 true",
-                        "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp3 true"
+                        "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp3 true",
+                        "spacechase0.SpaceCore_ShowHudMessage \"\" (O){{ModId}}_Harp_Object"
                     ],
                     "MarkActionApplied": false,
                     "Condition": "ITEM_ID Input (O){{ModId}}_Harp_Object"
@@ -124,6 +129,7 @@
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp1 true",
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp2 true",
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp3 true",
+                        "spacechase0.SpaceCore_ShowHudMessage \"\" (O){{ModId}}_Harp_Object",
                         "RemoveMail Current {{ModId}}_Harp_PROFICIENCY_2",
                         "AddMail Current {{ModId}}_Harp_PROFICIENCY_3"
                     ],
@@ -148,7 +154,8 @@
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp1 true",
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp2 true",
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp3 true",
-                        "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp4 true"
+                        "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp4 true",
+                        "spacechase0.SpaceCore_ShowHudMessage \"\" (O){{ModId}}_Harp_Object"
                     ],
                     "MarkActionApplied": false,
                     "Condition": "ITEM_ID Input (O){{ModId}}_Harp_Object"
@@ -172,6 +179,7 @@
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp2 true",
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp3 true",
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp4 true",
+                        "spacechase0.SpaceCore_ShowHudMessage \"\" (O){{ModId}}_Harp_Object",
                         "RemoveMail Current {{ModId}}_Harp_PROFICIENCY_3",
                         "AddMail Current {{ModId}}_Harp_PROFICIENCY_4"
                     ],
@@ -197,7 +205,8 @@
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp2 true",
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp3 true",
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp4 true",
-                        "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp5 true"
+                        "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp5 true",
+                        "spacechase0.SpaceCore_ShowHudMessage \"\" (O){{ModId}}_Harp_Object"
                     ],
                     "MarkActionApplied": false,
                     "Condition": "ITEM_ID Input (O){{ModId}}_Harp_Object"
@@ -222,6 +231,7 @@
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp3 true",
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp4 true",
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_Harp5 true",
+                        "spacechase0.SpaceCore_ShowHudMessage \"\" (O){{ModId}}_Harp_Object",
                         "RemoveMail Current {{ModId}}_Harp_PROFICIENCY_4",
                         "AddMail Current {{ModId}}_Harp_PROFICIENCY_5"
                     ],
@@ -245,6 +255,7 @@
                         "AddMail Current {{ModId}}_Harp_MASTERY",
                         "RemoveMail Current {{ModId}}_Harp_PROFICIENCY_5",
                         "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_HarpFull true",
+                        "spacechase0.SpaceCore_ShowHudMessage \"\" (O){{ModId}}_Harp_Object",
                         "AddItem 434 1 0"
                     ],
                     "MarkActionApplied": true,
@@ -263,12 +274,14 @@
                 "{{ModId}}_Harp_Playing": {
                     "Id": "{{ModId}}_Harp_Playing",
                     "Trigger": "spacechase0.SpaceCore_OnItemUsed",
-                    "Action": "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_HarpFull true",
+                    "Actions": [
+                        "spacechase0.SpaceCore_PlaySound {{ModId}}_Harp_HarpFull true",
+                        "spacechase0.SpaceCore_ShowHudMessage \"\" (O){{ModId}}_Harp_Object"
+                    ],
                     "MarkActionApplied": false,
                     "Condition": "ITEM_ID Input (O){{ModId}}_Harp_Object"
                 }
             }
         }
-
     ]
 }
