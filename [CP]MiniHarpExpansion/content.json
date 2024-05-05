@@ -24,6 +24,54 @@
     "ChangeStringForEatingAction": {
       "AllowValues": "true, false",
       "Default": true
+    },
+    "Harvesting Hymn": {
+      "Description": "EASY: Cloth(1x), Amethyst(2x), Solar Essence(1x), NORMAL: Cloth(1x), Amethyst(4x), Solar Essence(1x) - HARD: Cloth(1x), Prismatic Shard(1x), Solar Essence(1x)",
+      "Section": "Music Sheet Crafting Difficulty - highlight for info",
+      "AllowValues": "Easy, Normal, Hard",
+      "Default": "Normal"
+    },
+    "Aquatic Ballad": {
+      "Description": "EASY: Cloth(1x), Amethyst(2x), Solar Essence(1x), NORMAL: Cloth(1x), Amethyst(4x), Solar Essence(1x) - HARD: Cloth(1x), Prismatic Shard(1x), Solar Essence(1x)",
+      "Section": "Music Sheet Crafting Difficulty - highlight for info",
+      "AllowValues": "Easy, Normal, Hard",
+      "Default": "Normal"
+    },
+    "Nature's Blessing": {
+      "Description": "EASY: Cloth(1x), Amethyst(2x), Solar Essence(1x), NORMAL: Cloth(1x), Amethyst(4x), Solar Essence(1x) - HARD: Cloth(1x), Prismatic Shard(1x), Solar Essence(1x)",
+      "Section": "Music Sheet Crafting Difficulty - highlight for info",
+      "AllowValues": "Easy, Normal, Hard",
+      "Default": "Normal"
+    },
+    "Fortune's Chant": {
+      "Description": "EASY: Cloth(1x), Amethyst(2x), Solar Essence(1x), NORMAL: Cloth(1x), Amethyst(4x), Solar Essence(1x) - HARD: Cloth(1x), Prismatic Shard(1x), Solar Essence(1x)",
+      "Section": "Music Sheet Crafting Difficulty - highlight for info",
+      "AllowValues": "Easy, Normal, Hard",
+      "Default": "Normal"
+    },
+    "Miner's Melody": {
+      "Description": "EASY: Cloth(1x), Amethyst(2x), Solar Essence(1x), NORMAL: Cloth(1x), Amethyst(4x), Solar Essence(1x) - HARD: Cloth(1x), Prismatic Shard(1x), Solar Essence(1x)",
+      "Section": "Music Sheet Crafting Difficulty - highlight for info",
+      "AllowValues": "Easy, Normal, Hard",
+      "Default": "Normal"
+    },
+    "Crop Enchantment Overture": {
+      "Description": "EASY: Harvesting Hymn(1x), Solar Essence(2x), NORMAL: Harvesting Hymn(1x), Prismatic Shard(1x) - HARD: Harvesting Hymn(1x), Prismatic Shard(1x), Cinder Shard(15x) - HARDCORE: Harvesting Hymn(1x), Prismatic Shard(1x), Cinder Shard(15x) and progressive harder, requiring more prismatic and cinder shards as you craft",
+      "Section": "Music Sheet Crafting Difficulty - highlight for info",
+      "AllowValues": "Easy, Normal, Hard, Hardcore",
+      "Default": "Normal"
+    },
+    "Nautical Serenade": {
+      "Description": "EASY: Aquatic Ballad(1x), Solar Essence(2x), NORMAL: Aquatic Ballad(1x), Prismatic Shard(1x) - HARD: Aquatic Ballad(1x), Prismatic Shard(1x), Cinder Shard(15x) - HARDCORE: Aquatic Ballad(1x), Prismatic Shard(1x), Cinder Shard(15x) and progressive harder, requiring more prismatic and cinder shards as you craft",
+      "Section": "Music Sheet Crafting Difficulty - highlight for info",
+      "AllowValues": "Easy, Normal, Hard, Hardcore",
+      "Default": "Normal"
+    },
+    "Harmony of Fortune's Favor": {
+      "Description": "EASY: Fortune's Chant(1x), Solar Essence(2x), NORMAL: Fortune's Chant(1x), Prismatic Shard(1x) - HARD: Fortune's Chant(1x), Prismatic Shard(1x), Cinder Shard(15x) - HARDCORE: Fortune's Chant(1x), Prismatic Shard(1x), Cinder Shard(15x) and progressive harder, requiring more prismatic and cinder shards as you craft",
+      "Section": "Music Sheet Crafting Difficulty - highlight for info",
+      "AllowValues": "Easy, Normal, Hard, Hardcore",
+      "Default": "Normal"
     }
   },
   "Changes": [

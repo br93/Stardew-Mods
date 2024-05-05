@@ -6,6 +6,83 @@
     "category.music-sheet.name": "Music Sheet",
     "category.musical-instrument.name": "Musical Instrument",
 
+    "config.DisableVanillaEventWithoutMiniHarp.name": "DisableVanillaEventWithoutMiniHarp",
+    "config.DisableVanillaEventWithoutMiniHarp.values.true": "true",
+    "config.DisableVanillaEventWithoutMiniHarp.values.false": "false",
+
+    "config.BooksellerSellsMusicSheet.name": "BooksellerSellsMusicSheet",
+    "config.BooksellerSellsMusicSheet.values.true": "true",
+    "config.BooksellerSellsMusicSheet.values.false": "false",
+
+    "config.TravellingCartSellsMusicSheet.name": "TravellingCartSellsMusicSheet",
+    "config.TravellingCartSellsMusicSheet.values.true": "true",
+    "config.TravellingCartSellsMusicSheet.values.false": "false",
+
+    "config.SpawnMusicBenchAfterMastery.name": "SpawnMusicBenchAfterMastery",
+    "config.SpawnMusicBenchAfterMastery.values.true": "true",
+    "config.SpawnMusicBenchAfterMastery.values.false": "false",
+
+    "config.ChangeProjectile.name": "ChangeProjectile",
+    "config.ChangeProjectile.values.true": "true",
+    "config.ChangeProjectile.values.false": "false",
+
+    "config.ChangeStringForEatingAction.name": "ChangeStringForEatingAction",
+    "config.ChangeStringForEatingAction.values.true": "true",
+    "config.ChangeStringForEatingAction.values.false": "false",
+
+    "config.Harvesting Hymn.name": "Harvesting Hymn",
+    "config.Harvesting Hymn.description": "EASY: Cloth(1x), Amethyst(2x), Solar Essence(1x), NORMAL: Cloth(1x), Amethyst(4x), Solar Essence(1x) - HARD: Cloth(1x), Prismatic Shard(1x), Solar Essence(1x)",
+    "config.Harvesting Hymn.values.Easy": "Easy",
+    "config.Harvesting Hymn.values.Normal": "Normal",
+    "config.Harvesting Hymn.values.Hard": "Hard",
+
+    "config.Aquatic Ballad.name": "Aquatic Ballad",
+    "config.Aquatic Ballad.description": "EASY: Cloth(1x), Amethyst(2x), Solar Essence(1x), NORMAL: Cloth(1x), Amethyst(4x), Solar Essence(1x) - HARD: Cloth(1x), Prismatic Shard(1x), Solar Essence(1x)",
+    "config.Aquatic Ballad.values.Easy": "Easy",
+    "config.Aquatic Ballad.values.Normal": "Normal",
+    "config.Aquatic Ballad.values.Hard": "Hard",
+
+    "config.Nature's Blessing.name": "Nature's Blessing",
+    "config.Nature's Blessing.description": "EASY: Cloth(1x), Amethyst(2x), Solar Essence(1x), NORMAL: Cloth(1x), Amethyst(4x), Solar Essence(1x) - HARD: Cloth(1x), Prismatic Shard(1x), Solar Essence(1x)",
+    "config.Nature's Blessing.values.Easy": "Easy",
+    "config.Nature's Blessing.values.Normal": "Normal",
+    "config.Nature's Blessing.values.Hard": "Hard",
+
+    "config.Fortune's Chant.name": "Fortune's Chant",
+    "config.Fortune's Chant.description": "EASY: Cloth(1x), Amethyst(2x), Solar Essence(1x), NORMAL: Cloth(1x), Amethyst(4x), Solar Essence(1x) - HARD: Cloth(1x), Prismatic Shard(1x), Solar Essence(1x)",
+    "config.Fortune's Chant.values.Easy": "Easy",
+    "config.Fortune's Chant.values.Normal": "Normal",
+    "config.Fortune's Chant.values.Hard": "Hard",
+
+    "config.Miner's Melody.name": "Miner's Melody",
+    "config.Miner's Melody.description": "EASY: Cloth(1x), Amethyst(2x), Solar Essence(1x), NORMAL: Cloth(1x), Amethyst(4x), Solar Essence(1x) - HARD: Cloth(1x), Prismatic Shard(1x), Solar Essence(1x)",
+    "config.Miner's Melody.values.Easy": "Easy",
+    "config.Miner's Melody.values.Normal": "Normal",
+    "config.Miner's Melody.values.Hard": "Hard",
+
+    "config.Crop Enchantment Overture.name": "Crop Enchantment Overture",
+    "config.Crop Enchantment Overture.description": "EASY: Harvesting Hymn(1x), Solar Essence(2x), NORMAL: Harvesting Hymn(1x), Prismatic Shard(1x) - HARD: Harvesting Hymn(1x), Prismatic Shard(1x), Cinder Shard(15x) - HARDCORE: Fortune's Chant(1x), Prismatic Shard(1x), Cinder Shard(15x) and progressive harder, requiring more prismatic and cinder shards as you craft",
+    "config.Crop Enchantment Overture.values.Easy": "Easy",
+    "config.Crop Enchantment Overture.values.Normal": "Normal",
+    "config.Crop Enchantment Overture.values.Hard": "Hard",
+    "config.Crop Enchantment Overture.values.Hardcore": "Hardcore",
+
+    "config.Nautical Serenade.name": "Nautical Serenade",
+    "config.Nautical Serenade.description": "EASY: Aquatic Ballad(1x), Solar Essence(2x), NORMAL: Aquatic Ballad(1x), Prismatic Shard(1x) - HARD: Aquatic Ballad(1x), Prismatic Shard(1x), Cinder Shard(15x) - HARDCORE: Aquatic Ballad(1x), Prismatic Shard(1x), Cinder Shard(15x) and progressive harder, requiring more prismatic and cinder shards as you craft",
+    "config.Nautical Serenade.values.Easy": "Easy",
+    "config.Nautical Serenade.values.Normal": "Normal",
+    "config.Nautical Serenade.values.Hard": "Hard",
+    "config.Nautical Serenade.values.Hardcore": "Hardcore",
+
+    "config.Harmony of Fortune's Favor.name": "Harmony of Fortune's Favor",
+    "config.Harmony of Fortune's Favor.description": "EASY: Fortune's Chant(1x), Solar Essence(2x), NORMAL: Fortune's Chant(1x), Prismatic Shard(1x) - HARD: Fortune's Chant(1x), Prismatic Shard(1x), Cinder Shard(15x) - HARDCORE: Fortune's Chant(1x), Prismatic Shard(1x), Cinder Shard(15x) and progressive harder, requiring more prismatic and cinder shards as you craft",
+    "config.Harmony of Fortune's Favor.values.Easy": "Easy",
+    "config.Harmony of Fortune's Favor.values.Normal": "Normal",
+    "config.Harmony of Fortune's Favor.values.Hard": "Hard",
+    "config.Harmony of Fortune's Favor.values.Hardcore": "Hardcore",
+
+    "config.section.Music Sheet Crafting Difficulty - highlight for info.name": "Music Sheet Crafting Difficulty - highlight for info",
+
     "event.wizard.dialogue1": "Ah... Come in, come in!.",
     "event.wizard.dialogue2": "I've heard whispers of your musical prowess echoing through the valley.",
     "event.wizard.dialogue3": "Your melodies carry a certain magic, a resonance that speaks to the very essence of this land.",

@@ -402,7 +402,7 @@
             }
         },
         {
-            "LogName": "BetterCrafting - Recipes - MusicSheet",
+            "LogName": "BetterCrafting - Recipe - Farming - Normal",
             "Action": "EditData",
             "Target": "Mods/leclair.bettercrafting/Recipes",
             "Entries": {
@@ -421,7 +421,7 @@
                         {
                             "Id": "{{ModId}}_Music_Farming_Recipe_Input2",
                             "ItemID": "(O)66",
-                            "Quantity": 5
+                            "Quantity": 4
                         },
                         {
                             "Id": "{{ModId}}_Music_Farming_Recipe_Input3",
@@ -438,14 +438,471 @@
                             "ItemId": "(O){{ModId}}_Music_Common_Farming"
                         }
                     ]
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Farming - Easy",
+            "Action": "EditData",
+            "When": {
+                "Harvesting Hymn": "Easy"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Farming_Recipe",
+                "Ingredients"
+            ],
+            "Entries": {
+                "{{ModId}}_Music_Farming_Recipe_Input1": {
+                    "Id": "{{ModId}}_Music_Farming_Recipe_Input1",
+                    "ItemID": "(O)428",
+                    "Quantity": 1
                 },
+                "{{ModId}}_Music_Farming_Recipe_Input2": {
+                    "Id": "{{ModId}}_Music_Farming_Recipe_Input2",
+                    "ItemID": "(O)66",
+                    "Quantity": 2
+                },
+                "{{ModId}}_Music_Farming_Recipe_Input3": {
+                    "Id": "{{ModId}}_Music_Farming_Recipe_Input3",
+                    "ItemID": "(O)768",
+                    "Quantity": 1
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Farming - Hard",
+            "Action": "EditData",
+            "When": {
+                "Harvesting Hymn": "Hard"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Farming_Recipe",
+                "Ingredients"
+            ],
+            "Entries": {
+                "{{ModId}}_Music_Farming_Recipe_Input1": {
+                    "Id": "{{ModId}}_Music_Farming_Recipe_Input1",
+                    "ItemID": "(O)428",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Farming_Recipe_Input2": {
+                    "Id": "{{ModId}}_Music_Farming_Recipe_Input2",
+                    "ItemID": "(O)74",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Farming_Recipe_Input3": {
+                    "Id": "{{ModId}}_Music_Farming_Recipe_Input3",
+                    "ItemID": "(O)768",
+                    "Quantity": 1
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Fishing - Normal",
+            "Action": "EditData",
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "Entries": {
+                "{{ModId}}_Music_Fishing_Recipe": {
+                    "Default": true,
+                    "IsCooking": true,
+                    "AllowRecycling": false,
+                    "DisplayName": "{{i18n:object.music-fishing.name}}",
+                    "Description": "{{i18n:object.music-fishing.description}}",
+                    "Ingredients": [
+                        {
+                            "Id": "{{ModId}}_Music_Fishing_Recipe_Input1",
+                            "ItemID": "(O)428",
+                            "Quantity": 1
+                        },
+                        {
+                            "Id": "{{ModId}}_Music_Fishing_Recipe_Input2",
+                            "ItemID": "(O)66",
+                            "Quantity": 4
+                        },
+                        {
+                            "Id": "{{ModId}}_Music_Fishing_Recipe_Input3",
+                            "ItemID": "(O)768",
+                            "Quantity": 1
+                        }
+                    ],
+                    "ActionsOnCraft": [
+                        "AddMail Current {{ModId}}_Music_FISHING all"
+                    ],
+                    "Output": [
+                        {
+                            "Id": "{{ModId}}_Music_Fishing_Output",
+                            "ItemId": "(O){{ModId}}_Music_Common_Fishing"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Fishing - Easy",
+            "Action": "EditData",
+            "When": {
+                "Aquatic Ballad": "Easy"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Fishing_Recipe",
+                "Ingredients"
+            ],
+            "Entries": {
+                "{{ModId}}_Music_Fishing_Recipe_Input1": {
+                    "Id": "{{ModId}}_Music_Fishing_Recipe_Input1",
+                    "ItemID": "(O)428",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Fishing_Recipe_Input2": {
+                    "Id": "{{ModId}}_Music_Fishing_Recipe_Input2",
+                    "ItemID": "(O)66",
+                    "Quantity": 2
+                },
+                "{{ModId}}_Music_Fishing_Recipe_Input3": {
+                    "Id": "{{ModId}}_Music_Fishing_Recipe_Input3",
+                    "ItemID": "(O)768",
+                    "Quantity": 1
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Fishing - Hard",
+            "Action": "EditData",
+            "When": {
+                "Aquatic Ballad": "Hard"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Fishing_Recipe",
+                "Ingredients"
+            ],
+            "Entries": {
+                "{{ModId}}_Music_Fishing_Recipe_Input1": {
+                    "Id": "{{ModId}}_Music_Fishing_Recipe_Input1",
+                    "ItemID": "(O)428",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Fishing_Recipe_Input2": {
+                    "Id": "{{ModId}}_Music_Fishing_Recipe_Input2",
+                    "ItemID": "(O)74",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Fishing_Recipe_Input3": {
+                    "Id": "{{ModId}}_Music_Fishing_Recipe_Input3",
+                    "ItemID": "(O)768",
+                    "Quantity": 1
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Foraging - Normal",
+            "Action": "EditData",
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "Entries": {
+                "{{ModId}}_Music_Foraging_Recipe": {
+                    "Default": true,
+                    "IsCooking": true,
+                    "AllowRecycling": false,
+                    "DisplayName": "{{i18n:object.music-foraging.name}}",
+                    "Description": "{{i18n:object.music-foraging.description}}",
+                    "Ingredients": [
+                        {
+                            "Id": "{{ModId}}_Music_Foraging_Recipe_Input1",
+                            "ItemID": "(O)428",
+                            "Quantity": 1
+                        },
+                        {
+                            "Id": "{{ModId}}_Music_Foraging_Recipe_Input2",
+                            "ItemID": "(O)66",
+                            "Quantity": 4
+                        },
+                        {
+                            "Id": "{{ModId}}_Music_Foraging_Recipe_Input3",
+                            "ItemID": "(O)768",
+                            "Quantity": 1
+                        }
+                    ],
+                    "ActionsOnCraft": [
+                        "AddMail Current {{ModId}}_Music_FORAGING all"
+                    ],
+                    "Output": [
+                        {
+                            "Id": "{{ModId}}_Music_Foraging_Output",
+                            "ItemId": "(O){{ModId}}_Music_Common_Foraging"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Foraging - Easy",
+            "Action": "EditData",
+            "When": {
+                "Nature's Blessing": "Easy"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Foraging_Recipe",
+                "Ingredients"
+            ],
+            "Entries": {
+                "{{ModId}}_Music_Foraging_Recipe_Input1": {
+                    "Id": "{{ModId}}_Music_Foraging_Recipe_Input1",
+                    "ItemID": "(O)428",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Foraging_Recipe_Input2": {
+                    "Id": "{{ModId}}_Music_Foraging_Recipe_Input2",
+                    "ItemID": "(O)66",
+                    "Quantity": 2
+                },
+                "{{ModId}}_Music_Foraging_Recipe_Input3": {
+                    "Id": "{{ModId}}_Music_Foraging_Recipe_Input3",
+                    "ItemID": "(O)768",
+                    "Quantity": 1
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Foraging - Hard",
+            "Action": "EditData",
+            "When": {
+                "Nature's Blessing": "Hard"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Foraging_Recipe",
+                "Ingredients"
+            ],
+            "Entries": {
+                "{{ModId}}_Music_Foraging_Recipe_Input1": {
+                    "Id": "{{ModId}}_Music_Foraging_Recipe_Input1",
+                    "ItemID": "(O)428",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Foraging_Recipe_Input2": {
+                    "Id": "{{ModId}}_Music_Foraging_Recipe_Input2",
+                    "ItemID": "(O)74",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Foraging_Recipe_Input3": {
+                    "Id": "{{ModId}}_Music_Foraging_Recipe_Input3",
+                    "ItemID": "(O)768",
+                    "Quantity": 1
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Luck - Normal",
+            "Action": "EditData",
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "Entries": {
+                "{{ModId}}_Music_Luck_Recipe": {
+                    "Default": true,
+                    "IsCooking": true,
+                    "AllowRecycling": false,
+                    "DisplayName": "{{i18n:object.music-luck.name}}",
+                    "Description": "{{i18n:object.music-luck.description}}",
+                    "Ingredients": [
+                        {
+                            "Id": "{{ModId}}_Music_Luck_Recipe_Input1",
+                            "ItemID": "(O)428",
+                            "Quantity": 1
+                        },
+                        {
+                            "Id": "{{ModId}}_Music_Luck_Recipe_Input2",
+                            "ItemID": "(O)66",
+                            "Quantity": 4
+                        },
+                        {
+                            "Id": "{{ModId}}_Music_Luck_Recipe_Input3",
+                            "ItemID": "(O)768",
+                            "Quantity": 1
+                        }
+                    ],
+                    "ActionsOnCraft": [
+                        "AddMail Current {{ModId}}_Music_LUCK all"
+                    ],
+                    "Output": [
+                        {
+                            "Id": "{{ModId}}_Music_Luck_Output",
+                            "ItemId": "(O){{ModId}}_Music_Common_Luck"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Luck - Easy",
+            "Action": "EditData",
+            "When": {
+                "Fortune's Chant": "Easy"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Luck_Recipe",
+                "Ingredients"
+            ],
+            "Entries": {
+                "{{ModId}}_Music_Luck_Recipe_Input1": {
+                    "Id": "{{ModId}}_Music_Luck_Recipe_Input1",
+                    "ItemID": "(O)428",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Luck_Recipe_Input2": {
+                    "Id": "{{ModId}}_Music_Luck_Recipe_Input2",
+                    "ItemID": "(O)66",
+                    "Quantity": 2
+                },
+                "{{ModId}}_Music_Luck_Recipe_Input3": {
+                    "Id": "{{ModId}}_Music_Luck_Recipe_Input3",
+                    "ItemID": "(O)768",
+                    "Quantity": 1
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Luck - Hard",
+            "Action": "EditData",
+            "When": {
+                "Fortune's Chant": "Hard"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Luck_Recipe",
+                "Ingredients"
+            ],
+            "Entries": {
+                "{{ModId}}_Music_Luck_Recipe_Input1": {
+                    "Id": "{{ModId}}_Music_Luck_Recipe_Input1",
+                    "ItemID": "(O)428",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Luck_Recipe_Input2": {
+                    "Id": "{{ModId}}_Music_Luck_Recipe_Input2",
+                    "ItemID": "(O)74",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Luck_Recipe_Input3": {
+                    "Id": "{{ModId}}_Music_Luck_Recipe_Input3",
+                    "ItemID": "(O)768",
+                    "Quantity": 1
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Mining - Normal",
+            "Action": "EditData",
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "Entries": {
+                "{{ModId}}_Music_Mining_Recipe": {
+                    "Default": true,
+                    "IsCooking": true,
+                    "AllowRecycling": false,
+                    "DisplayName": "{{i18n:object.music-mining.name}}",
+                    "Description": "{{i18n:object.music-mining.description}}",
+                    "Ingredients": [
+                        {
+                            "Id": "{{ModId}}_Music_Mining_Recipe_Input1",
+                            "ItemID": "(O)428",
+                            "Quantity": 1
+                        },
+                        {
+                            "Id": "{{ModId}}_Music_Mining_Recipe_Input2",
+                            "ItemID": "(O)66",
+                            "Quantity": 4
+                        },
+                        {
+                            "Id": "{{ModId}}_Music_Mining_Recipe_Input3",
+                            "ItemID": "(O)768",
+                            "Quantity": 1
+                        }
+                    ],
+                    "ActionsOnCraft": [
+                        "AddMail Current {{ModId}}_Music_MINING all"
+                    ],
+                    "Output": [
+                        {
+                            "Id": "{{ModId}}_Music_Mining_Output",
+                            "ItemId": "(O){{ModId}}_Music_Common_Mining"
+                        }
+                    ]
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Mining - Easy",
+            "Action": "EditData",
+            "When": {
+                "Miner's Melody": "Easy"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Mining_Recipe",
+                "Ingredients"
+            ],
+            "Entries": {
+                "{{ModId}}_Music_Mining_Recipe_Input1": {
+                    "Id": "{{ModId}}_Music_Mining_Recipe_Input1",
+                    "ItemID": "(O)428",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Mining_Recipe_Input2": {
+                    "Id": "{{ModId}}_Music_Mining_Recipe_Input2",
+                    "ItemID": "(O)66",
+                    "Quantity": 2
+                },
+                "{{ModId}}_Music_Mining_Recipe_Input3": {
+                    "Id": "{{ModId}}_Music_Mining_Recipe_Input3",
+                    "ItemID": "(O)768",
+                    "Quantity": 1
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Mining - Hard",
+            "Action": "EditData",
+            "When": {
+                "Miner's Melody": "Hard"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Mining_Recipe",
+                "Ingredients"
+            ],
+            "Entries": {
+                "{{ModId}}_Music_Mining_Recipe_Input1": {
+                    "Id": "{{ModId}}_Music_Mining_Recipe_Input1",
+                    "ItemID": "(O)428",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Mining_Recipe_Input2": {
+                    "Id": "{{ModId}}_Music_Mining_Recipe_Input2",
+                    "ItemID": "(O)74",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Mining_Recipe_Input3": {
+                    "Id": "{{ModId}}_Music_Mining_Recipe_Input3",
+                    "ItemID": "(O)768",
+                    "Quantity": 1
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Farming2 - Normal",
+            "Action": "EditData",
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "Entries": {
                 "{{ModId}}_Music_Farming2_Recipe": {
                     "Default": true,
                     "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_FARMING",
                     "IsCooking": true,
                     "AllowRecycling": false,
-                    "DisplayName": "{{i18n:object.music-farming.name}}",
-                    "Description": "{{i18n:object.music-farming.description}}",
+                    "DisplayName": "{{i18n:object.music-farming2.name}}",
+                    "Description": "{{i18n:object.music-farming2.description}}",
                     "Ingredients": [
                         {
                             "Id": "{{ModId}}_Music_Farming2_Recipe_Input1",
@@ -467,47 +924,148 @@
                             "ItemId": "(O){{ModId}}_Music_Farming2"
                         }
                     ]
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Farming2 - Easy",
+            "Action": "EditData",
+            "When": {
+                "Crop Enchantment Overture": "Easy"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Farming2_Recipe",
+                "Ingredients"
+            ],
+            "Entries": {
+                "{{ModId}}_Music_Farming2_Recipe_Input1": {
+                    "Id": "{{ModId}}_Music_Farming2_Recipe_Input1",
+                    "ItemID": "(O){{ModId}}_Music_Common_Farming",
+                    "Quantity": 1
                 },
-                "{{ModId}}_Music_Fishing_Recipe": {
-                    "Default": true,
-                    "IsCooking": true,
-                    "AllowRecycling": false,
-                    "DisplayName": "{{i18n:object.music-fishing.name}}",
-                    "Description": "{{i18n:object.music-fishing.description}}",
-                    "Ingredients": [
-                        {
-                            "Id": "{{ModId}}_Music_Fishing_Recipe_Input1",
-                            "ItemID": "(O)428",
-                            "Quantity": 1
-                        },
-                        {
-                            "Id": "{{ModId}}_Music_Fishing_Recipe_Input2",
-                            "ItemID": "(O)66",
-                            "Quantity": 5
-                        },
-                        {
-                            "Id": "{{ModId}}_Music_Fishing_Recipe_Input3",
-                            "ItemID": "(O)768",
-                            "Quantity": 1
-                        }
-                    ],
-                    "ActionsOnCraft": [
-                        "AddMail Current {{ModId}}_Music_FISHING all"
-                    ],
-                    "Output": [
-                        {
-                            "Id": "{{ModId}}_Music_Fishing_Output",
-                            "ItemId": "(O){{ModId}}_Music_Common_Fishing"
-                        }
-                    ]
+                "{{ModId}}_Music_Farming2_Recipe_Input2": {
+                    "Id": "{{ModId}}_Music_Farming2_Recipe_Input2",
+                    "ItemID": "(O)768",
+                    "Quantity": 2
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Farming2 - Hard",
+            "Action": "EditData",
+            "When": {
+                "Crop Enchantment Overture": "Hard"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Farming2_Recipe",
+                "Ingredients"
+            ],
+            "Entries": {
+                "{{ModId}}_Music_Farming2_Recipe_Input1": {
+                    "Id": "{{ModId}}_Music_Farming2_Recipe_Input1",
+                    "ItemID": "(O){{ModId}}_Music_Common_Farming",
+                    "Quantity": 1
                 },
+                "{{ModId}}_Music_Farming2_Recipe_Input2": {
+                    "Id": "{{ModId}}_Music_Farming2_Recipe_Input2",
+                    "ItemID": "(O)74",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Farming2_Recipe_Input3": {
+                    "Id": "{{ModId}}_Music_Farming2_Recipe_Input3",
+                    "ItemID": "(O)848",
+                    "Quantity": 15
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Farming2 - Hardcore (Ingredients)",
+            "Action": "EditData",
+            "When": {
+                "Crop Enchantment Overture": "Hardcore"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Farming2_Recipe",
+                "Ingredients"
+            ],
+            "Entries": {
+                "{{ModId}}_Music_Farming2_Recipe_Input1": {
+                    "Id": "{{ModId}}_Music_Farming2_Recipe_Input1",
+                    "ItemID": "(O){{ModId}}_Music_Common_Farming",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Farming2_Recipe_Input2": {
+                    "Id": "{{ModId}}_Music_Farming2_Recipe_Input2",
+                    "ItemID": "(O)74",
+                    "Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_Music_FARMING2_Hardcore1",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Farming2_Recipe_Input3": {
+                    "Id": "{{ModId}}_Music_Farming2_Recipe_Input3",
+                    "ItemID": "(O)74",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_FARMING2_Hardcore1, !PLAYER_HAS_MAIL Current {{ModId}}_Music_FARMING2_Hardcore2",
+                    "Quantity": 2
+                },
+                "{{ModId}}_Music_Farming2_Recipe_Input4": {
+                    "Id": "{{ModId}}_Music_Farming2_Recipe_Input4",
+                    "ItemID": "(O)74",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_FARMING2_Hardcore2",
+                    "Quantity": 4
+                }, 
+                "{{ModId}}_Music_Farming2_Recipe_Input5": {
+                    "Id": "{{ModId}}_Music_Farming2_Recipe_Input5",
+                    "ItemID": "(O)848",
+                    "Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_Music_FARMING2_Hardcore1",
+                    "Quantity": 15
+                },
+                "{{ModId}}_Music_Farming2_Recipe_Input6": {
+                    "Id": "{{ModId}}_Music_Farming2_Recipe_Input6",
+                    "ItemID": "(O)848",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_FARMING2_Hardcore1, !PLAYER_HAS_MAIL Current {{ModId}}_Music_FARMING2_Hardcore2",
+                    "Quantity": 20
+                },
+                "{{ModId}}_Music_Farming2_Recipe_Input7": {
+                    "Id": "{{ModId}}_Music_Farming2_Recipe_Input7",
+                    "ItemID": "(O)848",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_FARMING2_Hardcore2",
+                    "Quantity": 25
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Farming2 - Hardcore (Flags)",
+            "Action": "EditData",
+            "When": {
+                "Crop Enchantment Overture": "Hardcore"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Farming2_Recipe"
+            ],
+            "Entries": {
+                "ActionsOnCraft": [
+                    "AddMail Current {{ModId}}_Music_FARMING2 all",
+                    "If !PLAYER_HAS_MAIL Current {{ModId}}_Music_FARMING2_Hardcore1 ## AddMail Current {{ModId}}_Music_FARMING2_Hardcore1",
+                    "If PLAYER_HAS_MAIL Current {{ModId}}_Music_FARMING2_Hardcore1, !PLAYER_HAS_MAIL Current {{ModId}}_Music_FARMING2_Hardcore2 ## AddMail Current {{ModId}}_Music_FARMING2_Hardcore2"
+                ]
+            }
+            
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Fishing2 - Normal",
+            "Action": "EditData",
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "Entries": {
                 "{{ModId}}_Music_Fishing2_Recipe": {
                     "Default": true,
                     "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_FISHING",
                     "IsCooking": true,
                     "AllowRecycling": false,
-                    "DisplayName": "{{i18n:object.music-fishing.name}} 2",
-                    "Description": "{{i18n:object.music-fishing.description}}",
+                    "DisplayName": "{{i18n:object.music-fishing2.name}}",
+                    "Description": "{{i18n:object.music-fishing2.description}}",
                     "Ingredients": [
                         {
                             "Id": "{{ModId}}_Music_Fishing2_Recipe_Input1",
@@ -529,106 +1087,141 @@
                             "ItemId": "(O){{ModId}}_Music_Fishing2"
                         }
                     ]
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Fishing2 - Easy",
+            "Action": "EditData",
+            "When": {
+                "Nautical Serenade": "Easy"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Fishing2_Recipe",
+                "Ingredients"
+            ],
+            "Entries": {
+                "{{ModId}}_Music_Fishing2_Recipe_Input1": {
+                    "Id": "{{ModId}}_Music_Fishing2_Recipe_Input1",
+                    "ItemID": "(O){{ModId}}_Music_Common_Fishing",
+                    "Quantity": 1
                 },
-                "{{ModId}}_Music_Foraging_Recipe": {
-                    "Default": true,
-                    "IsCooking": true,
-                    "AllowRecycling": false,
-                    "DisplayName": "{{i18n:object.music-foraging.name}}",
-                    "Description": "{{i18n:object.music-foraging.description}}",
-                    "Ingredients": [
-                        {
-                            "Id": "{{ModId}}_Music_Foraging_Recipe_Input1",
-                            "ItemID": "(O)428",
-                            "Quantity": 1
-                        },
-                        {
-                            "Id": "{{ModId}}_Music_Foraging_Recipe_Input2",
-                            "ItemID": "(O)66",
-                            "Quantity": 5
-                        },
-                        {
-                            "Id": "{{ModId}}_Music_Foraging_Recipe_Input3",
-                            "ItemID": "(O)768",
-                            "Quantity": 1
-                        }
-                    ],
-                    "ActionsOnCraft": [
-                        "AddMail Current {{ModId}}_Music_FORAGING all"
-                    ],
-                    "Output": [
-                        {
-                            "Id": "{{ModId}}_Music_Foraging_Output",
-                            "ItemId": "(O){{ModId}}_Music_Common_Foraging"
-                        }
-                    ]
+                "{{ModId}}_Music_Fishing2_Recipe_Input2": {
+                    "Id": "{{ModId}}_Music_Fishing2_Recipe_Input2",
+                    "ItemID": "(O)768",
+                    "Quantity": 2
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Fishing2 - Hard",
+            "Action": "EditData",
+            "When": {
+                "Nautical Serenade": "Hard"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Fishing2_Recipe",
+                "Ingredients"
+            ],
+            "Entries": {
+                "{{ModId}}_Music_Fishing2_Recipe_Input1": {
+                    "Id": "{{ModId}}_Music_Fishing2_Recipe_Input1",
+                    "ItemID": "(O){{ModId}}_Music_Common_Fishing",
+                    "Quantity": 1
                 },
-                "{{ModId}}_Music_Mining_Recipe": {
-                    "Default": true,
-                    "IsCooking": true,
-                    "AllowRecycling": false,
-                    "DisplayName": "{{i18n:object.music-mining.name}}",
-                    "Description": "{{i18n:object.music-mining.description}}",
-                    "Ingredients": [
-                        {
-                            "Id": "{{ModId}}_Music_Mining_Recipe_Input1",
-                            "ItemID": "(O)428",
-                            "Quantity": 1
-                        },
-                        {
-                            "Id": "{{ModId}}_Music_Mining_Recipe_Input2",
-                            "ItemID": "(O)66",
-                            "Quantity": 5
-                        },
-                        {
-                            "Id": "{{ModId}}_Music_Mining_Recipe_Input3",
-                            "ItemID": "(O)768",
-                            "Quantity": 1
-                        }
-                    ],
-                    "ActionsOnCraft": [
-                        "AddMail Current {{ModId}}_Music_MINING all"
-                    ],
-                    "Output": [
-                        {
-                            "Id": "{{ModId}}_Music_Mining_Output",
-                            "ItemId": "(O){{ModId}}_Music_Common_Mining"
-                        }
-                    ]
+                "{{ModId}}_Music_Fishing2_Recipe_Input2": {
+                    "Id": "{{ModId}}_Music_Fishing2_Recipe_Input2",
+                    "ItemID": "(O)74",
+                    "Quantity": 1
                 },
-                "{{ModId}}_Music_Luck_Recipe": {
-                    "Default": true,
-                    "IsCooking": true,
-                    "AllowRecycling": false,
-                    "DisplayName": "{{i18n:object.music-luck.name}}",
-                    "Description": "{{i18n:object.music-luck.description}}",
-                    "Ingredients": [
-                        {
-                            "Id": "{{ModId}}_Music_Luck_Recipe_Input1",
-                            "ItemID": "(O)428",
-                            "Quantity": 1
-                        },
-                        {
-                            "Id": "{{ModId}}_Music_Luck_Recipe_Input2",
-                            "ItemID": "(O)66",
-                            "Quantity": 5
-                        },
-                        {
-                            "Id": "{{ModId}}_Music_Luck_Recipe_Input3",
-                            "ItemID": "(O)768",
-                            "Quantity": 1
-                        }
-                    ],
-                    "ActionsOnCraft": [
-                        "AddMail Current {{ModId}}_Music_LUCK all"
-                    ],
-                    "Output": [
-                        {
-                            "Id": "{{ModId}}_Music_Luck_Output",
-                            "ItemId": "(O){{ModId}}_Music_Common_Luck"
-                        }
-                    ]
+                "{{ModId}}_Music_Fishing2_Recipe_Input3": {
+                    "Id": "{{ModId}}_Music_Fishing2_Recipe_Input3",
+                    "ItemID": "(O)848",
+                    "Quantity": 15
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Fishing2 - Hardcore (Ingredients)",
+            "Action": "EditData",
+            "When": {
+                "Nautical Serenade": "Hardcore"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Fishing2_Recipe",
+                "Ingredients"
+            ],
+            "Entries": {
+                "{{ModId}}_Music_Fishing2_Recipe_Input1": {
+                    "Id": "{{ModId}}_Music_Fishing2_Recipe_Input1",
+                    "ItemID": "(O){{ModId}}_Music_Common_Fishing",
+                    "Quantity": 1
                 },
+                "{{ModId}}_Music_Fishing2_Recipe_Input2": {
+                    "Id": "{{ModId}}_Music_Fishing2_Recipe_Input2",
+                    "ItemID": "(O)74",
+                    "Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_Music_FISHING2_Hardcore1",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Fishing2_Recipe_Input3": {
+                    "Id": "{{ModId}}_Music_Fishing2_Recipe_Input3",
+                    "ItemID": "(O)74",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_FISHING2_Hardcore1, !PLAYER_HAS_MAIL Current {{ModId}}_Music_FISHING2_Hardcore2",
+                    "Quantity": 2
+                },
+                "{{ModId}}_Music_Fishing2_Recipe_Input4": {
+                    "Id": "{{ModId}}_Music_Fishing2_Recipe_Input4",
+                    "ItemID": "(O)74",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_FISHING2_Hardcore2",
+                    "Quantity": 4
+                }, 
+                "{{ModId}}_Music_Fishing2_Recipe_Input5": {
+                    "Id": "{{ModId}}_Music_Fishing2_Recipe_Input5",
+                    "ItemID": "(O)848",
+                    "Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_Music_FISHING2_Hardcore1",
+                    "Quantity": 15
+                },
+                "{{ModId}}_Music_Fishing2_Recipe_Input6": {
+                    "Id": "{{ModId}}_Music_Fishing2_Recipe_Input6",
+                    "ItemID": "(O)848",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_FISHING2_Hardcore1, !PLAYER_HAS_MAIL Current {{ModId}}_Music_FISHING2_Hardcore2",
+                    "Quantity": 20
+                },
+                "{{ModId}}_Music_Fishing2_Recipe_Input7": {
+                    "Id": "{{ModId}}_Music_Fishing2_Recipe_Input7",
+                    "ItemID": "(O)848",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_FISHING2_Hardcore2",
+                    "Quantity": 25
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Fishing2 - Hardcore (Flags)",
+            "Action": "EditData",
+            "When": {
+                "Nautical Serenade": "Hardcore"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Fishing2_Recipe"
+            ],
+            "Entries": {
+                "ActionsOnCraft": [
+                    "AddMail Current {{ModId}}_Music_FISHING2 all",
+                    "If !PLAYER_HAS_MAIL Current {{ModId}}_Music_FISHING2_Hardcore1 ## AddMail Current {{ModId}}_Music_FISHING2_Hardcore1",
+                    "If PLAYER_HAS_MAIL Current {{ModId}}_Music_FISHING2_Hardcore1, !PLAYER_HAS_MAIL Current {{ModId}}_Music_FISHING2_Hardcore2 ## AddMail Current {{ModId}}_Music_FISHING2_Hardcore2"
+                ]
+            }
+            
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Luck2 - Normal",
+            "Action": "EditData",
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "Entries": {
                 "{{ModId}}_Music_Luck2_Recipe": {
                     "Default": true,
                     "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_LUCK",
@@ -653,12 +1246,139 @@
                     ],
                     "Output": [
                         {
-                            "Id": "{{ModId}}_Music_Luck_Output",
+                            "Id": "{{ModId}}_Music_Luck2_Output",
                             "ItemId": "(O){{ModId}}_Music_Luck2"
                         }
                     ]
                 }
             }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Luck2 - Easy",
+            "Action": "EditData",
+            "When": {
+                "Harmony of Fortune's Favor": "Easy"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Luck2_Recipe",
+                "Ingredients"
+            ],
+            "Entries": {
+                "{{ModId}}_Music_Luck2_Recipe_Input1": {
+                    "Id": "{{ModId}}_Music_Luck2_Recipe_Input1",
+                    "ItemID": "(O){{ModId}}_Music_Common_Luck",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Luck2_Recipe_Input2": {
+                    "Id": "{{ModId}}_Music_Luck2_Recipe_Input2",
+                    "ItemID": "(O)768",
+                    "Quantity": 2
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Luck2 - Hard",
+            "Action": "EditData",
+            "When": {
+                "Harmony of Fortune's Favor": "Hard"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Luck2_Recipe",
+                "Ingredients"
+            ],
+            "Entries": {
+                "{{ModId}}_Music_Luck2_Recipe_Input1": {
+                    "Id": "{{ModId}}_Music_Luck2_Recipe_Input1",
+                    "ItemID": "(O){{ModId}}_Music_Common_Luck",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Luck2_Recipe_Input2": {
+                    "Id": "{{ModId}}_Music_Luck2_Recipe_Input2",
+                    "ItemID": "(O)74",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Luck2_Recipe_Input3": {
+                    "Id": "{{ModId}}_Music_Luck2_Recipe_Input3",
+                    "ItemID": "(O)848",
+                    "Quantity": 15
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Luck2 - Hardcore (Ingredients)",
+            "Action": "EditData",
+            "When": {
+                "Harmony of Fortune's Favor": "Hardcore"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Luck2_Recipe",
+                "Ingredients"
+            ],
+            "Entries": {
+                "{{ModId}}_Music_Luck2_Recipe_Input1": {
+                    "Id": "{{ModId}}_Music_Luck2_Recipe_Input1",
+                    "ItemID": "(O){{ModId}}_Music_Common_Luck",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Luck2_Recipe_Input2": {
+                    "Id": "{{ModId}}_Music_Luck2_Recipe_Input2",
+                    "ItemID": "(O)74",
+                    "Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_Music_LUCK2_Hardcore1",
+                    "Quantity": 1
+                },
+                "{{ModId}}_Music_Luck2_Recipe_Input3": {
+                    "Id": "{{ModId}}_Music_Luck2_Recipe_Input3",
+                    "ItemID": "(O)74",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_LUCK2_Hardcore1, !PLAYER_HAS_MAIL Current {{ModId}}_Music_LUCK2_Hardcore2",
+                    "Quantity": 2
+                },
+                "{{ModId}}_Music_Luck2_Recipe_Input4": {
+                    "Id": "{{ModId}}_Music_Luck2_Recipe_Input4",
+                    "ItemID": "(O)74",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_LUCK2_Hardcore2",
+                    "Quantity": 4
+                }, 
+                "{{ModId}}_Music_Luck2_Recipe_Input5": {
+                    "Id": "{{ModId}}_Music_Luck2_Recipe_Input5",
+                    "ItemID": "(O)848",
+                    "Condition": "!PLAYER_HAS_MAIL Current {{ModId}}_Music_LUCK2_Hardcore1",
+                    "Quantity": 15
+                },
+                "{{ModId}}_Music_Luck2_Recipe_Input6": {
+                    "Id": "{{ModId}}_Music_Luck2_Recipe_Input6",
+                    "ItemID": "(O)848",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_LUCK2_Hardcore1, !PLAYER_HAS_MAIL Current {{ModId}}_Music_LUCK2_Hardcore2",
+                    "Quantity": 20
+                },
+                "{{ModId}}_Music_Luck2_Recipe_Input7": {
+                    "Id": "{{ModId}}_Music_Luck2_Recipe_Input7",
+                    "ItemID": "(O)848",
+                    "Condition": "PLAYER_HAS_MAIL Current {{ModId}}_Music_LUCK2_Hardcore2",
+                    "Quantity": 25
+                }
+            }
+        },
+        {
+            "LogName": "BetterCrafting - Recipe - Luck2 - Hardcore (Flags)",
+            "Action": "EditData",
+            "When": {
+                "Harmony of Fortune's Favor": "Hardcore"
+            },
+            "Target": "Mods/leclair.bettercrafting/Recipes",
+            "TargetField": [
+                "{{ModId}}_Music_Luck2_Recipe"
+            ],
+            "Entries": {
+                "ActionsOnCraft": [
+                    "AddMail Current {{ModId}}_Music_LUCK2 all",
+                    "If !PLAYER_HAS_MAIL Current {{ModId}}_Music_LUCK2_Hardcore1 ## AddMail Current {{ModId}}_Music_LUCK2_Hardcore1",
+                    "If PLAYER_HAS_MAIL Current {{ModId}}_Music_LUCK2_Hardcore1, !PLAYER_HAS_MAIL Current {{ModId}}_Music_LUCK2_Hardcore2 ## AddMail Current {{ModId}}_Music_LUCK2_Hardcore2"
+                ]
+            }
+            
         }
     ]
 }
