@@ -25,6 +25,11 @@
       "AllowValues": "true, false",
       "Default": true
     },
+    "DaysToStartDeliveryProcess": {
+      "Description": "The time it takes (in days) for Joja to begin searching for the missing mini-harp and attempt to send it to you. 1(Spring 1), 14(Spring 14), 28(Spring 28), 56(Summer 28), 84(Fall 28), 112(Winter 28)",
+      "AllowValues": "1, 14, 28, 56, 84, 112",
+      "Default": "1"
+    },
     "Harvesting Hymn": {
       "Description": "EASY: Cloth(1x), Amethyst(2x), Solar Essence(1x), NORMAL: Cloth(1x), Amethyst(4x), Solar Essence(1x) - HARD: Cloth(1x), Prismatic Shard(1x), Solar Essence(1x)",
       "Section": "Music Sheet Crafting Difficulty - highlight for info",

@@ -1,7 +1,7 @@
 {
   "Name": "Mini Harp Expansion",
   "Author": "br93",
-  "Version": "1.0.1",
+  "Version": "1.0.2",
   "Description": "Adds a functional mini-harp to the game with a minigame, new events and buffs",
   "UniqueID": "br93.HarpMod",
   "MinimumApiVersion": "3.13.0",

@@ -88,14 +88,21 @@ Joja Corporation accidentally loses your Mini Harp during your move and sent it 
 - "SpawnMusicBenchAfterMastery": it'll spawn a music bench somewhere in the valley after mastery to show the player that they can use the former Harp Bench to craft Music Sheets
 * "ChangeProjectile": it changes the projectile assets to make the Mini Harp trinket shoot notes. If you want to use Magic Quiver, the trinket that the Mini Harp is based of, then you'll need to set this config to "false", otherwise the Magic Quiver will shoot (more powerful) music notes as well
 - "ChangeStringForEatingAction": music animations were added via "eating animations", so, for the sake of immersion, instead of prompting you to eat the music sheets and music scrolls, the game will prompt a generic message: "Confirm action?" This will also show up while you're eating food, so if you don't like this change, you can set this configuration to false.
+* "DaysToStartDeliveryProcess": The time it takes (in days) for Joja to begin searching for the missing mini-harp and attempt to send it to you. 1(Spring 1), 14(Spring 14), 28(Spring 28), 56(Summer 28), 84(Fall 28), 112(Winter 28). After that, you'll need a very lucky day and soon enough, you'll have your mini harp back. 
 
+<strong>Now we have a customizable difficulty level for every music sheet. Easy, Normal and Hard for the common ones and Easy, Normal, Hard and Hardcore for the upgraded version.</strong>
+
+*  First 5 music sheet: "EASY: Cloth(1x), Amethyst(2x), Solar Essence(1x), NORMAL: Cloth(1x), Amethyst(4x), Solar Essence(1x) - HARD: Cloth(1x), Prismatic Shard(1x), Solar Essence(1x)",
+
+- Upgraded version (example is Harmony of Fortune's Favor, but all of the upgraded music sheet will have similar recipes): "EASY: (1x), Solar Essence(2x), NORMAL: Fortune's Chant(1x), Prismatic Shard(1x) - HARD: Fortune's Chant(1x), Prismatic Shard(1x), Cinder Shard(15x) - HARDCORE: Fortune's Chant(1x), Prismatic Shard(1x), Cinder Shard(15x) and progressive harder, requiring more prismatic and cinder shards as you craft, up to Prismatic Shard(4x) and Cinder Shard(25x)",
+      
 
 ![Special Thanks](https://imgur.com/VJ9JDC1.png)
 
 * ConcernedApe for the game, the assets and the music
 * [Cunningar0807](https://freesound.org/people/Cunningar0807/) for the Harp sounds
 
-![What come  next](https://imgur.com/2hU4p5T.png)
+<strong>What comes next</strong>
 
 * First and foremost, I am eager to experience this mod for myself. It was my first "not-so-simple-oh-no-I-spend-a-month-developing-damn-you-feature-creep" mod, but the more I work on it, the more excited I became to try it.
 * Balance: I changed so many things already thinking it was too hard, or too easy. Real feedback will be really good to know what still need to change

@@ -15,6 +15,10 @@
         {
             "LogName": "MailChanges - Harp Retrieval",
             "Action": "EditData",
+            "When": {
+                "Query: {{DailyLuck}} > 0.07": true,
+                "Query: {{DaysPlayed}} >= {{DaysToStartDeliveryProcess}}": true
+             },
             "Target": "Data/TriggerActions",
             "Entries": {
                 "{{ModId}}_Mail_Trigger_Harp": {
