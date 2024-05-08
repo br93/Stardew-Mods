@@ -1,0 +1,195 @@
+{
+    "action.string": "Confirmer l’action ?",
+    
+    "category.broken-musical-instrument.name": "Instrument musical cassé",
+    "category.music-scroll.name": "Parchemin de musique",
+    "category.music-sheet.name": "Partition de musique",
+    "category.musical-instrument.name": "Instrument de musique",
+
+    "config.DisableVanillaEventWithoutMiniHarp.name": "Changer événement : ajout harpe",
+    "config.DisableVanillaEventWithoutMiniHarp.values.true": "vrai",
+    "config.DisableVanillaEventWithoutMiniHarp.values.false": "faux",
+
+    "config.BooksellerSellsMusicSheet.name": "Libraire vend partitions",
+    "config.BooksellerSellsMusicSheet.values.true": "vrai",
+    "config.BooksellerSellsMusicSheet.values.false": "faux",
+
+    "config.TravellingCartSellsMusicSheet.name": "Marchant ambulant vend partitions",
+    "config.TravellingCartSellsMusicSheet.values.true": "vrai",
+    "config.TravellingCartSellsMusicSheet.values.false": "faux",
+
+    "config.SpawnMusicBenchAfterMastery.name": "Banc de musique après Maîtrise",
+    "config.SpawnMusicBenchAfterMastery.values.true": "vrai",
+    "config.SpawnMusicBenchAfterMastery.values.false": "faux",
+
+    "config.ChangeProjectile.name": "Changer le projectile",
+    "config.ChangeProjectile.values.true": "vrai",
+    "config.ChangeProjectile.values.false": "faux",
+
+    "config.ChangeStringForEatingAction.name": "ChangeStringForEatingAction",
+    "config.ChangeStringForEatingAction.values.true": "vrai",
+    "config.ChangeStringForEatingAction.values.false": "faux",
+
+    "config.DaysToStartDeliveryProcess.name": "Jours avant livraison",
+    "config.DaysToStartDeliveryProcess.description": "Le temps nécessaire (en jours) pour Joja de commencer a chercher la mini-harpe manquante et vous l’envoyer. 1 (Printemps 1), 14 (Printemps 14), 28 (Printemps 28), 56 (Été 28), 84 (Automne 28), 112 (Hiver 28)",
+
+    "config.Harvesting Hymn.name": "Hymne de récolte",
+    "config.Harvesting Hymn.description": "Facile : Tissu (1), Améthyste (2), Essence solaire (1)\nNormal : Tissu (1), Améthyste (4), Essence solaire (1)\nDifficile : Tissu (1), Tesson prismatique (1), Essence solaire (1)",
+    "config.Harvesting Hymn.values.Easy": "Facile",
+    "config.Harvesting Hymn.values.Normal": "Normal",
+    "config.Harvesting Hymn.values.Hard": "Difficile",
+
+    "config.Aquatic Ballad.name": "Ballade aquatique",
+    "config.Aquatic Ballad.description": "Facile : Tissu (1), Améthyste (2), Essence solaire (1)\nNormal : Tissu (1), Améthyste (4), Essence solaire (1)\nDifficile : Tissu (1), Tesson prismatique (1), Essence solaire (1)",
+    "config.Aquatic Ballad.values.Easy": "Facile",
+    "config.Aquatic Ballad.values.Normal": "Normal",
+    "config.Aquatic Ballad.values.Hard": "Difficile",
+
+    "config.Nature's Blessing.name": "Bénédiction de la nature",
+    "config.Nature's Blessing.description": "Facile : Tissu (1), Améthyste (2), Essence solaire (1)\nNormal : Tissu (1), Améthyste (4), Essence solaire (1)\nDifficile : Tissu (1), Tesson prismatique (1), Essence solaire (1)",
+    "config.Nature's Blessing.values.Easy": "Facile",
+    "config.Nature's Blessing.values.Normal": "Normal",
+    "config.Nature's Blessing.values.Hard": "Difficile",
+
+    "config.Fortune's Chant.name": "Chant du Destin",
+    "config.Fortune's Chant.description": "Facile : Tissu (1), Améthyste (2), Essence solaire (1)\nNormal : Tissu (1), Améthyste (4), Essence solaire (1)\nDifficile : Tissu (1), Tesson prismatique (1), Essence solaire (1)",
+    "config.Fortune's Chant.values.Easy": "Facile",
+    "config.Fortune's Chant.values.Normal": "Normal",
+    "config.Fortune's Chant.values.Hard": "Difficile",
+
+    "config.Miner's Melody.name": "Mélodie du Mineur",
+    "config.Miner's Melody.description": "Facile : Tissu (1), Améthyste (2), Essence solaire (1)\nNormal : Tissu (1), Améthyste (4), Essence solaire (1)\nDifficile : Tissu (1), Tesson prismatique (1), Essence solaire (1)",
+    "config.Miner's Melody.values.Easy": "Facile",
+    "config.Miner's Melody.values.Normal": "Normal",
+    "config.Miner's Melody.values.Hard": "Difficile",
+
+    "config.Crop Enchantment Overture.name": "Ouverture d’Enchantement des Cultures",
+    "config.Crop Enchantment Overture.description": "Facile : Hymne de récolte (1), Essence solaire (2)\nNormal : Hymne de récolte (1), Tesson prismatique (1)\nDifficile : Hymne de récolte (1), Tesson prismatique (1), Éclats de braise (15)\nHARDCORE : Hymne de récolte (1), Tesson prismatique (1), Éclats de braise (15).\nLa recette est progressivement plus difficile, demandant davantage de tessons prismatiques et d’éclats de braise. ",
+    "config.Crop Enchantment Overture.values.Easy": "Facile",
+    "config.Crop Enchantment Overture.values.Normal": "Normal",
+    "config.Crop Enchantment Overture.values.Hard": "Difficile",
+    "config.Crop Enchantment Overture.values.Hardcore": "HARDCORE",
+
+    "config.Nautical Serenade.name": "Sérénade nautique",
+    "config.Nautical Serenade.description": "Facile : Ballade aquatique (1), Essence solaire (2)\nNormal : Ballade aquatique (1), Tesson prismatique (1)\nDifficile : Ballade aquatique (1), Tesson prismatique (1), Éclats de braise (15)\nHARDCORE : Ballade aquatique (1), Tesson prismatique (1), Éclats de braise (15).\nLa recette est progressivement plus difficile, demandant davantage de tessons prismatiques et d’éclats de braise. ",
+    "config.Nautical Serenade.values.Easy": "Facile",
+    "config.Nautical Serenade.values.Normal": "Normal",
+    "config.Nautical Serenade.values.Hard": "Difficile",
+    "config.Nautical Serenade.values.Hardcore": "HARDCORE",
+
+    "config.Harmony of Fortune's Favor.name": "Harmony de la Faveur du Destin",
+    "config.Harmony of Fortune's Favor.description": "Facile : Chant du Destin (1), Essence solaire (2)\nNormal : Chant du Destin (1), Tesson prismatique (1)\nDifficile : Chant du Destin (1), Tesson prismatique (1), Éclats de braise (15)\nHARDCORE : Chant du Destin (1), Tesson prismatique (1), Éclats de braise (15).\nLa recette est progressivement plus difficile, demandant davantage de tessons prismatiques et d’éclats de braise. ",
+    "config.Harmony of Fortune's Favor.values.Easy": "Facile",
+    "config.Harmony of Fortune's Favor.values.Normal": "Normal",
+    "config.Harmony of Fortune's Favor.values.Hard": "Difficile",
+    "config.Harmony of Fortune's Favor.values.Hardcore": "HARDCORE",
+
+    "config.section.Music Sheet Crafting Difficulty - highlight for info.name": "Difficulté de fabrication de la partition - survol pour info",
+
+    "event.wizard.dialogue1": "Ah… Viens, viens !",
+    "event.wizard.dialogue2": "J’ai entendu des rumeurs de ta prouesse musicale à travers toute la vallée.",
+    "event.wizard.dialogue3": "Tes mélodies possèdent une certaine magie, une résonance qui parle à l’essence même de cette terre.",
+    "event.wizard.dialogue4": "Donc, j’aimerai t’offrir quelque chose de spécial, une marque d’appréciation pour l’harmonie que tu apportes à notre monde.",
+    "event.wizard.dialogue5": "Tu possèdes maintenant un colifichet d’une magie sans précédent. Utilise-le pour tisser des sorts de merveille et d’admiration, et laisse ta musique transcender l’ordinaire.",
+
+    "gift.message": "Ah, désolé pour ça, mais ce n’est pas quelque chose que je trouve utile tout de suite.",
+
+    "location.cave.name": "Cave de la Maîtrise de la Harpe",
+
+    "mail.dad":"Cher @, ^^J’ai pensé à toi et ton amour de la musique. Comment ça va avec ta minie-harpe ? Est-ce que tu as mis au point de nouvelles mélodies ?^^Prends soin de toi, Papa",
+    "mail.harp": "À nos cher clients de Joja Déménagements :^^Nos équipiers ont retrouvé la minie-harpe qui a été égarée durant votre récent déménagement. Nous comprenons l’importance que vous portez à l’intégrité de vos possessions, et nous faisons notre possible pour assurer une expérience souple et agréable à tous nos consommateurs.^^Nous vous prions de nous excuser pour tout désagrément causé par cette ommission. Soyez assurés que nous prenons des mesures pour empêcher que cela se renouvelle à l’avenir, y compris par un entrainement additionnel pour notre équipe. ^^Comme toujours, nous apprécions votre confiance dans Joja Déménagement et espérons pouvoir vous servir encore à l’avenir.",
+    "mail.mom":"Cher @, ^^J’espère que ce message te parviendra ! Comment ça se passe avec ton projet de minie-harpe ? J’ai pensé à la façon dont tu étais très créatif avec tout ça et me demandait quelles mélodie tu as conçues récemment.^^ J’attends de tes nouvelles avec impatience ! ^^Je t’aime, Maman",
+    "mail.trinket": "Salutations,^Félicitations pour votre maîtrise des secrets de votre minie-harpe ! Vos prouesses musicales ne sont pas restées inaperçues et je vous fais parvenir une invitation spéciale pour que vous apportiez votre minie-harpe dans la tour de pierre, à l’ouest du lac de la forêt.^^ Les rumeurs parlent d’un pouvoir ultime caché dans les mélodies d’un harpiste maître, capable de déverrouiller les plus profonds mystères de notre royaume.^ - M. Rasmodius, Sorcier",
+    "mail.wizard": "Il a été porté à mon attention que vous possédiez une minie-harpe. La légende veut que de telles harpes, lorsque jouée dans de bonnes circonstances, peuvent débloquer des énergies et réveler des secrets longtemps oubliés. ^- M. Rasmodius, Sorcier",
+
+    "trinket.harp.description": "Une puissante harpe miniature. Lance une note magique à tous les ennemis proches.",
+    
+    "object.broken-harp.description": "Une minie-harpe cassée. Pas sûr que quelqu’un de Pélican sache comment la réparer. Peut-être quelqu’un d’étranger ?",
+    "object.broken-harp.name": "Minie-harpe brisée",
+    
+    "object.harp.description": "Une harpe miniature délicate. Découvrez tout son potentiel en l’utilisant pendant une paisible pluie.",
+    "object.harp.name": "Minie-harpe",
+   
+    "object.music-farming.buff": "Hymne de récolte",
+    "object.music-farming.description": "Augmente temporairement la compétence d’agriculture de 3 niveaux.",
+    "object.music-farming.name": "Hymne de récolte",
+
+    "object.music-farming2.buff": "Ouverture d’Enchantement des Cultures",
+    "object.music-farming2.buff.description": "Chaque fois que vous jouez, vos cultures plantées augmentent en quantité (jusqu’à Or)",
+    "object.music-farming2.description": "Chaque fois que vous jouez, vos cultures plantées augmentent en quantité (jusqu’à Or)",
+    "object.music-farming2.name": "Ouverture d’Enchantement des Cultures",
+    
+    "object.music-fishing.buff": "Ballade aquatique",
+    "object.music-fishing.description": "Augmente temporairement la compétence de pêche de 3 niveaux.",
+    "object.music-fishing.name": "Ballade aquatique",
+
+    "object.music-fishing2.buff": "Sérénade nautique",
+    "object.music-fishing2.buff.description": "Augmente la taille de la barre de pêche pour une journée",
+    "object.music-fishing2.description": "Augmente la taille de la barre de pêche pour une journée",
+    "object.music-fishing2.name": "Sérénade nautique",
+    
+    "object.music-foraging.buff": "Bénédiction de la nature",
+    "object.music-foraging.description": "Augmente temporairement la compétence de récolte de 3 niveaux.",
+    "object.music-foraging.name": "Bénédiction de la nature",
+
+    "object.music-foraging2.buff": "[Buff Foraging II]",
+    "object.music-foraging2.description": "[Music Sheet Level 2]",
+    "object.music-foraging2.name": "Augmente temporairement la compétence de récolte de 3 niveaux.",
+   
+    "object.music-luck.buff": "Chant du Destin",
+    "object.music-luck.description": "Augmente temporairement la chance de 3 niveaux.",
+    "object.music-luck.name": "Chant du Destin",
+
+    "object.music-luck2.buff": "Harmony de la Faveur du Destin",
+    "object.music-luck2.buff.description": "Augmente l’amitié d’un cœur",
+    "object.music-luck2.description": "Augmente l’amitié d’un cœur",
+    "object.music-luck2.name": "Harmony de la Faveur du Destin",
+    
+    "object.music-mining.buff": "Mélodie du Mineur",
+    "object.music-mining.description": "Augmente temporairement la compétence de minage de 3 niveaux.",
+    "object.music-mining.name": "Mélodie du Mineur",
+
+    "object.music-mining2.buff": "[Buff Foraging II]",
+    "object.music-mining2.description": "[Music Sheet Level 2]",
+    "object.music-mining2.name": "[Music Sheet Level 2]",
+
+    "object.scroll-abigail.description": "+ 100 points d’amitié avec Abigail",
+    "object.scroll-abigail.name": "Silence sous la pluie (A Stillness In The Rain)",
+    
+    "object.scroll-alex.description": "+ 100 points d’amitié avec Alex",
+    "object.scroll-alex.name": "Une chanson triste (A Sad Song)",
+    
+    "object.scroll-elliott.description": "+ 100 points d’amitié avec Elliott",
+    "object.scroll-elliott.name": "Solo de piano (Piano Solo)",
+    
+    "object.scroll-emily.description": "+ 100 points d’amitié avec Emily",
+    "object.scroll-emily.name": "Chanson de Plumes (Song of Feathers)",
+    
+    "object.scroll-haley.description": "+ 100 points d’amitié avec Haly",
+    "object.scroll-haley.name": "Un chiffon pour le pot de cornichon (Pickle Jar Rag)",
+    
+    "object.scroll-harvey.description": "+ 100 points d’amitié avec Harvey",
+    "object.scroll-harvey.name": "Ciel de raisin (Grapefruit Sky)",
+    
+    "object.scroll-leah.description": "+ 100 points d’amitié avec Leah",
+    "object.scroll-leah.name": "Terre de vert et d’or (Land of Green and Gold)",
+   
+    "object.scroll-maru.description": "+ 100 points d’amitié avec Maru",
+    "object.scroll-maru.name": "Observatrice des étoiles (Starwatcher)",
+    
+    "object.scroll-penny.description": "+ 100 points d’amitié avec Penny",
+    "object.scroll-penny.name": "Un souvenir plaisant (Pleasant Memory)",
+    
+    "object.scroll-sam.description": "+ 100 points d’amitié avec Sam",
+    "object.scroll-sam.name": "La bande à Sam - Version électronique (Sam’s Band - Electronic Version)",
+    
+    "object.scroll-sebastian.description": "+ 100 points d’amitié avec Sebastian",
+    "object.scroll-sebastian.name": "Échos (Echos)",
+    
+    "object.scroll-shane.description": "+ 100 points d’amitié avec Shane",
+    "object.scroll-shane.name": "Pizza froide et œufs (Frozen Pizza and Eggs)",
+    
+    "station.harp-bench.name": "Banc de la harpe",
+    "station.music-bench.description": "Banc musical",
+    "station.music-bench.name": "Banc musical"
+}
