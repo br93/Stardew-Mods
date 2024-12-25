@@ -26,7 +26,7 @@
                     "Description": "{{i18n:trinket.harp.description}}",
                     "Texture": "{{ModId}}\\MiniHarp",
                     "SheetIndex": 1,
-                    "TrinketEffectClass": "StardewValley.Objects.MagicQuiverTrinketEffect",
+                    "TrinketEffectClass": "StardewValley.Objects.Trinkets.MagicQuiverTrinketEffect",
                     "DropsNaturally": false,
                     "CanBeReforged": false,
                     "TrinketMetadata": null

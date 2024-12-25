@@ -11,7 +11,7 @@
                     "FilePaths": [
                         "{{AbsoluteFilePath: assets/audio/harp1.ogg}}"
                     ],
-                    "StreamedVorbis": true,
+                    "StreamedVorbis": false,
                     "Looped": false
                 },
                 "{{ModId}}_Harp_Harp2": {
@@ -20,7 +20,7 @@
                     "FilePaths": [
                         "{{AbsoluteFilePath: assets/audio/harp2.ogg}}"
                     ],
-                    "StreamedVorbis": true,
+                    "StreamedVorbis": false,
                     "Looped": false
                 },
                 "{{ModId}}_Harp_Harp3": {
@@ -29,7 +29,7 @@
                     "FilePaths": [
                         "{{AbsoluteFilePath: assets/audio/harp3.ogg}}"
                     ],
-                    "StreamedVorbis": true,
+                    "StreamedVorbis": false,
                     "Looped": false
                 },
                 "{{ModId}}_Harp_Harp4": {
@@ -38,7 +38,7 @@
                     "FilePaths": [
                         "{{AbsoluteFilePath: assets/audio/harp4.ogg}}"
                     ],
-                    "StreamedVorbis": true,
+                    "StreamedVorbis": false,
                     "Looped": false
                 },
                 "{{ModId}}_Harp_Harp5": {
@@ -47,7 +47,7 @@
                     "FilePaths": [
                         "{{AbsoluteFilePath: assets/audio/harp5.ogg}}"
                     ],
-                    "StreamedVorbis": true,
+                    "StreamedVorbis": false,
                     "Looped": false
                 },
                 "{{ModId}}_Harp_HarpFull": {
@@ -56,7 +56,7 @@
                     "FilePaths": [
                         "{{AbsoluteFilePath: assets/audio/harp.ogg}}"
                     ],
-                    "StreamedVorbis": true,
+                    "StreamedVorbis": false,
                     "Looped": false
                 }
             }
