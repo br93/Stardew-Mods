@@ -1,0 +1,19 @@
+{
+  "Name": "Craftable (and drinkable) Stardrop Tea",
+  "Author": "br93",
+  "Version": "1.0.0",
+  "Description": "Craftable and drinkable stardrop tea, with a quest involving Old Master Cannoli",
+  "UniqueID": "br93.StardropTea",
+  "MinimumApiVersion": "3.13.0",
+  "UpdateKeys": ["Nexus: 30474"],
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher",
+    "MinimumVersion": "2.4.0"
+  },
+  "Dependencies": [
+    {
+      "UniqueID": "spacechase0.SpaceCore",
+      "IsRequired": true
+    }
+  ]
+}

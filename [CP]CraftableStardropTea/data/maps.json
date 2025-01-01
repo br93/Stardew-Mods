@@ -1,0 +1,108 @@
+{
+    "Changes": [
+        {
+            "Action": "EditImage",
+            "Target": "Maps/spring_outdoorsTileSheet",
+            "When": {
+                "HasFlag": "{{ModId}}_Flag"
+            },
+            "FromFile": "assets/z_cannoli.png",
+            "FromArea": {
+                "X": 32,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "PatchMode": "Replace",
+            "ToArea": {
+                "X": 240,
+                "Y": 688,
+                "Width": 32,
+                "Height": 48
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/fall_outdoorsTileSheet",
+            "When": {
+                "HasFlag": "{{ModId}}_Flag"
+            },
+            "FromFile": "assets/z_cannoli.png",
+            "FromArea": {
+                "X": 32,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "PatchMode": "Replace",
+            "ToArea": {
+                "X": 240,
+                "Y": 688,
+                "Width": 32,
+                "Height": 48
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/summer_outdoorsTileSheet",
+            "When": {
+                "HasFlag": "{{ModId}}_Flag"
+            },
+            "FromFile": "assets/z_cannoli.png",
+            "FromArea": {
+                "X": 32,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "PatchMode": "Replace",
+            "ToArea": {
+                "X": 240,
+                "Y": 688,
+                "Width": 32,
+                "Height": 48
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditImage",
+            "Target": "Maps/winter_outdoorsTileSheet",
+            "When": {
+                "HasFlag": "{{ModId}}_Flag"
+            },
+            "FromFile": "assets/z_cannoli.png",
+            "FromArea": {
+                "X": 32,
+                "Y": 0,
+                "Width": 32,
+                "Height": 48
+            },
+            "PatchMode": "Replace",
+            "ToArea": {
+                "X": 240,
+                "Y": 688,
+                "Width": 32,
+                "Height": 48
+            },
+            "Update": "OnLocationChange"
+        },
+        {
+            "Action": "EditMap",
+            "Target": "Maps/Forest",
+            "When": {
+                "HasFlag": "{{ModId}}_Flag"
+            },
+            "FromFile": "assets/CannoliForest.tmx",
+            "PatchMode": "Replace",
+            "ToArea": {
+                "X": 8,
+                "Y": 5,
+                "Width": 2,
+                "Height": 3
+            },
+            "Update": "OnLocationChange"
+        }
+    ]
+}

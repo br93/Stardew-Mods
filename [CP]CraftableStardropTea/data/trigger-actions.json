@@ -1,0 +1,21 @@
+{
+    "Changes": [
+        {
+            "LogName": "Trigger Actions - Flags",
+            "Action": "EditData",
+            "Target": "Data/TriggerActions",
+            "Entries": {
+                "{{ModId}}_Flag_Trigger": {
+                    "Id": "{{ModId}}_Flag_Trigger",
+                    "Trigger": "LocationChanged",
+                    "Condition": "PLAYER_HAS_MAIL Current CF_Statue",
+                    "Actions": [
+                        "AddMail Current {{ModId}}_Flag",
+                        "AddQuest {{ModId}}_Quest"
+                    ],
+                    "MarkActionApplied": true
+                }
+            }
+        }
+    ]
+}

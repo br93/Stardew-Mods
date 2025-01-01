@@ -1,0 +1,16 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Objects",
+            "TargetField": [
+                "StardropTea"
+            ],
+            "Entries": {
+                "Edibility": 200,
+                "IsDrink": true,
+                "Buffs": []
+            }
+        }
+    ]
+}

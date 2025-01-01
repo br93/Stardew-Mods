@@ -1,0 +1,49 @@
+{
+    "Changes": [
+        {
+            "LogName": "Texture - Portrait",
+            "Action": "Load",
+            "Target": "{{ModId}}\\Portrait",
+            "FromFile": "assets/OldCannoli.png"
+        },
+        {
+            "Action": "EditData",
+            "Target": "Data/Shops",
+            "Entries": {
+                "{{ModId}}_Cannoli": {
+                    "Owners": [
+                        {
+                            "Name": "AnyOrNone",
+                            "Id": "{{ModId}}_Cannoli",
+                            "Portrait": "{{ModId}}\\Portrait",
+                            "Dialogues": [
+                                {
+                                    "Id": "{{ModId}}_Dialog",
+                                    "Dialogue": "{{i18n:shop.dialogue}}"
+                                }
+                            ]
+                        }
+                    ],
+                    "Items": [
+                        {
+                            "Id": "{{ModId}}_Recipe",
+                            "ItemId": "(O)StardropTea",
+                            "TradeItemId": "(O)614",
+                            "TradeItemAmount": 1,
+                            "AvailableStock": 1,
+                            "AvailableStockLimit": "Player",
+                            "ActionsOnPurchase": [
+                                "RemoveQuest {{ModId}}_Quest",
+                                "RemoveMail Current {{ModId}}_Flag",
+                                "MarkCookingRecipeKnown Current StardropTea true",
+                                "spacechase0.SpaceCore_ShowHudMessage \"{{i18n:recipe.message}}\" (O)StardropTea",
+                                "spacechase0.SpaceCore_PlaySound jingle1 true"
+                            ]
+                        }
+                    ]
+                }
+            },
+            "Update": "OnLocationChange"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/CookingRecipes",
+            "Entries": {
+                "StardropTea": "417 {{SweetGemBerryCost}} 454 {{AncientFruitCost}} 815 {{TeaLeavesCost}}/1 10/StardropTea/false"
+            }
+        }
+    ]
+}

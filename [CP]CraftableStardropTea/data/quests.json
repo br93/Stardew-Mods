@@ -1,0 +1,11 @@
+{
+    "Changes": [
+        {
+            "Action": "EditData",
+            "Target": "Data/Quests",
+            "Entries": {
+                "{{ModId}}_Quest": "Basic/{{i18n:quest.title}}/{{i18n:quest.description}}/{{i18n:quest.hint}}/-1/-1/0/-1/false"
+            }
+        }
+    ]
+}

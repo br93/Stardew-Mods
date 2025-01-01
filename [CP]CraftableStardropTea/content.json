@@ -1,0 +1,46 @@
+{
+    "Format": "2.4.0",
+    "ConfigSchema": {
+        "SweetGemBerryCost": {
+            "Default": 2
+        },
+        "AncientFruitCost": {
+            "Default": 1
+        },
+        "TeaLeavesCost": {
+            "Default": 1
+        }
+    },
+    "Changes": [
+        {
+            "LogName": "Stardrop Tea drinkable",
+            "Action": "Include",
+            "FromFile": "data/objects.json"
+        },
+        {
+            "LogName": "Stardrop Tea recipe",
+            "Action": "Include",
+            "FromFile": "data/cooking-recipes.json"
+        },
+        {
+            "LogName": "Stardrop Tea shop",
+            "Action": "Include",
+            "FromFile": "data/shops.json"
+        },
+        {
+            "LogName": "Stardrop Tea shop map",
+            "Action": "Include",
+            "FromFile": "data/maps.json"
+        },
+        {
+            "LogName": "Stardrop Tea trigger",
+            "Action": "Include",
+            "FromFile": "data/trigger-actions.json"
+        },
+        {
+            "LogName": "Stardrop Tea quest",
+            "Action": "Include",
+            "FromFile": "data/quests.json"
+        }
+    ]
+}
